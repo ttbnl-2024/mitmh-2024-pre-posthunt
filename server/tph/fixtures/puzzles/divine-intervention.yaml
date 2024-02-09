@@ -1,0 +1,107 @@
+- model: puzzles.puzzle
+  pk: 106
+  fields:
+    emoji: ':angel:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 106
+  fields:
+    external_id: 106
+    round: 14
+    answer: AFFIED
+    name: "Divine Inter\u00ADvention"
+    main_credits: John Bromels
+    other_credits: ''
+    order: 106
+    is_meta: false
+    slug: divine-intervention
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1208
+  fields:
+    puzzle: 106
+    description: Solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin, first step
+    content: The first step is to match the deity to the prayer. Different deities
+      are in charge of different things.
+- model: spoilr_hints.cannedhint
+  pk: 1209
+  fields:
+    puzzle: 106
+    description: Solvers are stuck on assigning the deities
+    order: 10.0
+    keywords: check gods, confirm gods
+    content: '[[confirm work, clarify assignments]]'
+- model: spoilr_hints.cannedhint
+  pk: 1210
+  fields:
+    puzzle: 106
+    description: Solvers have not identified that they are also looking for saints
+    order: 15.0
+    keywords: matched gods, next
+    content: The Greco-Roman pantheon is only one option for where you might direct
+      your prayers.
+- model: spoilr_hints.cannedhint
+  pk: 1211
+  fields:
+    puzzle: 106
+    description: Solvers need a stronger hint for saints
+    order: 16.0
+    keywords: matched gods, stuck
+    content: The given prayer times are a clue to the other group of prayer targets.
+- model: spoilr_hints.cannedhint
+  pk: 1212
+  fields:
+    puzzle: 106
+    description: Solvers need to be told that saints are the next step
+    order: 20.0
+    keywords: prayer targets
+    content: Each prayer can also be directed to a Catholic saint.
+- model: spoilr_hints.cannedhint
+  pk: 1213
+  fields:
+    puzzle: 106
+    description: Solvers are unsure how to disambiguate between saints
+    order: 25.0
+    keywords: which saint, multiple saints
+    content: Read the first letters of your Greco-Roman deities.
+- model: spoilr_hints.cannedhint
+  pk: 1214
+  fields:
+    puzzle: 106
+    description: Solvers need to be told explicitly saint anagrams
+    order: 30.0
+    keywords: which saint, stuck
+    content: The first letters of the Greco-Roman deities read HIDDEN ANAGRAMS. Ulysses'
+      saint is ALBINUS OF ANGERS, invoked against pirate attacks. The sentence contains
+      GONERS A BASINFUL.
+- model: spoilr_hints.cannedhint
+  pk: 1215
+  fields:
+    puzzle: 106
+    description: Solvers are confused on extraction
+    order: 80.0
+    keywords: extraction
+    content: Use the prayer times for extraction.
+- model: spoilr_hints.cannedhint
+  pk: 1216
+  fields:
+    puzzle: 106
+    description: Solvers are confused on how to apply the prayer times
+    order: 81.0
+    keywords: prayer times
+    content: Some times have been altered from their source. Why?
+- model: spoilr_hints.cannedhint
+  pk: 1217
+  fields:
+    puzzle: 106
+    description: Solvers need explicit instruction on extraction
+    order: 100.0
+    keywords: prayer times, stuck
+    content: Laud is Laud(-s). Lauds is approximately 5 AM, so Laud (minus 1 letter)
+      would be 4 AM.

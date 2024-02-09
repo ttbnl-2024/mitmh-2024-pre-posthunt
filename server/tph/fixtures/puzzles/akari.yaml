@@ -1,0 +1,62 @@
+- model: puzzles.puzzle
+  pk: 370
+  fields:
+    emoji: ':flashlight:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 370
+  fields:
+    external_id: 370
+    round: 15
+    answer: ADONIS, CRAWLY, CRUNCHY, SCORE, WATER, WONDER
+    name: Akari
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 370
+    is_meta: false
+    slug: akari
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 705
+  fields:
+    puzzle: 370
+    description: Solvers have no idea what to do with this puzzle. For newbies who
+      have never seen Akari
+    order: 0.0
+    keywords: start, begin
+    content: Ignore the letters at first. The black cells and numbers make a standard
+      Akari puzzle. Some cells have lights which illuminate the cells in the same
+      row and the cells in the same column up to the next black cell; you must locate
+      those. Every cell must be illuminated; no cell containing a light can be illuminated
+      by another light. The numbers tell how many lights are orthogonally adjacent.
+      After you mark off the cells adjacent to the 0 clues, there is only one way
+      to illuminate R2C7, which is by R1C7 having a light.
+- model: spoilr_hints.cannedhint
+  pk: 713
+  fields:
+    puzzle: 370
+    description: Solvers get stuck midway through solving the grid
+    order: 50.0
+    keywords: middle, partial
+    content: After you've filled in some pretty easy steps, you may reach a point
+      where the 1 clue in R6C5 has to have a light to its left or below, and the 3
+      clue in R11C4 needs all its lights. But the cells above and to the right of
+      this 3 would illuminate the only places for the 1's light, so only one of them
+      can have a light; the other lights must go left of and below the 3, and there
+      cannot be any other lights in this section of C4 and C5. You can apply the same
+      sort of logic between this 3 and the 3 in R10C11. If it's too much for you,
+      there are solvers for this puzzle type on the web.
+- model: spoilr_hints.cannedhint
+  pk: 716
+  fields:
+    puzzle: 370
+    description: Solvers have completed the Akari grid but have trouble extracting
+      answers
+    order: 100.0
+    keywords: extraction
+    content: The letters in spaces with lights will tell you how to find an answer
+      elsewhere. In the text adventure you should encounter a place that looks reminiscent
+      of this grid's central theme. Make that place match.

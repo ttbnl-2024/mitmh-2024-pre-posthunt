@@ -1,0 +1,107 @@
+- model: puzzles.puzzle
+  pk: 152
+  fields:
+    emoji: ':park:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 152
+  fields:
+    external_id: 152
+    round: 6
+    answer: ALPINE MUGWORT
+    name: Obelisks of Sorrel Mountain
+    main_credits: Michael Andersen
+    other_credits: ''
+    order: 152
+    is_meta: false
+    slug: obelisks-of-sorrel-mountain
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 356
+  fields:
+    puzzle: 152
+    description: Solvers haven't figured out the Parks & Recreation connection
+    order: 10.0
+    keywords: where to start,where to begin
+    content: Some of the labels on the hex grid use awfully particular words - maybe
+      a quick search against a few of them would help you figure out where to start.
+- model: spoilr_hints.cannedhint
+  pk: 357
+  fields:
+    puzzle: 152
+    description: Solvers noticed the Parks and Rec references but aren't focusing
+      on the episodes
+    order: 10.3
+    keywords: parks and rec,parks and recreation
+    content: It sounds like you've noticed there's a Parks & Recreation connection,
+      but haven't figured out what to do with that. There might be something on the
+      colored tiles to help you figure out what element matters.
+- model: spoilr_hints.cannedhint
+  pk: 358
+  fields:
+    puzzle: 152
+    description: Solvers haven't figured out the National Parks / Subpar Parks connection
+    order: 30.0
+    keywords: colored tiles,hexagonal tiles
+    content: It looks like the hexagonal tiles were constructed by taking half of
+      its text from one source, and the other half from another. Finding both halves
+      may help you figure out why you're seeing these pictures in particular.
+- model: spoilr_hints.cannedhint
+  pk: 359
+  fields:
+    puzzle: 152
+    description: Solvers haven't figured out the National Parks / Subpar Parks connection,
+      but did find Parks & Rec episode titles in the tiles
+    order: 30.6
+    keywords: colored tiles,hexagonal tiles
+    content: It sounds like you've found some Parks and Recreation episode titles
+      in the tiles. See what you can unearth by looking into the other half of the
+      tile text.
+- model: spoilr_hints.cannedhint
+  pk: 360
+  fields:
+    puzzle: 152
+    description: Solvers need a more overt nudge to Subpar Parks
+    order: 30.9
+    keywords: colored tiles,hexagonal tiles
+    content: It might help to look into popular examples of subpar national park reviews
+      for inspiration.
+- model: spoilr_hints.cannedhint
+  pk: 361
+  fields:
+    puzzle: 152
+    description: Solvers need help matching tiles to the board game grid
+    order: 60.0
+    keywords: game board,laying tiles
+    content: Try and see if there's a shared characteristic between the tiles and
+      the grid that will help you find the right place for each one.
+- model: spoilr_hints.cannedhint
+  pk: 362
+  fields:
+    puzzle: 152
+    description: Solvers matched tiles to the board game grid, but don't know what
+      letters to extract
+    order: 60.3
+    keywords: extract,extraction
+    content: For extraction purposes, try concentrating on the portion of SubPar Parks
+      reviews that were removed.
+- model: spoilr_hints.cannedhint
+  pk: 363
+  fields:
+    puzzle: 152
+    description: Solvers are stuck on the "scuff marks" / don't recognize trail blazes
+    order: 90.0
+    keywords: scuff,scuff marks,lines
+    content: It might be helpful to look into what it means to "blaze a trail".
+- model: spoilr_hints.cannedhint
+  pk: 364
+  fields:
+    puzzle: 152
+    description: Solvers figured out trailblazing is involved but don't know how to
+      use that to extract the answer
+    order: 90.5
+    keywords: trail blaze, trailblazing
+    content: Look for the symbol for "start", and then pretend that you're facing
+      the blaze from the center of the hexagon. Then, either maintain your current
+      orientation (straight) or rotate one side right or left before proceeding to
+      the next hexagon and repeating the process until you reach the blaze for "end".

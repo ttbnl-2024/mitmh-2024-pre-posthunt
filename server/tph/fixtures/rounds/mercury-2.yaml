@@ -1,0 +1,13 @@
+- model: puzzles.round
+  pk: 22
+  fields:
+    text_overlay: true
+    autoresize: false
+- model: spoilr_core.round
+  pk: 22
+  fields:
+    act: 2
+    slug: mercury-duet
+    name: Mercury (Duet)
+    order: 1027
+    superround: 500

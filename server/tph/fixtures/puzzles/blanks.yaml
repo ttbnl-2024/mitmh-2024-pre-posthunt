@@ -1,0 +1,91 @@
+- model: puzzles.puzzle
+  pk: 369
+  fields:
+    emoji: ':white_large_square:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 369
+  fields:
+    external_id: 369
+    round: 15
+    answer: ADORN, CHLOE, CRONE, IDEAL, SCORE, WANDS
+    name: Blanks
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 369
+    is_meta: false
+    slug: blanks
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 675
+  fields:
+    puzzle: 369
+    description: Solvers are confused how to start this puzzle
+    order: 0.0
+    keywords: start, begin, nothing
+    content: It's a good observation that there's not enough information here to solve
+      this. Look around nearby for something to fit on the blanks.
+- model: spoilr_hints.cannedhint
+  pk: 681
+  fields:
+    puzzle: 369
+    description: Solvers can't find the phrase for the blanks in the chemistry puzzle
+    order: 15.0
+    keywords: chemistry
+    content: There's no flavor text here, but there is in the chemistry puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 682
+  fields:
+    puzzle: 369
+    description: Solvers can't find the phrase for the blanks from the Akari
+    order: 30.0
+    keywords: akari
+    content: There's no flavor text here, but there is in the Akari puzzle
+- model: spoilr_hints.cannedhint
+  pk: 684
+  fields:
+    puzzle: 369
+    description: Solvers can't find the phrase for the blanks from the crossword
+    order: 45.0
+    keywords: crossword
+    content: One of the clues in the crossword puzzle is just the right length to
+      fit on these blanks.
+- model: spoilr_hints.cannedhint
+  pk: 686
+  fields:
+    puzzle: 369
+    description: Solvers cannot find the phrase from the Word Search
+    order: 60.0
+    keywords: word search
+    content: When you finish finding the words, what's left will consist of three
+      clues run together. One of them fits on the blanks.
+- model: spoilr_hints.cannedhint
+  pk: 687
+  fields:
+    puzzle: 369
+    description: Solvers can't find the phrase from the matchmaker
+    order: 75.0
+    keywords: matchmaker
+    content: After matching the items, index each Arabic numeral crossed by a line
+      into the text on the left, and order them by the things on the right.
+- model: spoilr_hints.cannedhint
+  pk: 679
+  fields:
+    puzzle: 369
+    description: Solvers can't find the phrase in the text adventure
+    order: 90.0
+    keywords: text adventure
+    content: Solve all the puzzles in the text adventure to get the phrase that fits
+      on the blanks.
+- model: spoilr_hints.cannedhint
+  pk: 677
+  fields:
+    puzzle: 369
+    description: Solvers forget there are numbers telling them exactly what to extract
+      from each phrase
+    order: 100.0
+    keywords: extraction
+    content: Just pick out the answer, 1, 2, 3, 4, 5.

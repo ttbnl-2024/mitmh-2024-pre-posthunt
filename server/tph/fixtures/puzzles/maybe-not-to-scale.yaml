@@ -1,0 +1,180 @@
+- model: puzzles.puzzle
+  pk: 462
+  fields:
+    emoji: ':globe_with_meridians:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 462
+  fields:
+    external_id: 462
+    round: 16
+    answer: MIDDLE AFRICA
+    name: Maybe Not to Scale?
+    main_credits: Frankie Rady and Swanny
+    other_credits: ''
+    order: 462
+    is_meta: false
+    slug: maybe-not-to-scale
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1631
+  fields:
+    puzzle: 462
+    description: Solvers have no idea where to start
+    order: 0.0
+    keywords: start,begin
+    content: Each drawing depicts an item with a name that is similar to something
+      else. The puzzle title and flavor text serve as a hint to what the theme of
+      the puzzle is.
+- model: spoilr_hints.cannedhint
+  pk: 1632
+  fields:
+    puzzle: 462
+    description: Solvers are still stuck on identifying the drawings
+    order: 0.1
+    keywords: still stuck
+    content: Each drawing in a set represents an item that sounds like the name of
+      a geographical border, but is made up of segments of a different border.
+- model: spoilr_hints.cannedhint
+  pk: 1640
+  fields:
+    puzzle: 462
+    description: Solvers need help on how to figure out what border each set is
+    order: 0.2
+    keywords: ''
+    content: Each image in a set forms a loop with the border the image is made up
+      of and the name of the border it represents.
+- model: spoilr_hints.cannedhint
+  pk: 1639
+  fields:
+    puzzle: 462
+    description: Solvers haven't figured out that each set of drawing share geographic
+      characteristics
+    order: 0.3
+    keywords: sets
+    content: Each set represents a group of geographical borders that all share a
+      similar property.
+- model: spoilr_hints.cannedhint
+  pk: 1641
+  fields:
+    puzzle: 462
+    description: Stuck on set 1
+    order: 1.0
+    keywords: far-reaching set
+    content: The far reaching set are all countries.
+- model: spoilr_hints.cannedhint
+  pk: 1642
+  fields:
+    puzzle: 462
+    description: Solvers need hint to identifying specific images in set 1
+    order: 1.1
+    keywords: far-reaching set, still stuck
+    content: The first image resembles a specific type of bag that you might receive
+      from a restaurant. The third image resembles a specific toy with a specific
+      shape to it, are there any countries that sound like that shape?
+- model: spoilr_hints.cannedhint
+  pk: 1643
+  fields:
+    puzzle: 462
+    description: stuck on set 2
+    order: 2.0
+    keywords: federal
+    content: The federal set are all US states.
+- model: spoilr_hints.cannedhint
+  pk: 1644
+  fields:
+    puzzle: 462
+    description: stuck on set 3
+    order: 3.0
+    keywords: isolated
+    content: The isolated set are all islands and sovereign nations.
+- model: spoilr_hints.cannedhint
+  pk: 1645
+  fields:
+    puzzle: 462
+    description: Solvers need hint to identifying specific images in set 3
+    order: 3.1
+    keywords: isolated, still stuck
+    content: The fourth image resembles two people in a loving embrace. What do you
+      call it when two people come together like this? (It's a single word). The fifth
+      image resembles a specific symbol. What word do you normally associate with
+      this symbol?
+- model: spoilr_hints.cannedhint
+  pk: 1646
+  fields:
+    puzzle: 462
+    description: stuck on set 4
+    order: 4.0
+    keywords: royal
+    content: The royal set are all English counties.
+- model: spoilr_hints.cannedhint
+  pk: 1647
+  fields:
+    puzzle: 462
+    description: Solvers need hints to identifying specific images in set 4
+    order: 4.1
+    keywords: royal, still stuck
+    content: The third image resembles a certain plant with a leafy stalk and has
+      lots of little kernels. The fifth image resembles a certain character from literature/film
+      that has long eyelashes on one eye and a hat. What type of hat are they wearing?
+      (There's multiple names for it, but only one of them is the intended name).
+- model: spoilr_hints.cannedhint
+  pk: 1648
+  fields:
+    puzzle: 462
+    description: stuck on set 5
+    order: 5.0
+    keywords: submerged
+    content: The submerged set are all lakes.
+- model: spoilr_hints.cannedhint
+  pk: 1649
+  fields:
+    puzzle: 462
+    description: Solvers need hints to identifying specific images in set 5
+    order: 5.1
+    keywords: submerged, still stuck
+    content: The first image depicts the equation "x is greater than y" with an arrow
+      pointing to the x. Is there another word that can describe x's relation to y?
+      The fifth image depicts a ghost. There is a certain adjective one might use
+      to describe a ghost that also sounds like a certain lake.
+- model: spoilr_hints.cannedhint
+  pk: 1650
+  fields:
+    puzzle: 462
+    description: identified all the borders, now what?
+    order: 6.0
+    keywords: ''
+    content: There is a sixth border in each set that has been split up among each
+      of the five images in a set that also fits with each sets' theme.
+- model: spoilr_hints.cannedhint
+  pk: 1651
+  fields:
+    puzzle: 462
+    description: stuck on what the bottom part is
+    order: 7.0
+    keywords: ''
+    content: The text at the bottom of the puzzle is meant to tell you what letters
+      to index from each of the secret border names. You will have to find the right
+      order for them.
+- model: spoilr_hints.cannedhint
+  pk: 1652
+  fields:
+    puzzle: 462
+    description: nudge for indexing
+    order: 7.1
+    keywords: indexing
+    content: Take note of the order of the sets and each border within each set. There's
+      something specific about how they are ordered that you should apply to your
+      secret borders too.
+- model: spoilr_hints.cannedhint
+  pk: 1663
+  fields:
+    puzzle: 462
+    description: Solvers haven't figured out reordering
+    order: 7.2
+    keywords: order, not working
+    content: Sort your hidden geographic entities alphabetically by name, not by the
+      name of the set they belong to.

@@ -1,0 +1,87 @@
+- model: puzzles.puzzle
+  pk: 478
+  fields:
+    emoji: ':salad:'
+    deep: 400
+- model: spoilr_core.puzzle
+  pk: 478
+  fields:
+    external_id: 478
+    round: 4
+    answer: KETCHUP
+    name: Luxor
+    main_credits: Alina Khankin, Brian Widerman, and John Bromels
+    other_credits: ''
+    order: 478
+    is_meta: false
+    slug: luxor
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 508
+  fields:
+    puzzle: 478
+    description: The solvers are having trouble finding the Top Chef connection
+    order: 0.0
+    keywords: start, begin
+    content: "We are looking at the creations of some \u201Chead cooks\u201D for a\
+      \ \u201Cseasonal battle.\u201D Where might we have seen something similar? Bravo\
+      \ for getting started!"
+- model: spoilr_hints.cannedhint
+  pk: 509
+  fields:
+    puzzle: 478
+    description: Stronger Top Chef nudge if hint 0 was insufficient
+    order: 1.0
+    keywords: start, begin
+    content: Which Bravo cooking show has many talented, or should we say top, chefs?
+- model: spoilr_hints.cannedhint
+  pk: 510
+  fields:
+    puzzle: 478
+    description: Solvers got Top Chef, but did not get the changed "Restaurant Wars"
+      dishes
+    order: 10.0
+    keywords: menu, dishes, ingredients
+    content: What a bunch of strange dishes. Where on Top Chef did these appear, and
+      did they look exactly like in our menus?
+- model: spoilr_hints.cannedhint
+  pk: 511
+  fields:
+    puzzle: 478
+    description: Stronger hint to the changed words in case hint 10 was insufficient
+    order: 11.0
+    keywords: menu, dishes, ingredients
+    content: Each of the menu items did show up in Restaurant Wars, but it's been
+      changed a bit. What is new here?
+- model: spoilr_hints.cannedhint
+  pk: 512
+  fields:
+    puzzle: 478
+    description: Solvers found the changed menu items but do not know how to move
+      forward
+    order: 20.0
+    keywords: menu items, dishes, changes
+    content: Maybe you looked at the start of the new items, and learned that that
+      wasn't it... now, where did these dishes come from?
+- model: spoilr_hints.cannedhint
+  pk: 513
+  fields:
+    puzzle: 478
+    description: Stronger hint at past team/restaurant names
+    order: 21.0
+    keywords: menu items, dishes, changes
+    content: You've found the dishes and identified what's new. Now take a look at
+      the restaurant names these appeared on in the show.
+- model: spoilr_hints.cannedhint
+  pk: 514
+  fields:
+    puzzle: 478
+    description: Solvers got the restaurant names, but are having trouble extracting
+      the answer
+    order: 30.0
+    keywords: extraction
+    content: You are so close! Try indexing the changed word number into the restaurant
+      name.

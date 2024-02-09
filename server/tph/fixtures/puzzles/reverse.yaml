@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 599
+  fields:
+    emoji: "\U0001F532"
+    deep: 340
+- model: spoilr_core.puzzle
+  pk: 599
+  fields:
+    external_id: 599
+    round: 20
+    answer: GRAY
+    name: Reverse!
+    main_credits: Chilli Qin and Timwi
+    other_credits: ''
+    order: 599
+    is_meta: false
+    slug: reverse
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1140
+  fields:
+    puzzle: 599
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: The puzzle title refers to a board game.
+- model: spoilr_hints.cannedhint
+  pk: 1142
+  fields:
+    puzzle: 599
+    description: Solvers are having trouble with the clues
+    order: 2.0
+    keywords: clues
+    content: The answers to the clues are all found in the word search.
+- model: spoilr_hints.cannedhint
+  pk: 1143
+  fields:
+    puzzle: 599
+    description: Solvers are having trouble with the clues (stronger hint)
+    order: 2.1
+    keywords: clues
+    content: The answers to the clues are all found in the word search. Furthermore,
+      they are all shades of white or black.
+- model: spoilr_hints.cannedhint
+  pk: 1141
+  fields:
+    puzzle: 599
+    description: "Solvers don\u2019t know what to do with the Reversi reference"
+    order: 3.0
+    keywords: reversi,what,how
+    content: Each move needs to make a word entirely white or black. You can make
+      one move per turn that will do so.
+- model: spoilr_hints.cannedhint
+  pk: 1144
+  fields:
+    puzzle: 599
+    description: Solvers have performed the moves correctly, now what
+    order: 4.0
+    keywords: extraction,finish,done
+    content: Where did you place a new piece each move?

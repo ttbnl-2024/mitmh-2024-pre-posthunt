@@ -1,0 +1,154 @@
+- model: puzzles.puzzle
+  pk: 374
+  fields:
+    emoji: ':test_tube:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 374
+  fields:
+    external_id: 374
+    round: 15
+    answer: BENZOYL, CARBONYL, IDEAL, OXALATE, TWAIN, WATER
+    name: Chemistry
+    main_credits: Alina Khankin and Joseph DeVincentis
+    other_credits: ''
+    order: 374
+    is_meta: false
+    slug: chemistry
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 620
+  fields:
+    puzzle: 374
+    description: The solvers don't know what to do to get started
+    order: 0.0
+    keywords: start, begin
+    content: The blanks cover some missing compounds. Can you find their names?
+- model: spoilr_hints.cannedhint
+  pk: 619
+  fields:
+    puzzle: 374
+    description: Hint for reaction one
+    order: 10.0
+    keywords: reaction 1
+    content: Light and energy to convert carbon dioxide into something and oxygen?
+      Sounds like photosynthesis!
+- model: spoilr_hints.cannedhint
+  pk: 621
+  fields:
+    puzzle: 374
+    description: Hint for reaction two
+    order: 15.0
+    keywords: Reaction 2
+    content: Copper-catalyzed reaction of azides and alkynes - I can hear it clicking
+      to make a heterocycle!
+- model: spoilr_hints.cannedhint
+  pk: 622
+  fields:
+    puzzle: 374
+    description: Hint for reaction three
+    order: 20.0
+    keywords: Reaction 3
+    content: What forms when you heat sodium formate?
+- model: spoilr_hints.cannedhint
+  pk: 623
+  fields:
+    puzzle: 374
+    description: Hint for reaction four
+    order: 25.0
+    keywords: Reaction 4
+    content: This halo-wearing reagent is well-known for making carbon-carbon bonds.
+- model: spoilr_hints.cannedhint
+  pk: 624
+  fields:
+    puzzle: 374
+    description: Hint for reaction five
+    order: 30.0
+    keywords: Reaction 5
+    content: This is an industrial process. What forms when you combine benzoyl chloride
+      with hydrogen peroxide?
+- model: spoilr_hints.cannedhint
+  pk: 625
+  fields:
+    puzzle: 374
+    description: Hint for reaction six
+    order: 35.0
+    keywords: Reaction 6
+    content: Something fischy is going on - what happens to the carboxylic acid when
+      it reacts with an alcohol?
+- model: spoilr_hints.cannedhint
+  pk: 626
+  fields:
+    puzzle: 374
+    description: Hint for reaction seven
+    order: 40.0
+    keywords: Reaction 7
+    content: In this named ether synthesis, what's the one-word name for the molecule
+      that reacts with chloroacetic acid?
+- model: spoilr_hints.cannedhint
+  pk: 627
+  fields:
+    puzzle: 374
+    description: Hint for reaction eight
+    order: 45.0
+    keywords: Reaction 8
+    content: Sodium metal and liquid ammonia - fun! This tree-named named reduction
+      converts arenes to dienes.
+- model: spoilr_hints.cannedhint
+  pk: 628
+  fields:
+    puzzle: 374
+    description: Hint for reaction nine
+    order: 50.0
+    keywords: Reaction 9
+    content: Aluminum trichloride is used in this named reaction to acylate (or, sometimes,
+      alkylate) aromatic rings
+- model: spoilr_hints.cannedhint
+  pk: 629
+  fields:
+    puzzle: 374
+    description: Hint for reaction ten
+    order: 55.0
+    keywords: Reaction 10
+    content: What's left when these two reagents combine in a condensation reaction?
+- model: spoilr_hints.cannedhint
+  pk: 630
+  fields:
+    puzzle: 374
+    description: Hint for reaction eleven
+    order: 60.0
+    keywords: Reaction 11
+    content: This asymmetric dihydroxylation reaction earned its inventor his first
+      Nobel prize. What general class of compounds are converted to diols using an
+      osmium catalyst?
+- model: spoilr_hints.cannedhint
+  pk: 631
+  fields:
+    puzzle: 374
+    description: Hint for reaction twelve
+    order: 65.0
+    keywords: Reaction 12
+    content: This palladium-catalyzed amination reaction is very useful for preparing
+      aryl amines. What's the starting material?
+- model: spoilr_hints.cannedhint
+  pk: 632
+  fields:
+    puzzle: 374
+    description: The solvers have all the blanks filled and got the STEAL SCEPTER
+      phrase
+    order: 90.0
+    keywords: extraction, steal scepter
+    content: You are probably wondering which scepter? You have to look elsewhere
+      for one to steal!
+- model: spoilr_hints.cannedhint
+  pk: 633
+  fields:
+    puzzle: 374
+    description: The solvers discovered the connection in the text adventure, but
+      are having trouble with the final answer
+    order: 100.0
+    keywords: extraction, text adventure, steal scepter
+    content: Who did you meet after stealing the scepter?

@@ -1,0 +1,183 @@
+- model: puzzles.puzzle
+  pk: 142
+  fields:
+    emoji: ':seal:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 142
+  fields:
+    external_id: 142
+    round: 3
+    answer: OUT OF MANY ONE
+    name: Itineratum de Urbes Universum
+    main_credits: John Bromels
+    other_credits: ''
+    order: 142
+    is_meta: false
+    slug: itineratum-de-urbes-universum
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1349
+  fields:
+    puzzle: 142
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: This puzzle is all about bad translation from Latin into English, using
+      Google Translate. For example, "Itineratum de Urbes Universum" translates to
+      "List of Universe Cities," when the puzzle's author was trying to make a "list
+      of universities." Using Google Translate on all of the Latin phrases in the
+      puzzle is a good place to begin.
+- model: spoilr_hints.cannedhint
+  pk: 1352
+  fields:
+    puzzle: 142
+    description: Solvers don't understand the point of the seals or the word balloon
+      shapes
+    order: 1.5
+    keywords: seal, shape, shapes, balloon, bubble
+    content: 'The bad translation has extended to the puzzle''s design: clearly, the
+      author intended for each item to show a picture of the university''s seal (as
+      in, its official emblematic seal), but instead used a picture of a seal (as
+      in, the marine animal). However, the visual representation of the word balloon
+      reflects the silhouette of the seal of the correct university, which can be
+      used to confirm you have made a correct identification. (Note: be sure you''re
+      looking at the university''s "official seal," and not -- for example -- its
+      marketing "logo" or its athletic "symbol".)'
+- model: spoilr_hints.cannedhint
+  pk: 1356
+  fields:
+    puzzle: 142
+    description: Solvers cannot identify enough universities to continue from the
+      first list of phrases
+    order: 2.0
+    keywords: Universities, names
+    content: "The poorly-translated Latin phrases are as follows in English:\r\nBefore\
+      \ the Irish funeral woods universe city;\r\nGlove to remove pots from the oven;\r\
+      \nToothpaste universe city;\r\nKing's son 2,000 pounds universe city;\r\nHigh\
+      \ on drugs tip universe city;\r\nAbrasive powder that makes the fingernails\
+      \ smooth universe city;\r\nSmall manes of hair universe city;\r\nI own a universe\
+      \ city;\r\nFighting fist universe city;\r\nDeep awl universe city;\r\nCross\
+      \ the river of smoked pig universe city;\r\nRoad that is larger than an alley\
+      \ and smaller than a highway universe city;\r\n\r\nEach name can be converted\
+      \ into a university name. For example, a \"King's son\" is a PRINCE, \"2,000\
+      \ pounds\" is a TON, and \"universe city\" is UNIVERSITY, so this is a bad translation\
+      \ of PRINCETON UNIVERSITY."
+- model: spoilr_hints.cannedhint
+  pk: 1358
+  fields:
+    puzzle: 142
+    description: Solvers still cannot translate enough universities (2nd hint)
+    order: 2.2
+    keywords: universities, names
+    content: "The universities in order are:\r\n\r\nBefore the Irish funeral woods\
+      \ universe city: WAKE FOREST;\r\nGlove to remove pots from the oven: MIT;\r\n\
+      Toothpaste universe city: COLGATE;\r\nKing's son 2,000 pounds universe city:\
+      \ PRINCETON;\r\nHigh on drugs tip universe city: HIGH POINT;\r\nAbrasive powder\
+      \ that makes the fingernails smooth universe city: EMORY;\r\nSmall manes of\
+      \ hair universe city: TUFTS;\r\nI own a universe city: IONA;\r\nFighting fist\
+      \ universe city: DUKE;\r\nDeep awl universe city: DE PAUL;\r\nCross the river\
+      \ of smoked pig universe city: FORDHAM;\r\nRoad that is larger than an alley\
+      \ and smaller than a highway universe city: TULANE."
+- model: spoilr_hints.cannedhint
+  pk: 1359
+  fields:
+    puzzle: 142
+    description: Solvers need help identifying what to do with the seals' word balloons
+    order: 3.0
+    keywords: Comes, seals, speech, balloon, balloons, bubble, bubbles
+    content: "The word \"Comes\" at the top of this section translates to \"Count\"\
+      \ (as in, the nobleman). The translations of the phrases in the word balloons\
+      \ are:\r\n\r\nSon;\r\nWords in the \"Language of the Common People\" (\"Vulgate\"\
+      );\r\nThe wizard of King Arthur;\r\nWhen one person is romantically desired\
+      \ by two other people;\r\n(Animal) horns;\r\n(Finger)nails;\r\nAsterisks;\r\n\
+      Pigments;\r\nFormer romantic desire from long ago;\r\nSpoken words in a musical\
+      \ play;\r\nWhat Red Bull gives you;\r\nTo reveal one's butt;\r\nThe last of\
+      \ the railroads in Monopoly.\r\n\r\nAgain, though, all of these are bad translations\
+      \ and will need to be corrected in order to solve this portion."
+- model: spoilr_hints.cannedhint
+  pk: 1361
+  fields:
+    puzzle: 142
+    description: Solvers still can't translate or identify enough of the word balloons
+      (x2)
+    order: 3.2
+    keywords: Comes, count, seals, speech, balloon, balloons, bubble, bubbles
+    content: "The correct translations from this section are:\r\n\r\nCount (as in,\
+      \ numbers);\r\nSon = Sun;\r\nWords in the Language of the Common People/Vulgate\
+      \ = Latin words;\r\nThe Wizard of King Arthur = Merlons;\r\nWhen one person\
+      \ is romantically desired by two other people = Triangles;\r\n(Animal) horns\
+      \ = (Musical instrument) horns;\r\n(Finger)nails = (Carpentry) nails;\r\nAsterisks\
+      \ = Six-pronged stars;\r\nPigments = Colors;\r\nFormer Romantic Desire from\
+      \ Long Ago = Flame;\r\nSpoken Words in a Musical Play = Book;\r\nWhat Red Bull\
+      \ gives you = Wings;\r\nTo reveal one's butt = Moons;\r\nThe last of the railroads\
+      \ in Monopoly = Short lines.\r\n\r\nClearly, we need to count each of these\
+      \ items on their respective seals. The seals are presented in alphabetical order\
+      \ by university."
+- model: spoilr_hints.cannedhint
+  pk: 1362
+  fields:
+    puzzle: 142
+    description: Solvers don't know what to do with the Latin words in the box
+    order: 4.0
+    keywords: Box, Latin, Word bank
+    content: "The words in the box at the bottom of the first page will make more\
+      \ sense when you have correctly translated the first list of items and have\
+      \ identified the items mentioned in the word balloons. \r\n\r\n[IF THEY HAVE\
+      \ SUCCESSFULLY SOLVED TO THIS POINT, I.E., THEY KNOW THE UNIVERSITIES AND HAVE\
+      \ IDENTIFIED ALL OF THE SEALS:]\r\nTake a look at the seals you've identified.\
+      \ Do you notice any of these words on those seals? These words are part of the\
+      \ Latin mottoes of these universities (well, MOST of them are, anyway!)."
+- model: spoilr_hints.cannedhint
+  pk: 1363
+  fields:
+    puzzle: 142
+    description: Solvers cannot create the correct mottoes, or cannot determine why
+      there are extra letters
+    order: 4.2
+    keywords: Mottoes, mottos, extra letters, word bank
+    content: "The Latin mottoes are (in alphabetical order):\r\nCor Prudentis Possidebit\
+      \ Scientiam;\r\nDei Sub Numine Viget;\r\nDeo ac Veritati;\r\nNon Sibi, Sed Suis;\r\
+      \nSapientia et Doctrina;\r\nNil Sine Numine;\r\nIn Deo Speramus;\r\nEruditio\
+      \ et Religio;\r\nPro Humanitate;\r\nPax et Lux;\r\nCerta Bonum Certamen;\r\n\
+      Viam Sapientiae Monstrabo Tibi;\r\nMens et Manus.\r\n\r\nYou will find most\
+      \ of these words in the word bank. The other words closely resemble the missing\
+      \ words, with some alterations. These alterations are significant."
+- model: spoilr_hints.cannedhint
+  pk: 1364
+  fields:
+    puzzle: 142
+    description: Solvers cannot make sense of the extra letters in the word bank
+    order: 4.5
+    keywords: Extra letters, Roman numerals
+    content: The extra letters in the words are all Roman numerals (calculated across
+      the entire motto, not word-by-word). You will find the numbers 1-13 represented.
+      This is the ordering mechanic.
+- model: spoilr_hints.cannedhint
+  pk: 1365
+  fields:
+    puzzle: 142
+    description: Solvers are stuck on extraction
+    order: 5.0
+    keywords: Extraction
+    content: "Arrange the universities using the ordering mechanic found in the mottoes\
+      \ (Roman numerals 1-13). Index into the university name by the number of items\
+      \ you counted in each university's seal: \r\nEmory horns;\r\nPrinceton books;\r\
+      \nColgate Latin words;\r\nTulane moons;\r\nFordham nails;\r\nHigh Point six-pronged\
+      \ stars;\r\nBrown suns;\r\nDuke triangles;\r\nWake Forest short lines;\r\nTufts\
+      \ wings;\r\nIona colors;\r\nDe Paul merlons (the sticky-up parts in a crenellated\
+      \ castle rampart);\r\nMIT flames."
+- model: spoilr_hints.cannedhint
+  pk: 1366
+  fields:
+    puzzle: 142
+    description: Solvers think they have found the correct answer but it does not
+      work
+    order: 6.0
+    keywords: Answer, E Pluribus Unum
+    content: Remember that you've had to translate everything in this puzzle from
+      Latin into English. The solution is no different. What does "E PLURIBUS UNUM"
+      mean in English?

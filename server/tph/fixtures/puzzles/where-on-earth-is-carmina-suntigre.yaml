@@ -1,0 +1,146 @@
+- model: puzzles.puzzle
+  pk: 487
+  fields:
+    emoji: ':supervillain:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 487
+  fields:
+    external_id: 487
+    round: 21
+    answer: BAHAMIAN
+    name: Where on Earth Is Carmina Suntigre?
+    main_credits: Alina Khankin, Brian Widerman, Craig Kasper, John Bromels, and Michael Andersen
+    other_credits: ''
+    order: 487
+    is_meta: false
+    slug: where-on-earth-is-carmina-suntigre
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 927
+  fields:
+    puzzle: 487
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start, begin
+    content: The puzzle is based on the old computer game series WHERE IN THE WORLD
+      IS CARMEN SANDIEGO? As the flavor text indicates, you'll need to figure out
+      which of Carmina Suntigre's henchmen committed each crime by comparing the information
+      on their wanted posters to the witness' statements. However, a good place to
+      start might be to solve the capitalized crossword-style clues in the crime descriptions.
+- model: spoilr_hints.cannedhint
+  pk: 931
+  fields:
+    puzzle: 487
+    description: Solvers cannot solve the logic puzzle of who committed which crime
+    order: 1.0
+    keywords: logic, crime
+    content: "Most of the witness' statements could apply to two of Carmina's henchmen.\
+      \ However, by combining multiple statements, or by process of elimination, some\
+      \ can be narrowed down to a single suspect:\r\n- The only one that could apply\
+      \ to the Inspector is the DOMINICAN crime.\r\n- The only one that could apply\
+      \ to the Electrician is the SAINT LUCIAN crime.\r\n- The only one that could\
+      \ apply to the Magician is the JAMAICAN crime.\r\n- The only suspect that fits\
+      \ the FRENCH crime's description is the Archer.\r\n- While acetone could be\
+      \ used by a Chemist or a Painter (or possibly a Genetic Engineer), only the\
+      \ Chemist has green eyes (and cats can't verbally ask for specific items), so\
+      \ the HAITIAN crime was committed by the Chemist.\r\nWith this information,\
+      \ you should be able to match the remaining suspects to their crimes."
+- model: spoilr_hints.cannedhint
+  pk: 932
+  fields:
+    puzzle: 487
+    description: Solvers are still stuck on the logic puzzle after hint 1.0
+    order: 1.1
+    keywords: logic, crime, more help
+    content: "The full list of crime/criminal matches is:\r\nMESSENGER-ARGENTINE\r\
+      \nGLASSBLOWER-BANGLADESHI\r\nMUSICIAN-CROATIAN\r\nPAINTER-CYPRIOT\r\nINSPECTOR-DOMINICAN\r\
+      \nAQUACULTURIST-EQUATOGUINEAN\r\nARCHER-FRENCH\r\nCHEMIST-HAITIAN\r\nMAGICIAN-JAMAICAN\r\
+      \nGENETIC ENGINEER-LIECHTENSTEINER\r\nPLUMBER-MALTESE\r\nELECTRICIAN-SAINT LUCIAN."
+- model: spoilr_hints.cannedhint
+  pk: 982
+  fields:
+    puzzle: 487
+    description: Solvers have matched everything but don't know what to do next.
+    order: 2.0
+    keywords: solved logic
+    content: "The flavor text says to \u201Chave the respective national authorities\
+      \ do a lineup with them\u201D to \u201Cfind aspects that don\u2019t match up\
+      \ with their carefully-crafted personas.\u201D Try \"lining up\" the aliases\
+      \ with their matching demonyms (they are all equal in length), and look for\
+      \ \u201Caspects\" that don't match up."
+- model: spoilr_hints.cannedhint
+  pk: 1025
+  fields:
+    puzzle: 487
+    description: Solvers have matched everything but don't know what to do next (stronger
+      hint)
+    order: 2.1
+    keywords: solved logic, what to match
+    content: Take a look at the matched words MAGICIAN and JAMAICAN. If you cross
+      out the letters that appear in each (including two of the three A's in JAMAICAN
+      because there are only two A's in MAGICIAN, and one of the I's in MAGICIAN because
+      there is only one I in JAMAICAN), you are left with the letters AIJG. These
+      four letters should look very similar to one of the as-yet-unused aspects of
+      the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 983
+  fields:
+    puzzle: 487
+    description: Solvers have matched aliases and demonyms, but can't figure out what
+      to do with the resulting letter strings.
+    order: 2.2
+    keywords: leftover letters, remaining letters
+    content: Each clued word contains all of the unmatched letters (i.e., the letters
+      remaining after all matching letters are crossed out) from the alias-demonym
+      pairs, except for one spare letter. The spare unused letters can be arranged
+      to form the name of a final crime.
+- model: spoilr_hints.cannedhint
+  pk: 985
+  fields:
+    puzzle: 487
+    description: Solvers don't know how to order the leftover letters
+    order: 3.0
+    keywords: order, ordering
+    content: All of the crimes have a timestamp, listed in "local time." All of the
+      countries in question are single-time-zone countries. By converting the "local
+      times" to UTC, we find that the first crime (Croatia) occurred at 7:00 AM UTC,
+      with one crime occurring every subsequent hour until 6:00 PM UTC (Bangladesh).
+      This is the correct ordering for the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1026
+  fields:
+    puzzle: 487
+    description: Solvers have discovered and entered the phrase "A GREAT AMBUSH" but
+      don't know how to proceed
+    order: 4.0
+    keywords: a great ambush, last, final
+    content: Entering A GREAT AMBUSH indicates you need to find a final national demonym.
+      Consider how you've been matching all the previous criminals.
+- model: spoilr_hints.cannedhint
+  pk: 986
+  fields:
+    puzzle: 487
+    description: Solvers have discovered and entered the phrase "A GREAT AMBUSH" but
+      don't know how to proceed (stronger hint)
+    order: 4.1
+    keywords: a great ambush, final, last
+    content: You'll have to solve in reverse, so to speak. For the other crimes, you
+      lined up the names of the criminals and the demonyms to find a remaining clue
+      word/phrase. Here, we have the clue word (A GREAT AMBUSH) and the criminal (SUNTIGRE,
+      listed in all-caps like the other criminals' aliases), so we need to figure
+      out what demonym can line up with SUNTIGRE to leave the leftover letters A GREAT
+      AMBUSH (no extra letter this time!). Note that the letters SUTGRE (half of the
+      phrase) come from SUNTIGRE, so the other half must come from the demonym, while
+      the remaining letters in SUNTIGRE must also appear in the demonym (to be crossed
+      out).
+- model: spoilr_core.pseudoanswer
+  pk: 20
+  fields:
+    puzzle: 487
+    answer: A GREAT AMBUSH
+    response: Carmina Suntigre is planning a great ambush?! You need to tell the __________
+      authorities right away!

@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 480
+  fields:
+    emoji: ':troll:'
+    deep: 1
+    deep_key: hydra-LLR
+- model: spoilr_core.puzzle
+  pk: 480
+  fields:
+    external_id: 480
+    round: 13
+    answer: BEHIND YOU
+    name: Monsters
+    main_credits: Daniel Kramarsky and Joseph DeVincentis
+    other_credits: ''
+    order: 480
+    is_meta: false
+    slug: monsters
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 666
+  fields:
+    puzzle: 480
+    description: Solvers haven't figured out the commonality in the answers
+    order: 0.0
+    keywords: start, begin
+    content: Two-thirds of what's important about the clue answers is directly related
+      to alignment and the other third is something to join them together.
+- model: spoilr_hints.cannedhint
+  pk: 668
+  fields:
+    puzzle: 480
+    description: Solvers have the alignments but haven't figured out the vowels
+    order: 25.0
+    keywords: lawful, neutral, chaotic, good, evil, alignment
+    content: Each clue answer contains a trigram whose first and third letters correspond
+      to alignments. There's always a vowel between them.
+- model: spoilr_hints.cannedhint
+  pk: 672
+  fields:
+    puzzle: 480
+    description: Solvers can't figure out how to link the monsters to the clue answers.
+      They may have figured out the trigrams without understanding why.
+    order: 50.0
+    keywords: monster, vowel
+    content: The monsters can all be found in one place; that can help you find their
+      two-part attribute which corresponds to the first and third part of what's important
+      for each clue answer. The second part is just whichever one appears in each
+      monster's name.
+- model: spoilr_hints.cannedhint
+  pk: 667
+  fields:
+    puzzle: 480
+    description: Solvers have the alignments and vowels and can't figure out how to
+      extract the answer
+    order: 100.0
+    keywords: extraction
+    content: A common code works in the same three by three by three way as the grid
+      of answers for this puzzle. The paladin would be a zero and not represent a
+      letter.

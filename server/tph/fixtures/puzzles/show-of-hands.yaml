@@ -1,0 +1,51 @@
+- model: puzzles.puzzle
+  pk: 526
+  fields:
+    emoji: ':clap:'
+    deep: 660
+- model: spoilr_core.puzzle
+  pk: 526
+  fields:
+    external_id: 526
+    round: 20
+    answer: NOMINATES
+    name: Show of Hands
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 526
+    is_meta: false
+    slug: show-of-hands
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 365
+  fields:
+    puzzle: 526
+    description: The solvers have no way to begin the puzzle
+    order: 0.0
+    keywords: don't know what to do
+    content: Three in a row show you how it's done, can you continue?
+- model: spoilr_hints.cannedhint
+  pk: 372
+  fields:
+    puzzle: 526
+    description: Solvers can't get started
+    order: 5.0
+    keywords: help to start, how to start
+    content: The three nonsense words are leading you to find a fourth word.  Can
+      you make a sequential new word out of them?
+- model: spoilr_hints.cannedhint
+  pk: 366
+  fields:
+    puzzle: 526
+    description: Solvers have the words but not the connection to the title
+    order: 50.0
+    keywords: list of words, what do i do with the word list
+    content: Can you make a connection to the title using your word list?
+- model: spoilr_hints.cannedhint
+  pk: 367
+  fields:
+    puzzle: 526
+    description: Solvers need to extract the answer from the word list
+    order: 100.0
+    keywords: how to extract, extract answer
+    content: Look for what is close at hand.

@@ -1,0 +1,856 @@
+//import cx from 'classNames';
+import React from 'react';
+
+//import { HIDDEN_CLASS } from 'components/copy';
+import FlavorText from 'components/flavor_text';
+
+const colorful = (
+  <div>
+    <h2 className="text-center pt-4">Colorful Island</h2>
+    <FlavorText>
+      I've swept these flowers of mine off of the porch. Can you help me arrange
+      them?
+    </FlavorText>
+    <table
+      className="border-2 border-black border-collapse table-layout-fixed text-white text-right"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td className="border-2 border-black">&nbsp;</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#800000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">3</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">2</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#008000]">3</td>
+          <td className="border-2 border-black bg-[#ff0000]">4</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#800000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#000080]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#000080]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#000080]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">3</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#ff0000]">3</td>
+          <td className="border-2 border-black bg-[#000080]">6</td>
+          <td className="border-2 border-black bg-[#ff0000]">2</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">4</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#0000ff]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black bg-[#ff0000]">1</td>
+          <td className="border-2 border-black bg-[#008000]">2</td>
+          <td className="border-2 border-black bg-[#0000ff]">1</td>
+          <td className="border-2 border-black bg-[#008000]">1</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black">&nbsp;</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black">&nbsp;</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black">&nbsp;</td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+          <td className="border-2 border-black"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+);
+
+export default colorful;

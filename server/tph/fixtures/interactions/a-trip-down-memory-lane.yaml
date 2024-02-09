@@ -1,0 +1,114 @@
+# Notes:
+# 1. Each interaction must have its own slug.
+#    Interactions are joined to the puzzle via the `puzzle` attribute, so the
+#    slugs do not need to -- but can -- correspond to the puzzle slug.
+#    Interaction slugs have a uniqueness constraint, so they can't repeat.
+# 2. The pk fields need to be unique (obviously) but do not need to be
+#    sequential. Here I made pk, order, and required_pseudoanswer all the
+#    same value.
+# 3. The required_pseudoanswer field should the match the pk of the
+#    pseudoanswer that is needed to unlock the interaction.
+# 4. The name is only visible to the HQ, so you can put spoilery things there.
+# 5. The slug is technically only visible to the HQ, but it's probably bestrequest a team interaction for the Min🐟 Games sub-puzzle. [finish this text]
+#    not to put anything spoilery there. For this puzzle I just made them
+#    sequential.
+# 6. The first sub-puzzle does not have an interaction -- it writes a 
+#    Minipuzzle and a MinipuzzleSubmission, and puts the result of that into
+#    the private part of PuzzleData.
+
+- model: spoilr_core.interaction
+  pk: 284
+  fields:
+    slug: a-trip-down-memory-lane-2
+    name: A Trip Down Memory Lane [Mind Games - RECORD AN ORIGINAL SONG]
+    order: 284
+    instructions: "RECORD AN ORIGINAL SONG:\n
+      Write, record and send us a version of your own original song. Upload an mp3
+      or audio file and send it to record-an-original-song@mitmh2024.com, and perhaps U2 just
+      might find what your looking for.\nPlease include your team name in the subject. After
+      you've sent us the song, use the interaction box to let us know!"
+    interaction_type: submission
+    puzzle: 273
+    required_pseudoanswer: 284
+    unlocks_with_puzzle: true
+- model: spoilr_core.interaction
+  pk: 285
+  fields:
+    slug: a-trip-down-memory-lane-3
+    name: A Trip Down Memory Lane [Flying High - PUT ENERGY INTO RED BULL ADVERT]
+    order: 285
+    instructions: "PUT ENERGY INTO RED BULL ADVERT:\n
+      Ever tried giving a Red Bull wings??? Email make-a-bull-fly@mitmh2024.com
+      with your best advertisement for a Red Bull product and in return we just might sell
+      you the answer to all your problems.\nPlease include your team name in the subject.
+      After you've sent us the advertisement, use the interaction box to let us know!"
+    interaction_type: physical
+    puzzle: 273
+    required_pseudoanswer: 285
+    unlocks_with_puzzle: true
+- model: spoilr_core.interaction
+  pk: 286
+  fields:
+    slug: a-trip-down-memory-lane-4
+    name: A Trip Down Memory Lane [Red Letter - VISIT HQ DRESSED AS PRIEST]
+    order: 286
+    instructions: "VISIT HQ DRESSED AS PRIEST:\n
+      Use the interaction box to book a visit to Hunt HQ so you can see a few of your
+      favourite Greek Heroes. If you bring a Priest with you, they just might be able to find
+      the answer you seek."
+    interaction_type: physical
+    puzzle: 273
+    required_pseudoanswer: 286
+    unlocks_with_puzzle: true
+- model: spoilr_core.interaction
+  pk: 287
+  fields:
+    slug: a-trip-down-memory-lane-5
+    name: A Trip Down Memory Lane [Radio Silence - FIX CAVITY SAMS BROKEN HEART]
+    order: 287
+    instructions: "FIX CAVITY SAM'S BROKEN HEART:\n
+      Poor Cavity Sam. He seems to be having so many health issues lately.  Record
+      a video of your team playing a game of Operation and removing the heart from Cavity Sam,
+      and send it to fix-cavity-sam@mitmh2024.com for review. While we might not have a $100
+      reward, we may have something else you might find beneficial. Please do take your time.
+      \nPlease include your team name in the subject. After you've sent us the video, use the
+      interaction box to let us know!"
+    interaction_type: physical
+    puzzle: 273
+    required_pseudoanswer: 287
+    unlocks_with_puzzle: true
+- model: spoilr_core.interaction
+  pk: 288
+  fields:
+    slug: a-trip-down-memory-lane-6
+    name: A Trip Down Memory Lane [Tunnel Vision - THROW SHADE TOWARDS MICROSOFT OPERATING SYSTEM]
+    order: 288
+    instructions: "THROW SHADE TOWARDS MICROSOFT OPERATING SYSTEM:\n
+      Whatever you can come up with for this one, please send it to
+      throw-shade-towards-ms@mitmh2024.com. In return, we will gift you one answer and one
+      answer submission box. Please note that the author of this puzzle has no ill feeling
+      towards the company, and that this very message was written on a Surface Laptop Studio
+      2.\nPlease include your team name in the subject. After you've thrown shade, use the
+      interaction box to let us know! "
+    interaction_type: physical
+    puzzle: 273
+    required_pseudoanswer: 288
+    unlocks_with_puzzle: true
+- model: spoilr_core.interaction
+  pk: 289
+  fields:
+    slug: a-trip-down-memory-lane-7
+    name: A Trip Down Memory Lane [Grid Locked - STAGE A CRIME SCENE]
+    order: 289
+    instructions: "STAGE A CRIME SCENE:\n
+      Create a FAKE crime scene and send us 'evidence' of your misdeeds. A few photos
+      or a short video sent to stage-a-crime-scene@mitmh2024.com will suffice. In return, a
+      detective from TTBNL will help you uncover your next piece of information for this
+      devilish puzzle. Photos, videos or other media from real crime scenes will NOT be
+      accepted or tolerated. DO NOT COMMIT ANY REAL CRIMES FOR THIS PUZZLE.\nPlease include
+      your team name in the subject. After you've sent us the evidence, use the interaction
+      box to let us know!"
+    interaction_type: physical
+    puzzle: 273
+    required_pseudoanswer: 289
+    unlocks_with_puzzle: true

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+source scripts/docker_compose
+
+# Usage: ./scripts/load_fixtures
+
+error_message="Loading fixtures not successful. Is the container running?"
+
+docker_compose exec -T tph /app/server/manage.py puzzle_fixtures --fixtures-dir fixtures "$@" || echo $error_message
+docker_compose exec -T tph /app/server/manage.py puzzle_positions --fixtures-dir fixtures "$@" || echo $error_message
+
+docker_compose exec -T tph /app/server/manage.py setting_fixtures fixtures/settings "$@" || echo $error_message

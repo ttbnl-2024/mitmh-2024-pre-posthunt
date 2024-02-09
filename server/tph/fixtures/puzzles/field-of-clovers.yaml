@@ -1,0 +1,124 @@
+- model: puzzles.puzzle
+  pk: 685
+  fields:
+    emoji: ':four_leaf_clover:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 685
+  fields:
+    external_id: 685
+    round: 21
+    answer: WAR CASTLE FOUR-PACK
+    name: Field of Clovers
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 685
+    is_meta: false
+    slug: field-of-clovers
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1552
+  fields:
+    puzzle: 685
+    description: Solvers are stuck at the very start and haven't identified any/many
+      of the ways frame words clue tiles
+    order: 0.0
+    keywords: stuck, start
+    content: This puzzle references the board/card game "So Clover!".  As in that
+      game, for each set you need to place 4 of the tiles in the frame such that along
+      each frame edge the 2 tile words relate to the single word on the frame.  Unlike
+      in "So Clover!" the relationships aren't "whatever goes"; instead each color
+      represents a different way in which the frame word clues two tile words.
+- model: spoilr_hints.cannedhint
+  pk: 1553
+  fields:
+    puzzle: 685
+    description: Solvers haven't solved most of the sets (correctly placed 4 tiles
+      for each) and don't know what most of the colors mean
+    order: 30.0
+    keywords: color, meaning
+    content: "Each color has a different meaning, a different way in which the frame\
+      \ word matches with two tile words.  A few hints:\r\nGreen: Phrases.\r\nPurple:\
+      \ A form of wordplay that changes the two tile words.\r\nAqua: A different form\
+      \ of wordplay that changes the two tile words.\r\nBlue: The tile words are unchanged,\
+      \ but the frame word is slightly off."
+- model: spoilr_hints.cannedhint
+  pk: 1554
+  fields:
+    puzzle: 685
+    description: Solvers have formed all 8 clovers but haven't found that after rotating
+      their leaves 180 degrees they form new clovers using diagonal words
+    order: 40.0
+    keywords: rotate, tile
+    content: Now that each clover is complete, remember the flavor text about spinning
+      each leaf 180 degrees.  Turn each tile of each clover 180 degrees, and look
+      for nearby words that can pair up.
+- model: spoilr_hints.cannedhint
+  pk: 1615
+  fields:
+    puzzle: 685
+    description: Solvers have rotated the tiles 180 degrees but haven't figured out
+      the unused tiles can be used as frames
+    order: 45.0
+    keywords: rotated,
+    content: You have some tiles left over from the first part of the puzzle. The
+      words on these tiles can be matched to your rotated tiles, you have just to
+      look at them from a different angle.
+- model: spoilr_hints.cannedhint
+  pk: 1556
+  fields:
+    puzzle: 685
+    description: Solvers have identified the second set of clovers (from turning tiles
+      180 degrees) but not how to match two clovers to make a flower
+    order: 60.0
+    keywords: turned, flower
+    content: 'You now have 16 "clovers": the initial 8 and the 8 more that were formed
+      by rotating each tile 180 degrees.  These clovers must pair up to form 8 flowers.  As
+      shown in the diagram, each flower has 8 "petals" and uses 4 colors -- the same
+      colors as in one of the 4-colored frames (and in the same rotational order).  What
+      colors are associated with the clovers you got by rotating tiles?  How can you
+      combine one of these clovers gotten from rotating tiles with one of the initial
+      clovers to form a flower shape?'
+- model: spoilr_hints.cannedhint
+  pk: 1560
+  fields:
+    puzzle: 685
+    description: Solvers have formed 8 flowers but don't haven't found that the last
+      tile of each set clues pairs of petals
+    order: 80.0
+    keywords: flowers, extra tile
+    content: Now that you've formed 8 flowers, you must use the remaining unused tile
+      in each set.  Look at the outer part of each petal; these words should relate
+      to the remaining unused tiles.  If you haven't physically/virtually created
+      the 8 flowers by overlaying clovers, that may be helpful.
+- model: spoilr_hints.cannedhint
+  pk: 1564
+  fields:
+    puzzle: 685
+    description: Solvers have created the flowers and identified how the unused tile
+      clues pairs of words, but haven't used semaphore
+    order: 90.0
+    keywords: flower, unused tile, pair
+    content: In each set, the unused tile clues 4 pairs of words that appear on the
+      outsides of the flower's petals.  Whether the petal word is on the top/bottom
+      or left/right of the petal doesn't matter; only which of the 8 petals it appears
+      on is relevant.  Each of these pairs yields a letter using a common code.  The
+      letters are ordered by clockwise ordering of words from the unused tile.  This
+      will give one 4-letter word for each of the 8 flowers.
+- model: spoilr_hints.cannedhint
+  pk: 1565
+  fields:
+    puzzle: 685
+    description: Solvers have extracted the final 8 4-letter words but haven't paired
+      them up or gotten their answers correctly
+    order: 100.0
+    keywords: four-letter words, semaphore, pair
+    content: 'The 8 4-letter words must be paired up, using the same pairing as was
+      used in the "cross-pollination step" (rotated version of the clover from set
+      A matches with original clover from set B, and rotated version of B matches
+      with A).  Each of these pairs clues one final word, whose lengths and operations
+      (colors) are given at the bottom of the puzzle.  The first letters of the answers
+      in order are: W (3 letters), C (6 letters), F (4 letters), P (4 letters).'

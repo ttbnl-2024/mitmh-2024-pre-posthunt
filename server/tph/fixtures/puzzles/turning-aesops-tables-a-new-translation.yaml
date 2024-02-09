@@ -1,0 +1,168 @@
+- model: puzzles.puzzle
+  pk: 692
+  fields:
+    emoji: ':books:'
+    deep: 440
+- model: spoilr_core.puzzle
+  pk: 692
+  fields:
+    external_id: 692
+    round: 20
+    answer: MORAL
+    name: "Turning \xC6sop's Tables; a new translation"
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 692
+    is_meta: false
+    slug: turning-aesops-tables-a-new-translation
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 795
+  fields:
+    puzzle: 692
+    description: Solvers are unsure how to start
+    order: 0.0
+    keywords: getting started, starting, start
+    content: "How does the normal story of The Hare and Tortoise usually end?\r\n\
+      Do any of these modified stories mention things that seem out of place?\r\n\
+      Is there a way to connect the unusual details to the normal version of the story?"
+- model: spoilr_hints.cannedhint
+  pk: 797
+  fields:
+    puzzle: 692
+    description: Solvers haven't identified that there is a canonical source for the
+      stories
+    order: 10.0
+    keywords: ''
+    content: The title of the puzzle is a hint to the version of Aesop's Fables that
+      is used as the canonical source for this puzzle.  Searching for the first lines
+      of the stories may also help with finding the canonical source.
+- model: spoilr_hints.cannedhint
+  pk: 798
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for Lioness and a
+      Vixen
+    order: 11.0
+    keywords: Lioness, Vixen
+    content: The regular ending for The Lioness And The Vixen is "Quality, not quantity".
+- model: spoilr_hints.cannedhint
+  pk: 799
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for Hare and the Tortoise
+    order: 12.0
+    keywords: Hare, Tortoise
+    content: The regular ending for The Hare And The Tortoise is "Slow and steady
+      wins the race".
+- model: spoilr_hints.cannedhint
+  pk: 800
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Fox And The
+      Goat
+    order: 13.0
+    keywords: Fox, Goat
+    content: The regular ending for The Fox And The Goat is "Look before your leap".
+- model: spoilr_hints.cannedhint
+  pk: 801
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Ass And His
+      Purchaser
+    order: 14.0
+    keywords: Ass, Purchaser
+    content: The regular ending for The Ass And His Purchaser is "A man is known by
+      the company he keeps".
+- model: spoilr_hints.cannedhint
+  pk: 802
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Serpent And
+      The Eagle
+    order: 15.0
+    keywords: Serpent, Eagle
+    content: The regular ending for The Serpent And The Eagle is "One good turn deserves
+      another".
+- model: spoilr_hints.cannedhint
+  pk: 803
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Milkmaid And
+      Her Pail
+    order: 16.0
+    keywords: Milkmaid, Pail
+    content: The regular ending for The Milkmaid And Her Pail is "Do not count your
+      chickens before they are hatched".
+- model: spoilr_hints.cannedhint
+  pk: 804
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for Mercury And The
+      Woodman
+    order: 17.0
+    keywords: Mercury, Woodman
+    content: The regular ending for Mercury And The Woodman is "Honesty is the best
+      policy".
+- model: spoilr_hints.cannedhint
+  pk: 805
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Shepherd's
+      Boy And The Wolf
+    order: 18.0
+    keywords: Shepherd's Boy, Wolf
+    content: The regular ending for The Shepherd's Boy And The Wolf is "You cannot
+      believe a liar even when he tells the truth".
+- model: spoilr_hints.cannedhint
+  pk: 806
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Lion And The
+      Wild Ass
+    order: 19.0
+    keywords: Lion, Wild Ass
+    content: The regular ending for The Lion And The Wild Ass is "Might makes right".
+- model: spoilr_hints.cannedhint
+  pk: 807
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for Father And Sons
+    order: 20.0
+    keywords: Father, Sons
+    content: The regular ending for Father And Sons is "Union is strength".
+- model: spoilr_hints.cannedhint
+  pk: 808
+  fields:
+    puzzle: 692
+    description: Solvers haven't figured out the regular ending for The Dog And The
+      Wolf
+    order: 21.0
+    keywords: Dog, Wolf
+    content: The regular ending for The Dog And The Wolf is "Once bitten, twice shy".
+- model: spoilr_hints.cannedhint
+  pk: 809
+  fields:
+    puzzle: 692
+    description: Solvers are not sure what to do for extraction
+    order: 50.0
+    keywords: extraction
+    content: Use the new letter in the revised ending of each story, taken in order,
+      to spell a message.
+- model: spoilr_hints.cannedhint
+  pk: 796
+  fields:
+    puzzle: 692
+    description: Solvers got FABLE LESSON, but aren't sure what to do next
+    order: 100.0
+    keywords: extraction
+    content: What's a single word that means "Fable lesson"?
+- model: spoilr_core.pseudoanswer
+  pk: 128
+  fields:
+    puzzle: 692
+    answer: FABLE LESSON
+    response: Keep going!

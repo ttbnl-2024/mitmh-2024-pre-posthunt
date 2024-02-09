@@ -1,0 +1,54 @@
+- model: puzzles.puzzle
+  pk: 649
+  fields:
+    emoji: ':jigsaw:'
+    deep: 925
+- model: spoilr_core.puzzle
+  pk: 649
+  fields:
+    external_id: 649
+    round: 7
+    answer: CHRIS WEDGE
+    name: Jigsaw Slitherlink
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 649
+    is_meta: false
+    slug: jigsaw-slitherlink
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1173
+  fields:
+    puzzle: 649
+    description: Solvers don't know how to start
+    order: 10.0
+    keywords: start
+    content: You are not allowed to rotate the pieces, but you may scale and duplicate
+      them.
+- model: spoilr_hints.cannedhint
+  pk: 1174
+  fields:
+    puzzle: 649
+    description: Solvers have fully assembled the jigsaw, but have trouble solving
+      the Slitherlink
+    order: 50.0
+    keywords: slitherlink
+    content: 'Some parts of the jigsaw are fractals, but the rules of Slitherlink
+      remain the same: draw a closed loop not passing through the interior of any
+      square so that the numbers on each square indicate how much of the loop intersects
+      with the square boundary. To be more precise, the closed loop is a Jordan curve
+      (a continuous, non-self-intersecting closed loop), which does not have to go
+      along the edges of some square, so long as it does not intersect the interior
+      of any square.'
+- model: spoilr_hints.cannedhint
+  pk: 1175
+  fields:
+    puzzle: 649
+    description: Solvers have solved the Slitherlink, but stuck on extraction
+    order: 90.0
+    keywords: extraction
+    content: A common extraction method for normal Slitherlinks is to count the number
+      of squares in the indicated row/column that is inside the loop.

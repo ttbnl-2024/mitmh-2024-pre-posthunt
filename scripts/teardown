@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+source scripts/docker_compose
+
+docker_compose down

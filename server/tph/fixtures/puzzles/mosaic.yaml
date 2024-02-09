@@ -1,0 +1,64 @@
+- model: puzzles.puzzle
+  pk: 647
+  fields:
+    emoji: ':minidisc:'
+    deep: 680
+- model: spoilr_core.puzzle
+  pk: 647
+  fields:
+    external_id: 647
+    round: 20
+    answer: STOP
+    name: Mosaic
+    main_credits: David Latham and Jeremiahs Johnson
+    other_credits: ''
+    order: 647
+    is_meta: false
+    slug: mosaic
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 841
+  fields:
+    puzzle: 647
+    description: Solvers don't know how to start
+    order: 10.0
+    keywords: start, theme
+    content: Each picture represents the title of a song.
+- model: spoilr_hints.cannedhint
+  pk: 842
+  fields:
+    puzzle: 647
+    description: Solvers don't see commonality between songs.
+    order: 20.0
+    keywords: songs
+    content: Each song can be associated with others that were on the same album.
+- model: spoilr_hints.cannedhint
+  pk: 843
+  fields:
+    puzzle: 647
+    description: Solvers don't recognize the color-theme of the albums
+    order: 30.0
+    keywords: albums
+    content: Each of the albums referenced is associated (by title and/or album cover)
+      with a color.
+- model: spoilr_hints.cannedhint
+  pk: 844
+  fields:
+    puzzle: 647
+    description: Solvers haven't applied the colors to the grid.
+    order: 40.0
+    keywords: Album colors
+    content: Applying the color associated with its album to each position in the
+      grid reveals a word.
+- model: spoilr_hints.cannedhint
+  pk: 845
+  fields:
+    puzzle: 647
+    description: Solvers don't recognize the word revealed
+    order: 45.0
+    keywords: final answer, ST, orange
+    content: The "orange" squares go with both the letter made by the red squares
+      and the letter made by the yellow squares.

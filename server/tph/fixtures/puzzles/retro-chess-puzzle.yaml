@@ -1,0 +1,78 @@
+- model: puzzles.puzzle
+  pk: 15
+  fields:
+    emoji: ':chess_pawn:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 15
+  fields:
+    external_id: 15
+    round: 14
+    answer: LOSING
+    name: Retro Chess Puzzle
+    main_credits: Andrey Gorlin and Joseph Lubars
+    other_credits: ''
+    order: 15
+    is_meta: false
+    slug: retro-chess-puzzle
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 320
+  fields:
+    puzzle: 15
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: interpret
+    content: These are puzzles in the style of https://www.canadatype.com/cc/puzzlingside/archives/Puzzling_Side_133_Year_Of_The_Rebus.pdf
+- model: spoilr_hints.cannedhint
+  pk: 321
+  fields:
+    puzzle: 15
+    description: Solvers are unsure if their solutions are correct
+    order: 25.0
+    keywords: verification, uniqueness, ambiguity
+    content: Many logical deductions can be made about piece assignments.  Trying
+      to create a position by playing from the start can also help with your intuition.
+- model: spoilr_hints.cannedhint
+  pk: 322
+  fields:
+    puzzle: 15
+    description: Solvers are stuck extracting the partial
+    order: 50.0
+    keywords: extraction, partial
+    content: 'You extract from the origin square of the last move.  For the file,
+      ask: what piece starts (on rank 1) on this file?  The pawns spell out a function
+      that takes the rank as a parameter and is applied to a letter derived from the
+      file (case does not matter), for one letter per diagram.'
+- model: spoilr_hints.cannedhint
+  pk: 323
+  fields:
+    puzzle: 15
+    description: Solvers don't know what to do after solving the partial
+    order: 75.0
+    keywords: partial, 960
+    content: The partial NINELX and the response ("room 518") indicate chess 960,
+      where the room numbers are the setups as in https://en.wikipedia.org/wiki/Fischer_random_chess_numbering_scheme
+      and 518 is standard chess.  How does this change what is either newly possible
+      or no longer possible?
+- model: spoilr_hints.cannedhint
+  pk: 324
+  fields:
+    puzzle: 15
+    description: Solvers not doing the 960 part fully and failing to extract
+    order: 100.0
+    keywords: 960, extraction
+    content: Nothing from the standard chess solutions is required to extract the
+      answer, but the mechanism is identical.  Make sure to check the pawn assignments
+      (for the 6 boards combined) and the piece setups (for each board), along with
+      your solutions for the diagrams.
+- model: spoilr_core.pseudoanswer
+  pk: 35
+  fields:
+    puzzle: 15
+    answer: NINELX
+    response: 'D: "We questioned the suspects, but each had a verified alibi: they
+      were all in room 518 at the time of the crime."'

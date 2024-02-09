@@ -1,0 +1,52 @@
+- model: puzzles.puzzle
+  pk: 468
+  fields:
+    emoji: ':cheese:'
+    deep: 260
+- model: spoilr_core.puzzle
+  pk: 468
+  fields:
+    external_id: 468
+    round: 20
+    answer: HELIUM
+    name: What Is the Moon Made Of?
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 468
+    is_meta: false
+    slug: what-is-the-moon-made-of
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 368
+  fields:
+    puzzle: 468
+    description: solvers don't know how to start
+    order: 0.0
+    keywords: cheese, how to start, begin
+    content: Can you find these cheeses' images online?
+- model: spoilr_hints.cannedhint
+  pk: 369
+  fields:
+    puzzle: 468
+    description: Solvers have the cheese names but not the first aha to the Monty
+      Python skit
+    order: 50.0
+    keywords: what do I do with the cheese names
+    content: Have you tried to search online for several of the cheeses together?
+- model: spoilr_hints.cannedhint
+  pk: 370
+  fields:
+    puzzle: 468
+    description: solvers have seen monty python skit but don't  have the idea of alphanumeric
+    order: 51.0
+    keywords: monty python, cheese skit, how to order
+    content: There should be a list online to help give you the first 26 cheeses.
+- model: spoilr_hints.cannedhint
+  pk: 371
+  fields:
+    puzzle: 468
+    description: Solvers have the decoded words listing moons of Jupiter but have
+      not extracted the answer
+    order: 100.0
+    keywords: moons of Jupiter, extract, moon list
+    content: Jupiter moons have a Roman indication for ordering.

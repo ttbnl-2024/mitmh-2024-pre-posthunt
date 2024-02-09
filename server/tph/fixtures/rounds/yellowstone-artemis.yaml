@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 5
+  fields:
+    autoresize: false
+    text_overlay: true
+    'x': 39.625
+    'y': 14.35
+    'w': 8.867
+    'z': 1
+- model: spoilr_core.round
+  pk: 5
+  fields:
+    act: 2
+    slug: yellowstone
+    name: Yellowstone, WY
+    order: 101

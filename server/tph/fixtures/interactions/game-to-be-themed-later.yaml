@@ -1,0 +1,24 @@
+- model: spoilr_core.interaction
+  pk: 10
+  fields:
+    slug: game-to-be-themed-later-1
+    name: Game to Be Themed Later (Pinball fields pickup)
+    order: 10
+    instructions: "Use this box to request a pickup appointment for this physical
+      puzzle."
+    interaction_type: physical
+    puzzle: 510
+    required_pseudoanswer: null
+    unlocks_with_puzzle: true
+
+- model: spoilr_core.interaction
+  pk: 11
+  fields:
+    slug: game-to-be-themed-later-2
+    name: Game to Be Themed Later (HQ visit to play pinball)
+    order: 11
+    instructions: "Use this box to request a visit to the HQ."
+    interaction_type: physical
+    puzzle: 510
+    required_pseudoanswer: 43
+    unlocks_with_puzzle: true

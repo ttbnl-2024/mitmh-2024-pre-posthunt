@@ -1,0 +1,88 @@
+- model: puzzles.puzzle
+  pk: 706
+  fields:
+    emoji: "\U0001F9CA"
+    deep: 1500
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 706
+  fields:
+    external_id: 706
+    round: 8
+    answer: TAFEL EQUATION
+    name: Cubo
+    main_credits: Timwi
+    other_credits: ''
+    order: 706
+    is_meta: false
+    slug: cubo
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1134
+  fields:
+    puzzle: 706
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: Each individual clue resolves to a 3-letter word, thus giving 6 letters
+      per entry.
+- model: spoilr_hints.cannedhint
+  pk: 1135
+  fields:
+    puzzle: 706
+    description: "Solvers have solved most of the clues but don\u2019t know how to\
+      \ fill in the cube"
+    order: 1.1
+    keywords: clues,three letters,six letters,cube
+    content: "[!! Pick ONE(!!) that applies to a pair of clues the solvers already\
+      \ have the correct answer for !!]\r\n\r\n1 Across and 1 Down both start with\
+      \ \u201CMA\u201D.\r\n3 Down and 3 Toward both start with \u201CAL\u201D.\r\n\
+      11 Across and 3 Toward both end with \u201CPI\u201D.\r\n15 Across and 6 Toward\
+      \ both end with \u201CAP\u201D.\r\n15 Across and 13 Down both end with \u201C\
+      AP\u201D.\r\n6 Toward and 13 Down both end with \u201CAP\u201D.\r\n2 Toward\
+      \ and 2 Down both start with \u201CSC\u201D.\r\n8 Down and 10 Across both end\
+      \ with \u201CAC\u201D.\r\n12 Down and 5 Toward both end with \u201CAM\u201D\
+      .\r\n2 Toward ends with \u201CBA\u201D and 12 Down starts with \u201CBA\u201D\
+      .\r\n2 Down ends with \u201CRO\u201D and 5 Toward starts with \u201CRO\u201D\
+      .\r\n7 Down ends with \u201CMG\u201D and 10 Across starts with \u201CMG\u201D\
+      ."
+- model: spoilr_hints.cannedhint
+  pk: 1136
+  fields:
+    puzzle: 706
+    description: Solvers have filled in a good chunk of the cube
+    order: 2.0
+    keywords: fill,after,next step,bigrams
+    content: "Google for some subset(s) of the bigrams you\u2019ve already filled\
+      \ in."
+- model: spoilr_hints.cannedhint
+  pk: 1137
+  fields:
+    puzzle: 706
+    description: Solvers have filled in a good chunk of the cube (stronger hint)
+    order: 2.1
+    keywords: filled grid,stuck,next step
+    content: The bigrams are state abbreviations.
+- model: spoilr_hints.cannedhint
+  pk: 1138
+  fields:
+    puzzle: 706
+    description: "Solvers have found the Brazilian states but don\u2019t know how\
+      \ to extract"
+    order: 3.0
+    keywords: extraction
+    content: Consider the circles on the right from top to bottom. Each contains a
+      number and points at a specific subcube.
+- model: spoilr_hints.cannedhint
+  pk: 1139
+  fields:
+    puzzle: 706
+    description: "Solvers have found the Brazilian states but don\u2019t know how\
+      \ to extract (stronger hint)"
+    order: 3.1
+    keywords: extraction
+    content: Order by the circles on the right. Use the numbers to index into the
+      Brazilian state names.

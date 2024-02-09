@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 3
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 39.625
+    'y': 38.525
+    'w': 8.867
+    'z': 9
+- model: spoilr_core.round
+  pk: 3
+  fields:
+    act: 2
+    slug: texas
+    name: Texas
+    order: 112

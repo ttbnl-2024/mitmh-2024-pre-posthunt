@@ -1,0 +1,34 @@
+import Head from 'next/head';
+import { useContext } from 'react';
+
+import HuntInfoContext from 'components/context';
+import Link from 'components/link';
+import PublicAccessLink from 'components/public_access';
+import Section from 'components/section';
+
+export default function Custom404() {
+  const { userInfo } = useContext(HuntInfoContext);
+  return (
+    <>
+      <Head>
+        <title>404 - Page Not Found</title>
+      </Head>
+
+      <Section
+        center
+        className="flex flex-col items-center justify-center h-[90vh]"
+      >
+        <h1 className="mb-4">404 - Page Not Found</h1>
+        <div className="flex items-center gap-4">
+          {!userInfo?.teamInfo && (
+            <>
+              <PublicAccessLink />
+              <Link href="/login?next=/">Login</Link>
+            </>
+          )}
+          <Link href="/">Back to Home</Link>
+        </div>
+      </Section>
+    </>
+  );
+}

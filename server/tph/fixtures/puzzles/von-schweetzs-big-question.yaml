@@ -1,0 +1,90 @@
+- model: puzzles.puzzle
+  pk: 364
+  fields:
+    emoji: ':princess:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 364
+  fields:
+    external_id: 364
+    round: 16
+    answer: FILM SCRIPTS
+    name: Von Schweetz's Big Question
+    main_credits: John Bromels and The Dan Miller
+    other_credits: ''
+    order: 364
+    is_meta: false
+    slug: von-schweetzs-big-question
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1269
+  fields:
+    puzzle: 364
+    description: Solvers are stuck starting
+    order: 0.0
+    keywords: start, text boxes, column values
+    content: "Use logic to figure out a value for each column from B-J (A is given\
+      \ as 3 points) that will let each row sum up to the amount in the \"Points\"\
+      \ column by adding up the values for each column where that row has an X.\r\n\
+      \r\nAs stated in the puzzle, each column value is a unique positive integer."
+- model: spoilr_hints.cannedhint
+  pk: 1270
+  fields:
+    puzzle: 364
+    description: Solvers have solved the initial logic puzzle but aren't making progress
+    order: 10.0
+    keywords: vanellope, racing, text box
+    content: Enter in integers from 1 to 54 to find your racer - these are all racers
+      that are on theme.
+- model: spoilr_hints.cannedhint
+  pk: 1271
+  fields:
+    puzzle: 364
+    description: Additional hint for the 2nd part (text box with images)
+    order: 10.1
+    keywords: integer, racer, vanellope
+    content: Each of the 54 images shown is a rendition of one of the other racers
+      from the Wreck-it-Ralph game Sugar Rush.
+- model: spoilr_hints.cannedhint
+  pk: 1272
+  fields:
+    puzzle: 364
+    description: Hammer Hint for the 2nd part (text box with images)
+    order: 10.2
+    keywords: integer, racer, vanellope, sugar rush
+    content: Index the number of stripes into the full name of the Sugar Rush racer
+      depicted to get a letter for each number from 1 to 54. Use the row total from
+      the table to get a letter for the princess in each row.
+- model: spoilr_hints.cannedhint
+  pk: 1273
+  fields:
+    puzzle: 364
+    description: Solvers are stuck on the 2nd table
+    order: 20.0
+    keywords: 2nd table, princesses
+    content: Each column represents a possible characteristic of a princess. Look
+      for a time where "there were a few questions when Vanellope von Schweetz said
+      that SHE was a princess too".
+- model: spoilr_hints.cannedhint
+  pk: 1274
+  fields:
+    puzzle: 364
+    description: Hammer Hint for 2nd table
+    order: 20.1
+    keywords: 2nd table, princesses
+    content: "There is a scene in Wreck-it-Ralph where Vanellope Von Schweetz meets\
+      \ several Disney Princesses. As the princesses interrogate Vanellope, they ask\
+      \ a series of questions to determine if she is a princess. The columns of both\
+      \ tables represent these questions.\r\n\r\nFill out the 2nd table with the criteria\
+      \ that each of these new \"princesses\" meets (the Xs in each row / column serve\
+      \ as a checksum).\r\n\r\nExtract the totals for each new princess into the letters\
+      \ you got from the Sugar Rush racers."
+- model: spoilr_core.pseudoanswer
+  pk: 18
+  fields:
+    puzzle: 364
+    answer: ROYALPALACE
+    response: You've unlocked the third part of the puzzle -- refresh and scroll down.

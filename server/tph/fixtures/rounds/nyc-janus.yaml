@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 11
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 76.9714
+    'y': 32.975
+    'w': 8.867
+    'z': 1
+- model: spoilr_core.round
+  pk: 11
+  fields:
+    act: 2
+    slug: nyc
+    name: NYC, NY
+    order: 109

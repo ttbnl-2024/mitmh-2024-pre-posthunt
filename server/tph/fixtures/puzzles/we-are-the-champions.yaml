@@ -1,0 +1,86 @@
+- model: puzzles.puzzle
+  pk: 456
+  fields:
+    emoji: ':medal:'
+    deep: 15
+- model: spoilr_core.puzzle
+  pk: 456
+  fields:
+    external_id: 456
+    round: 22
+    answer: BRADLEY WIGGINS
+    name: We Are the Champions
+    main_credits: Elaine Lowinger
+    other_credits: ''
+    order: 456
+    is_meta: false
+    slug: we-are-the-champions
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 394
+  fields:
+    puzzle: 456
+    description: The solvers are unclear how to use the rings at all.
+    order: 0.0
+    keywords: start, begin
+    content: The rings can be placed concentrically and rotated individually to produce
+      an alignment where all the spokes of information are correct.
+- model: spoilr_hints.cannedhint
+  pk: 396
+  fields:
+    puzzle: 456
+    description: The solvers have not yet figured out what the outer ring means.
+    order: 10.0
+    keywords: ''
+    content: Each entry in the largest/outer ring corresponds to a time, points, or
+      score in sports.
+- model: spoilr_hints.cannedhint
+  pk: 397
+  fields:
+    puzzle: 456
+    description: The solvers do not know how align any set of the rings yet, and do
+      not understand how years relate to sport scores.
+    order: 20.0
+    keywords: ''
+    content: Each entry in the inner ring is an even number year that corresponds
+      to the Olympics.
+- model: spoilr_hints.cannedhint
+  pk: 398
+  fields:
+    puzzle: 456
+    description: The solvers do not know how to align the middle rings.
+    order: 50.0
+    keywords: middle rings
+    content: The three middle rings can give a medal count that aligns to a medal
+      count of that year's Olympics and the score on the outer ring.
+- model: spoilr_hints.cannedhint
+  pk: 399
+  fields:
+    puzzle: 456
+    description: The solvers have aligned the rings have not figured out how to get
+      letters out or what indexing phrase could be.
+    order: 70.0
+    keywords: extraction
+    content: The country indicated by the medal count, year, and score won a medal
+      in that event for that score, either 1st (gold), 2nd (silver), or 3rd (bronze).
+- model: spoilr_hints.cannedhint
+  pk: 400
+  fields:
+    puzzle: 456
+    description: The solvers have not yet realized to use IOC codes.
+    order: 90.0
+    keywords: extraction
+    content: Each country in the Olympics has a unique three letter IOC code.
+- model: spoilr_hints.cannedhint
+  pk: 395
+  fields:
+    puzzle: 456
+    description: Solvers have proper alignment and know countries have IOC codes,
+      but have not gotten final phrase.
+    order: 100.0
+    keywords: extraction
+    content: Index into the IOC code of each country using the place of the medal
+      won.

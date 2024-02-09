@@ -1,0 +1,90 @@
+- model: puzzles.puzzle
+  pk: 400
+  fields:
+    emoji: ':person_climbing:'
+    deep: 200
+- model: spoilr_core.puzzle
+  pk: 400
+  fields:
+    external_id: 400
+    round: 14
+    answer: SENDER
+    name: Inaugural Funky Stickperson Contest
+    main_credits: Bella (Songshan) Guo and Ethan Ordentlich
+    other_credits: ''
+    order: 400
+    is_meta: false
+    slug: inaugural-funky-stickperson-contest
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 185
+  fields:
+    puzzle: 400
+    description: The solvers have not yet figured out the IFSC connection
+    order: 0.0
+    keywords: getting started
+    content: The title of this puzzle is pretty long -- we might use its acronym when
+      referring to it instead.
+- model: spoilr_hints.cannedhint
+  pk: 186
+  fields:
+    puzzle: 400
+    description: Solvers are trying to figure out the exact climbing content
+    order: 10.0
+    keywords: getting started
+    content: The flavortext mentions that this is the "2023 World Cup" and "Event
+      B Finals"-- can you find something on the IFSC's website that this could be
+      referring to?
+- model: spoilr_hints.cannedhint
+  pk: 187
+  fields:
+    puzzle: 400
+    description: Solvers are trying to figure out how to avoid watching too many videos
+    order: 20.0
+    keywords: ''
+    content: "Yup, there's a lot of video to search here. One tip is that you don't\
+      \ have to watch every climber and every attempt to be able to reject a possible\
+      \ match -- try watching a few to see how different they are!\r\n\r\nWe've found\
+      \ that video 6 is one of the easier ones to find, as a starting point."
+- model: spoilr_hints.cannedhint
+  pk: 188
+  fields:
+    puzzle: 400
+    description: Solvers have identified a few videos but haven't gotten the alpha
+      constraint
+    order: 21.0
+    keywords: ''
+    content: "[Check the problems they have so far.]\r\n\r\nGood job! One piece advice\
+      \ to help with searching for the remaining ones is that the locations are in\
+      \ alphabetical order."
+- model: spoilr_hints.cannedhint
+  pk: 189
+  fields:
+    puzzle: 400
+    description: The solvers have not figured out the extraction mechanism
+    order: 90.0
+    keywords: extraction
+    content: Not all of the stick figures' movements are part of the climb. Watch
+      the videos again from the beginning and see if anything stands out to you.
+- model: spoilr_hints.cannedhint
+  pk: 190
+  fields:
+    puzzle: 400
+    description: The solvers still have not figured out the extraction mechanism
+    order: 91.0
+    keywords: extraction
+    content: In the first second or so of each video, the stick figure moves its arms
+      to signal a letter in flag semaphore.
+- model: spoilr_hints.cannedhint
+  pk: 191
+  fields:
+    puzzle: 400
+    description: The solvers have not figured out how to apply the extraction cluephrase.
+    order: 100.0
+    keywords: extraction
+    content: In each video, there is a circled hold. Convert the color of this hold
+      to a number using resistor codes, sum the values in each row of videos, and
+      read A1Z26.

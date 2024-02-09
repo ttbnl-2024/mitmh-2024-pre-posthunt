@@ -1,0 +1,126 @@
+- model: puzzles.puzzle
+  pk: 139
+  fields:
+    emoji: ':put_litter_in_its_place:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 139
+  fields:
+    external_id: 139
+    round: 16
+    answer: ORLANDO BLOOM
+    name: Junky Logic
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 139
+    is_meta: false
+    slug: junky-logic
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1040
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on getting started with the logic puzzle
+    order: 0.0
+    keywords: begin, start
+    content: This is a shading logic puzzle with a constraint present in each cell.
+      Each letter stands for a particular constraint. As it states in the flavortext,
+      one cell in each row is not satisfied. The best way to get started is to try
+      to figure out what the constraints are for each letter. For example, you might
+      pay attention to when Q becomes unsatisfied.
+- model: spoilr_hints.cannedhint
+  pk: 1041
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on progressing with the logic puzzle
+    order: 10.0
+    keywords: logic puzzle, check, wrong, constraint
+    content: '[[ Check logic work, check assumed constraints. Give corrections on
+      logic / constraints if necessary. ]]'
+- model: spoilr_hints.cannedhint
+  pk: 1042
+  fields:
+    puzzle: 139
+    description: Solvers have finished the logic puzzle, but are stuck on proceeding
+    order: 50.0
+    keywords: figured out letters
+    content: Take a look at the letters that are not satisfied. There's one in each
+      row, and reading down gives a cluephrase on what to do next.
+- model: spoilr_hints.cannedhint
+  pk: 1043
+  fields:
+    puzzle: 139
+    description: Solvers want an explicit hint on HAMMING CODES
+    order: 51.0
+    keywords: what are hamming codes
+    content: The HAMMING CODES the cluephrase is referring to are https://en.wikipedia.org/wiki/Hamming_code.
+      We're working with a Hamming(15, 11) code. "each row has an error" is true here
+      as well.
+- model: spoilr_hints.cannedhint
+  pk: 1044
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on applying hamming codes
+    order: 52.0
+    keywords: hamming codes, how to use
+    content: '[[ Check their work. Main error at this point is messing up the Hamming
+      code calculation, e.g., by including the parity bit in its own computation, Wikipedia
+      isn''t great at clarifying this point. Alternatively, send them to an online
+      Hamming code site, such as https://www.omnicalculator.com/other/hamming-code
+      ]]'
+- model: spoilr_hints.cannedhint
+  pk: 1045
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on NOW IN REVERSE
+    order: 60.0
+    keywords: now in reverse
+    content: Do the same thing, but read the bits in reverse (right-to-left) order.
+- model: spoilr_hints.cannedhint
+  pk: 1046
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on PARITY MATRIX
+    order: 70.0
+    keywords: parity matrix
+    content: This refers to a parity matrix (https://en.wikipedia.org/wiki/Parity-check_matrix).
+      However, we're not working with the Hamming code anymore -- the shading defines
+      a parity matrix by itself.
+- model: spoilr_hints.cannedhint
+  pk: 1047
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on PARITY MATRIX (2)
+    order: 71.0
+    keywords: parity matrix, what is, how to use
+    content: When we take the grid as a parity matrix, each row is (again) 1 flipped
+      bit away from a codeword for that parity matrix.
+- model: spoilr_hints.cannedhint
+  pk: 1048
+  fields:
+    puzzle: 139
+    description: Solvers are stuck on IV CELLS BELOW
+    order: 100.0
+    keywords: IV cells
+    content: IV = 4.
+- model: spoilr_core.pseudoanswer
+  pk: 127
+  fields:
+    puzzle: 139
+    answer: IV CELLS BELOW
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 125
+  fields:
+    puzzle: 139
+    answer: NOW IN REVERSE
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 126
+  fields:
+    puzzle: 139
+    answer: PARITY MATRIX
+    response: Keep going!

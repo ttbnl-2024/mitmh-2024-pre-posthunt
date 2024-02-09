@@ -1,0 +1,112 @@
+- model: puzzles.puzzle
+  pk: 586
+  fields:
+    emoji: ':jack_o_lantern::christmas_tree:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 586
+  fields:
+    external_id: 586
+    round: 3
+    answer: RETAIL SALES
+    name: Halloween TV Guide
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 586
+    is_meta: false
+    slug: halloween-tv-guide
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 669
+  fields:
+    puzzle: 586
+    description: Solvers don't know how to start
+    order: 5.0
+    keywords: start
+    content: Descriptions refer to actual TV shows.
+- model: spoilr_hints.cannedhint
+  pk: 671
+  fields:
+    puzzle: 586
+    description: Solvers haven't discovered theme of the puzzle
+    order: 8.0
+    keywords: scary, words, scared, count on being scared
+    content: Each summary sentence contains a word synonymous with scary; their placements
+      will give a clue phrase.
+- model: spoilr_hints.cannedhint
+  pk: 674
+  fields:
+    puzzle: 586
+    description: Solvers don't understand the clue phrase.
+    order: 9.0
+    keywords: oct thirty one base ten, phrase
+    content: This phrase relates to a riddle that begins, "Why do programmers mix
+      up Halloween and ..."
+- model: spoilr_hints.cannedhint
+  pk: 670
+  fields:
+    puzzle: 586
+    description: Solvers don't know what to do with TV shows
+    order: 10.0
+    keywords: TV shows
+    content: Each of these shows aired an episode with a theme hinted in the flavor
+      text.
+- model: spoilr_hints.cannedhint
+  pk: 673
+  fields:
+    puzzle: 586
+    description: Solvers don't know how to reorder.
+    order: 15.0
+    keywords: Reorder, reordering, order
+    content: '"A Christmas Carol"-themed episodes must be reordered by the year that
+      they first aired.'
+- model: spoilr_hints.cannedhint
+  pk: 676
+  fields:
+    puzzle: 586
+    description: Solvers don't realize the numbers given are in Octal.
+    order: 20.0
+    keywords: Numbers, not working
+    content: Note that there are no 8's or 9's appearing in the numbers for the Times
+      or Channels.
+- model: spoilr_hints.cannedhint
+  pk: 678
+  fields:
+    puzzle: 586
+    description: Solvers don't know how to deal with Octal.
+    order: 22.0
+    keywords: octal, numbers
+    content: 'All numbers are given in Octal, which must be converted to Decimal,
+      in keeping with the theme of the puzzle, which is the answer to the riddle:  "Why
+      do programmers mix up Halloween and Christmas? Because OCT 31 = DEC 25."'
+- model: spoilr_hints.cannedhint
+  pk: 680
+  fields:
+    puzzle: 586
+    description: Solvers don't know to index by channel into TV show name.
+    order: 25.0
+    keywords: index, channel, tv show
+    content: Indexing into television shows by channel numbers will reveal a clue
+      phrase.
+- model: spoilr_hints.cannedhint
+  pk: 683
+  fields:
+    puzzle: 586
+    description: Solvers don't know how to use program times.
+    order: 30.0
+    keywords: program times, extraction.
+    content: Use the program time to locate words in the Tom Lehrer song, "A Christmas
+      Carol" as given in the lyrics at genius.com.  The hour gives the line number,
+      and the number of minutes gives the word.
+- model: spoilr_hints.cannedhint
+  pk: 685
+  fields:
+    puzzle: 586
+    description: Solvers do not see acrostic message for final answer.
+    order: 35.0
+    keywords: final extraction, lyrics, words
+    content: The words taken from Tom Lehrer's lyrics contain an acrostic message
+      with the final answer.

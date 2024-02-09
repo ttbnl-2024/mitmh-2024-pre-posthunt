@@ -1,0 +1,15 @@
+- model: puzzles.round
+  pk: 500
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 60.108
+    'y': 38.4
+    'w': 8.867
+- model: spoilr_core.round
+  pk: 500
+  fields:
+    act: 2
+    slug: nashville
+    name: Nashville, TN
+    order: 107

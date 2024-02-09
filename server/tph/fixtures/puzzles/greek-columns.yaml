@@ -1,0 +1,93 @@
+- model: puzzles.puzzle
+  pk: 123
+  fields:
+    emoji: ':flag_gr:'
+    deep: 800
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 123
+  fields:
+    external_id: 123
+    round: 9
+    answer: AESTHETIC
+    name: GREEK COLUMNS
+    main_credits: Daniel Kramarsky
+    other_credits: ''
+    order: 123
+    is_meta: false
+    slug: greek-columns
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 551
+  fields:
+    puzzle: 123
+    description: Solvers do not have the word Greek in the long boxes; they have left
+      them blank.
+    order: 10.0
+    keywords: long; rectangles, boxes, Greek
+    content: What might go in those tall rectangles?
+- model: spoilr_hints.cannedhint
+  pk: 552
+  fields:
+    puzzle: 123
+    description: Solvers do not have the word Greek in the long boxes; they have something
+      else ("boing")
+    order: 10.0
+    keywords: long, light, blue, rectangles, Greek
+    content: '"Is there another word that might make more sense than ("boing") here?'
+- model: spoilr_hints.cannedhint
+  pk: 553
+  fields:
+    puzzle: 123
+    description: 'Solvers are stuck on F.A.Q. clue #1'
+    order: 35.0
+    keywords: F.A.Q, FAQ, Questions, clue
+    content: What kind of thing might The Long Run be?
+- model: spoilr_hints.cannedhint
+  pk: 554
+  fields:
+    puzzle: 123
+    description: Solvers are stuck on the SouvenirShop clue.
+    order: 38.0
+    keywords: Souvenir, gift, shop, horse, horsing
+    content: Given the gifts here are all linked to Greek events, what might "horsing
+      around" refer to?
+- model: spoilr_hints.cannedhint
+  pk: 555
+  fields:
+    puzzle: 123
+    description: The solvers have ordered the strips alphabetically but have not lined
+      up the "Greek"s.
+    order: 60.0
+    keywords: Line, order, Greek, alphabetical
+    content: The flavor text says to form an orderly line.  Your columns look orderly,
+      but what might line up?
+- model: spoilr_hints.cannedhint
+  pk: 556
+  fields:
+    puzzle: 123
+    description: The solvers have  lined up the "Greek"s but have not ordered the
+      strips alphabetically.
+    order: 60.0
+    keywords: Line, order, Greek,
+    content: The flavor text says to form an orderly line. Your columns are lined
+      up all right.  How could they be more  orderly?
+- model: spoilr_hints.cannedhint
+  pk: 557
+  fields:
+    puzzle: 123
+    description: Solvers are stuck on turning the final letters into a cryptic clue.
+    order: 90.0
+    keywords: final, clue, letters, yellow, squares
+    content: Could this be a cryptic clue?
+- model: spoilr_hints.cannedhint
+  pk: 558
+  fields:
+    puzzle: 123
+    description: Solvers cannot solve the final cryptic clue.
+    order: 100.0
+    keywords: final, last, cryptic
+    content: All those columns and squares.. could 'arrayed'  be an anagrind?

@@ -1,0 +1,58 @@
+- model: puzzles.puzzle
+  pk: 336
+  fields:
+    emoji: ':performing_arts:'
+    deep: 1
+    deep_key: 'nashville-metameta'
+- model: spoilr_core.puzzle
+  pk: 336
+  fields:
+    external_id: 336
+    round: 22
+    answer: A LOCAL ARIA NETWORK
+    name: A Night at the Opera
+    main_credits: Charles Steinhardt, Jeremiahs Johnson, and Jeremy Horwitz
+    other_credits: ''
+    order: 336
+    is_meta: true
+    slug: a-night-at-the-opera
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1478
+  fields:
+    puzzle: 336
+    description: Starting Hint
+    order: 1.0
+    keywords: start, first step, which answers
+    content: You will need sixteen previous answers to work with this meta puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1479
+  fields:
+    puzzle: 336
+    description: No grasp of what puzzle is about
+    order: 2.0
+    keywords: start, stuck
+    content: The puzzle is about a specific game that took place over 150 years ago.
+- model: spoilr_hints.cannedhint
+  pk: 1497
+  fields:
+    puzzle: 336
+    description: Solvers are not sure how to place the pieces on the board.
+    order: 3.0
+    keywords: opera game, chess board
+    content: You have 16 answers and a game of chess has 16 pieces per player. Look
+      up your answers and see if you can find any associations between them and chess
+      pieces.
+- model: spoilr_hints.cannedhint
+  pk: 1480
+  fields:
+    puzzle: 336
+    description: Extraction help
+    order: 10.0
+    keywords: extraction, chess, moves
+    content: The clues and pieces refer to moves made by the winning side of the game.
+      You'll need to find the locations of the pieces after each move in order to
+      make sense of the calculations.

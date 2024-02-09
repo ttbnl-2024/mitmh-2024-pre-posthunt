@@ -1,0 +1,99 @@
+- model: puzzles.puzzle
+  pk: 707
+  fields:
+    emoji: ':question:'
+    deep_key: 'road-trip-redux'
+    deep: 117
+- model: spoilr_core.puzzle
+  pk: 707
+  fields:
+    external_id: 707
+    round: 1
+    answer: GET MY SHADE TOGETHER
+    name: Road Trip Redux
+    main_credits: Alina Khankin, Bella (Songshan) Guo, Daniel Kramarsky, and Sara
+      Winters
+    other_credits: ''
+    order: 707
+    is_meta: false
+    slug: road-trip-redux
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1688
+  fields:
+    puzzle: 707
+    description: Solvers have no idea how to start
+    order: 10.0
+    keywords: beginning, begin, start, glove, compartment, roadmap, clues
+    content: Hmm... the map doesn't really make much sense.  Better try to figure
+      out the glove compartment note first.
+- model: spoilr_hints.cannedhint
+  pk: 1689
+  fields:
+    puzzle: 707
+    description: Solvers don't know what to do with the glove box data
+    order: 15.0
+    keywords: glove, compartment, box, clues
+    content: How many messages are on the note?  How many road signs are there?  Has
+      that number come up before?
+- model: spoilr_hints.cannedhint
+  pk: 1690
+  fields:
+    puzzle: 707
+    description: Solvers still frozen at glove compartment.
+    order: 20.0
+    keywords: glove compartment, clues
+    content: This is the capstone puzzle.  It should relate to all the metas somehow.
+- model: spoilr_hints.cannedhint
+  pk: 1691
+  fields:
+    puzzle: 707
+    description: Solvers do not know how to place the numbers on the road signs
+    order: 50.0
+    keywords: roadsigns, route, numbers, signs, map, where
+    content: There's one stacked road sign coming out of the Underworld entrance.
+      How many things did you acquire while you were down there?
+- model: spoilr_hints.cannedhint
+  pk: 1693
+  fields:
+    puzzle: 707
+    description: Solvers do not know which road signs get which numbers.
+    order: 60.0
+    keywords: stuck, numbers, road, signs
+    content: The car radio starts playing this sappy song called "Where have you been?"
+      You think of fondly of the things you've seen (and solved) at each location.
+- model: spoilr_hints.cannedhint
+  pk: 1692
+  fields:
+    puzzle: 707
+    description: Solvers get that the glove compartment numbers must apply to road
+      signs... but which ones?
+    order: 70.0
+    keywords: stuck, numbers, road, signs
+    content: If a group of things in a puzzle is not given in numerical order or in
+      alphabetical order, then they are probably in the order they need to be to supply
+      information.
+- model: spoilr_hints.cannedhint
+  pk: 1694
+  fields:
+    puzzle: 707
+    description: Solvers need a strong push
+    order: 85.0
+    keywords: give away, give, away
+    content: The notes are from puzzles you've solved, one per round. Each yields
+      a number. The numbers go on the road signs at the location of each meta.  If
+      you do this with everything but the stacked road sign, you will be able to deal
+      with it at the end easily.
+- model: spoilr_hints.cannedhint
+  pk: 1712
+  fields:
+    puzzle: 707
+    description: Solvers have the road signs and numbers correctly placed and the
+      right order, but don't know what to use for extraction.
+    order: 90.0
+    keywords: extraction, finished signs and numbers
+    content: You received a reward at each of your stops. Now that you've finished
+      your road trip, it's time to have a look at what they represent.

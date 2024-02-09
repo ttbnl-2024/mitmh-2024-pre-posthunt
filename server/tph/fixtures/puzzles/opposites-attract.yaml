@@ -1,0 +1,65 @@
+- model: puzzles.puzzle
+  pk: 501
+  fields:
+    emoji: ':magnet:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 501
+  fields:
+    external_id: 501
+    round: 14
+    answer: FEEING
+    name: Opposites Attract
+    main_credits: Elaine Lowinger and Jacob N Scott
+    other_credits: ''
+    order: 501
+    is_meta: false
+    slug: opposites-attract
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 730
+  fields:
+    puzzle: 501
+    description: Solvers haven't noticed antonyms or haven't put words into the pieces
+    order: 10.0
+    keywords: pieces
+    content: Each clue goes in one piece of corresponding length, one letter per square,
+      starting from either side.  The numbered clues go in the numbered pieces, starting
+      from the side with the number.  In each piece, the two grey regions must each
+      form a word.
+- model: spoilr_hints.cannedhint
+  pk: 731
+  fields:
+    puzzle: 501
+    description: Solvers have placed words into the pieces but not noticed there are
+      pairs of antonyms
+    order: 30.0
+    keywords: pieces, grey, gray
+    content: Each grey region is a common word.  These words pair up in a natural
+      way clued by the title, and this defines how to arrange the pieces.
+- model: spoilr_hints.cannedhint
+  pk: 732
+  fields:
+    puzzle: 501
+    description: Solvers have noticed there are antonym pairs but don't know how to
+      arrange the pieces.
+    order: 50.0
+    keywords: antonym, arrange
+    content: "Pieces must be arranged such that antonym pairs (grey words) are touching\
+      \ end-to-end. e.g., ...snakeeYESNOthing...\r\nPieces will be arranged into several\
+      \ cycles."
+- model: spoilr_hints.cannedhint
+  pk: 729
+  fields:
+    puzzle: 501
+    description: Solvers have formed all/most of the shapes and don't know how to
+      extract the final answer.
+    order: 100.0
+    keywords: extraction
+    content: You are forming 6 cycles, each using one of the numbered pieces.  Look
+      at the shape of each cycle you've constructed, in the orientation defined by
+      the numbered pieces and in order of number 1-6.

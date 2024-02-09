@@ -1,0 +1,56 @@
+- model: puzzles.puzzle
+  pk: 514
+  fields:
+    emoji: ':herb:'
+    deep: 40
+- model: spoilr_core.puzzle
+  pk: 514
+  fields:
+    external_id: 514
+    round: 20
+    answer: STRIFE
+    name: Rhyme Thyme
+    main_credits: Jennifer Kidder and Seth Bisen-Hersh
+    other_credits: ''
+    order: 514
+    is_meta: false
+    slug: rhyme-thyme
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 418
+  fields:
+    puzzle: 514
+    description: Starting
+    order: 25.0
+    keywords: starting
+    content: You are looking for synonyms for words in each section that rhyme, as
+      clued by the title.
+- model: spoilr_hints.cannedhint
+  pk: 419
+  fields:
+    puzzle: 514
+    description: Next step
+    order: 50.0
+    keywords: next step
+    content: After you find all the rhymes, you should notice they are in alphabetical
+      order, and that you want to put in a missing rhyme with the correct enumeration.
+- model: spoilr_hints.cannedhint
+  pk: 420
+  fields:
+    puzzle: 514
+    description: extraction
+    order: 75.0
+    keywords: extraction
+    content: Repeat the same step.  Each of the words from the blanks have synonyms
+      that rhyme.
+- model: spoilr_hints.cannedhint
+  pk: 421
+  fields:
+    puzzle: 514
+    description: answer
+    order: 100.0
+    keywords: answer
+    content: The final answer is the only perfect rhyme left.

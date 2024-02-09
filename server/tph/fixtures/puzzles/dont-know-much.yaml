@@ -1,0 +1,115 @@
+- model: puzzles.puzzle
+  pk: 695
+  fields:
+    emoji: ':question:'
+    deep: 400
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 695
+  fields:
+    external_id: 695
+    round: 9
+    answer: TRAY CLOTH
+    name: Don't Know Much
+    main_credits: Charles Steinhardt and John Bromels
+    other_credits: ''
+    order: 695
+    is_meta: false
+    slug: dont-know-much
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1586
+  fields:
+    puzzle: 695
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: The clues about what to do begin in the title, "Don't Know Much About...,"
+      a song lyric for which "History" is the next word. Salient clues in the flavor
+      text include "as you travel past," "signs," and "supposedly-noteworthy."
+- model: spoilr_hints.cannedhint
+  pk: 1608
+  fields:
+    puzzle: 695
+    description: Solvers know that the clues are historical but not that they refer
+      to markers
+    order: 1.5
+    keywords: history, start
+    content: These are all references to historical marker signs, which are collected
+      in a database at HMDB.org.
+- model: spoilr_hints.cannedhint
+  pk: 1587
+  fields:
+    puzzle: 695
+    description: Solvers don't know how to find the right signs
+    order: 2.0
+    keywords: how, historical markers, search, signs
+    content: "The descriptions here deliberately misinterpret the titles of historical\
+      \ markers of often-questionable significance. For example, the first story,\
+      \ about a jogger who happens to trip and surprisingly ends up drilling an oil\
+      \ well is a marker called ACCIDENTAL OIL WELL (https://www.hmdb.org/m.asp?m=98224).\r\
+      \nYou'll note that numerous words and phrases from the actual marker are included\
+      \ in the incorrect description, including: (the town of) Newcastle, (county\
+      \ of) Weston, \"an old Maytag washing machine,\" and \"died in 2005 at the age\
+      \ of 90.\" Find similar salient words or phrases in the other descriptions to\
+      \ identify the markers in question. The markers are listed in alphabetical order\
+      \ by title."
+- model: spoilr_hints.cannedhint
+  pk: 1588
+  fields:
+    puzzle: 695
+    description: Solvers cannot identify one or more markers
+    order: 2.1
+    keywords: can't, check signs, check markers
+    content: "The markers (in order) are:\r\n1. Accidental Oil Well\r\n2. Battery\
+      \ Weed\r\n3. Bentonville Anti-Horse Thief Society\r\n4. Comic Cowboys of Mobile,\
+      \ The\r\n5. Discovery of Cement\r\n6. Flooded With Runs\r\n7. Gas Boom, The\r\
+      \n8. Great Indian Panhandle Scare of 1891, The\r\n9. Hunting Party Gone Wrong\r\
+      \n10. Iron Letters on the Church\r\n11. Lost Whiskey of Raymond, The\r\n12.\
+      \ Ms. Baker: Monkeynaut\r\n13. Sad Monkey Railroad, The\r\n14. Sleep Interrupted\r\
+      \n15. Squirrel Hunters, The\r\n16. State Seal Stolen\r\n17. Stinky Stuff, The\r\
+      \n18. Tulip Disaster\r\n19. Woodstock"
+- model: spoilr_hints.cannedhint
+  pk: 1607
+  fields:
+    puzzle: 695
+    description: Solvers are not sure how to order
+    order: 3.0
+    keywords: order, ordering, markers, signs
+    content: Because these are historical markers, they should be ordered by year.
+- model: spoilr_hints.cannedhint
+  pk: 1589
+  fields:
+    puzzle: 695
+    description: Solvers are asking for verification of their years.
+    order: 3.5
+    keywords: order, ordering, years, check work
+    content: "The correct years are:\r\n1636\r\nWoodstock\r\n1699\r\nIron Letters\
+      \ on the Church\r\n1818\r\nDiscovery of Cement\r\n1820\r\nStinky Stuff, The\r\
+      \n1847\r\nBattery Weed\r\n1853\r\nBentonville Anti-Horse Thief Society\r\n1862\r\
+      \nSquirrel Hunters, The\r\n1864\r\nTulip Disaster\r\n1869\r\nLost Whiskey of\
+      \ Raymond, The\r\n1876\r\nHunting Party Gone Wrong\r\n1884\r\nComic Cowboys\
+      \ of Mobile, The\r\n1888\r\nGas Boom, The\r\n1891\r\nGreat Indian Panhandle\
+      \ Scare of 1891, The\r\n1910\r\nState Seal Stolen\r\n1953\r\nSad Monkey Railroad,\
+      \ The\r\n1959\r\nMs. Baker: Monkeynaut\r\n1959\r\nSleep Interrupted\r\n1966\r\
+      \nAccidental Oil Well\r\n1982\r\nFlooded With Runs"
+- model: spoilr_hints.cannedhint
+  pk: 1590
+  fields:
+    puzzle: 695
+    description: Solvers are stuck on extraction
+    order: 4.0
+    keywords: extract, extraction
+    content: In each erroneous description, you'll notice a single number that has
+      been spelled out, as opposed to being written numerically. Use these numbers
+      to index by word (per the flavor text, "Mark my words...") into the text (not
+      including title) of the historical marker in question. So, for example, the
+      ersatz description of the first marker chronologically (Woodstock, 1636) references
+      "its thirty-eight performers." The 38th word of the actual Woodstock marker
+      is FIRST. The second marker (Iron Letters on the Church, 1699) contains the
+      word "twelve," and the 12th word of the actual marker is LETTERS. These together
+      spell "FIRST LETTERS," indicating the first letters of the remaining words will
+      spell out the answer.

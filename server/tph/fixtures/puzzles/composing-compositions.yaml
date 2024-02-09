@@ -1,0 +1,75 @@
+- model: puzzles.puzzle
+  pk: 701
+  fields:
+    emoji: ':question:'
+    deep: 1325
+- model: spoilr_core.puzzle
+  pk: 701
+  fields:
+    external_id: 701
+    round: 7
+    answer: THIGH STRETCH
+    name: Composing Compositions
+    main_credits: RJ Antonello
+    other_credits: ''
+    order: 701
+    is_meta: false
+    slug: composing-compositions
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1518
+  fields:
+    puzzle: 701
+    description: Solvers don't know what the puzzle is about.
+    order: 0.0
+    keywords: clueless, no idea, stuck,
+    content: Remix Rumble is a especially notable music festival. Have you tried looking
+      it up?
+- model: spoilr_hints.cannedhint
+  pk: 1519
+  fields:
+    puzzle: 701
+    description: Solvers don't know what "perfect" means.
+    order: 10.0
+    keywords: perfect, traits, TFT
+    content: Perfect bands like those that played at this music festival don't have
+      a single trait that is out of place.
+- model: spoilr_hints.cannedhint
+  pk: 1520
+  fields:
+    puzzle: 701
+    description: Solvers are stuck on one of the lore references.
+    order: 50.0
+    keywords: lore, band, TFT, League, LoL, characters, champions
+    content: '[[Check their work and ask which bands they can''t figure out. Give
+      them a hint that helps them with the reference (there are too many of these
+      to enumerate all of them).]]'
+- model: spoilr_hints.cannedhint
+  pk: 1522
+  fields:
+    puzzle: 701
+    description: Solvers have made a logic mistake or formed an incorrect band.
+    order: 70.0
+    keywords: band, logic, underconstrained
+    content: '[[Check their work. Tell them which of their bands is not correct.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1528
+  fields:
+    puzzle: 701
+    description: Teams have formed all the bands correctly, but are having issues
+      with ordering
+    order: 80.0
+    keywords: bands, order, check work
+    content: '[[Check their ordering, give hints if any are in the wrong spot.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1521
+  fields:
+    puzzle: 701
+    description: The solvers have the bands/teams but are stuck on extraction.
+    order: 100.0
+    keywords: extraction, frequently
+    content: Did we mention that each roster has a _character_ that showed up _frequently_?
+      I wonder which characters (out of 26) those could be?

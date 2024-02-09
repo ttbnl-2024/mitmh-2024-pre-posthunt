@@ -1,0 +1,86 @@
+- model: puzzles.puzzle
+  pk: 390
+  fields:
+    emoji: ':question:'
+    deep: 1625
+- model: spoilr_core.puzzle
+  pk: 390
+  fields:
+    external_id: 390
+    round: 7
+    answer: DISH TOWEL
+    name: Some Assembly Required
+    main_credits: Craig Kasper, Jeremiahs Johnson, and Jeremy Horwitz
+    other_credits: ''
+    order: 390
+    is_meta: false
+    slug: some-assembly-required
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1385
+  fields:
+    puzzle: 390
+    description: Solvers are having difficulty getting started
+    order: 10.0
+    keywords: getting started, start
+    content: All eight pictures have something in common.  If you're having difficulty
+      identifying what that commonality is, note that the title contains the word
+      "assembly" and the flavortext contains the word "set" - do those words suggest
+      anything to you?
+- model: spoilr_hints.cannedhint
+  pk: 1386
+  fields:
+    puzzle: 390
+    description: Solvers are having difficulty getting started (2)
+    order: 10.1
+    keywords: getting started, start
+    content: It is possible to assemble items either directly depicted in, or strongly
+      related to, each of the eight pictures, using pieces - often hundreds of pieces
+      - sold in sets by the same manufacturer.  Now that you know this, step on it
+      and solve the puzzle already!  (... wait, no, don't step on it! it HURTS if
+      you do so.)
+- model: spoilr_hints.cannedhint
+  pk: 1390
+  fields:
+    puzzle: 390
+    description: Solvers have identified the Lego sets but are unsure as to what to
+      do next
+    order: 50.0
+    keywords: set theory, stuck
+    content: The "set theory" associated with this puzzle is not the traditional mathematical
+      set theory.  Solvers are meant to infer the actual meaning of the operators
+      and functions in this form of set theory using the eight provided equations.  Note
+      that converting the constants in the listed equations defining the values A
+      through Z using alphabet position (1=A, 2=B) will nudge you towards how to determine
+      what this puzzle's set theory actually is.
+- model: spoilr_hints.cannedhint
+  pk: 1393
+  fields:
+    puzzle: 390
+    description: Solvers have identified the Lego sets but are unsure as to what to
+      do next (2)
+    order: 50.1
+    keywords: set theory, stuck
+    content: The "set theory" in this puzzle has some specialized functions and operators
+      which are specific to the Lego (TM) sets and the brickset numbers associated
+      with them, which are meant to be inferred using the eight provided equations.  Possibly
+      the trickiest of these functions and operators is the cardinality function (|N|),
+      which is a function for obtaining the number of pieces in the Lego (TM) set
+      with the brickset number of N; the others should be easier to infer, especially
+      by analogy to actual Set Theory operations
+- model: spoilr_hints.cannedhint
+  pk: 1395
+  fields:
+    puzzle: 390
+    description: Solvers have identified the Lego sets and the functions, but are
+      not sure what to do next.
+    order: 90.0
+    keywords: values, extraction
+    content: Once you have identified the meanings of the functions and operators
+      in this puzzle's version of set theory, it is possible to calculate the values
+      associate with each of the letters from A to Z.  Most of these letters will
+      evaluate to the null set, but some of them will evaluate to a single digit.  Reading
+      these non-null letters in ascending 1-to-9 order will provide you with the answer.

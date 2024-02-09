@@ -1,0 +1,189 @@
+- model: puzzles.puzzle
+  pk: 36
+  fields:
+    emoji: ':calendar:'
+    deep: 7
+    deep_key: nyc-meta
+- model: spoilr_core.puzzle
+  pk: 36
+  fields:
+    external_id: 36
+    round: 11
+    answer: DEITING APP
+    name: "Schedu\u00ADling Conflicts"
+    main_credits: Barney Rafter, John Bromels, and Preston Phillips
+    other_credits: ''
+    order: 36
+    is_meta: true
+    slug: scheduling-conflicts
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 95
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start
+    content: These appear to be dates. What are all of these dates and what cultures
+      do they come from?
+- model: spoilr_hints.cannedhint
+  pk: 96
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on getting started (2)
+    order: 0.5
+    keywords: start
+    content: 'Each date given is the same: the start of this MIT Mystery Hunt! Identify
+      what cultural calendars they are from.'
+- model: spoilr_hints.cannedhint
+  pk: 97
+  fields:
+    puzzle: 36
+    description: Solver is stuck on ordering
+    order: 20.0
+    keywords: ordering
+    content: There are 10 dates and 10 icons. Maybe that is significant.
+- model: spoilr_hints.cannedhint
+  pk: 98
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on ordering (2)
+    order: 20.5
+    keywords: ordering
+    content: Each Icon's culture can be matched directly with a date written in that
+      icon's calendar
+- model: spoilr_hints.cannedhint
+  pk: 99
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on what do to with the feeders/word association
+    order: 40.0
+    keywords: feeders
+    content: Our icons want to reschedule their holidays. Maybe the feeders can help
+      up determine which ones.
+- model: spoilr_hints.cannedhint
+  pk: 100
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on what do to with the feeders/word association
+      (2)
+    order: 40.5
+    keywords: feeders/holidays
+    content: The feeder answer is referencing a holiday. The icon tells you what culture
+      each holiday comes from. Find the culture-specific holidays.
+- model: spoilr_hints.cannedhint
+  pk: 101
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on extraction
+    order: 50.0
+    keywords: extraction
+    content: I wish there were more days in the week too! How many days do they have
+      in their weeks anyway?
+- model: spoilr_hints.cannedhint
+  pk: 102
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on extraction (2)
+    order: 55.0
+    keywords: extraction
+    content: On what day of their week does each holiday fall? Maybe that can relate
+      back to what we have to give us an answer.
+- model: spoilr_hints.cannedhint
+  pk: 103
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on extraction (3)
+    order: 60.0
+    keywords: extraction
+    content: The number of days of the week in each calendar matches the length of
+      the feeder answers. Identify the day of the week the holiday falls on in the
+      cultural calendar and use that as an index in your feeder answer to extract.
+- model: spoilr_hints.cannedhint
+  pk: 113
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Discordian calendar extraction
+    order: 80.0
+    keywords: Discordian
+    content: The Discordian calendar has this cool extra day called St. Tibs Day.
+      It may help you address any errors.
+- model: spoilr_hints.cannedhint
+  pk: 112
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Discordian calendar extraction (2)
+    order: 80.1
+    keywords: Discordian
+    content: 'Every Discordian year begins with Sweetmom and every 4th year, an extra
+      day is inserted between Chaos 59 and Chaos 60 called St. Tibs Day. St. Tibs
+      Day corresponds with the Gregorian leap year and is not counted in the days
+      of the week. Thus the week of St. Tibs Day goes: Sweetmorn, Boomtime, Pungenday,
+      Prickle-Prickle, St. Tibs Day, Setting Orange.'
+- model: spoilr_hints.cannedhint
+  pk: 116
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Japanese calendar extraction (2)
+    order: 82.1
+    keywords: Japanese
+    content: "Japanese people traditionally use 10-day periods called jun (\u65EC\
+      ). Each month is divided into two 10-day periods and a third with the remaining\
+      \ 8 to 11 days. The first day of the Gregorian months align with the first day\
+      \ of each Japanese month."
+- model: spoilr_hints.cannedhint
+  pk: 117
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Igbo Holiday
+    order: 83.1
+    keywords: Igbo
+    content: Nigeria doesn't have an election in 2024. Could something else be celebrating
+      the act of voting?
+- model: spoilr_hints.cannedhint
+  pk: 118
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Igbo Holiday (2)
+    order: 83.2
+    keywords: Igbo
+    content: Democracy Day has been changed quite a few times. What is it now?
+- model: spoilr_hints.cannedhint
+  pk: 120
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Igbo calendar extraction
+    order: 83.5
+    keywords: Igbo
+    content: 'Try using this: https://igbocalendar.com/'
+- model: spoilr_hints.cannedhint
+  pk: 119
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Hawaiian calendar extraction (2)
+    order: 84.2
+    keywords: Hawaiian
+    content: The Western Pacific Regional Fishery Management Council puts this out
+      every year.
+- model: spoilr_hints.cannedhint
+  pk: 115
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on Islamic calendar extraction (2)
+    order: 87.1
+    keywords: Islamic
+    content: Al-Ahad means first, which corresponds to Sunday. Although the convention
+      has now been switched such that Saturday is considered the first day of the
+      week, this puzzle focuses on the traditional calendar for each culture.
+- model: spoilr_hints.cannedhint
+  pk: 114
+  fields:
+    puzzle: 36
+    description: Solvers are stuck on English Gregorian calendar extraction (2)
+    order: 89.1
+    keywords: English gregorian, Stephen
+    content: The British week starts on a Monday as opposed to the American week,
+      which starts on a Sunday.

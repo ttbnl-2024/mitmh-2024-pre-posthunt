@@ -1,0 +1,47 @@
+- model: puzzles.puzzle
+  pk: 445
+  fields:
+    emoji: ':name_badge:'
+    deep: 160
+- model: spoilr_core.puzzle
+  pk: 445
+  fields:
+    external_id: 445
+    round: 20
+    answer: NAMES
+    name: Speaker Check
+    main_credits: Mike Staley
+    other_credits: ''
+    order: 445
+    is_meta: false
+    slug: speaker-check
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 426
+  fields:
+    puzzle: 445
+    description: solvers stuck on getting started
+    order: 0.0
+    keywords: start
+    content: Each speaker should have a common first name that combines with a given
+      last name to form a word.
+- model: spoilr_hints.cannedhint
+  pk: 427
+  fields:
+    puzzle: 445
+    description: Solvers have formed names.
+    order: 50.0
+    keywords: names, subjects
+    content: Each speakers full name should provide a link to one of the subjects.
+- model: spoilr_hints.cannedhint
+  pk: 428
+  fields:
+    puzzle: 445
+    description: solvers have linked names and subjects
+    order: 100.0
+    keywords: extraction
+    content: The room number assigned to the speaker indicates what letter should
+      be indexed from the speakers first name.

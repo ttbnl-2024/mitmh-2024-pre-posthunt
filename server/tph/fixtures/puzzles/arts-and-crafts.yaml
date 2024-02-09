@@ -1,0 +1,84 @@
+- model: puzzles.puzzle
+  pk: 19
+  fields:
+    emoji: ':question:'
+    deep: 200
+- model: spoilr_core.puzzle
+  pk: 19
+  fields:
+    external_id: 19
+    round: 5
+    answer: GAMEMODE CREATIVE
+    name: Arts and Crafts
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 19
+    is_meta: false
+    slug: arts-and-crafts
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 501
+  fields:
+    puzzle: 19
+    description: The solvers figured the set of numbers should match the rows and
+      columns, but not realized it's a nonogram.
+    order: 5.0
+    keywords: match, rows, columns
+    content: What kind of grid puzzle has lists of numbers assigned to each row and
+      column?
+- model: spoilr_hints.cannedhint
+  pk: 502
+  fields:
+    puzzle: 19
+    description: Still haven't figured out it's a nonogram.
+    order: 6.0
+    keywords: match, rows, columns
+    content: Look up "nonogram".
+- model: spoilr_hints.cannedhint
+  pk: 503
+  fields:
+    puzzle: 19
+    description: Solver haven't figured out the separators should not have empty space
+      in the nonogram.
+    order: 9.0
+    keywords: nonogram, paint by number, PBN
+    content: "You should treat the \u2228 and \u2227 separators as there having no\
+      \ empty space between the blocks."
+- model: spoilr_hints.cannedhint
+  pk: 606
+  fields:
+    puzzle: 19
+    description: Solvers haven't figured out it's an origami.
+    order: 30.0
+    keywords: folding paper
+    content: "\u2227 looks like a mountain, and \u2228 looks like a valley."
+- model: spoilr_hints.cannedhint
+  pk: 607
+  fields:
+    puzzle: 19
+    description: Solvers know about Minecraft, but not built the contraption in Minecraft.
+    order: 60.0
+    keywords: minecraft
+    content: The images in the grids are redstone-related objects in Minecraft. Try
+      building them inside Minecraft.
+- model: spoilr_hints.cannedhint
+  pk: 1049
+  fields:
+    puzzle: 19
+    description: Solvers know what they have to do in Minecraft, but do not have Minecraft.
+    order: 61.0
+    keywords: minecraft
+    content: 'You may find this online redstone simulator useful: https://mordritch.com/mc_rss/'
+- model: spoilr_hints.cannedhint
+  pk: 608
+  fields:
+    puzzle: 19
+    description: Stuck on extraction
+    order: 90.0
+    keywords: extraction
+    content: Try flipping the 4 levers in all 16 combinations and see what happens
+      to the lamp. Across the 5 contraptions, what can you do about these 5 bits of
+      information?

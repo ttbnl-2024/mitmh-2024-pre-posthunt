@@ -1,0 +1,54 @@
+- model: puzzles.puzzle
+  pk: 575
+  fields:
+    emoji: ':mushroom:'
+    deep: 880
+- model: spoilr_core.puzzle
+  pk: 575
+  fields:
+    external_id: 575
+    round: 20
+    answer: DIONEO
+    name: Spore Prints
+    main_credits: Bella (Songshan) Guo and Todd Becker
+    other_credits: ''
+    order: 575
+    is_meta: false
+    slug: spore-prints
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1124
+  fields:
+    puzzle: 575
+    description: solvers don't know how to get started
+    order: 0.0
+    keywords: begin, how to start, what to do
+    content: This is a puzzle type called a Namystic.
+- model: spoilr_hints.cannedhint
+  pk: 1125
+  fields:
+    puzzle: 575
+    description: Solvers have some letters but seem to have gibberish
+    order: 50.0
+    keywords: not making words, messy letters, what are these words
+    content: The flavortext mentions pests, can you find a pest in each grid?
+- model: spoilr_hints.cannedhint
+  pk: 1166
+  fields:
+    puzzle: 575
+    description: Solvers found the names of insects but not mushrooms
+    order: 50.1
+    keywords: pests, insects, rest of the letters
+    content: The letters can also spell out members of another group of organisms.
+- model: spoilr_hints.cannedhint
+  pk: 1126
+  fields:
+    puzzle: 575
+    description: Solvers need an extraction
+    order: 100.0
+    keywords: how to extract, need help ordering
+    content: The bugs begin in an orderly way, and seem to have taken a bite out of
+      the mushroom.

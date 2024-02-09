@@ -1,0 +1,21 @@
+- model: puzzles.puzzle
+  pk: 577
+  fields:
+    emoji: ':person_running:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 577
+  fields:
+    external_id: 577
+    round: 23
+    answer: CAT AS TROPHY
+    name: Relay Event
+    main_credits: Michael Andersen, Seth Bisen-Hersh, and Stephanie Chen
+    other_credits: ''
+    order: 577
+    is_meta: false
+    slug: relay-event
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []

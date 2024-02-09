@@ -1,0 +1,48 @@
+- model: puzzles.puzzle
+  pk: 42
+  fields:
+    emoji: ':question:'
+    deep: 1
+    deep_key: hydra-RLR
+- model: spoilr_core.puzzle
+  pk: 42
+  fields:
+    external_id: 42
+    round: 13
+    answer: EXCLUSIVE
+    name: Sumantle
+    main_credits: Bella (Songshan) Guo and RJ Antonello
+    other_credits: ''
+    order: 42
+    is_meta: false
+    slug: sumantle
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 874
+  fields:
+    puzzle: 42
+    description: Solvers have literally no idea what is going on.
+    order: 0.0
+    keywords: start
+    content: Sumantle sounds an awful lot like another common word game...
+- model: spoilr_hints.cannedhint
+  pk: 875
+  fields:
+    puzzle: 42
+    description: Solvers are stuck on a leaf node
+    order: 50.0
+    keywords: leaf, early
+    content: Give solvers the corresponding leaf node. "The leaf you are looking for
+      is X."
+- model: spoilr_hints.cannedhint
+  pk: 876
+  fields:
+    puzzle: 42
+    description: Solvers are stuck on an non-root intersection.
+    order: 100.0
+    keywords: sum, intersection
+    content: 'Give solvers the corresponding intersection: "X + Y = Z" Not allowed
+      for the root node/answer.'

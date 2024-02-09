@@ -1,0 +1,59 @@
+- model: puzzles.puzzle
+  pk: 497
+  fields:
+    emoji: ':question:'
+    deep: 200
+- model: spoilr_core.puzzle
+  pk: 497
+  fields:
+    external_id: 497
+    round: 4
+    answer: TOWROPE
+    name: Encore
+    main_credits: Josie Nelson
+    other_credits: ''
+    order: 497
+    is_meta: false
+    slug: encore
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1627
+  fields:
+    puzzle: 497
+    description: Solvers don't know what to do with the tools
+    order: 1.0
+    keywords: tools, crochet, knitting, craft, how to use
+    content: "This is a tatting pattern. Here are some resources to help you get started.\r\
+      \n\r\nIf you're needle tatting: https://www.youtube.com/watch?v=1xd7BImOjjc&t=40s\r\
+      \nShuttle tatting: https://www.youtube.com/watch?v=OWdbxK-NuNY\r\nhttps://www.youtube.com/watch?v=CrgggqePA5s"
+- model: spoilr_hints.cannedhint
+  pk: 1628
+  fields:
+    puzzle: 497
+    description: Solvers are having trouble following the pattern
+    order: 2.0
+    keywords: pattern, not working, messed up
+    content: Please tell us where you're at in the pattern and send us a photo.
+- model: spoilr_hints.cannedhint
+  pk: 1629
+  fields:
+    puzzle: 497
+    description: Solvers have sent photos of their work and description of where in
+      the pattern they're not following
+    order: 2.1
+    keywords: ''
+    content: '[compare progress photo to final image, diagnose errors in stitching]'
+- model: spoilr_hints.cannedhint
+  pk: 1630
+  fields:
+    puzzle: 497
+    description: Solvers have finished the pattern and don't know how to extract.
+    order: 3.0
+    keywords: done, finished, extraction, now what
+    content: Try looking at your shapes to see if you can read a 7 letter word from
+      it. Blocking might help if your finished object is a little twisted because
+      of tension accrued during the crafting. You should start with where the pattern
+      begins and read clockwise. Make sure you haven't flipped it the wrong way.

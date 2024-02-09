@@ -1,0 +1,71 @@
+- model: puzzles.puzzle
+  pk: 452
+  fields:
+    emoji: ':speech_balloon:'
+    deep: 200
+- model: spoilr_core.puzzle
+  pk: 452
+  fields:
+    external_id: 452
+    round: 20
+    answer: DIVINE
+    name: Don't Feed the Trolls
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 452
+    is_meta: false
+    slug: dont-feed-the-trolls
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 401
+  fields:
+    puzzle: 452
+    description: Solvers have not noticed that the quotes are actually misquotes
+    order: 0.0
+    keywords: start, getting started, quotes
+    content: Does a character actually say "Luke, I am your father?"
+- model: spoilr_hints.cannedhint
+  pk: 402
+  fields:
+    puzzle: 452
+    description: Solvers have not figured out that the characters names in the images
+      form an A-K ordering (perhaps focused on the movie's titles instead of character
+      names)
+    order: 1.0
+    keywords: pictures, images, characters, movies
+    content: Is there a way you can relate together the names of the characters in
+      the images?
+- model: spoilr_hints.cannedhint
+  pk: 403
+  fields:
+    puzzle: 452
+    description: Solvers have figured out that the quotes are wrong, but not that
+      the incorrect words in the quotations are indexes into the written character
+      names
+    order: 100.0
+    keywords: extraction, quotations, misquotes, errors, words
+    content: Numbering where the mistake is in each quotation will be helpful.
+- model: spoilr_hints.cannedhint
+  pk: 404
+  fields:
+    puzzle: 452
+    description: Solvers are not sure how all the pieces fit together for extraction
+    order: 100.0
+    keywords: extraction
+    content: The pictures, quotations, and written character names each provide one
+      of an ordering, index number, or text to index into, in some order.
+- model: spoilr_core.pseudoanswer
+  pk: 39
+  fields:
+    puzzle: 452
+    answer: TOFORGIVEIS
+    response: To forgive is what?
+- model: spoilr_core.pseudoanswer
+  pk: 40
+  fields:
+    puzzle: 452
+    answer: TOFORGIVEISDIVINE
+    response: The answer is one word.

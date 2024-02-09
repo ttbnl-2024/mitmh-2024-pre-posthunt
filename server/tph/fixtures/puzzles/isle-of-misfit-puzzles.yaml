@@ -1,0 +1,428 @@
+- model: puzzles.puzzle
+  pk: 155
+  fields:
+    emoji: ':island:'
+    deep: 1
+    deep_key: hydra-RL
+- model: spoilr_core.puzzle
+  pk: 155
+  fields:
+    external_id: 155
+    round: 13
+    answer: TERABYTE
+    name: Isle of Misfit Puzzles
+    main_credits: Neal Tibrewala and Todd Becker
+    other_credits: ''
+    order: 155
+    is_meta: false
+    slug: isle-of-misfit-puzzles
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 694
+  fields:
+    puzzle: 155
+    description: Colorful Island solvers don't know how to begin
+    order: 1.0
+    keywords: colorful, colors with numbers
+    content: The colors will make a pretty color arrangement if you take a logical
+      approach.
+- model: spoilr_hints.cannedhint
+  pk: 696
+  fields:
+    puzzle: 155
+    description: Colorful Island grid is done but needs next step for minesweeper
+    order: 1.1
+    keywords: colorful, grid complete, colors, colorful next step
+    content: The flavortext hints at what those colors might mean.
+- model: spoilr_hints.cannedhint
+  pk: 697
+  fields:
+    puzzle: 155
+    description: Colorful Island Solvers can't resolve the edges of grid
+    order: 1.2
+    keywords: Colorful Island, edges of grid, not unique solution
+    content: Blanks can be a number, which will complete the edges.
+- model: spoilr_hints.cannedhint
+  pk: 698
+  fields:
+    puzzle: 155
+    description: Colorful Island answer extraction
+    order: 1.3
+    keywords: colorful, mines finished, how to extract letters for solution
+    content: Half of the mines have dotted the field, so dash across quickly.
+- model: spoilr_hints.cannedhint
+  pk: 1400
+  fields:
+    puzzle: 155
+    description: colorful island number extraction
+    order: 1.4
+    keywords: colorful number
+    content: There should be a visible number in the field of flowers.
+- model: spoilr_hints.cannedhint
+  pk: 701
+  fields:
+    puzzle: 155
+    description: Island of Misfit Toys Solvers can't get started
+    order: 2.0
+    keywords: toys, target, start, begin
+    content: How many toys are on the island already?  Can you drop more onto the
+      island?
+- model: spoilr_hints.cannedhint
+  pk: 702
+  fields:
+    puzzle: 155
+    description: Island of Misfit Toys Solvers have finished the sudoku but are stuck
+    order: 2.1
+    keywords: toys, finished grid, names, new names of toys
+    content: You always want to aim for the bullseye, in order to get to the end.
+- model: spoilr_hints.cannedhint
+  pk: 703
+  fields:
+    puzzle: 155
+    description: Island of Misfit Toys Solvers can't find digit for this island
+    order: 2.2
+    keywords: toys, digit, number, where is number
+    content: Did you assemble the toys correctly?
+- model: spoilr_hints.cannedhint
+  pk: 704
+  fields:
+    puzzle: 155
+    description: Kitchen Island Solvers can't get started
+    order: 3.0
+    keywords: kitchen, how to start
+    content: If you look all around the mansion, you should be able to see some furniture.
+- model: spoilr_hints.cannedhint
+  pk: 706
+  fields:
+    puzzle: 155
+    description: Kitchen Island Solvers found words but don't see the Cluedo board
+    order: 3.1
+    keywords: kitchen, grid shape
+    content: There is a clue in the flavortext as to what this grid shape might be.
+- model: spoilr_hints.cannedhint
+  pk: 707
+  fields:
+    puzzle: 155
+    description: Kitchen Island solvers have furniture but need help with extraction
+    order: 3.2
+    keywords: kitchen, furniture directions, word pairs
+    content: After you have assembled the furniture, do you still need the directions?
+- model: spoilr_hints.cannedhint
+  pk: 708
+  fields:
+    puzzle: 155
+    description: Kitchen Island Solvers need order of word pairs
+    order: 3.3
+    keywords: kitchen, how to order, semaphore done, letters, ordering
+    content: Help the movers by placing the furniture in the right rooms.
+- model: spoilr_hints.cannedhint
+  pk: 1401
+  fields:
+    puzzle: 155
+    description: kitchen island number extraction
+    order: 3.4
+    keywords: kitchen number
+    content: The original positions of your words have a common endpoint.
+- model: spoilr_hints.cannedhint
+  pk: 709
+  fields:
+    puzzle: 155
+    description: CI Island Solvers can't get started
+    order: 4.0
+    keywords: CI, start, how to start
+    content: Many things are limited to just ten.  Find and count them all.
+- model: spoilr_hints.cannedhint
+  pk: 710
+  fields:
+    puzzle: 155
+    description: CI Solvers have listed words but don't know what to do next
+    order: 4.1
+    keywords: CI, word list
+    content: Does your list violate the ten things in any way?  Can you make a correspondence?
+- model: spoilr_hints.cannedhint
+  pk: 711
+  fields:
+    puzzle: 155
+    description: CI Solvers are looking for the answer after solving the letters and
+      words
+    order: 4.2
+    keywords: CI, filled in letters on the island, letters on the island, answer,
+      looking for answer
+    content: Does this island come with a treasure map?
+- model: spoilr_hints.cannedhint
+  pk: 1402
+  fields:
+    puzzle: 155
+    description: CI number extraction
+    order: 4.3
+    keywords: CI number
+    content: There are some conspicuous rivers on the map.
+- model: spoilr_hints.cannedhint
+  pk: 712
+  fields:
+    puzzle: 155
+    description: Kallax Island solvers can't get started
+    order: 5.0
+    keywords: kallax, start, begin
+    content: A game with a good name can be hard to find.  How big are those games?
+- model: spoilr_hints.cannedhint
+  pk: 714
+  fields:
+    puzzle: 155
+    description: Kallax Island Solvers found game names, but don't know how to fit
+      them in
+    order: 5.1
+    keywords: kallax, board games, fit on shelf, shelves
+    content: When putting a game onto the shelf, should I sort by theme or by title?
+- model: spoilr_hints.cannedhint
+  pk: 715
+  fields:
+    puzzle: 155
+    description: Kallax Island Solvers are looking for the number or digit for this
+      island
+    order: 5.2
+    keywords: kallax, number, digit
+    content: Examine the names in those individual kallax towers closely.
+- model: spoilr_hints.cannedhint
+  pk: 717
+  fields:
+    puzzle: 155
+    description: Kallax Island Solvers are looking for answer
+    order: 5.3
+    keywords: kallax, answer
+    content: If you have found the hidden message, there should only be a bit of social
+      deduction left to find.
+- model: spoilr_hints.cannedhint
+  pk: 718
+  fields:
+    puzzle: 155
+    description: East Stony Mountain how to start
+    order: 6.0
+    keywords: East Stony Mountain, begin, start, clues
+    content: The central words with blanks are clued from both ends, in different
+      ways.
+- model: spoilr_hints.cannedhint
+  pk: 720
+  fields:
+    puzzle: 155
+    description: East Stony Mountain Solvers cannot find the digit for this island
+    order: 6.1
+    keywords: East Stony Mountain, digit, number
+    content: The lava seems to pool in an unusual way.
+- model: spoilr_hints.cannedhint
+  pk: 722
+  fields:
+    puzzle: 155
+    description: Island of Misfit Puzzles mini meta Solvers can't get started
+    order: 7.0
+    keywords: mini meta, start, begin
+    content: Have you solved all the neighboring islands and found how to expand?
+- model: spoilr_hints.cannedhint
+  pk: 724
+  fields:
+    puzzle: 155
+    description: Island of Misfit Toys Solvers haven't found the blank island words
+      yet
+    order: 7.1
+    keywords: mini meta, blank islands
+    content: I'm sure you can size up (or down) the situation.
+- model: spoilr_hints.cannedhint
+  pk: 726
+  fields:
+    puzzle: 155
+    description: Island of Misfit Toys Solvers have found the hashi bridges but not
+      the answer
+    order: 7.2
+    keywords: mini meta, bridges, hashi, answer, extract
+    content: How many bridges does it take to get to the top?
+- model: spoilr_core.pseudoanswer
+  pk: 96
+  fields:
+    puzzle: 155
+    answer: APPLE
+    response: This is one of two correct answers for Kitchen Island!
+- model: spoilr_core.pseudoanswer
+  pk: 106
+  fields:
+    puzzle: 155
+    answer: APPLE WOMEN
+    response: These are all two correct answers for Kitchen Island!
+- model: spoilr_core.pseudoanswer
+  pk: 251
+  fields:
+    puzzle: 155
+    answer: APPLE WOMEN 2
+    response: These are all two correct answers (and number) for Kitchen Island!
+- model: spoilr_core.pseudoanswer
+  pk: 101
+  fields:
+    puzzle: 155
+    answer: DANCER
+    response: This is one of two correct answers for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 108
+  fields:
+    puzzle: 155
+    answer: DANCER LIVING
+    response: These are all two correct answers for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 252
+  fields:
+    puzzle: 155
+    answer: DANCER LIVING 3
+    response: These are all two correct answers (and number) for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 95
+  fields:
+    puzzle: 155
+    answer: HOURS
+    response: This is one of two correct answers for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 104
+  fields:
+    puzzle: 155
+    answer: HOURS STAND
+    response: These are all two correct answers for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 253
+  fields:
+    puzzle: 155
+    answer: HOURS STAND 2
+    response: These are all two correct answers (and number) for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 99
+  fields:
+    puzzle: 155
+    answer: IRON
+    response: This is one of two correct answers for Island of Misfit Toys!
+- model: spoilr_core.pseudoanswer
+  pk: 320
+  fields:
+    puzzle: 155
+    answer: IRON PIANO 2
+    response: These are all two correct answers (and number) for Island of Misfit
+      Toys!
+- model: spoilr_core.pseudoanswer
+  pk: 100
+  fields:
+    puzzle: 155
+    answer: LIVING
+    response: This is one of two correct answers for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 109
+  fields:
+    puzzle: 155
+    answer: LIVING DANCER
+    response: These are all two correct answers for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 254
+  fields:
+    puzzle: 155
+    answer: LIVING DANCER 3
+    response: These are all two correct answers (and number) for Cryptography Island!
+- model: spoilr_core.pseudoanswer
+  pk: 88
+  fields:
+    puzzle: 155
+    answer: MARGE
+    response: This is one of two correct answers for Colorful Island!
+- model: spoilr_core.pseudoanswer
+  pk: 102
+  fields:
+    puzzle: 155
+    answer: MARGE SQUID
+    response: These are all two correct answers for Colorful Island!
+- model: spoilr_core.pseudoanswer
+  pk: 255
+  fields:
+    puzzle: 155
+    answer: MARGE SQUID 4
+    response: These are all two correct answers (and number) for Colorful Island!
+- model: spoilr_core.pseudoanswer
+  pk: 94
+  fields:
+    puzzle: 155
+    answer: PEE
+    response: This is one of three correct answers for East Stony Island!
+- model: spoilr_core.pseudoanswer
+  pk: 321
+  fields:
+    puzzle: 155
+    answer: PEE ROCK WRIT 6
+    response: These are all three correct answers (and number) for East Stony Island!
+- model: spoilr_core.pseudoanswer
+  pk: 98
+  fields:
+    puzzle: 155
+    answer: PIANO
+    response: This is one of two correct answers for Island of Misfit Toys!
+- model: spoilr_core.pseudoanswer
+  pk: 107
+  fields:
+    puzzle: 155
+    answer: PIANO IRON
+    response: These are all two correct answers for Island of Misfit Toys!
+- model: spoilr_core.pseudoanswer
+  pk: 256
+  fields:
+    puzzle: 155
+    answer: PIANO IRON 2
+    response: These are all two correct answers (and number) for Island of Misfit
+      Toys!
+- model: spoilr_core.pseudoanswer
+  pk: 93
+  fields:
+    puzzle: 155
+    answer: ROCK
+    response: This is one of three correct answers for East Stony Island!
+- model: spoilr_core.pseudoanswer
+  pk: 89
+  fields:
+    puzzle: 155
+    answer: SQUID
+    response: This is one of two correct answers for Colorful Island!
+- model: spoilr_core.pseudoanswer
+  pk: 272
+  fields:
+    puzzle: 155
+    answer: STAND
+    response: This is one of two correct answers for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 105
+  fields:
+    puzzle: 155
+    answer: STAND HOURS
+    response: These are all two correct answers for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 257
+  fields:
+    puzzle: 155
+    answer: STAND HOURS 2
+    response: These are all two correct answers (and number) for Kallax Island!
+- model: spoilr_core.pseudoanswer
+  pk: 97
+  fields:
+    puzzle: 155
+    answer: WOMEN
+    response: This is one of two correct answers for Kitchen Island!
+- model: spoilr_core.pseudoanswer
+  pk: 92
+  fields:
+    puzzle: 155
+    answer: WRIT
+    response: This is one of three correct answers for East Stony Island!
+- model: spoilr_core.pseudoanswer
+  pk: 103
+  fields:
+    puzzle: 155
+    answer: WRIT ROCK PEE
+    response: These are all three correct answers for East Stony Island!
+- model: spoilr_core.pseudoanswer
+  pk: 250
+  fields:
+    puzzle: 155
+    answer: WRIT ROCK PEE 6
+    response: These are all three correct answers (and number) for East Stony Island!

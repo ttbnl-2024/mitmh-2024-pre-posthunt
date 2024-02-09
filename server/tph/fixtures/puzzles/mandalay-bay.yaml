@@ -1,0 +1,64 @@
+- model: puzzles.puzzle
+  pk: 317
+  fields:
+    emoji: ':slot_machine:'
+    deep: 200
+- model: spoilr_core.puzzle
+  pk: 317
+  fields:
+    external_id: 317
+    round: 4
+    answer: SUN
+    name: Mandalay Bay
+    main_credits: RJ Antonello
+    other_credits: ''
+    order: 317
+    is_meta: false
+    slug: mandalay-bay
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 136
+  fields:
+    puzzle: 317
+    description: The solvers have not figured out much of anything. They do not realize
+      the symbols correspond to letters.
+    order: 0.0
+    keywords: initial steps
+    content: How many different symbols are there in total?
+- model: spoilr_hints.cannedhint
+  pk: 137
+  fields:
+    puzzle: 317
+    description: Solvers have not figured why certain sets of symbols win and others
+      do not.  They may also be asking about the payouts but understand that the symbols
+      correspond to letters.
+    order: 30.0
+    keywords: win, payout
+    content: The name of the game is "Lexico's Delight". Do you know of any games
+      where words correspond to numbers?
+- model: spoilr_hints.cannedhint
+  pk: 139
+  fields:
+    puzzle: 317
+    description: Solvers are having trouble associating letters to symbols. Only give
+      this clue if it is clear that the solvers have no letters solved but know that
+      the payouts are associated with Scrabble scores.
+    order: 60.0
+    keywords: logic, letters, symbols
+    content: The most money you can win on a non-jackpot payout is a triple Gold -
+      $30!
+- model: spoilr_hints.cannedhint
+  pk: 138
+  fields:
+    puzzle: 317
+    description: Solvers do not understand the odds but have successfully figured
+      out that the symbols and payouts correspond to Scrabble words. They should have
+      letters corresponding to symbols at this point.
+    order: 100.0
+    keywords: jackpot, odds
+    content: Take a closer look at the jackpot odds. 27:21,925 can also be written
+      as 27/21,952 or (3/28)^3. Does that suggest a way to figure out what the jackpot
+      is?

@@ -1,0 +1,17 @@
+- model: puzzles.puzzle
+  pk: 738
+  fields:
+    emoji: ':pirate_flag:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 738
+  fields:
+    external_id: 738
+    round: 51
+    answer: HACKER'S PASS SWORD
+    name: Herc-U-Lease
+    main_credits: Someeone
+    order: 738
+    is_meta: false
+    slug: herc-u-lease
+    metas: []

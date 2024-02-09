@@ -1,0 +1,67 @@
+- model: puzzles.puzzle
+  pk: 51
+  fields:
+    emoji: ':snake:'
+    deep: 5
+    deep_key: 'yellowstone-meta'
+- model: spoilr_core.puzzle
+  pk: 51
+  fields:
+    external_id: 51
+    round: 5
+    answer: GORGON TRAIL
+    name: Medusa's Lair
+    main_credits: Linus Hamilton
+    other_credits: ''
+    order: 51
+    is_meta: true
+    slug: medusas-lair
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 12
+  fields:
+    puzzle: 51
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: fill, begin, start
+    content: In order to fit your answers into the grid, you'll have to notice something
+      they have in common.
+- model: spoilr_hints.cannedhint
+  pk: 13
+  fields:
+    puzzle: 51
+    description: Solvers have noted that answers contain "/', but are struggling with
+      placing them in the grid.
+    order: 5.0
+    keywords: fill, punctuation, space
+    content: You've already noticed that your answers contain "/" characters. Each
+      answer should be entered into the grid from a snake head to a snake tail, including
+      "/" characters, but not including any other punctuation or any spaces. The light
+      grey squares will be left blank.
+- model: spoilr_hints.cannedhint
+  pk: 14
+  fields:
+    puzzle: 51
+    description: Solvers are stuck on interpreting Perseus's observations.
+    order: 75.0
+    keywords: question mark, extract, Perseus, peered
+    content: Each time Perseus peered into Medusa's lair, he positioned himself just
+      outside the square grid, facing orthogonally inward. He recorded the cells he
+      saw, in order from closest to farthest. For each cell, if it didn't contain
+      a letter, he wrote a blank; if it did contain a letter, he wrote a "?" or a
+      number. The light gray squares in the grid do not block lines of sight. It's
+      up to you to figure out where Perseus stood each time.
+- model: spoilr_hints.cannedhint
+  pk: 15
+  fields:
+    puzzle: 51
+    description: Solvers have not realized that the slashes are mirrors.
+    order: 80.0
+    keywords: question mark, extract, Perseus, peered
+    content: Since Medusa's lair is 9x9, it might seem like Perseus should only have
+      recorded 9 symbols for each observation. Yet, he saw more than 9 cells every
+      time. So, he must have used something that alters how he saw the grid. It might
+      help to read the myth of Perseus and Medusa.

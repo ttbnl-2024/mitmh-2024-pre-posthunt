@@ -1,0 +1,61 @@
+- model: puzzles.puzzle
+  pk: 691
+  fields:
+    emoji: ':bricks:'
+    deep: 20
+- model: spoilr_core.puzzle
+  pk: 691
+  fields:
+    external_id: 691
+    round: 20
+    answer: PREDICT
+    name: A Block Party
+    main_credits: Alina Khankin and Brian Widerman
+    other_credits: ''
+    order: 691
+    is_meta: false
+    slug: a-block-party
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1204
+  fields:
+    puzzle: 691
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: These figures are so small, some would call them mini.
+- model: spoilr_hints.cannedhint
+  pk: 1205
+  fields:
+    puzzle: 691
+    description: Stronger starting hint if hint 0.0 is insufficient
+    order: 1.0
+    keywords: start, begin, stronger hint
+    content: These kids are actually Lego Minifigures, and they come in series
+- model: spoilr_hints.cannedhint
+  pk: 1206
+  fields:
+    puzzle: 691
+    description: Solvers got the minifigs and the corresponding series, don't know
+      how to extract
+    order: 10.0
+    keywords: extraction, ordering
+    content: Did you notice that each group had a different number of kids in it?
+- model: spoilr_hints.cannedhint
+  pk: 1207
+  fields:
+    puzzle: 691
+    description: Heavy hint for ordering/extraction
+    order: 11.0
+    keywords: extraction, ordering, heavy
+    content: Arrange the groups in ascending order by number of minifigs and convert
+      the series number to letters by A1Z26 to get the answer
+- model: spoilr_core.pseudoanswer
+  pk: 154
+  fields:
+    puzzle: 691
+    answer: DRAW A MINIFIG MASCOT
+    response: Please contact a testsolve admin for the real answer!

@@ -1,0 +1,56 @@
+- model: puzzles.puzzle
+  pk: 729
+  fields:
+    emoji: ':dna:'
+    deep: 18
+- model: spoilr_core.puzzle
+  pk: 729
+  fields:
+    external_id: 729
+    round: 22
+    answer: WHIRLAWAY
+    name: Body Language
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 729
+    is_meta: false
+    slug: body-language
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1762
+  fields:
+    puzzle: 729
+    description: The solvers are not sure how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: The spiral crossword which you are presented with does not have any gimmicks
+      which would unduly hinder solving.  If you haven't tried to solve it yet, you
+      should go ahead and do so.
+- model: spoilr_hints.cannedhint
+  pk: 1763
+  fields:
+    puzzle: 729
+    description: the solvers have completed the spiral crossword and are not sure
+      what to do next.
+    order: 40.0
+    keywords: extraction, stuck
+    content: One of the clues to the spiral references the puzzle's title.  This is
+      not an accident, and what the clue is referring to is relevant to the rest of
+      the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1764
+  fields:
+    puzzle: 729
+    description: Solvers have solved the spiral and identified the significance of
+      RNA, but are unsure what to do next,.
+    order: 70.0
+    keywords: extraction, stuck, rna, dna
+    content: While RNA has one strand instead of two, like DNA does, it nevertheless
+      does have its own version of the adenine-thymine and cytosine-guanine pairings,
+      which come into play in the processes where RNA is used to produce DNA, as well
+      as in the production of proteins.  This is important for the sake of extraction.  It
+      also helps to know how codons work in RNA/DNA, and what the standard abbreviations
+      for them are.

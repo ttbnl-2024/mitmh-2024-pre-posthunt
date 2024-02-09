@@ -1,0 +1,73 @@
+- model: puzzles.puzzle
+  pk: 641
+  fields:
+    emoji: ':ship:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 641
+  fields:
+    external_id: 641
+    round: 4
+    answer: DISTILLER
+    name: Casino Royale
+    main_credits: Charles Steinhardt and Joseph DeVincentis
+    other_credits: ''
+    order: 641
+    is_meta: false
+    slug: casino-royale
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1167
+  fields:
+    puzzle: 641
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: Find an award whose name evokes the color and shape of the items on the
+      map. The exact year of the map is not important.
+- model: spoilr_hints.cannedhint
+  pk: 1168
+  fields:
+    puzzle: 641
+    description: "Solvers are stuck on getting started \u2014 stronger hint"
+    order: 1.1
+    keywords: begin,start,first step
+    content: "Where did the term \u201Cblue ribbon\u201D come from?"
+- model: spoilr_hints.cannedhint
+  pk: 1169
+  fields:
+    puzzle: 641
+    description: Solvers have found the Blue Riband and identified some of the ships
+    order: 2.0
+    keywords: ships,missing,unclear
+    content: Some of the ships are named after provinces in Ancient Rome. Some are
+      modern or historical regions of Italy or elsewhere.
+- model: spoilr_hints.cannedhint
+  pk: 1170
+  fields:
+    puzzle: 641
+    description: "Solvers got all the ships but don\u2019t know how to sort"
+    order: 3.0
+    keywords: all ships,sort,order
+    content: Consider each shade of blue as a separate group.
+- model: spoilr_hints.cannedhint
+  pk: 1171
+  fields:
+    puzzle: 641
+    description: "Solvers got \u201Cturner boat plus insult\u201D and are stuck"
+    order: 4.0
+    keywords: turner boat plus insult,cluephrase
+    content: Consider the shades of blue in the other order.
+- model: spoilr_hints.cannedhint
+  pk: 1172
+  fields:
+    puzzle: 641
+    description: "Solvers got \u201Cinsult plus boat turner\u201D but are still stuck"
+    order: 5.0
+    keywords: extraction,clue,cluephrase,interpretation
+    content: "A rap song using an insult might be called a ____ track.\r\n\r\nFor\
+      \ \u201Cboat turner\u201D we\u2019re looking for a synonym for rudder.\r\n\r\
+      \nSay those words out loud."

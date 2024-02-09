@@ -1,0 +1,74 @@
+- model: puzzles.puzzle
+  pk: 124
+  fields:
+    emoji: ':cow:'
+    deep: 1000  # unlocks together with round
+- model: spoilr_core.puzzle
+  pk: 124
+  fields:
+    external_id: 124
+    round: 3
+    answer: COWPIE A LA MOOED
+    name: Appease the Minotaur
+    main_credits: Charles Steinhardt and Paul Melamud
+    other_credits: Daniel Kramarsky
+    order: 124
+    is_meta: true
+    slug: appease-the-minotaur
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 74
+  fields:
+    puzzle: 124
+    description: solvers don't know what to do with maze pieces
+    order: 0.0
+    keywords: maze, start
+    content: Since the maze has no path through to the end, perhaps these given pieces
+      can fix that for you.
+- model: spoilr_hints.cannedhint
+  pk: 77
+  fields:
+    puzzle: 124
+    description: solvers don't know what to do with maze pieces (2)
+    order: 0.1
+    keywords: maze, start
+    content: Find where the maze pieces you are given fit into the maze except for
+      the removal of one length that opens up the maze path.
+- model: spoilr_hints.cannedhint
+  pk: 75
+  fields:
+    puzzle: 124
+    description: Solvers are stuck on ordering
+    order: 50.0
+    keywords: ordering
+    content: Do they grade beef? Maybe you can look into that and find something useful.
+- model: spoilr_hints.cannedhint
+  pk: 78
+  fields:
+    puzzle: 124
+    description: Solvers are stuck on ordering (2)
+    order: 50.1
+    keywords: ordering
+    content: If you look up USDA beef grades, you will find 8 of them (not just the
+      three most people are familiar with).
+- model: spoilr_hints.cannedhint
+  pk: 76
+  fields:
+    puzzle: 124
+    description: Solvers are stuck on extraction
+    order: 80.0
+    keywords: extraction
+    content: I wonder why these little people are here. Perhaps they indicate the
+      location of an important item.
+- model: spoilr_hints.cannedhint
+  pk: 79
+  fields:
+    puzzle: 124
+    description: Solvers are stuck on extraction (2)
+    order: 80.1
+    keywords: extraction
+    content: After placing your words in order in the maze, identify the letter each
+      little man is on and collect them in maze order to get your answer.

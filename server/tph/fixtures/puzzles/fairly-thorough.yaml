@@ -1,0 +1,78 @@
+- model: puzzles.puzzle
+  pk: 433
+  fields:
+    emoji: ':motorway:'
+    deep: 925
+- model: spoilr_core.puzzle
+  pk: 433
+  fields:
+    external_id: 433
+    round: 7
+    answer: TURNPIKING
+    name: Fairly Thorough
+    main_credits: Nathan Fung
+    other_credits: ''
+    order: 433
+    is_meta: false
+    slug: fairly-thorough
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1491
+  fields:
+    puzzle: 433
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start, first step, begin
+    content: The first thing to do is to make a map of everything here. You should
+      get 55 locations.
+- model: spoilr_hints.cannedhint
+  pk: 1494
+  fields:
+    puzzle: 433
+    description: Solvers aren't sure what to do with the math at the bottom
+    order: 20.0
+    keywords: formula, map
+    content: There are 3 directions, 3 maths at the bottom, and 3 sign colors. It
+      seems like you can match these up.
+- model: spoilr_hints.cannedhint
+  pk: 1495
+  fields:
+    puzzle: 433
+    description: Solvers need explicit instructions for the signs
+    order: 25.0
+    keywords: signs, match, colors
+    content: The directions and math match the sign colors in red, white, blue order.
+      You'll want to use the given directions to form a path between through the nodes
+      of a particular color, though each direction may go for multiple nodes. You
+      should have 13 red signs, 12 white signs, and 7 blue signs.
+- model: spoilr_hints.cannedhint
+  pk: 1492
+  fields:
+    puzzle: 433
+    description: Solvers haven't made the freeway connection
+    order: 50.0
+    keywords: mapped, matched, stuck
+    content: To make sense of the math, you'll need to find what this is referring
+      to. Do the overall "shape" of the map or sign colors remind you of something?
+- model: spoilr_hints.cannedhint
+  pk: 1493
+  fields:
+    puzzle: 433
+    description: Solvers need the explicit freeway connection
+    order: 60.0
+    keywords: map shape, identification
+    content: This clickaround is actually a map of the major interstates of the US
+      interstate system. The room sizes are an approximation of the population at
+      the node. The numbers provide an ordering for something about each node.
+- model: spoilr_hints.cannedhint
+  pk: 1496
+  fields:
+    puzzle: 433
+    description: Explicit extraction
+    order: 90.0
+    keywords: interstate, cities, formula, extraction
+    content: x is each metropolitan area along the path. i(x) is the freeway number
+      you take into x, and o(x) is the freeway number you take out of x.

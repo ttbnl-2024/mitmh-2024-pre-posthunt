@@ -1,0 +1,79 @@
+- model: puzzles.puzzle
+  pk: 72
+  fields:
+    emoji: ':scream_cat:'
+    deep: 1
+    deep_key: hydra-RR
+- model: spoilr_core.puzzle
+  pk: 72
+  fields:
+    external_id: 72
+    round: 13
+    answer: LIFEGUARD
+    name: "Schr\xF6\u00ADdinger's Maze"
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 72
+    is_meta: false
+    slug: schrodingers-maze
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1161
+  fields:
+    puzzle: 72
+    description: Solvers don't know how to start
+    order: 0.0
+    keywords: start
+    content: Each word input is interpreted as instructions for the maze. Your word
+      is matched with your maze and the output (in the form of probabilities of 3
+      possible end states) is given. The first step is to figure out how the word
+      is interpreted as instructions which could lead to some probabilities.
+- model: spoilr_hints.cannedhint
+  pk: 1162
+  fields:
+    puzzle: 72
+    description: Solvers need a stronger hint on the mechanism
+    order: 10.0
+    keywords: start
+    content: Each letter of the word is interpreted as 2 different directions (from
+      N, S, E, W, NW, NE, SW, SE), and the player is moved in one of the two directions
+      with 1/2 probability each. Experiment with different words and mazes to figure
+      out what these directions are, and what happens when the player moves into a
+      block, a wave, or the edge of the maze.
+- model: spoilr_hints.cannedhint
+  pk: 1163
+  fields:
+    puzzle: 72
+    description: Solvers figured out the mechanism, but have trouble determining the
+      secret words
+    order: 30.1
+    keywords: semaphore,mechanism
+    content: You can place multiple flags. If you completely surround the player with
+      flags and waves, you can figure out the first letter of the word. If you let
+      the player take one step, then surround it with flag and waves, you can figure
+      out the 2nd letter, and so on. Something happens when you input the exact word.
+- model: spoilr_hints.cannedhint
+  pk: 1164
+  fields:
+    puzzle: 72
+    description: Solvers figured out the mechanism, but have trouble determining the
+      secret mazes
+    order: 30.2
+    keywords: semaphore,mechanism
+    content: "A useful tactic is trying short words, which will give you some information\
+      \ on the surrounding cells, especially which are waves. Another tactic is guessing\
+      \ a path to the flag and finding a word which takes that path.\r\n\r\nSomething\
+      \ happens when you input the exact maze."
+- model: spoilr_hints.cannedhint
+  pk: 1165
+  fields:
+    puzzle: 72
+    description: Solvers have figured out the secret words and mazes, but stuck on
+      extraction
+    order: 80.0
+    keywords: extraction
+    content: Notice that each word solves exactly one maze. For each such pair, when
+      does the player reach the flag?

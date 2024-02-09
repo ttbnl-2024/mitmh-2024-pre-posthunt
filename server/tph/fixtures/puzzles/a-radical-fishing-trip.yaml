@@ -1,0 +1,119 @@
+- model: puzzles.puzzle
+  pk: 716
+  fields:
+    emoji: ':fishing_pole_and_fish:'
+    deep: 1025
+- model: spoilr_core.puzzle
+  pk: 716
+  fields:
+    external_id: 716
+    round: 7
+    answer: POWERED SHIP
+    name: A Radical Fishing Trip
+    main_credits: Frankie Rady, Sara Winters, and Summer Barron
+    other_credits: ''
+    order: 716
+    is_meta: false
+    slug: a-radical-fishing-trip
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: true
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1442
+  fields:
+    puzzle: 716
+    description: They've solved some haikus, but don't know it's about Japanese.
+    order: 0.0
+    keywords: extraction
+    content: "Though nearly all of\r\nyour identifications\r\nare true, none are _right_.\r\
+      \n\r\nThe poetic form;\r\nForeign seas, sushi masters;\r\nwhat nature are these?"
+- model: spoilr_hints.cannedhint
+  pk: 1443
+  fields:
+    puzzle: 716
+    description: Solvers get that it's Japanese, but are struggling because they don't
+      know the connection to radicals.
+    order: 10.0
+    keywords: japanese, identify
+    content: "What is a rainbow?\r\nHere it is a \"bow\" of \"rain.\"\r\nNot so, in\
+      \ the East.\r\n\r\nWhere this fishing trip/\r\nIs taking us, everything/\r\n\
+      Is so radical."
+- model: spoilr_hints.cannedhint
+  pk: 1444
+  fields:
+    puzzle: 716
+    description: Solvers get the radicals, but are struggling because they haven't
+      found the *other* halves of the kanjis' meanings embedded in the poems.
+    order: 50.0
+    keywords: radicals, radical, identify, identifying
+    content: "Ambiguity?\r\nNo: with full understanding,\r\nAnswers are unique.\r\n\
+      \r\nA \u9B5A \u5E2B/\r\nIs a \u9C24. We have shown/\r\nyou the \u9B5A.\r\n\r\
+      \nIf you look closer/\r\nYou will see that we have shown/\r\nyou the \u5E2B\
+      \ as well."
+- model: spoilr_hints.cannedhint
+  pk: 1445
+  fields:
+    puzzle: 716
+    description: Solvers get the radicals AND the other halves of the kanji! But what
+      do they do next?
+    order: 90.0
+    keywords: extraction
+    content: "<<If the solvers have mistakes even after understanding the mechanisms,\
+      \ then help them correct. Otherwise the extraction is a nightmare. Ideally help\
+      \ them in haiku form :) >>\r\n\r\nFor the \u9C24, speak/\r\nnot the \u9B5A or\
+      \ \u5E2B,/\r\nbut the whole \u9C24.\r\n\r\nSome poems are three lines long./\r\
+      \nOthers are two. Why is this?"
+- model: spoilr_hints.cannedhint
+  pk: 1446
+  fields:
+    puzzle: 716
+    description: The solvers TOTALLY GET both parts of the kanji, AND why some poems
+      are 2 lines vs 3, but STILL can't extract ;_;
+    order: 100.0
+    keywords: extraction
+    content: "<<If the solvers have mistakes even after understanding the mechanisms,\
+      \ then help them correct. Otherwise the extraction is a nightmare. Ideally help\
+      \ them in haiku form :) >>\r\n\r\nEach poem conceals/\r\nIts hidden meaning\
+      \ you found/\r\nIn only one line.\r\n\r\nThe final message/\r\nIs Japanese...!\
+      \ Submit it/\r\nHowever you want."
+- model: spoilr_core.pseudoanswer
+  pk: 239
+  fields:
+    puzzle: 716
+    answer: GIRISHA KAMI NI TSUITE HAIKU O KAKU
+    response: Write a haiku about a Greek god and submit it to HQ
+- model: spoilr_core.pseudoanswer
+  pk: 258
+  fields:
+    puzzle: 716
+    answer: Write a haiku about a Greek God
+    response: Write a haiku about a Greek god and submit it to HQ
+- model: spoilr_core.pseudoanswer
+  pk: 240
+  fields:
+    puzzle: 716
+    answer: "\u304E\u308A\u3057\u3083\u304B\u307F\u306B\u3065\u3044\u3066\u306F\u3044\
+      \u304F\u304A\u304B\u304F"
+    response: Write a haiku about a Greek god and submit it to HQ.
+- model: spoilr_core.pseudoanswer
+  pk: 241
+  fields:
+    puzzle: 716
+    answer: "\u304E\u308A\u3057\u3083\u304B\u307F\u306B\u3065\u3044\u3066\u306F\u3044\
+      \u304F\u3092\u304B\u304F"
+    response: Write a haiku about a Greek god and submit it to HQ.
+- model: spoilr_core.pseudoanswer
+  pk: 242
+  fields:
+    puzzle: 716
+    answer: "\u30AE\u30EA\u30B7\u30E3\u795E\u306B\u3064\u3044\u3066\u4FF3\u53E5\u304A\
+      \u66F8\u304F"
+    response: Write a haiku about a Greek god and submit it to HQ.
+- model: spoilr_core.pseudoanswer
+  pk: 243
+  fields:
+    puzzle: 716
+    answer: "\u30AE\u30EA\u30B7\u30E3\u795E\u306B\u3064\u3044\u3066\u4FF3\u53E5\u3092\
+      \u66F8\u304F"
+    response: Write a haiku about a Greek god and submit it to HQ.

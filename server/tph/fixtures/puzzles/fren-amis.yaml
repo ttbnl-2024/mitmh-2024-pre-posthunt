@@ -1,0 +1,80 @@
+- model: puzzles.puzzle
+  pk: 398
+  fields:
+    emoji: ':earth_africa:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 398
+  fields:
+    external_id: 398
+    round: 6
+    answer: OGATA SHUMA
+    name: Fren Amis
+    main_credits: Charles Steinhardt, Jeremiahs Johnson, and Jeremy Horwitz
+    other_credits: ''
+    order: 398
+    is_meta: false
+    slug: fren-amis
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1409
+  fields:
+    puzzle: 398
+    description: Solvers are scared (stuck on getting started)
+    order: 0.0
+    keywords: cryptic, start
+    content: This is a multi-language cryptic crossword. A clue's wordplay and answer
+      will be in its language. As given in the flavortext, 10 clues are gimmicked
+      in some way, but the fill is otherwise standard.
+- model: spoilr_hints.cannedhint
+  pk: 1410
+  fields:
+    puzzle: 398
+    description: Solvers are stuck on the regular cryptic bits
+    order: 50.0
+    keywords: solving, check work
+    content: '[[Check work -- I''m so sorry.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1411
+  fields:
+    puzzle: 398
+    description: Solvers have filled out the grid, but have not realized the gimmick.
+    order: 75.0
+    keywords: weird clues, can't solve
+    content: There are 10 non-English languages, and one gimmicked clue per language.
+      One gimmicked clue is 50D -- try to explain its answer.
+- model: spoilr_hints.cannedhint
+  pk: 1412
+  fields:
+    puzzle: 398
+    description: Explicit gimmick
+    order: 76.0
+    keywords: stuck, can't solve clues
+    content: "One clue in each non-English language needs to be modified, since a\
+      \ \u201Cfalse friend\u201D between that language and English has been replaced\
+      \ with the translation of the corresponding English word. For example, 50D is\
+      \ \"Jolle tog prostituerad p\xE5 kaffe, mj\xF6lk och t\xE5rta\", and answered\
+      \ with EKA. The false friend is \"slut\", which has been re-translated to \"\
+      prostituerad\". The rough translation is \"run out of... kaffe, mj\xF6lk och\
+      \ t\xE5rta\", cluing the end letters."
+- model: spoilr_hints.cannedhint
+  pk: 1413
+  fields:
+    puzzle: 398
+    description: Solvers are stuck on extraction
+    order: 99.0
+    keywords: solved clues, extraction
+    content: Although there are 10 English clues and 10 gimmicked clues, this is not
+      relevant. Do you notice anything about your grid?
+- model: spoilr_hints.cannedhint
+  pk: 1414
+  fields:
+    puzzle: 398
+    description: Explicit extraction
+    order: 100.0
+    keywords: ''
+    content: Each un-translated false friend can be found in the grid with one letter
+      changed.

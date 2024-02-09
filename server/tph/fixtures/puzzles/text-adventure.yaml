@@ -1,0 +1,147 @@
+- model: puzzles.puzzle
+  pk: 373
+  fields:
+    emoji: ':abcd:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 373
+  fields:
+    external_id: 373
+    round: 15
+    answer: BARGING, STOWED, TWAIN, WANDS, WHINER, WONDER
+    name: Text Adventure
+    main_credits: Joseph DeVincentis and Linus Hamilton
+    other_credits: ''
+    order: 373
+    is_meta: false
+    slug: text-adventure
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 576
+  fields:
+    puzzle: 373
+    description: The solvers can't solve the Towers of Hanoi puzzle in the given number
+      of moves.
+    order: 1.0
+    keywords: towers, hanoi, genghis, khan, disc, pole
+    content: If you try to disobey the rules of Towers of Hanoi, Khan will yell various
+      phrases at you, such as "YOU CAN ONLY PUT A DISC ON A POLE, AND THAT IS NOT
+      A POLE." Interpret him literally. The trick is a terrible pun.
+- model: spoilr_hints.cannedhint
+  pk: 577
+  fields:
+    puzzle: 373
+    description: The solvers solved the Towers of Hanoi puzzle, but don't know what
+      to do with the lightswitches that appear.
+    order: 1.9
+    keywords: towers, hanoi, genghis, khan, disc, pole, switch
+    content: "To find the correct switches to turn on, you'll need to look at another\
+      \ puzzle in this round.\r\n\r\nLook for three black squares, numbered 1, 2,\
+      \ and 3."
+- model: spoilr_hints.cannedhint
+  pk: 578
+  fields:
+    puzzle: 373
+    description: The solvers are stuck on the impossible rowboat puzzle.
+    order: 2.0
+    keywords: rowboat, wolf, goat, cabbage, lettuce, mark, twain
+    content: The rowboat puzzle has an unlikely starting point. You'll need a tip
+      from the chemistry puzzle in this round.
+- model: spoilr_hints.cannedhint
+  pk: 579
+  fields:
+    puzzle: 373
+    description: There's not enough battery time on the flashlight to get all four
+      people across the bridge.
+    order: 3.0
+    keywords: flashlight, bridge, battery, ada
+    content: The four hapless bridge crossers need a light source to cross the bridge
+      safely. Any light source will do.
+- model: spoilr_hints.cannedhint
+  pk: 580
+  fields:
+    puzzle: 373
+    description: The solvers got everyone across the bridge safely, but Ada can't
+      read the tiny message.
+    order: 3.9
+    keywords: bridge, ada
+    content: You'll need to give Ada a tip from the crossword puzzle in this round.
+- model: spoilr_hints.cannedhint
+  pk: 581
+  fields:
+    puzzle: 373
+    description: The Picnic Area logic puzzle is impossible.
+    order: 4.0
+    keywords: picnic, logic, sophie, germain, box, boxes
+    content: "[[ONLY INCLUDE this first sentence if the solvers remark that they can\
+      \ get rid of the Alfa box]] Alas, your shenanigans with the Alfa box won't help\
+      \ make this puzzle possible.\r\n\r\nSophie Germain worded some clues like \"\
+      The fudge is in one of the two easternmost boxes,\" but others like \"The gingerbread\
+      \ is in box Bravo or Echo.\" Why didn't she word the first clue as \"The fudge\
+      \ is in box Delta or Echo\"?"
+- model: spoilr_hints.cannedhint
+  pk: 582
+  fields:
+    puzzle: 373
+    description: The solvers don't know what to do with "The answer is one space east
+      of the elixir."
+    order: 4.9
+    keywords: elixir
+    content: Indeed, there is no elixir anywhere in this puzzle. You'll need to search
+      for this word in another puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 583
+  fields:
+    puzzle: 373
+    description: The MU puzzle is impossible.
+    order: 5.0
+    keywords: MU, spells
+    content: The MU puzzle is indeed impossible. Sorry. As revenge, maybe you should
+      crash our server. (From within the puzzle, please.)
+- model: spoilr_hints.cannedhint
+  pk: 584
+  fields:
+    puzzle: 373
+    description: '"COAXED DOWN ANYWISE"?'
+    order: 5.9
+    keywords: coaxed
+    content: '"COAXED DOWN ANYWISE" indeed. You''ll need to use this phrase in another
+      puzzle. Which one? I''m drawing a blank...'
+- model: spoilr_hints.cannedhint
+  pk: 585
+  fields:
+    puzzle: 373
+    description: Measuring 85 seconds with the fuses is obviously impossible.
+    order: 6.0
+    keywords: fuse, fuses
+    content: "Did you know you can LIGHT RED FUSE AT BOTH ENDS? ...You did? Dang.\r\
+      \n\r\nThe fuse puzzle has an unlikely starting point. You'll need a tip from\
+      \ the matchmaker puzzle in this round."
+- model: spoilr_hints.cannedhint
+  pk: 587
+  fields:
+    puzzle: 373
+    description: The solvers know "X AND Y MEET," but say it's impossible to use because
+      there's only one flashlight.
+    order: 6.1
+    keywords: fuse, meet
+    content: The four hapless bridge crossers need a light source to cross the bridge
+      safely. Any light source will do.
+- model: spoilr_hints.cannedhint
+  pk: 586
+  fields:
+    puzzle: 373
+    description: The solvers found the command "X AND Y MEET," and know that bridge
+      crossers can use a fuse as a light source, but measuring 85 seconds with the
+      fuses is still hard.
+    order: 6.5
+    keywords: fuse, meet
+    content: "Did you know you can LIGHT RED FUSE, and later LIGHT RED FUSE again\
+      \ to light it at the other end? ...You still did? Dang.\r\n\r\nSuppose Ada is\
+      \ at your end of the bridge holding a fuse, Chopin is at the south end holding\
+      \ the flashlight, and we give the command A AND C MEET. Then after 50 seconds,\
+      \ they will meet 5/6 of the way across the bridge. This is the first step of\
+      \ the solution. You won't need to use MEET a second time."

@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 4
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 27.758
+    'y': 20.325
+    'w': 8.867
+    'z': 6
+- model: spoilr_core.round
+  pk: 4
+  fields:
+    act: 2
+    slug: las-vegas
+    name: Las Vegas, NV
+    order: 103

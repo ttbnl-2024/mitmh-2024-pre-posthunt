@@ -1,0 +1,95 @@
+- model: puzzles.puzzle
+  pk: 164
+  fields:
+    emoji: ':doughnut:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 164
+  fields:
+    external_id: 164
+    round: 15
+    answer: BEAR CLAW N ORDER
+    name: A Rift in Hades
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 164
+    is_meta: true
+    slug: a-rift-in-hades
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 80
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start
+    content: You may need more information to connect your feeders with the given
+      image. Perhaps you should finish all of the puzzles of a type.
+- model: spoilr_hints.cannedhint
+  pk: 81
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on getting started (2)
+    order: 5.0
+    keywords: start, mechanism
+    content: I wonder what the other side of a donut shaped item colored with 7 colors
+      like this would look like.
+- model: spoilr_hints.cannedhint
+  pk: 82
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on getting started (3)
+    order: 5.1
+    keywords: start, mechanism
+    content: Take a look at what a 7 colored torus looks like, both front and back.
+- model: spoilr_hints.cannedhint
+  pk: 83
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on answer placement
+    order: 50.0
+    keywords: Answer placement
+    content: The back of this 7 colored torus shows every color touching every other
+      color. Maybe you can look back at your feeders and see whether that matches
+      up with any information you have been given as you've solved puzzles.
+- model: spoilr_hints.cannedhint
+  pk: 84
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on answer placement (2)
+    order: 50.1
+    keywords: Answer placement
+    content: As you solve all puzzles of a certain type, a color has been revealed
+      for that type of puzzle. Each feeder therefore corresponds to two colors. You
+      should place each feeder on the edge where those two colors meet.
+- model: spoilr_hints.cannedhint
+  pk: 85
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on extraction
+    order: 100.0
+    keywords: Extraction
+    content: The back of this torus seems to have 14 intersections on it. Maybe that
+      can prove useful.
+- model: spoilr_hints.cannedhint
+  pk: 86
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on extraction (2)
+    order: 100.1
+    keywords: Extraction
+    content: There are three words on each of the 14 intersections. Take a close look
+      at them and see if you notice anything.
+- model: spoilr_hints.cannedhint
+  pk: 87
+  fields:
+    puzzle: 164
+    description: Solvers are stuck on extraction (3)
+    order: 100.2
+    keywords: Extraction
+    content: At each of the 14 intersections, identify the three words bordering it.
+      Each group of three shares exactly one letter. Take that letter and read around
+      the circle to get your answer.

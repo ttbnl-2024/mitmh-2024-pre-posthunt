@@ -1,0 +1,94 @@
+- model: puzzles.puzzle
+  pk: 504
+  fields:
+    emoji: ':question:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 504
+  fields:
+    external_id: 504
+    round: 4
+    answer: AURICLE
+    name: Excalibur
+    main_credits: Chilli Qin and Todd Becker
+    other_credits: ''
+    order: 504
+    is_meta: false
+    slug: excalibur
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1653
+  fields:
+    puzzle: 504
+    description: Solvers don't know where to begin
+    order: 1.0
+    keywords: start, begin, first step
+    content: Have you tried looking up some of the "stars in order of appearance"?
+      Ignoring some of the numbers (especially the ordinals) might help. The flavour
+      text is dancing around what this puzzle is about, but there are some clues in
+      there.
+- model: spoilr_hints.cannedhint
+  pk: 1654
+  fields:
+    puzzle: 504
+    description: Solvers don't know where to begin (strong hint)
+    order: 1.5
+    keywords: stars, begin, start, stuck
+    content: 'You have a list of (slightly modified) names of contra-dances. This
+      link will help with your help: https://contradb.com/'
+- model: spoilr_hints.cannedhint
+  pk: 1655
+  fields:
+    puzzle: 504
+    description: Solvers know this is contra-dance but don't know what a star is
+    order: 2.0
+    keywords: contra-dances
+    content: There is a strong star theming in this puzzle. Look up what a star is
+      in the context of contra-dance in general and specifically in the dances listed.
+      The added words to the dance names should tell you what to look for. Note the
+      directionality.
+- model: spoilr_hints.cannedhint
+  pk: 1656
+  fields:
+    puzzle: 504
+    description: Solvers don't know which component of the dance to use (strong hint)
+    order: 2.5
+    keywords: stars, dances
+    content: Each dance listed here contains at least one "star"- a move in which
+      dancers join hands at the center and walk in a circle, like a wheel turning
+      around an axel. Each dance has a numerical modifier added to the name that indicates
+      which star in that dance to use. You are looking for the handedness of that
+      that star.
+- model: spoilr_hints.cannedhint
+  pk: 1657
+  fields:
+    puzzle: 504
+    description: Solvers have the directionality of the stars but haven't used the
+      star diagram to draw pictures
+    order: 3.0
+    keywords: left-handed, right-handed
+    content: Map the list of dance stars to the graph by following the arrows, beginning
+      at red. Then you want to consider the left-handed stars and the right-handed
+      stars separate. The BLANK in the BLANK statement tells you what image you'll
+      be able to make.
+- model: spoilr_hints.cannedhint
+  pk: 1658
+  fields:
+    puzzle: 504
+    description: Solvers have all the images but haven't made the planetary connection.
+    order: 4.0
+    keywords: pictures, bull, envelope, trident, caduceus, heart, lightning bolt
+    content: These images are symbols that belong to a certain group. You might want
+      to look where King Arthur is looking.
+- model: spoilr_hints.cannedhint
+  pk: 1659
+  fields:
+    puzzle: 504
+    description: Solvers have matched the planets but have not found the conjunctions.
+    order: 5.0
+    keywords: planets
+    content: What day of 1950 would you have seen the conjunction of the two planets
+      in each pair of images?

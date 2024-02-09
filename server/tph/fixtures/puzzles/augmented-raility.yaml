@@ -1,0 +1,251 @@
+- model: puzzles.puzzle
+  pk: 503
+  fields:
+    emoji: ':station:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 503
+  fields:
+    external_id: 503
+    round: 16
+    answer: OVERBUDGET
+    name: Augmented Raility
+    main_credits: Jim Hays, Nathaniel McManus, and Rick Healey
+    other_credits: ''
+    order: 503
+    is_meta: false
+    slug: augmented-raility
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 444
+  fields:
+    puzzle: 503
+    description: Solvers are stuck on how to get started
+    order: 0.0
+    keywords: getting started, start maps
+    content: One place to start is by identifying each of the videogames.  Another
+      is to identify the cities from the landmarks.
+- model: spoilr_hints.cannedhint
+  pk: 445
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the first image
+    order: 10.01
+    keywords: id, identify, game, first
+    content: Searching for the text shown in the image wrapped in quotes should help
+      you ID this game.
+- model: spoilr_hints.cannedhint
+  pk: 446
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the second image
+    order: 10.02
+    keywords: id, identify, game, second
+    content: A Google Reverse Image Search of the character with the building they
+      are standing in front of should help identify this game.
+- model: spoilr_hints.cannedhint
+  pk: 447
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the third image
+    order: 10.03
+    keywords: id, identify, game, third
+    content: This was a top racing game for the Nintendo 64.
+- model: spoilr_hints.cannedhint
+  pk: 448
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the fourth image
+    order: 10.04
+    keywords: id, identify, game, fourth
+    content: This is a Zelda game for the Super Nintendo
+- model: spoilr_hints.cannedhint
+  pk: 449
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the fifth image
+    order: 10.05
+    keywords: id, identify, game, fifth
+    content: Searching for the text shown in the image without quotes should help
+      you ID this game.
+- model: spoilr_hints.cannedhint
+  pk: 450
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the sixth image
+    order: 10.06
+    keywords: id, identify, game, sixth
+    content: Searching for the text shown in the image will help you ID this game.
+- model: spoilr_hints.cannedhint
+  pk: 451
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the seventh image
+    order: 10.07
+    keywords: id, identify, game, seventh
+    content: Searching for the text shown in the image will help you ID this game.
+- model: spoilr_hints.cannedhint
+  pk: 452
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the eighth image
+    order: 10.08
+    keywords: id, identify, game, eighth
+    content: A Google Reverse Image Search of the HUD should help identify this game.
+- model: spoilr_hints.cannedhint
+  pk: 453
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the ninth image
+    order: 10.09
+    keywords: id, identify, game, ninth
+    content: Searching for the text shown in the image without quotes should help
+      you ID this Nintendo 64 game.
+- model: spoilr_hints.cannedhint
+  pk: 454
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the game for the tenth image
+    order: 10.1
+    keywords: id, identify, game, tenth
+    content: A Google Reverse Image Search should help identify this game.
+- model: spoilr_hints.cannedhint
+  pk: 455
+  fields:
+    puzzle: 503
+    description: Solvers have identified cities from the landmarks, but not figured
+      out how to match the images to the subway maps.
+    order: 20.0
+    keywords: match, maps, cities
+    content: Looking up official subway maps of the cities where the landmarks are
+      from should help you match the images to the subway maps using colors and intersections
+      of lines.
+- model: spoilr_hints.cannedhint
+  pk: 456
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the first image
+      (The Ultimate Doom)
+    order: 30.01
+    keywords: id, identify, level, first, The Ultimate Doom
+    content: A Google Reverse Image Search of the image should help identify this
+      level.
+- model: spoilr_hints.cannedhint
+  pk: 457
+  fields:
+    puzzle: 503
+    description: "Solvers have not identified the level for the game in the second\
+      \ image (Pok\xE9mon Diamond & Pearl)"
+    order: 30.02
+    keywords: "id, identify, level, second, Pok\xE9mon Diamond & Pearl"
+    content: A Google Reverse Image Search of the character with the building they
+      are standing in front of should help identify this level.
+- model: spoilr_hints.cannedhint
+  pk: 458
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the third image
+      (Mario Kart 64)
+    order: 30.03
+    keywords: id, identify, level, third, Mario Kart 64
+    content: The question marks for the position of the racers should help identify
+      which map this is.
+- model: spoilr_hints.cannedhint
+  pk: 459
+  fields:
+    puzzle: 503
+    description: 'Solvers have not identified the level for the game in the fourth
+      image (The Legend of Zelda: A Link to the Past)'
+    order: 30.04
+    keywords: 'id, identify, level, fourth,The Legend of Zelda: A Link to the Past'
+    content: 'Looking through the maps of dungeons in the game should help ID which
+      dungeon this is. You can find maps of the dungeons here: https://mikesrpgcenter.com/zelda3/maps.html'
+- model: spoilr_hints.cannedhint
+  pk: 460
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the fifth image
+      (Counter-Strike 2)
+    order: 30.05
+    keywords: id, identify, level, fifth, Counter-Strike 2
+    content: The names of the companies on the signs should help identify the level.
+      https://counterstrike.fandom.com/wiki/List_of_Companies_(Maps)
+- model: spoilr_hints.cannedhint
+  pk: 461
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the sixth image
+      (Baba Is You)
+    order: 30.06
+    keywords: id, identify, level, sixth, Baba Is You
+    content: To identify the level, you will need to look for a level with both a
+      SKULL (https://babaiswiki.fandom.com/wiki/SKULL?so=search), and a WALL (https://babaiswiki.fandom.com/wiki/WALL?so=search).
+- model: spoilr_hints.cannedhint
+  pk: 462
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the seventh
+      image (Among Us)
+    order: 30.07
+    keywords: id, identify, level, seventh, Among Us
+    content: Searching for the room name along with the game name should help ID the
+      level.
+- model: spoilr_hints.cannedhint
+  pk: 463
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the eighth
+      image (Valorant)
+    order: 30.08
+    keywords: id, identify, level, eighth, Valorant
+    content: "The striped green roofing can help ID the map.\r\nhttps://playvalorant.com/en-us/maps/"
+- model: spoilr_hints.cannedhint
+  pk: 464
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the ninth image
+      (GoldenEye 007)
+    order: 30.09
+    keywords: id, identify, level, ninth,GoldenEye 007
+    content: "The names of the game's levels will be helpful in identifying which\
+      \ level is shown:\r\nhttps://goldeneye.fandom.com/wiki/Levels"
+- model: spoilr_hints.cannedhint
+  pk: 465
+  fields:
+    puzzle: 503
+    description: Solvers have not identified the level for the game in the tenth image
+      (Hollow Knight)
+    order: 30.1
+    keywords: id, identify, level, tenth, Hollow Knight
+    content: A Google Reverse Image Search should help identify this level.
+- model: spoilr_hints.cannedhint
+  pk: 466
+  fields:
+    puzzle: 503
+    description: Solvers have matched metro maps to images, but haven't realized they
+      need to find specific stations based on the locations of the game screenshots.
+    order: 40.0
+    keywords: maps, blanks
+    content: It will be helpful to locate where in each map each screenshot was taken.
+- model: spoilr_hints.cannedhint
+  pk: 467
+  fields:
+    puzzle: 503
+    description: Solvers are unsure what order to put the values in.
+    order: 99.0
+    keywords: order
+    content: The metro maps are in alphabetical order by city, and the blanks are
+      in order by length.  Have you used the ordering of the video game images?
+- model: spoilr_hints.cannedhint
+  pk: 468
+  fields:
+    puzzle: 503
+    description: Solvers are unsure how to extract.
+    order: 100.0
+    keywords: extraction
+    content: Each image has 1 or more objects from the game that have been manipulated
+      to increase or decrease the number of them shown.  Count the duplicated items
+      to get an index.

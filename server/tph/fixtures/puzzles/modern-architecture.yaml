@@ -1,0 +1,238 @@
+- model: puzzles.puzzle
+  pk: 140
+  fields:
+    emoji: ':classical_building:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 140
+  fields:
+    external_id: 140
+    round: 21
+    answer: FLAMEN DIALIS
+    name: Modern Architecture
+    main_credits: Wesley "Adalbert Zollern" Zhang and Craig Kasper
+    other_credits: ''
+    order: 140
+    is_meta: false
+    slug: modern-architecture
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1695
+  fields:
+    puzzle: 140
+    description: Solvers want a starting point on the Louvre minipuzzle.
+    order: 0.1
+    keywords: louvre, crossword
+    content: Fill in the crossword. There are no further gimmicks besides the grid
+      shape.
+- model: spoilr_hints.cannedhint
+  pk: 1696
+  fields:
+    puzzle: 140
+    description: Solvers want a starting point on the JFK minipuzzle.
+    order: 10.1
+    keywords: jfk, twilight struggle
+    content: "This is a retrograde analysis puzzle\u2014you need to deduce the unique\
+      \ sequence of cards that could cause this sequence of events. Each page represents\
+      \ one \"timepoint\"  in the game, and represents the changes that occur at that\
+      \ point in time.\r\n\r\nThere are 12 card plays total. Remember that opponent's\
+      \ events must be played for operations, but they also trigger the event."
+- model: spoilr_hints.cannedhint
+  pk: 1697
+  fields:
+    puzzle: 140
+    description: Solvers are stuck on the logical portion of JFK.
+    order: 10.2
+    keywords: jfk, twilight struggle
+    content: <course correct their logic with the intended solution where needed.
+      some potential major sticking points include the USSR Headline, AR3 USSR, and
+      AR5 US.>
+- model: spoilr_hints.cannedhint
+  pk: 1699
+  fields:
+    puzzle: 140
+    description: Solvers are stuck on extraction for JFK.
+    order: 10.3
+    keywords: jfk, extraction
+    content: The letters that start off the "text" of the articles read "HEADLINES
+      OP NUM WORD". Each page has a prominent headline in bold font, and each card
+      has the number of Operations it gives in its top left.
+- model: spoilr_hints.cannedhint
+  pk: 1698
+  fields:
+    puzzle: 140
+    description: Solvers want a starting point on the National Gallery minipuzzle.
+    order: 20.1
+    keywords: national, gallery
+    content: These sixteen pieces can be arranged into a larger 4x4 grid. Ignore the
+      colors on the fringes for now.
+- model: spoilr_hints.cannedhint
+  pk: 1700
+  fields:
+    puzzle: 140
+    description: Solvers are stuck on extraction for National Gallery.
+    order: 20.2
+    keywords: national, gallery, extraction
+    content: The color arrangements in the completed grid resemble something used
+      in the navy for communication. It's used to encode the alphabet, hence "Victor"
+      (the NATO letter for V) in the flavortext.
+- model: spoilr_hints.cannedhint
+  pk: 1701
+  fields:
+    puzzle: 140
+    description: Solvers want a starting point on the Mesa Laboratory minipuzzle.
+    order: 30.1
+    keywords: mesa
+    content: You're given a bunch of gases. Their volume, temperature, and mass are
+      given; you must calculate something else with these values.
+- model: spoilr_hints.cannedhint
+  pk: 1702
+  fields:
+    puzzle: 140
+    description: Solvers are stuck on extraction for Mesa Laboratory.
+    order: 30.2
+    keywords: mesa, extraction
+    content: The Mesa Laboratory is home to the National Center for Atmospheric Research;
+      as such, convert your current pressure values to atm.
+- model: spoilr_hints.cannedhint
+  pk: 1703
+  fields:
+    puzzle: 140
+    description: Solvers have minipuzzle answers and are stuck on how to use them.
+    order: 50.1
+    keywords: meta
+    content: What do the four buildings with minipuzzles named after them have in
+      common?
+- model: spoilr_hints.cannedhint
+  pk: 1704
+  fields:
+    puzzle: 140
+    description: Solvers understand that all four buildings were architected by I.
+      M. Pei, but don't know how to use this information.
+    order: 50.2
+    keywords: meta, pei
+    content: I. M. Pei was an MIT alumnus. Maybe he's done some work at the institute?
+- model: spoilr_hints.cannedhint
+  pk: 1705
+  fields:
+    puzzle: 140
+    description: Solvers know about Pei's buildings on campus, but can't find the
+      on-site hints.
+    order: 50.3
+    keywords: meta, pei
+    content: <help out with whichever ones they need help with.>
+- model: spoilr_hints.cannedhint
+  pk: 1706
+  fields:
+    puzzle: 140
+    description: Solvers have found the hint in Landau, but are struggling to apply
+      it.
+    order: 60.1
+    keywords: landau, louvre, crossword, triangle
+    content: Landau is a 30-60-90 triangle. The image is asking you to find similar
+      triangles in the crossword grid where every vertex is the same letter. (Vertical
+      reflections are allowed.)
+- model: spoilr_hints.cannedhint
+  pk: 1707
+  fields:
+    puzzle: 140
+    description: Solvers have found the hint in Dreyfus, but are struggling to apply
+      it.
+    order: 70.1
+    keywords: dreyfus, jfk, twilight struggle
+    content: What is AWACS's ID number, 110, in the context of the place where you
+      found it? Apply the same to the four rounds indicated on the hint.
+- model: spoilr_hints.cannedhint
+  pk: 1708
+  fields:
+    puzzle: 140
+    description: Solvers have found the hint in Wiesner, but are struggling to apply
+      it.
+    order: 80.1
+    keywords: wiesner, national, gallery
+    content: Look leftwards from the hint's position on the wall.
+- model: spoilr_hints.cannedhint
+  pk: 1709
+  fields:
+    puzzle: 140
+    description: Solvers know what to do for the Wiesner extraction, but are struggling
+      to read off an output from it.
+    order: 80.2
+    keywords: wiesner, national, gallery
+    content: Read off the squares' positions on the wall as Braille.
+- model: spoilr_hints.cannedhint
+  pk: 1710
+  fields:
+    puzzle: 140
+    description: Solvers have found the hint in Green, but are struggling to apply
+      it.
+    order: 90.1
+    keywords: green, mesa, perpendicular, perpiw
+    content: The images are from the Projection Device in the 2021 MIT Mystery Hunt.
+      Maybe it's worth taking a look at the panel with a question mark in there?
+- model: spoilr_hints.cannedhint
+  pk: 1711
+  fields:
+    puzzle: 140
+    description: Solvers know about the Green Building panel, but still don't know
+      what to do with it.
+    order: 90.2
+    keywords: green, mesa, perpendicular, perpiw
+    content: The gases used in the Mesa puzzle each have a color.
+- model: spoilr_core.pseudoanswer
+  pk: 292
+  fields:
+    puzzle: 140
+    answer: CAESARS
+    response: This is a minipuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 294
+  fields:
+    puzzle: 140
+    answer: CANDIDACY
+    response: This is a minipuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 245
+  fields:
+    puzzle: 140
+    answer: DARMSTADT
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 293
+  fields:
+    puzzle: 140
+    answer: FIRST
+    response: This is a minipuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 291
+  fields:
+    puzzle: 140
+    answer: JULIUS
+    response: This is a minipuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 290
+  fields:
+    puzzle: 140
+    answer: JULIUS CAESARS FIRST CANDIDACY
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 244
+  fields:
+    puzzle: 140
+    answer: LITTLE SAIL
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 246
+  fields:
+    puzzle: 140
+    answer: UPPERMOST
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 247
+  fields:
+    puzzle: 140
+    answer: YELLOW CERAMIC
+    response: Keep going!

@@ -1,0 +1,121 @@
+- model: puzzles.puzzle
+  pk: 404
+  fields:
+    emoji: ':scroll:'
+    deep: 100
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 404
+  fields:
+    external_id: 404
+    round: 9
+    answer: PLUTOCRAT
+    name: Poetic Justice
+    main_credits: Preston Phillips
+    other_credits: ''
+    order: 404
+    is_meta: false
+    slug: poetic-justice
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 597
+  fields:
+    puzzle: 404
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start, begin
+    content: Take a look at the structure of each of these clues. Based on the idea
+      of poetry in the title and the flavor text, is there some way that you could
+      group them?
+- model: spoilr_hints.cannedhint
+  pk: 598
+  fields:
+    puzzle: 404
+    description: Solvers are still unable to pair together the clues.
+    order: 1.1
+    keywords: pairs, poetry
+    content: "Each clue appears to have another clue that uniquely rhymes with it.\
+      \ Take, for example, the two clues:\r\nA forceful statement of something that\
+      \ is true;\r\nA guess about events you'll later view.\r\nThis should allow you\
+      \ to create pairs of clues."
+- model: spoilr_hints.cannedhint
+  pk: 599
+  fields:
+    puzzle: 404
+    description: Solvers have paired the clues but aren't certain what to do next.
+    order: 2.0
+    keywords: ''
+    content: If you start solving the clues, you should notice a pattern. The solutions
+      to each of the paired clues should be very similar except for a single difference.
+- model: spoilr_hints.cannedhint
+  pk: 600
+  fields:
+    puzzle: 404
+    description: Solvers are still unable to spot the pattern within the paired clues.
+    order: 2.1
+    keywords: rhyming, pairs, pattern, similarity
+    content: "In each pair of clues, one gives an eleven letter word. The other clue\
+      \ gives a ten letter word. Both of these words are the same except one letter\
+      \ is dropped from the eleven letter word to make the ten letter one. For example:\r\
+      \n\r\nA forceful statement of something that is true: This solves to PREDIC[A]TION;\r\
+      \nA guess about events you'll later view: This solves to PREDICTION.\r\n\r\n\
+      The dropped letter is A."
+- model: spoilr_hints.cannedhint
+  pk: 601
+  fields:
+    puzzle: 404
+    description: Solvers have not figured out that they can order the pairs of clues
+      based on the dropped letter.
+    order: 2.2
+    keywords: ''
+    content: The dropped letters are the letters A-J. This should provide an ordering
+      for the pairs of clues.
+- model: spoilr_hints.cannedhint
+  pk: 602
+  fields:
+    puzzle: 404
+    description: Solvers don't know how to start extraction.
+    order: 3.0
+    keywords: extract
+    content: The flavor text indicates that you are looking at a specific type of
+      poetry and that the clues deviate from this format in some way. Try to determine
+      this poetry form and spot how your pairs are "broken."
+- model: spoilr_hints.cannedhint
+  pk: 603
+  fields:
+    puzzle: 404
+    description: Solvers can't identify the type of poem.
+    order: 3.1
+    keywords: Extract, poem type
+    content: "The type of poetry clued by the flavor is a heroic couplet. The format\
+      \ for these is two rhyming lines that each have 10 syllables. \r\n\r\nNotice\
+      \ that in your pairs of clues, one clue has ten syllables and the other has\
+      \ eleven. This is what's wrong with the couplets in the puzzle!"
+- model: spoilr_hints.cannedhint
+  pk: 604
+  fields:
+    puzzle: 404
+    description: Solvers haven't connected the answers to the clues with the syllable
+      counts.
+    order: 3.2
+    keywords: extract, clue, syllable
+    content: Notice that the 10 syllable clue corresponds to the 10 letter word and
+      the 11 letter clue corresponds to the 11 letter line. This means that we can
+      map each letter to a syllable in the clue.
+- model: spoilr_hints.cannedhint
+  pk: 605
+  fields:
+    puzzle: 404
+    description: Solvers need a final push to the end of the puzzle.
+    order: 3.3
+    keywords: extract, clue, syllable
+    content: "Look at the extra letter in the 11 letter clue. Take its position in\
+      \ the word and find the corresponding syllable in the same position in its clue.\
+      \ For example:\r\n\r\nPREDIC[A]TION- A forceful statement of something that\
+      \ is true;\r\nPREDICTION- A guess about events you'll later view.\r\n\r\nThe\
+      \ extra letter is the seventh letter of PREDICATION, so we take \"some\" which\
+      \ is the seventh syllable of the clue.\r\n\r\nStringing these together should\
+      \ give you the final clue phrase."

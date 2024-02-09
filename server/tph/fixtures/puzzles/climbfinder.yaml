@@ -1,0 +1,82 @@
+- model: puzzles.puzzle
+  pk: 602
+  fields:
+    emoji: ':chart_with_upwards_trend:'
+    deep: 950
+- model: spoilr_core.puzzle
+  pk: 602
+  fields:
+    external_id: 602
+    round: 12
+    answer: TETHYS OCEAN
+    name: Climbfinder
+    main_credits: Charles Steinhardt, Jayden Yamada, Jeremiahs Johnson, Sophia Caspe,
+      Sophia McManus, and Timwi
+    other_credits: ''
+    order: 602
+    is_meta: false
+    slug: climbfinder
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1633
+  fields:
+    puzzle: 602
+    description: Solvers don't know how to get started.
+    order: 1.0
+    keywords: start, begin, first step
+    content: Look at the names of the stocks under each of the three sections. You
+      need Only to Connect them into groups of 4.
+- model: spoilr_hints.cannedhint
+  pk: 1634
+  fields:
+    puzzle: 602
+    description: Solvers have sorted the stock symbols into groups but don't know
+      what to do after.
+    order: 2.0
+    keywords: sorted, Only Connect, grouped
+    content: Look up the title of this puzzle. The reason why the names of the months
+      are in those 3 languages is related to the activity you'll have found.
+- model: spoilr_hints.cannedhint
+  pk: 1635
+  fields:
+    puzzle: 602
+    description: Solvers found the Climbfinder website and bicycling, but don't know
+      how to apply the information from the puzzle.
+    order: 3.0
+    keywords: Climbfinder, bicycles, slopes
+    content: Organize your information. Each day has one member listed for each of
+      your Only Connect groups. You should be able to make one graph for each group,
+      as long as you fill in a gap here and there. Compute the difference between
+      stock prices as percentages to match the Climbfinder graphs.
+- model: spoilr_hints.cannedhint
+  pk: 1636
+  fields:
+    puzzle: 602
+    description: Solvers haven't found the three major races
+    order: 4.0
+    keywords: months, bicycle climbs, routes
+    content: If you were a bicycling enthusiast, why were you paying attention to
+      France this past July?
+- model: spoilr_hints.cannedhint
+  pk: 1637
+  fields:
+    puzzle: 602
+    description: Solvers haven't found the three major races (strong hint)
+    order: 4.5
+    keywords: France, Italy, Spain, months
+    content: 'The three sets of data represent the 3 largest bicycle races: Giro d''Italia
+      (in May), Tour de France (in July), and Vuelta a Espana (in August and September).
+      Each graph represents a climb from one of their respective 2023 races.'
+- model: spoilr_hints.cannedhint
+  pk: 1638
+  fields:
+    puzzle: 602
+    description: Solvers have found all the climbs and need help extracting
+    order: 5.0
+    keywords: climbs, extraction
+    content: Sort the climbs by the order that they occurred in the race. There is
+      one missing stock price from each of the graphs. Index that day into the name
+      of the climb.

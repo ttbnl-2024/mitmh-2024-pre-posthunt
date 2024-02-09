@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Assume that we are executing in the project root, and specify the config files
+
+args=()
+if [[ -f docker-compose.registry.yml ]] ; then
+  args+=("-f" "docker-compose.registry.yml")
+fi
+
+docker_compose() {
+  command docker compose -f docker-compose.yml "${args[@]}" "$@"
+}

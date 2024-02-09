@@ -1,0 +1,95 @@
+- model: puzzles.puzzle
+  pk: 130
+  fields:
+    emoji: ':hotsprings:'
+    deep: 8
+    deep_key: 'sedona-meta'
+- model: spoilr_core.puzzle
+  pk: 130
+  fields:
+    external_id: 130
+    round: 7
+    answer: PLASTER PARIS
+    name: The Shala of Thermopylae
+    main_credits: Ayushi Mohanty and Paul Melamud
+    other_credits: ''
+    order: 130
+    is_meta: true
+    slug: the-shala-of-thermopylae
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 110
+  fields:
+    puzzle: 130
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start
+    content: Ezekiel's spiritual music is pretty dry, huh? Maybe finding his song
+      can give you some inspiration. I can feel it in my bones.
+- model: spoilr_hints.cannedhint
+  pk: 1317
+  fields:
+    puzzle: 130
+    description: Solvers need a nudge on what to focus on
+    order: 10.0
+    keywords: ''
+    content: Your mind clears for a moment as the music starts over, the yogi scrutinizing
+      everybody's form. "'Out-of-corpus' is oddly phrased," you say to yourself. "Perhaps
+      that can put an idea in my head..."
+- model: spoilr_hints.cannedhint
+  pk: 1318
+  fields:
+    puzzle: 130
+    description: Solvers need a strong (but still cryptic) hint about how this puzzle
+      works
+    order: 50.0
+    keywords: ''
+    content: If you have recognized the song, much should fall into place. To break
+      out of the yoga trap, you'll have to find a way to reconnect the disjointed
+      parts of your inner self with the few words available in your entranced state.
+      With luck (and a bit of elbow grease), you'll feel like a new person when you're
+      done.
+- model: spoilr_hints.cannedhint
+  pk: 1319
+  fields:
+    puzzle: 130
+    description: Solvers want a strong, straightforward hint about what's going on
+      in this puzzle
+    order: 70.0
+    keywords: ''
+    content: This is a puzzle about anatomical etymology.
+- model: spoilr_hints.cannedhint
+  pk: 1320
+  fields:
+    puzzle: 130
+    description: Solvers have no idea what to do and need a serious nudge
+    order: 80.0
+    keywords: ''
+    content: Google the "Sirsa Padasana" mentioned in the flavor text. Keep that image
+      in mind as you look at your meta answers and "put yourself together." This is
+      a puzzle about anatomical etymology and the reference to Yogi Ezekiel is a hint
+      at the song "Dem Bones."
+- model: spoilr_hints.cannedhint
+  pk: 1341
+  fields:
+    puzzle: 130
+    description: Solvers have correctly chained the feeders but are stuck on extraction.
+    order: 90.0
+    keywords: ''
+    content: Your bones are laid out in the right order, but they're still disjointed.
+      There must be a way to pin the bones together.
+- model: spoilr_hints.cannedhint
+  pk: 1321
+  fields:
+    puzzle: 130
+    description: Solvers need to know exactly how extraction works
+    order: 100.0
+    keywords: ''
+    content: 'Each meta answer has two parts: one part that hints at the etymology
+      of a single bone. Using the song "Dem Bones" (as hinted by "Yogi Ezekiel) and
+      the yoga pose from the flavor, you should be able to chain together the bones
+      by forming a toe-to-head chain with the meta answers. The other half of each
+      answer can be laid over the bone from the previous answer to extract.'

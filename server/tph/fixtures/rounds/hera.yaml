@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 20
+  fields:
+    # Underworld map
+    "x": 36.712
+    "y": 0
+    "w": 11.65
+    text_overlay: true
+    autoresize: false
+- model: spoilr_core.round
+  pk: 20
+  fields:
+    act: 1
+    slug: the-hole-in-the-ceiling-of-hades
+    name: The Hole in the Ceiling of Hades
+    order: 9

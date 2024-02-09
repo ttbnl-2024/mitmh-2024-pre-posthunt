@@ -1,0 +1,101 @@
+- model: puzzles.puzzle
+  pk: 407
+  fields:
+    emoji: ':golf:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 407
+  fields:
+    external_id: 407
+    round: 10
+    answer: PROFESSOR OAK
+    name: Extreme Hiking
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 407
+    is_meta: false
+    slug: extreme-hiking
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 332
+  fields:
+    puzzle: 407
+    description: Solvers are stuck on getting started. Flavor and words.
+    order: 1.0
+    keywords: birds, genus, species, theme, start, location.
+    content: Some of the words in the flavortext in combination with the types of
+      wildlife spotted in the puzzle will point you to a specific sport, which goes
+      along with the location in the map.
+- model: spoilr_hints.cannedhint
+  pk: 333
+  fields:
+    puzzle: 407
+    description: Solvers know there is a golf theme, but haven't found location on
+      the map.
+    order: 2.0
+    keywords: map, find, where
+    content: Google maps is your friend. Use the street names and/or route numbers
+      to narrow down where this location is.
+- model: spoilr_hints.cannedhint
+  pk: 338
+  fields:
+    puzzle: 407
+    description: Solvers are having trouble following the paths.
+    order: 3.0
+    keywords: trail, off-trail, bushwhack
+    content: Each hole of the course will be visited only once, and they are always
+      traversed along the path from the tee to the hole.  Any references to being
+      "off-trail" or "bushwhacking" are when navigating from the hole from the previous
+      step to the tee for the next step.
+- model: spoilr_hints.cannedhint
+  pk: 339
+  fields:
+    puzzle: 407
+    description: Solvers are having trouble following the topographic maps.
+    order: 5.0
+    keywords: maps, elevation, topographic
+    content: Applying some logic will help if you find following the directions tricky.  Each
+      statement refers to a different one of the 18 holes. Try looking ahead to see
+      if there are holes you can identify just using the description, without needing
+      the information about direction or elevation change. Then you can work forwards/backwards
+      from those spots, as well as knowing that those holes can be ruled out as possibilities
+      for other statements.
+- model: spoilr_hints.cannedhint
+  pk: 334
+  fields:
+    puzzle: 407
+    description: Solvers don't know what to do with holes once identified.
+    order: 8.0
+    keywords: holes, information
+    content: Once you've identified which hole each part of the puzzle is referring
+      to, you'll need to look up two important pieces of information about it.
+- model: spoilr_hints.cannedhint
+  pk: 337
+  fields:
+    puzzle: 407
+    description: Solvers are looking for a reordering step, or have reordered when
+      they shouldn't
+    order: 9.0
+    keywords: reorder, reordering, order
+    content: The data should remain in the order as given.  No reordering is required.
+- model: spoilr_hints.cannedhint
+  pk: 335
+  fields:
+    puzzle: 407
+    description: Solvers don't know where to apply an index.
+    order: 10.0
+    keywords: tree, name
+    content: You'll be indexing into the name of the tree associated with each hole.
+- model: spoilr_hints.cannedhint
+  pk: 336
+  fields:
+    puzzle: 407
+    description: Solvers don't know how to apply the index
+    order: 12.0
+    keywords: par, birdie, bogey, eagle, buzzard, grouse
+    content: The specific index is determined by using the number given as par for
+      the hole, and adjusting it by the number of strokes indicated by the wildlife
+      spotted (if any).

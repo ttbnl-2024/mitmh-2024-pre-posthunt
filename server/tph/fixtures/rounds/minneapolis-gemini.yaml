@@ -1,0 +1,15 @@
+- model: puzzles.round
+  pk: 14
+  fields:
+    autoresize: false
+    text_overlay: true
+    'x': 55.958
+    'y': 21.325
+    'w': 8.867
+- model: spoilr_core.round
+  pk: 14
+  fields:
+    act: 2
+    slug: minneapolis-st-paul
+    name: Minneapolis-Saint Paul, MN
+    order: 100

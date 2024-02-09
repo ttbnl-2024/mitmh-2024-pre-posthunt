@@ -1,0 +1,72 @@
+- model: puzzles.puzzle
+  pk: 121
+  fields:
+    emoji: ':arrow_double_down:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 121
+  fields:
+    external_id: 121
+    round: 16
+    answer: TURNKEY SYSTEM
+    name: A Process of Elimination
+    main_credits: The Dan Miller
+    other_credits: ''
+    order: 121
+    is_meta: false
+    slug: a-process-of-elimination
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 140
+  fields:
+    puzzle: 121
+    description: Solvers are stuck solving clues
+    order: 0.0
+    keywords: start, clues, grid
+    content: Many answers to the clues can be found in the grid, with one extra letter
+- model: spoilr_hints.cannedhint
+  pk: 141
+  fields:
+    puzzle: 121
+    description: Solvers have identified and answered the initial 24 clues and are
+      not sure what to do next
+    order: 10.0
+    keywords: round 1, clues, grid
+    content: How might you go deeper into the matrix. This is a PROCESS of elimination
+      after all
+- model: spoilr_hints.cannedhint
+  pk: 144
+  fields:
+    puzzle: 121
+    description: Solvers can't find the letters within the answers
+    order: 15.0
+    keywords: letters, round 1, inside
+    content: If you look hard enough, you might be Able to find a word letter system
+      that helps
+- model: spoilr_hints.cannedhint
+  pk: 142
+  fields:
+    puzzle: 121
+    description: Solvers have found the clue "find sandwiches" but can't find the
+      sandwiches
+    order: 20.0
+    keywords: sandwiches, round 2
+    content: You might have a banana, bologna, cucumber, falafel or panini sandwich
+      but not a ham, egg, or cheese sandwich
+- model: spoilr_hints.cannedhint
+  pk: 143
+  fields:
+    puzzle: 121
+    description: Solvers have made the final 4x4 grid but don't know what to do
+    order: 30.0
+    keywords: final grid, 4x4
+    content: Have you been Able to find the letters within the answers in Round 1?
+- model: spoilr_hints.cannedhint
+  pk: 145
+  fields:
+    puzzle: 121
+    description: Solvers have solved the final grid but can't extract
+    order: 40.0
+    keywords: extraction
+    content: Have you found the missing letters in the 3rd round answers? Those will
+      tell you what to do to get the final answer

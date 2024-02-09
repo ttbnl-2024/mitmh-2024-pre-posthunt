@@ -1,0 +1,57 @@
+- model: puzzles.puzzle
+  pk: 483
+  fields:
+    emoji: ':question:'
+    deep: 180
+- model: spoilr_core.puzzle
+  pk: 483
+  fields:
+    external_id: 483
+    round: 20
+    answer: AMERICA
+    name: "Connect\u00ADing Connect\u00ADions"
+    main_credits: Jeremiahs Johnson, Jeremy Conner, Josie Nelson, Maya Rotenberg,
+      and Sophia McManus
+    other_credits: ''
+    order: 483
+    is_meta: false
+    slug: connecting-connections
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 761
+  fields:
+    puzzle: 483
+    description: Solvers do not know the type of puzzle they are looking at
+    order: 0.0
+    keywords: start
+    content: These are NY Times Connections puzzles (you might also know them as Connecting
+      Walls).
+- model: spoilr_hints.cannedhint
+  pk: 762
+  fields:
+    puzzle: 483
+    description: Solvers do not know what to do after doing the individual connections
+      puzzles
+    order: 75.0
+    keywords: categories, completed
+    content: Try finding something in common amongst each of the four categories.
+- model: spoilr_hints.cannedhint
+  pk: 763
+  fields:
+    puzzle: 483
+    description: Solvers understand that each board has a word associated with it,
+      but do not know what to then do with the 16 words at the end
+    order: 95.0
+    keywords: words, 16
+    content: Your 16 words make up a final Connections puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1246
+  fields:
+    puzzle: 483
+    description: Solvers have the last categories, but can't extract
+    order: 100.0
+    keywords: captains, bands, north, words that start and end with the same letter
+    content: Your answer is another word that is in all 4 categories.

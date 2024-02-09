@@ -1,0 +1,112 @@
+- model: puzzles.puzzle
+  pk: 263
+  fields:
+    emoji: ':page_with_curl:'
+    deep: 1300
+- model: spoilr_core.puzzle
+  pk: 263
+  fields:
+    external_id: 263
+    round: 3
+    answer: INDIVISIBLE
+    name: '"Line, please."'
+    main_credits: Daniel Kramarsky
+    other_credits: ''
+    order: 263
+    is_meta: false
+    slug: line-please
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 890
+  fields:
+    puzzle: 263
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: So this is the *new* prologue for Romeo and Juliet... have you looked
+      at the old one?
+- model: spoilr_hints.cannedhint
+  pk: 891
+  fields:
+    puzzle: 263
+    description: Heavier starting hint if hint 0.0 was insufficient
+    order: 10.0
+    keywords: hunt, begin, heavy
+    content: Have you tried to compare the *new* prologue to the original? What seems
+      the same, and what is different?
+- model: spoilr_hints.cannedhint
+  pk: 892
+  fields:
+    puzzle: 263
+    description: A hint to interruptions from different plays
+    order: 20.0
+    keywords: interruptions
+    content: Some of the characters from various seats in the gallery are interrupting
+      the prologue. Can you determine who they are and where they are from?
+- model: spoilr_hints.cannedhint
+  pk: 893
+  fields:
+    puzzle: 263
+    description: Heavier hint at the interruptions from different plays
+    order: 30.0
+    keywords: interruptions, heavy
+    content: The interruptions are by characters from other Shakespearean plays whose
+      names are given by the 3-4-letter abbreviations. Can you identify them?
+- model: spoilr_hints.cannedhint
+  pk: 894
+  fields:
+    puzzle: 263
+    description: The solvers have the plays/characters identified, but don't know
+      how to move forward
+    order: 40.0
+    keywords: plays, characters, acts
+    content: Have you noticed something about the *locations* of the interruptions?
+- model: spoilr_hints.cannedhint
+  pk: 895
+  fields:
+    puzzle: 263
+    description: Hint to ordering by act/scene of the interruption plays
+    order: 50.0
+    keywords: extraction, ordering
+    content: Have you identified where each interrupting quote is located in its original
+      play? What do you notice about these locations?
+- model: spoilr_hints.cannedhint
+  pk: 896
+  fields:
+    puzzle: 263
+    description: Heavy hint at act/scene if hint 50.0 was insufficient
+    order: 60.0
+    keywords: extraction, ordering, heavy
+    content: Each quote comes from a unique/scene of a Shakespeare play. Act/scene
+      numbers provide the ordering.
+- model: spoilr_hints.cannedhint
+  pk: 897
+  fields:
+    puzzle: 263
+    description: Hint for interrupting lines
+    order: 70.0
+    keywords: extraction, interrupting, lines
+    content: The title is "line, please" - have you used it?
+- model: spoilr_hints.cannedhint
+  pk: 898
+  fields:
+    puzzle: 263
+    description: Heavy hint for interrupting sonnet lines extraction mechanic if hint
+      70.0 was insufficient
+    order: 80.0
+    keywords: extraction, interrupting, lines
+    content: Each *line* of the new prologue was interrupted by an insertion. Can
+      you apply the interrupted lines to the plays? Remember that the words, "Line,
+      please" were in the *title* of the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 899
+  fields:
+    puzzle: 263
+    description: The solvers got the cluephrase, but cannot get the final answer
+    order: 90.0
+    keywords: clue phrase, final step, answer
+    content: You are almost there! What important piece of Americana was altered in
+      1954 to insert something about God, and what comes after that insertion?

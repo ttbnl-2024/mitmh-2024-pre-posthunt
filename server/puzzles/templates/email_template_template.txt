@@ -1,0 +1,6 @@
+{% block content %}
+{% endblock %}
+
+---
+
+{% if because_registered %}You are receiving this email because you have registered for {{ hunt_title }}.{% else %}You are receiving this email because you are participating in {{ hunt_title }}.{% endif %}{% if unsubscribe_url %} If you wish to no longer receive {{ hunt_title }} emails, you can unsubscribe at {{ unsubscribe_url }} .{% endif %}

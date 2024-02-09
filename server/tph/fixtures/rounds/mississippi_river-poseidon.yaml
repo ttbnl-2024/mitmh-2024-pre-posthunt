@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 12
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 53.392
+    'y': 41.75
+    'w': 8.867
+    'z': 1
+- model: spoilr_core.round
+  pk: 12
+  fields:
+    act: 2
+    slug: mississippi-river
+    name: Mississippi River
+    order: 105

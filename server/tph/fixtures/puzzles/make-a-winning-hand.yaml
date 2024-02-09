@@ -1,0 +1,68 @@
+- model: puzzles.puzzle
+  pk: 525
+  fields:
+    emoji: ':question:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 525
+  fields:
+    external_id: 525
+    round: 6
+    answer: GRAY WASTES
+    name: Make a Winning Hand
+    main_credits: Chilli Qin
+    other_credits: ''
+    order: 525
+    is_meta: false
+    slug: make-a-winning-hand
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1131
+  fields:
+    puzzle: 525
+    description: Solvers don't understand that the game is Anti-Set and/or don't understand
+      that you always fail because of a set of three cards.
+    order: 0.0
+    keywords: how to play
+    content: Good things - or in this case, bad things - come in threes.
+- model: spoilr_hints.cannedhint
+  pk: 1251
+  fields:
+    puzzle: 525
+    description: Solvers need to be explicitly told what they are playing
+    order: 15.0
+    keywords: how to play, rules, stuck
+    content: 'There are 27 cards, each of which have can be categorized into 3 different
+      "values" along 3 different axes. You lose when you form a Set: when you have
+      3 cards which, for each axis, are all the same or all different.'
+- model: spoilr_hints.cannedhint
+  pk: 1252
+  fields:
+    puzzle: 525
+    description: Solvers are stuck playing
+    order: 50.0
+    keywords: game is hard, how to win
+    content: The bot's pretty good, but plays fairly. There does exist a winning line,
+      you'll just have to find it. You might consider writing some code if you're
+      not interested in brute-forcing every possible sequence.
+- model: spoilr_hints.cannedhint
+  pk: 1253
+  fields:
+    puzzle: 525
+    description: Solvers are stuck on extraction
+    order: 80.0
+    keywords: win, extraction
+    content: Think back to the end of each game, where the cards both revealed their
+      backing and 3 numbers between 0 and 2, as well as the alignment along each axis.
+- model: spoilr_hints.cannedhint
+  pk: 1254
+  fields:
+    puzzle: 525
+    description: Solvers are still stuck on extraction
+    order: 100.0
+    keywords: extraction
+    content: The extraction is ternary. The colors give RGB order, and the numbers
+      tell you which end of the axis is 0, 1, or 2.

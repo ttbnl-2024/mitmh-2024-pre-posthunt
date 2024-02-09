@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 7
+  fields:
+    emoji: ':flamingo:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 7
+  fields:
+    external_id: 7
+    round: 4
+    answer: RANI
+    name: Flamingo
+    main_credits: Nick Boyer and Stephanie Chen
+    other_credits: Thomas Snyder for image cleanup
+    order: 7
+    is_meta: false
+    slug: flamingo
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 121
+  fields:
+    puzzle: 7
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start
+    content: As you can probably tell, this is a logic puzzle. Before trying to solve
+      cells, it will be useful to figure out what E means.
+- model: spoilr_hints.cannedhint
+  pk: 122
+  fields:
+    puzzle: 7
+    description: Solvers haven't figured out what E means.
+    order: 1.0
+    keywords: E
+    content: In addition to E, there are strange occurrences in the puzzle, particularly
+      the KenKen. All of these are clues to what the E means.
+- model: spoilr_hints.cannedhint
+  pk: 125
+  fields:
+    puzzle: 7
+    description: Solvers haven't figured out the colored cells are hex color codes.
+    order: 98.0
+    keywords: colored cells
+    content: If you converted to decimal to solve the puzzle, it would be easier to
+      figure out the commonality between the colored cell sets if you converted back
+      to hexadecimal. The number of colored cells in each set is the same for a reason.
+- model: spoilr_hints.cannedhint
+  pk: 124
+  fields:
+    puzzle: 7
+    description: Solvers are stuck on ordering.
+    order: 99.0
+    keywords: ordering
+    content: As the flavor text says, flamingos are born gray and become pinker due
+      to the intake of shrimp.
+- model: spoilr_hints.cannedhint
+  pk: 123
+  fields:
+    puzzle: 7
+    description: Solvers are stuck on extraction.
+    order: 100.0
+    keywords: extraction
+    content: Make sure you've used everything in the flavor text.

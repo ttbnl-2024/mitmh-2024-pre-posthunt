@@ -1,0 +1,97 @@
+- model: puzzles.puzzle
+  pk: 421
+  fields:
+    emoji: ':jigsaw:'
+    deep: 875
+- model: spoilr_core.puzzle
+  pk: 421
+  fields:
+    external_id: 421
+    round: 19
+    answer: INTERCONNECTION
+    name: Jigsaw Sudoku
+    main_credits: Charles Steinhardt and Stephanie Chen
+    other_credits: ''
+    order: 421
+    is_meta: false
+    slug: jigsaw-sudoku
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 559
+  fields:
+    puzzle: 421
+    description: Stuck on getting started
+    order: 0.0
+    keywords: Start
+    content: The title of this puzzle seems to be trying to tell us something about
+      the pieces we are given
+- model: spoilr_hints.cannedhint
+  pk: 560
+  fields:
+    puzzle: 421
+    description: Stuck on getting started (2)
+    order: 1.0
+    keywords: start
+    content: Why don't we try to put these together in 9 by 9 grids reminiscent of
+      sudokus
+- model: spoilr_hints.cannedhint
+  pk: 561
+  fields:
+    puzzle: 421
+    description: solvers stuck on solving sudokus
+    order: 20.0
+    keywords: solving sudoku
+    content: Did you see that added constraint? Maybe that will make these uniquely
+      solvable.
+- model: spoilr_hints.cannedhint
+  pk: 562
+  fields:
+    puzzle: 421
+    description: solvers stuck on solving sudokus (2)
+    order: 20.1
+    keywords: solving sudoku
+    content: Given the added constraint that every provided jigsaw piece has every
+      digit at least once, but no more than twice, we must add to your sudoku logic.
+      For example, in a piece that has two of any number, we can remove that number
+      as a candidate from the rest of the piece. Or for any piece that is exactly
+      9 squares, we can treat it like a box of the sudoku and remove any given candidates
+      from the entire piece.
+- model: spoilr_hints.cannedhint
+  pk: 563
+  fields:
+    puzzle: 421
+    description: solvers are stuck on ordering
+    order: 50.0
+    keywords: ordering
+    content: I wonder how these repeated pieces could be used to organize our sudoku.
+- model: spoilr_hints.cannedhint
+  pk: 564
+  fields:
+    puzzle: 421
+    description: solvers are stuck on ordering (2)
+    order: 50.1
+    keywords: ordering
+    content: With the sudoku sharing pieces, we can daisy chain them together to get
+      an ordering.
+- model: spoilr_hints.cannedhint
+  pk: 565
+  fields:
+    puzzle: 421
+    description: solvers are stuck on extraction
+    order: 70.0
+    keywords: extraction
+    content: Perhaps we can compare these sudoku pairwise and see if we can discover
+      anything
+- model: spoilr_hints.cannedhint
+  pk: 566
+  fields:
+    puzzle: 421
+    description: solvers are stuck on extraction (2)
+    order: 70.1
+    keywords: extraction
+    content: Superimposing each pair of sudoku based on the repeated pieces results
+      in the majority of the numbers being different in each square, but a select
+      few being the same. Highlighting those can give us letters (in fakoo to be specific)

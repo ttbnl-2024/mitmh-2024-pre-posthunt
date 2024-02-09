@@ -1,0 +1,70 @@
+- model: puzzles.puzzle
+  pk: 520
+  fields:
+    emoji: ':projector:'
+    deep: 550
+- model: spoilr_core.puzzle
+  pk: 520
+  fields:
+    external_id: 520
+    round: 12
+    answer: OSTRACIZING
+    name: At the Late Night Picture Show
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 520
+    is_meta: false
+    slug: at-the-late-night-picture-show
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 475
+  fields:
+    puzzle: 520
+    description: starting
+    order: 10.0
+    keywords: starting
+    content: First google the title to make it clear which data points you should
+      be focusing on.
+- model: spoilr_hints.cannedhint
+  pk: 476
+  fields:
+    puzzle: 520
+    description: Next step
+    order: 50.0
+    keywords: next step
+    content: Once you have a few of the movies, look for patterns and things they
+      have in common.  Also, notice there is extraneous text in each clue and see
+      if that triggers any ideas.
+- model: spoilr_hints.cannedhint
+  pk: 477
+  fields:
+    puzzle: 520
+    description: Aha step
+    order: 75.0
+    keywords: Aha step
+    content: Notice that the first few letters of the first movie and the last few
+      letters of the second movie can be smushed together to make synonyms for words
+      in the clues.
+- model: spoilr_hints.cannedhint
+  pk: 478
+  fields:
+    puzzle: 520
+    description: Ordering
+    order: 100.0
+    keywords: Ordering
+    content: You should have noticed that each film has something in common with its
+      paired film... they were made the same year.  This seems to be a great way to
+      order the films!
+- model: spoilr_hints.cannedhint
+  pk: 479
+  fields:
+    puzzle: 520
+    description: extraction
+    order: 125.0
+    keywords: extraction
+    content: Finally, look at the flavor text, which clues that you should index into
+      the leftover letters using the numbers found in each clue. That spells out a
+      clue phrase that should get you an answer.

@@ -1,0 +1,51 @@
+- model: spoilr_events.event
+  pk: 1
+  fields:
+    name: Nightclub Event
+    slug: nightclub-event
+    expected_start_time: 2024-01-12T19:00:00-05:00
+    min_participants: 1
+    max_participants: 2
+    puzzle: 578
+    location: Kresge Auditorium
+    description: "Send 1-2 team members who consider themselves creative, artistic, or performative."
+
+- model: spoilr_events.event
+  pk: 2
+  fields:
+    name: Relay Event
+    slug: relay-event
+    expected_start_time: 2024-01-13T10:15:00-05:00
+    min_participants: 1
+    max_participants: 2
+    puzzle: 577
+    location: Sala de Puerto Rico (Stratton Student Center)
+    description: "Send 1-2 of your more competitive team members, who consider themselves nimble in body and mind."
+
+
+
+- model: spoilr_events.event
+  pk: 3
+  fields:
+    name: Science Event
+    slug: science-event
+    expected_start_time: 2024-01-13T14:00:00-05:00
+    min_participants: 1
+    max_participants: 1
+    puzzle: 332
+    location: Lobdell Dining Hall (Stratton Student Center)
+    description: "Send 1 team member who has good manual dexterity and is good with colors, for a science experiment (participants must be 18+ and will be required to sign a liability waiver)."
+
+
+
+- model: spoilr_events.event
+  pk: 4
+  fields:
+    name: Directions Event
+    slug: directions-event
+    expected_start_time: 2024-01-13T19:00:00-05:00
+    min_participants: 1
+    max_participants: 2
+    puzzle: 583
+    location: Sala de Puerto Rico (Stratton Student Center)
+    description: "Send 1-2 team members who are detail-oriented."

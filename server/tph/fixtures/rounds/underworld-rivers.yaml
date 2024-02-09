@@ -1,0 +1,17 @@
+- model: puzzles.round
+  pk: 9
+  fields:
+    # Underworld map
+    "x": 41.975
+    "y": 30.35
+    "w": 23.275
+    # For round page
+    text_overlay: true
+    autoresize: false
+- model: spoilr_core.round
+  pk: 9
+  fields:
+    act: 1
+    slug: rivers-of-the-dead
+    name: Rivers of the Dead
+    order: 5

@@ -1,0 +1,95 @@
+- model: puzzles.puzzle
+  pk: 481
+  fields:
+    emoji: ':person_with_probing_cane:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 481
+  fields:
+    external_id: 481
+    round: 6
+    answer: ERROL FLYNN
+    name: 'ERROR: PUZZLE DISABLED'
+    main_credits: Chilli Qin
+    other_credits: ''
+    order: 481
+    is_meta: false
+    slug: error-puzzle-disabled
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 937
+  fields:
+    puzzle: 481
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: getting started, starting, start
+    content: What might constitute a typo if you were hand-punching Braille?
+- model: spoilr_hints.cannedhint
+  pk: 934
+  fields:
+    puzzle: 481
+    description: Solvers have noticed that some of the letters have off-by-one-pip
+      typos, but have not realized the errors are consistently applied
+    order: 1.0
+    keywords: getting started, starting, start, Braille, typo
+    content: To make your job easier, the typos are all consistent. For example, each
+      typoed letter R has the wrong pip in the same place.
+- model: spoilr_hints.cannedhint
+  pk: 950
+  fields:
+    puzzle: 481
+    description: Solvers know they should be looking for off-by-one-pip typos, but
+      are struggling to break into the quotations with specific conversions
+    order: 5.0
+    keywords: typos, Braille
+    content: "In the last line of the 7th set of Braille characters (\u281F\u2813\u2815\
+      \u2825\u281B\u2813\u281F), only two characters have typos."
+- model: spoilr_hints.cannedhint
+  pk: 951
+  fields:
+    puzzle: 481
+    description: Solvers have identified many or all of the quotes, but haven't figured
+      out that each row can be read as Braille again
+    order: 50.0
+    keywords: quotes
+    content: Each quotation is aligned in three rows, and has an even number of columns.  Why
+      do you think they are arranged in this way?
+- model: spoilr_hints.cannedhint
+  pk: 945
+  fields:
+    puzzle: 481
+    description: Solvers have figured out most of the titles, but are asking for specific
+      guidance about which letters are considered silent
+    order: 95.0
+    keywords: silent letters
+    content: "[send only the needed values]\r\nThe initial silent letter in \"Drums\
+      \ of Autumn\" is \"N\".\r\nThe initial silent letter in \"Harry Potter and the\
+      \ Half-Blood Prince\" is \"L\".\r\nThe initial silent letter in \"How I Magically\
+      \ Messed Up My Life in Four Freakin' Days\" is \"A\".\r\nThe initial silent\
+      \ letter in \"Island of the Blue Dolphins\" is \"S\".\r\nThe initial silent\
+      \ letter in \"Junie B. Jones and a Little Monkey Business\" is \"I\".\r\nThe\
+      \ initial silent letter in \"The Hitchhiker's Guide to the Galaxy\" is \"U\"\
+      .\r\nThe initial silent letter in \"The House of Hades\" is \"E\".\r\nThe initial\
+      \ silent letter in \"The Politically Incorrect Guide to American History\" is\
+      \ \"A\".\r\nThe initial silent letter in \"The Subtle Art of Not Giving a Fuck\"\
+      \ is \"B\".\r\nThe initial silent letter in \"The Vanishing Half\" is \"L\"\
+      .\r\nThe initial silent letter in \"The Wednesday Wars\" is \"D\".\r\nThe initial\
+      \ silent letter in \"The Whistler\" is \"T\"."
+- model: spoilr_hints.cannedhint
+  pk: 942
+  fields:
+    puzzle: 481
+    description: Solvers have ISTANBUL LEAD, but haven't submitted that and gotten
+      the partial answer
+    order: 100.0
+    keywords: ISTANBUL LEAD
+    content: Who plays James Brennan in Istanbul?
+- model: spoilr_core.pseudoanswer
+  pk: 70
+  fields:
+    puzzle: 481
+    answer: ISTANBUL LEAD
+    response: AS JAMES BRENNAN

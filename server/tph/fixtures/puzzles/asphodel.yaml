@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 391
+  fields:
+    emoji: ':rowboat:'
+    deep: 600
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 391
+  fields:
+    external_id: 391
+    round: 9
+    answer: LET IT SNOW
+    name: Asphodel
+    main_credits: Wesley "Adalbert Zollern" Zhang
+    other_credits: ''
+    order: 391
+    is_meta: false
+    slug: asphodel
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 946
+  fields:
+    puzzle: 391
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: "Start by identifying the flowers and fill the boxes on the bottom. For\
+      \ example, one of them is a \u201Cwhite lily\u201D."
+- model: spoilr_hints.cannedhint
+  pk: 947
+  fields:
+    puzzle: 391
+    description: "Solvers don\u2019t know what to do with \u201CHOME NAMES\u201D"
+    order: 2.0
+    keywords: cluephrase,grid
+    content: Using Google on the names of the flowers should find you a video game.
+- model: spoilr_hints.cannedhint
+  pk: 978
+  fields:
+    puzzle: 391
+    description: "Solvers don\u2019t know what to do with \u201CHOME NAMES\u201D (stronger\
+      \ hint)"
+    order: 2.1
+    keywords: cluephrase,grid
+    content: The game is called Spiritfarer and there is a Fandom wiki for it.
+- model: spoilr_hints.cannedhint
+  pk: 948
+  fields:
+    puzzle: 391
+    description: "Solvers have placed the houses but don\u2019t know what to do next"
+    order: 3.0
+    keywords: extraction
+    content: Compare the number of occurrences of each flower with the name of each
+      house.
+- model: spoilr_hints.cannedhint
+  pk: 949
+  fields:
+    puzzle: 391
+    description: "Solvers have placed the houses and labeled the flowers with letters\
+      \ but don\u2019t know what to do next"
+    order: 4.0
+    keywords: extraction
+    content: Each house has only one occurrence of its corresponding flower.

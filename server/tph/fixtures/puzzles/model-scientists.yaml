@@ -1,0 +1,121 @@
+- model: puzzles.puzzle
+  pk: 479
+  fields:
+    emoji: ':woman_scientist:'
+    deep: 450
+- model: spoilr_core.puzzle
+  pk: 479
+  fields:
+    external_id: 479
+    round: 12
+    answer: PLASTIC LOVE
+    name: Model Scientists
+    main_credits: Jennifer Kidder and NYWanderer
+    other_credits: ''
+    order: 479
+    is_meta: false
+    slug: model-scientists
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 661
+  fields:
+    puzzle: 479
+    description: Solvers can't find scientists
+    order: 4.0
+    keywords: scientists
+    content: Descriptions of projects refer to either the work done by a real scientist
+      or some other aspect of their life, including important accolades.
+- model: spoilr_hints.cannedhint
+  pk: 655
+  fields:
+    puzzle: 479
+    description: Solvers don't realize all scientists are female.
+    order: 5.0
+    keywords: start
+    content: All of the scientists described are female.
+- model: spoilr_hints.cannedhint
+  pk: 656
+  fields:
+    puzzle: 479
+    description: Solvers are having trouble finding all of the scientists.
+    order: 8.0
+    keywords: initial ordering
+    content: The initial ordering of the scientists is alphabetical by last name.
+- model: spoilr_hints.cannedhint
+  pk: 657
+  fields:
+    puzzle: 479
+    description: Solvers don't know how to reorder the scientists.
+    order: 12.0
+    keywords: reorder, reordering, order
+    content: Flavortext hints that scientists should be reordered in the order of
+      their birth.
+- model: spoilr_hints.cannedhint
+  pk: 658
+  fields:
+    puzzle: 479
+    description: Solvers have reordered according to birth year, but are stuck.
+    order: 15.0
+    keywords: stuck
+    content: When ordered correctly, an acrostic message appears using the first letters
+      of the given clues.
+- model: spoilr_hints.cannedhint
+  pk: 659
+  fields:
+    puzzle: 479
+    description: Solvers don't know what to do with acrostic message "I'm a Barbie
+      Girl in a"
+    order: 18.0
+    keywords: barbie girl
+    content: Enter the next part of the song lyric.
+- model: spoilr_hints.cannedhint
+  pk: 660
+  fields:
+    puzzle: 479
+    description: Solvers don't know what to do after the "keep going" message.
+    order: 20.0
+    keywords: keep going
+    content: Each of the scientists is from a different country.
+- model: spoilr_hints.cannedhint
+  pk: 662
+  fields:
+    puzzle: 479
+    description: Solvers haven't found the Barbie Dolls of the World collection
+    order: 25.0
+    keywords: countries, numbers, years.
+    content: Look for the Barbie Dolls of the World collection for the year indicated.
+- model: spoilr_hints.cannedhint
+  pk: 663
+  fields:
+    puzzle: 479
+    description: Solvers don't know what to do with the mathematical symbols.
+    order: 30.0
+    keywords: math, symbols, how
+    content: Apply the given symbols to the product code by writing the numbers (only)
+      in the product code with the given symbols in between each number from left
+      to right.
+- model: spoilr_hints.cannedhint
+  pk: 665
+  fields:
+    puzzle: 479
+    description: Solvers don't recognize % operator
+    order: 32.0
+    keywords: percent, %
+    content: The % symbol refers to the "modulo" operator.
+- model: spoilr_hints.cannedhint
+  pk: 664
+  fields:
+    puzzle: 479
+    description: Solvers forgot to follow order of operations.
+    order: 35.0
+    keywords: math not working
+    content: Remember to follow the correct order of operations.
+- model: spoilr_core.pseudoanswer
+  pk: 19
+  fields:
+    puzzle: 479
+    answer: BARBIE WORLD
+    response: KEEP GOING!

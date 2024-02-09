@@ -1,0 +1,101 @@
+- model: puzzles.puzzle
+  pk: 38
+  fields:
+    emoji: ':notes:'
+    deep: 350
+- model: spoilr_core.puzzle
+  pk: 38
+  fields:
+    external_id: 38
+    round: 12
+    answer: CARLTON FISK
+    name: "This Puzzle Keeps Turning Upside Down and We Can\u2019t Figure Out Why"
+    main_credits: Barney Rafter, Jeremiahs Johnson, Jeremy Horwitz, and Todd Becker
+    other_credits: ''
+    order: 38
+    is_meta: false
+    slug: this-puzzle-keeps-turning-upside-down-and-we-cant-figure-out-why
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1609
+  fields:
+    puzzle: 38
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: Start, Begin
+    content: This puzzle is based on the Australian music quiz show "Spicks and Specks<",
+      which is appropriately named after the song by the Bee Gees. Each of the round
+      titles is named after a game from the show.
+- model: spoilr_hints.cannedhint
+  pk: 1610
+  fields:
+    puzzle: 38
+    description: Solvers are stuck on identifying the songs.
+    order: 1.0
+    keywords: Song ID, Identification
+    content: There are 12 different styles of clues in this puzzle, all requiring
+      different methods to ID the songs. Tools like Soundhound and Shazam are a great
+      place to start for the more straightforward audio clips. If they seem a little
+      more tricky, Google Voice Assistant has a nice built-in feature you might be
+      interested in.
+- model: spoilr_hints.cannedhint
+  pk: 1614
+  fields:
+    puzzle: 38
+    description: Solvers are stuck on identifying the songs from Counting The Beat.
+    order: 1.1
+    keywords: Counting The Beat, List of Numbers, Groups of Numbers, Piano, Keyboard
+    content: This part of the puzzle is based on the game of the same name from the
+      show "Spicks and Specks". Starting at middle C = 1, each subsequent number represents
+      a half-step up with 13 being the C one octave higher. Play the notes on a keyboard
+      (or another instrument) in the pattern indicated by the numbers, and see if
+      you can recognize the tunes by ACDC, Bonnie Tyler, The Choirboys, and Kylie
+      Minogue.
+- model: spoilr_hints.cannedhint
+  pk: 1616
+  fields:
+    puzzle: 38
+    description: Solvers want to verify their work on some of the rounds
+    order: 1.5
+    keywords: check work
+    content: '[Ask for round to be checked and check their work against the solution
+      document]'
+- model: spoilr_hints.cannedhint
+  pk: 1611
+  fields:
+    puzzle: 38
+    description: Solvers are not sure what to do with the songs.
+    order: 2.0
+    keywords: Songs, soundtracks, playlists
+    content: The lists of songs appearing in each round of the puzzle all have something
+      in common. That is, they are all film soundtracks. Try finding the names of
+      the films that they all appeared in.
+- model: spoilr_hints.cannedhint
+  pk: 1612
+  fields:
+    puzzle: 38
+    description: Solvers are unsure what to do with the names from The Final Countdown
+      or are stuck on the puzzle ordering.
+    order: 3.0
+    keywords: Puzzle Ordering, Order, The Final Countdown, Actors, Actresses, Trivia
+    content: The trivia questions in The Final Countdown are clues to a famous Australian
+      actor, actress, or director. You will be able to match each of these personalities
+      to exactly one film whose soundtrack has been featured in this puzzle. You will
+      have noticed that the films are already ordered alphabetically, so you need
+      to reorder them based on the order of appearance of each of the Australian personalities.
+- model: spoilr_hints.cannedhint
+  pk: 1613
+  fields:
+    puzzle: 38
+    description: Solvers are unsure what to do with the extra or bonus songs that
+      aren't on the soundtracks or are stuck on extraction.
+    order: 4.0
+    keywords: Extraction, Index, Bonus Songs, Extra Songs, Australian Songs
+    content: You will see that in each round, one extra song has been included that
+      doesn't show up on a film soundtrack. This song is also always by an Australian
+      artist or group. Try finding the highest position these "off-track" songs appeared
+      on the weekly ARIA charts or Kent Music Report and using that as an index into
+      previously unused information.

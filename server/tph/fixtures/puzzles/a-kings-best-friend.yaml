@@ -1,0 +1,77 @@
+- model: puzzles.puzzle
+  pk: 23
+  fields:
+    emoji: ':guide_dog:'
+    deep: 1100
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 23
+  fields:
+    external_id: 23
+    round: 8
+    answer: GRAHAM CRACKER
+    name: A King's Best Friend
+    main_credits: Andrey Gorlin and Tim Baarslag
+    other_credits: ''
+    order: 23
+    is_meta: false
+    slug: a-kings-best-friend
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1427
+  fields:
+    puzzle: 23
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: Cerberus movement
+    content: Each puzzle solution is unique, at least with respect to the first move
+      played.  You will need to figure out how the Cerberus moves.  What does the
+      flavor suggest it moves like (a subset of queen moves, limited range)?  There
+      are additional aspects of the puzzle that may hint at the exact aspects of movement
+      (the dog locations around "Friend" in the title, the triangle shape for the
+      Cerberus piece).
+- model: spoilr_hints.cannedhint
+  pk: 1428
+  fields:
+    puzzle: 23
+    description: Solvers have all/most of the solutions (possibly some incorrect)
+      and either haven't figured out FEN is needed or don't know how it is used
+    order: 50.0
+    keywords: finished exercises, final exam
+    content: There is a specific format that each exercise answer (rank) has to be
+      to be valid for the final exam.  Have you looked at the section titles and noticed
+      any patterns (FEN)?  The black king talking at the rank 8 exercise is also trying
+      to tell you something about the format.  You may need to use google/wiki/etc.
+      to learn more about the format.
+- model: spoilr_hints.cannedhint
+  pk: 1429
+  fields:
+    puzzle: 23
+    description: Solvers have the final board, but either not finding the solution
+      or don't know what to do with it
+    order: 75.0
+    keywords: extraction, final exam, FEN
+    content: With best play (defined for black as delaying mate as long as possible),
+      there is a unique mate in 7 line (if your FEN is correct).  You are given the
+      format for how the moves are written in standard algebraic notation (no space
+      after the period following the move number, single space after white and black
+      moves).  The move numbers 2-7 are all mapped to single letters, can you see
+      which these are?
+- model: spoilr_hints.cannedhint
+  pk: 1430
+  fields:
+    puzzle: 23
+    description: Solvers have figured out the final exam and the mapping, but not
+      seeing the answer
+    order: 100.0
+    keywords: extraction, final exam, triple letters
+    content: 'Every triple letter should be at a location that is a letter in the
+      algebraic notation (except # is M for Mate), with the triple letter being two
+      numbers and an operation (check/+, capture/x).  Check rather naturally represents
+      addition, while capture, which might naturally represent multiplication, is
+      subtraction (subtract the lower number from the higher), as given in locations
+      4 and 7 in the mapping.  You will get each number from 1 to 13 once, providing
+      an ordering on the letters.'

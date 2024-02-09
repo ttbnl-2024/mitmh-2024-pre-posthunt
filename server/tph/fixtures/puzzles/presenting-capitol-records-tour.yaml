@@ -1,0 +1,81 @@
+- model: puzzles.puzzle
+  pk: 218
+  fields:
+    emoji: ':books:'
+    deep: 1200
+- model: spoilr_core.puzzle
+  pk: 218
+  fields:
+    external_id: 218
+    round: 6
+    answer: MOUNT HOLYOKE
+    name: "Presenting: Capitol Records Tour"
+    main_credits: Daniel Kramarsky and Elaine Lowinger
+    other_credits: ''
+    order: 218
+    is_meta: false
+    slug: presenting-capitol-records-tour
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1322
+  fields:
+    puzzle: 218
+    description: Solvers need help knowing where to start
+    order: 0.0
+    keywords: start
+    content: Capitol Records has "prize-winning" guides and their work offers the
+      "greatest benefit to humankind." Who are these guides?
+- model: spoilr_hints.cannedhint
+  pk: 1323
+  fields:
+    puzzle: 218
+    description: Solvers need help getting started
+    order: 5.0
+    keywords: guides
+    content: Capitol Records has "prize-winning" guides and wants you to "book with
+      confidence." Try to figure out who the guides are, what the locations the map
+      is zooming to, and what the logos shown at each location could represent.
+- model: spoilr_hints.cannedhint
+  pk: 1325
+  fields:
+    puzzle: 218
+    description: Solvers don't know what to do with the tour guides' words
+    order: 30.0
+    keywords: translated, stuck
+    content: Once you've translated all of the tour guides' words into English, some
+      of the phrases they use might seem a little unusual. Try Googling some of those
+      phrases to see if you can make a connection to help you "book" stops along the
+      tour.
+- model: spoilr_hints.cannedhint
+  pk: 1324
+  fields:
+    puzzle: 218
+    description: Solvers want a strong hint at what's going on
+    order: 40.0
+    keywords: ''
+    content: The tour guides are all prize-winning authors (in alphabetical order
+      by last name). The locations are various countries' national libraries.
+- model: spoilr_hints.cannedhint
+  pk: 1326
+  fields:
+    puzzle: 218
+    description: Solvers have ID'd book titles from the quotes, but don't know what
+      to do next
+    order: 50.0
+    keywords: ''
+    content: Each tour guide is giving a tour of their home country, but is actually
+      talking about something they learned from a different tour guide. If you figure
+      out what's going on, you should be able to form a chain of tour guides.
+- model: spoilr_hints.cannedhint
+  pk: 1327
+  fields:
+    puzzle: 218
+    description: Solvers need a strong hint to help with extraction
+    order: 100.0
+    keywords: ''
+    content: Each tour guide is a Nobel laureate in literature and each is talking
+      about a different author. If you form a chain of authors and use something from
+      the logo images at each tour stop, you should be able to extract the answer.

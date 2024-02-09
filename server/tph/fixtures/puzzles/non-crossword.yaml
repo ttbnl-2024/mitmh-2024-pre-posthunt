@@ -1,0 +1,41 @@
+- model: puzzles.puzzle
+  pk: 642
+  fields:
+    emoji: ':compass:'
+    deep: 300
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 642
+  fields:
+    external_id: 642
+    round: 9
+    answer: ARTILLERY
+    name: Non-crossword
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 642
+    is_meta: false
+    slug: non-crossword
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 727
+  fields:
+    puzzle: 642
+    description: Solvers have not yet placed anything in the grid
+    order: 30.0
+    keywords: stuck, grid
+    content: Clue answers have a lot of letters in common.  Each answer results in
+      filling in the grid, but not by entering letters in the grid.
+- model: spoilr_hints.cannedhint
+  pk: 728
+  fields:
+    puzzle: 642
+    description: Solvers have the grid filled and are working on extraction
+    order: 100.0
+    keywords: extraction, filled
+    content: Each blank region needs to be filled by another unclued word (though
+      enumeration is given).  Each of these words is missing one letter, either nondirectional
+      or directional (in which case that movement in the grid is skipped).

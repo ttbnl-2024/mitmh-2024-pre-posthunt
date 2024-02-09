@@ -1,0 +1,98 @@
+- model: puzzles.puzzle
+  pk: 472
+  fields:
+    emoji: ':heavy_plus_sign:'
+    deep: 15
+- model: spoilr_core.puzzle
+  pk: 472
+  fields:
+    external_id: 472
+    round: 22
+    answer: WILLIAM LAMBERTON
+    name: Under Pressure
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 472
+    is_meta: false
+    slug: under-pressure
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 905
+  fields:
+    puzzle: 472
+    description: Solvers are stuck at the very beginning and have no idea what to
+      do
+    order: 0.0
+    keywords: stuck, beginning
+    content: Each math operation represents a different operation on words.  The examples
+      at the top show that + is concatenation, for instance.  Use the examples to
+      figure out the remainder of the operations (-, *, numbers).
+- model: spoilr_hints.cannedhint
+  pk: 906
+  fields:
+    puzzle: 472
+    description: Solvers are stuck partway through Part 1 and haven't determined all
+      the operations
+    order: 30.0
+    keywords: part1, operation
+    content: "Each operation represents a different operation on words - find a couple\
+      \ cases where you know the inputs and outputs to guess what the operation does,\
+      \ using the \"check your answers\" clues.  Answers are alphabetical.\r\n\r\n\
+      Hints for each operation: <EDIT TO JUST WHAT THEY'RE STUCK ON BEFORE SENDING\
+      \ THIS HINT>\r\n+: Concat\r\na-b: Remove the letters of b from a\r\na*b: All\
+      \ the letters of a and b - what order?\r\na/b: Uses some of the letters of a\
+      \ and b\r\na^k: Has len k times the len of a\r\nNumber: How to turn (potentially\
+      \ large) numbers into letters?\r\n- (negation): Reverse\r\na/k: Has approximately\
+      \ 1/kth of the letters of a\r\nsqrt(a): Its letters have nothing to do with\
+      \ a.  Think \"root\".\r\ncurl of a: Same len, different (non-arbitrary) order.\r\
+      \ndiv of a: Same len, same order, letters are \"close\" to a\r\nderivative:\
+      \ Same len, each letter is changed in the same way\r\nint: What happens to the\
+      \ <X> in the d<X>?\r\ncontour: Like int, but \"both ways\"\r\nlim: Uses some\
+      \ of the input letters\r\ne^x: Phrases\r\ni*a: Sound"
+- model: spoilr_hints.cannedhint
+  pk: 907
+  fields:
+    puzzle: 472
+    description: Solvers have finished Part 1 but have no ideas about what to do with
+      Part 2
+    order: 60.0
+    keywords: part2, proof, stuck
+    content: The first Problem of Part 2 is the easiest.  Try to find a phrase using
+      two of the words from Problem 1 that relates to the third word.  Exactly what
+      did you have to do to the former two words to make it relate to the third?  Think
+      of what you learned in Part 1.
+- model: spoilr_hints.cannedhint
+  pk: 908
+  fields:
+    puzzle: 472
+    description: Solvers have found some relationships amongst words in Part 2, but
+      haven't realized they're all names of theorems/formulas/etc.
+    order: 80.0
+    keywords: part2
+    content: For each problem in Part 2, you need to find a way in which all the input
+      words (the y_ij words) all relate, using things you learned from Part 1.  Any
+      intermediate words are clued by the lemmas and "equating both sides" clues.  Once
+      you've found a relationship (the first problem is easiest), write it out mathematically.
+- model: spoilr_hints.cannedhint
+  pk: 909
+  fields:
+    puzzle: 472
+    description: Solvers have most/all of the relationships in Part 2, but haven't
+      realized they're names of theorems/formulas/etc. yet
+    order: 100.0
+    keywords: part2, extraction
+    content: Each problem in Part 2 asks you to prove a theorem, and for each you
+      find a mathematical equation that relates the input (y_ij) words.  What are
+      the names of these theorems (or formula, or transformation, or ...)?  The lengths
+      (of their first words) should match the "check your answers" lengths.  Then
+      index into the names to get the answer.
+- model: spoilr_core.pseudoanswer
+  pk: 129
+  fields:
+    puzzle: 472
+    answer: CREATE EQUATION FOR YOUR TEAMS HANDLE
+    response: Send us an equation that evaluates to your team name. You can make up
+      new operations if you want.

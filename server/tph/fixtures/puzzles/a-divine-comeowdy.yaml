@@ -1,0 +1,109 @@
+- model: puzzles.puzzle
+  pk: 322
+  fields:
+    emoji: ':crying_cat_face:'
+    deep: 1800
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 322
+  fields:
+    external_id: 322
+    round: 8
+    answer: CUTLERY
+    name: A Divine Comeowdy
+    main_credits: Blake Weil, Daniel Kramarsky, and Jeremiahs Johnson
+    other_credits: ''
+    order: 322
+    is_meta: false
+    slug: a-divine-comeowdy
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1348
+  fields:
+    puzzle: 322
+    description: Solvers are stuck getting started, in particular, they have not identified
+      the connection to Cats
+    order: 0.0
+    keywords: start, getting started, starting
+    content: In the flavor text, "staged in a purrverse manner" refers to a stage
+      production involving purring animals.
+- model: spoilr_hints.cannedhint
+  pk: 1350
+  fields:
+    puzzle: 322
+    description: Solvers are stuck getting started, in particular, they have not identified
+      the connection to the 7 deadly sins
+    order: 1.0
+    keywords: start, getting started, starting
+    content: Each of the 7 paragraphs can be matched with one "deadly behavior".
+- model: spoilr_hints.cannedhint
+  pk: 1360
+  fields:
+    puzzle: 322
+    description: Solvers are stuck getting started
+    order: 3.0
+    keywords: Title, A Divine Comeowdy
+    content: Each paragraph has a connection to one of Dante's works referenced by
+      the puzzle's title.
+- model: spoilr_hints.cannedhint
+  pk: 1351
+  fields:
+    puzzle: 322
+    description: Solvers have not solved the cryptic in the flavor text
+    order: 10.0
+    keywords: cryptic, cryptically
+    content: To solve the cryptic in the flavor text, put the Spanish words for cat
+      and river after the sound "purr".
+- model: spoilr_hints.cannedhint
+  pk: 1354
+  fields:
+    puzzle: 322
+    description: Solvers are not sure if they have matched all the correct cats to
+      the correct 7 deadly sins
+    order: 20.0
+    keywords: 7 deadly sins, cats
+    content: "[Include only those necessary to the solvers]\r\n\r\nGrizabella \u2212\
+      \ Grizabella is jealous of the life she had as a Jellicle cat.\r\nBustopher\
+      \ Jones \u2212 Bustopher Jones is a fat cat described as eating endless quantities\
+      \ of leftover food.\r\nMungojerrie \u2212 Mungojerrie is a thief, known for\
+      \ stealing valuables, also the inspiration for the band Mungo Jerry known for\
+      \ the song \u201CIn the Summertime\u201D.\r\nBombalurina \u2212 Bombalurina\
+      \ is a cat known for flirting forwardly with many of the other cats. She\u2019\
+      s also strikingly red (and was played in the movie by Taylor Swift, known for\
+      \ the album Red).\r\nMr. Mistoffelees \u2212 Mr. Mistoffelees\u2019 signature\
+      \ song repeats over and over how there is no more incredible a cat than he.\r\
+      \nJennyanydots \u2212 Jennyanydots is a lazy \u201CGumbie Cat\u201D described\
+      \ as sitting endlessly although she runs the house at night.\r\nMacavity \u2212\
+      \ Macavity is a villainous cat known for his violent actions against the rest\
+      \ of the Jellicle cats."
+- model: spoilr_hints.cannedhint
+  pk: 1353
+  fields:
+    puzzle: 322
+    description: Solvers have made the connection to Dante's Purgatorio, but are not
+      sure how to match up the paragraphs to the image
+    order: 30.0
+    keywords: cat tree
+    content: Each paragraph should be matched to one bed in the cat tree based on
+      matching the sizes of the beds to sizes of tiers in Dante's Purgatorio.
+- model: spoilr_hints.cannedhint
+  pk: 1355
+  fields:
+    puzzle: 322
+    description: Solvers are not sure how to index into the cat names
+    order: 90.0
+    keywords: extraction
+    content: The number of cat balls on each tier of the cat tree is an index into
+      the name of the cat on that tier.
+- model: spoilr_hints.cannedhint
+  pk: 1357
+  fields:
+    puzzle: 322
+    description: Solvers are not sure how to order the cats
+    order: 100.0
+    keywords: emoji, order
+    content: The number of emojis in each paragraph can be used as a final ordering
+      for extraction.

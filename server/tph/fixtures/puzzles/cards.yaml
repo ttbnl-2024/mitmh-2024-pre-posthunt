@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 502
+  fields:
+    emoji: ':black_joker:'
+    deep: 920
+- model: spoilr_core.puzzle
+  pk: 502
+  fields:
+    external_id: 502
+    round: 20
+    answer: FORMATION
+    name: Cards
+    main_credits: Daniel Kramarsky, Joseph DeVincentis, and Michael Andersen
+    other_credits: ''
+    order: 502
+    is_meta: false
+    slug: cards
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 504
+  fields:
+    puzzle: 502
+    description: Solvers are stuck getting started
+    order: 10.0
+    keywords: begin,start,starting
+    content: Have you tried identifying any of the games pictured?
+- model: spoilr_hints.cannedhint
+  pk: 505
+  fields:
+    puzzle: 502
+    description: Solvers are having trouble identifying specific games
+    order: 30.0
+    keywords: identifying,identification,names
+    content: It sounds like you've figured out a few of the games - did you notice
+      any patterns that might help you narrow down the choices for the ones you're
+      missing?
+- model: spoilr_hints.cannedhint
+  pk: 506
+  fields:
+    puzzle: 502
+    description: Solvers are requesting hints for particular cards
+    order: 30.3
+    keywords: specific,particular
+    content: "Game 1: This variant of a popular family of games does not feature as\
+      \ spirited a name as its counterparts\r\nGame 2: Only two players can see the\
+      \ small grid at the bottom of the table.\r\nGame 3: Hang in there, kitty: the\
+      \ brightly colored score keeping box is the secret to solving this one.\r\n\
+      Game 4: This game isn't just a copycat of its more popular counterpart sometimes\
+      \ featured in the comics sections of newspapers.\r\nGame 5: What a mess! This\
+      \ game can't be fun to play.\r\nGame 6: It looks like players are hunting for\
+      \ sets of four cards. Actually, maybe hunting isn't the right word...\r\nGame\
+      \ 7: This iconic color often isn't visible when players sleeve their cards\r\
+      \nGame 8: I bet there are two more turns before the end of this round\r\nGame\
+      \ 9: What an iconic bend to the cards! The opponent must be trustworthy."
+- model: spoilr_hints.cannedhint
+  pk: 507
+  fields:
+    puzzle: 502
+    description: Players need help with the extract
+    order: 90.0
+    keywords: extract,extraction
+    content: Did you notice anything in particular about the blanks where you put
+      the games' names in?

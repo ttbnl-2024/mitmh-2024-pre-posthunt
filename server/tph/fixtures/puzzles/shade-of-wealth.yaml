@@ -1,0 +1,58 @@
+- model: puzzles.puzzle
+  pk: 13
+  fields:
+    emoji: ':slot_machine:'
+    deep: 12
+    deep_key: 'las-vegas-meta'
+- model: spoilr_core.puzzle
+  pk: 13
+  fields:
+    external_id: 13
+    round: 4
+    answer: RAPPEL TO RAMPARTS
+    name: Shade of Wealth
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 13
+    is_meta: true
+    slug: shade-of-wealth
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 719
+  fields:
+    puzzle: 13
+    description: "Solvers don't know how to get started; they do not have Loter\xED\
+      a"
+    order: 0.0
+    keywords: start, begin
+    content: Try to find the doodle mentioned in the flavor text.
+- model: spoilr_hints.cannedhint
+  pk: 721
+  fields:
+    puzzle: 13
+    description: "Solvers have trouble matching the answers to Loter\xEDa cards"
+    order: 30.0
+    keywords: matching
+    content: "Each answer can be matched by association to a Loter\xEDa card"
+- model: spoilr_hints.cannedhint
+  pk: 723
+  fields:
+    puzzle: 13
+    description: Solvers do not know how to order the puzzles
+    order: 60.0
+    keywords: ordering
+    content: The puzzle titles can all be found in the same place. You want to order
+      the answers the way they are found there.
+- model: spoilr_hints.cannedhint
+  pk: 725
+  fields:
+    puzzle: 13
+    description: "Solvers understand they are matching to Loter\xEDa and have the\
+      \ ordering but are stuck on extraction"
+    order: 100.0
+    keywords: extraction
+    content: "Each answer matches a Loter\xEDa card whose Spanish name is the same\
+      \ length as the answer. Look for something that name and answer have in common."

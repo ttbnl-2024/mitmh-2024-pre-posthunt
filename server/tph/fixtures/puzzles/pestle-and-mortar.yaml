@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 719
+  fields:
+    emoji: ':fortune_cookie:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 719
+  fields:
+    external_id: 719
+    round: 16
+    answer: HEROD AGRIPPA
+    name: Pestle and Mortar
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 719
+    is_meta: false
+    slug: pestle-and-mortar
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1547
+  fields:
+    puzzle: 719
+    description: Solvers have made no progress at all
+    order: 0.0
+    keywords: start, stuck
+    content: Begin by looking at the fortune cookie text.  Each fortune cookie describes
+      a well-known phrase, except it's slightly off.
+- model: spoilr_hints.cannedhint
+  pk: 1548
+  fields:
+    puzzle: 719
+    description: Solvers have all/most of the fortune cookies, but don't know what
+      to do next
+    order: 50.0
+    keywords: sentences, predictions
+    content: Each of the strange sentences (at the bottom, not the fortune cookies)
+      is hinting 3 words.  These words each need to be modified a bit, usually in
+      different ways.
+- model: spoilr_hints.cannedhint
+  pk: 1549
+  fields:
+    puzzle: 719
+    description: Solvers have identified the fortune cookie phrases and most of the
+      words from the sentences, but haven't realized what transformations to apply
+      or that that they transform into sets
+    order: 70.0
+    keywords: sentence, words, transformation
+    content: Each of the strange sentences (at the bottom, not the fortune cookies)
+      gives 3 words.  These 3 words must be transformed using the same transformations
+      as were applied to the phrases suggested by the fortunes.  The 3 words for each
+      sentence will all become members of a set (different set per sentence) when
+      the correct transformations are applied (one transformation per word).
+- model: spoilr_hints.cannedhint
+  pk: 1550
+  fields:
+    puzzle: 719
+    description: Solvers have correctly transformed most of the words, but haven't
+      realized they correspond with forms of divination yet
+    order: 100.0
+    keywords: transformed, words, set
+    content: After applying the appropriate transformations, the 3 words from each
+      sentence form members of a set (a different set per sentence).  Each of these
+      sets relates to a different way to predict the future.

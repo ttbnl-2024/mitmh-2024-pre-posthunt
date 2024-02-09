@@ -1,0 +1,142 @@
+- model: puzzles.puzzle
+  pk: 388
+  fields:
+    emoji: ':flag_us:'
+    deep: 1200
+- model: spoilr_core.puzzle
+  pk: 388
+  fields:
+    external_id: 388
+    round: 3
+    answer: GRAND OLD FLAG
+    name: Could You Restate That?
+    main_credits: Charles Steinhardt, Daniel Kramarsky, and Paul Melamud
+    other_credits: ''
+    order: 388
+    is_meta: false
+    slug: could-you-restate-that
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1000
+  fields:
+    puzzle: 388
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: If you compare the words listed at the bottom of the puzzle with the
+      enumerations provided for the questions, you will discover that the lengths
+      of the words in the list (collectively) match the lengths of the enumerated
+      words (collectively).  As this suggests, you can use the words in the word list
+      to make the questions which are responded to.  (They may not sound like sensible
+      questions, but you should be able to make a question for each response with
+      no words left over.)
+- model: spoilr_hints.cannedhint
+  pk: 1007
+  fields:
+    puzzle: 388
+    description: Solvers have pieced together most of the questions, but don't know
+      what to do next.
+    order: 30.0
+    keywords: stuck, questions
+    content: It's perfectly fine that the questions you have pieced together don't
+      really make mush scents... er, we mean "much sense."
+- model: spoilr_hints.cannedhint
+  pk: 1008
+  fields:
+    puzzle: 388
+    description: Solvers have pieced together most of the questions, but don't know
+      what to do next. (2)
+    order: 30.1
+    keywords: stuck, questions
+    content: The questions in this puzzle are "anguished English" - they sound like
+      something else when you read them aloud.
+- model: spoilr_hints.cannedhint
+  pk: 1009
+  fields:
+    puzzle: 388
+    description: Solvers have the anguished English and are unsure about what to do
+      next
+    order: 50.0
+    keywords: homonyms, anguished English
+    content: You will get two (or in a few cases, three) words from treating the words
+      in each question as anguished English and looking for approximate homophones.  Each
+      question's sound-alikes will contain a proper name, as well part of another
+      kind of name, as alluded to elsewhere.
+- model: spoilr_hints.cannedhint
+  pk: 1010
+  fields:
+    puzzle: 388
+    description: Solvers have the anguished English and are unsure about what to do
+      next (2)
+    order: 50.1
+    keywords: homonyms
+    content: The homonyms contain part of a state nickname - or in a few cases, parts
+      of two state nicknames - as well as the last name of a person for whom those
+      states were relevant at a particular time.
+- model: spoilr_hints.cannedhint
+  pk: 1011
+  fields:
+    puzzle: 388
+    description: Solvers have the anguished English and are unsure about what to do
+      next (3)
+    order: 50.2
+    keywords: ''
+    content: The homonyms contain part of a state nickname - or in a few cases, parts
+      of two state nicknames - as well as some familiar historical last names.  Some
+      of the last names are those of US Presidents, and some aren't (but could have
+      been).  What importance would states have to people who would be running for
+      president?
+- model: spoilr_hints.cannedhint
+  pk: 1012
+  fields:
+    puzzle: 388
+    description: Solvers have the state names and the presidential candidates, but
+      don't know what to do with them
+    order: 60.0
+    keywords: state, president, presidential, candidate
+    content: The names which can be extracted phonetically from the questions are
+      the names of candidates for the office of US president.  Some of these candidates
+      never became president; what these candidates have in common is actually that
+      they all lost a presidential election.  How might US states (which can be identified
+      by extracting their nicknames phonetically) be important in regards to a presidential
+      election campaign?
+- model: spoilr_hints.cannedhint
+  pk: 1013
+  fields:
+    puzzle: 388
+    description: Solvers have the state names and the presidential candidates, but
+      don't know what to do with them (2)
+    order: 60.1
+    keywords: state, president, presidential, candidate
+    content: The names which can be extracted phonetically from the questions are
+      the names of candidates for the office of US president who lost an election.
+      (Some of them also won a presidential election, of course.)  While these losing
+      candidates may have received electoral college votes from all over the US, for
+      the purposes of this puzzle, we are only concerned with the electoral college
+      votes for these candidates from one or two states, which are identified by state
+      nickname.
+- model: spoilr_hints.cannedhint
+  pk: 1014
+  fields:
+    puzzle: 388
+    description: Solvers have all of the relevant data but don't know how to extract
+    order: 80.0
+    keywords: extraction
+    content: For each question, you have a losing presidential election candidate.  For
+      each candidate, you also have a specific election as well as a number of electoral
+      college votes won from a specific state, or pair of states.  One of these data
+      points is used for sorting, and the other is used for letter extraction.
+- model: spoilr_hints.cannedhint
+  pk: 1015
+  fields:
+    puzzle: 388
+    description: Solvers have all of the relevant data but don't know how to extract
+      (2)
+    order: 80.1
+    keywords: extraction
+    content: To extract the answer from the elections and the relevant vote counts,
+      sort by the election year, and change vote counts into letters using A=1/Z=26
+      code.

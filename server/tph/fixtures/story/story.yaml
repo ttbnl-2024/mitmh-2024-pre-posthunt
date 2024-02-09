@@ -1,0 +1,804 @@
+# underworld
+
+- model: puzzles.storycard
+  pk: 1
+  fields:
+    title: "The Throne Room"
+    slug: "the-throne-room-unlock"
+    act: 1
+    order: 10
+    text: >-
+      <p>You and your team of Interplanetary Theorists awaken to find yourself in a massive cave and cavern: the throne room, apparently, of the recently-deposed Hades/Pluto. It’s eerily quiet except for the sound of a dog panting, in the deepest audio register you’ve ever heard. No, make that three dogs... No, wait a minute...</p>
+- model: puzzles.storycard
+  pk: 2
+  fields:
+    slug: "the-throne-room-solve"
+    act: 1
+    order: 50
+    puzzle: 328
+    text: >-
+      <p>Huffing and puffing as you calm down from racing the slobber machine Cerberus around the throne room- after you both successfully <span class="font-mono">GO BAR HOPPING</span>, of course- he runs behind the throne itself. At first you worry you’ll need to chase him further, but he reappears a moment later and deposits a chewed-up pair of fuzzy slippers at your feet, and barks urgently. You’re not sure why these are so important, but he clearly doesn’t want you to leave without them. Congrats! They’re slimy, ragged, and now in your inventory.<p>
+- model: puzzles.storycard
+  pk: 3
+  fields:
+    title: "?????"
+    slug: "the-throne-room-shade-b"
+    act: 1
+    order: 80
+    puzzle: 328
+    text: >-
+      <p>A soggy pair of chewed on slippers. You don’t know why they’re important but
+      Cerberus insists. And he’s such a good boy! They? It doesn’t matter; Cerberus
+      wanted you to take them, so take them you did.</p>
+- model: puzzles.storycard
+  pk: 4
+  fields:
+    title: 'Shade of the <span className="text-amber-500">GUIDE OF FATES</span>'
+    slug: "the-throne-room-shade"
+    act: 2
+    order: 90
+    puzzle: 328
+    text: >-
+      <p>You sense the immense power of Hades/Pluto’s ability to <span className="text-amber-500">GUIDE</span> others emanating from these well trodden slippers. Cerberus did too, and entrusted them to you. Don’t let the goodest of boys down, now.</p>
+- model: puzzles.storycard
+  pk: 5
+  fields:
+    title: "Charon"
+    slug: "rivers-of-the-dead-unlock"
+    act: 1
+    order: 100
+    text: >-
+      <div>
+        <p>“Ticket?”</p>
+        <p>You look at Charon. “Isn’t it an obol?”</p>
+        <p>“One obol is the fare for the trip down. To go up, you need a pass.”</p>
+        <p>You look around. While it’s fairly empty now, it feels like a crowd is soon to gather. “And you’re working all alone?”</p>
+        <p>“With Hades gone, everything’s been turned around. I can’t afford extra help.”</p>
+        <p>“And if you could?”</p>
+        <p>“Hmmm...,” Charon considers. “Maybe I’ll turn around for a few minutes and drop my ledger of who’s supposed to be in here.”</p>
+      </div>
+- model: puzzles.storycard
+  pk: 6
+  fields:
+    slug: "rivers-of-the-dead-solve"
+    act: 1
+    order: 150
+    puzzle: 213
+    text: >-
+      <div>
+        <p>Success! You score some amazing <span class="font-mono">ESTATE SAILS</span> and drag them back to Charon. The chthonic ferry master nods approvingly, dropping a worn-out oar from the folds of their cloak. They’ve taken you across the Phlegethon already, but they’re way too overwhelmed with the increasing line of souls back at the far bank, readying their boat to keep the crowds flowing.</p>
+        <p>“I use this in the conduction of the recently deceased, to keep everything neat. But an oar’s an oar, and I’m a busy deity.”</p>
+        <p>Charon turns their back, and it dawns on you that they’re letting you cross through the remaining maze of waterways, but they’re not going to help you any further. You’ll have to row.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 7
+  fields:
+    title: "?????"
+    slug: "rivers-of-the-dead-shade-b"
+    act: 1
+    order: 180
+    puzzle: 213
+    text: >-
+      <p>A well-worn oar. Useful for rowing across the various rivers crisscrossing the Underworld, and apparently also for keeping unruly souls in line.</p>
+- model: puzzles.storycard
+  pk: 8
+  fields:
+    title: 'Shade of <span className="text-amber-500">CONDUCTION</span>'
+    slug: "rivers-of-the-dead-shade"
+    act: 2
+    order: 190
+    puzzle: 213
+    text: >-
+      <p>Charon’s oar. It must have been a beloved gift from Hades himself; it practically bursts with the god’s power to keep things flowing and in an orderly manner.</p>
+- model: puzzles.storycard
+  pk: 9
+  fields:
+    title: "The Underworld Court"
+    slug: "the-underworld-court-unlock"
+    act: 1
+    order: 200
+    text: >-
+      <div>
+      <p>It doesn’t matter if Cerberus or any of the other denizens are on your side, there’s NO way out of here if the Judges of the Underworld don’t grant you legal rights to get out! You’ve even received a sternly worded summons from their Honorships.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 10
+  fields:
+    slug: "the-underworld-court-solve"
+    act: 1
+    order: 250
+    puzzle: 253
+    text: >-
+      <div>
+      <p>With a mighty grunt, you climb the tallest pedestal and quite literally <span class="font-mono">WREST THE CASE</span> out of the hands of one of the Judges. Violence is never the answer, but this is more along the lines of minor larceny, all things told.</p>
+      <p>The bailiff giggles as you flee down the corridor.</p>
+      <p>“That was the best judicial proceeding I’ve seen in a long time! I know, justice and blindness and all that hokey, so I don’t see much at all...” she gasps out between peals of laughter as she sprints alongside you. You think she’s trying to apprehend you but, no, she just wants to chat.</p>
+      <p>“Here, take one of mine,” she adds, thrusting something very pink in your hands as she skids to a halt before turning on her heels back to the courtroom. Once you’re far enough away from the proceedings to be chased, you open your palm to see it- a fuzzy pink blindfold. You really weren't expecting something so literal, but then again, neither were the Judges.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 11
+  fields:
+    title: "?????"
+    slug: "the-underworld-court-shade-b"
+    act: 1
+    order: 280
+    puzzle: 253
+    text: >-
+      <p>A soft and comfortable blindfold. You thought justices used those white wrap-around things, but the one still warm in your hands proves otherwise.</p>
+- model: puzzles.storycard
+  pk: 12
+  fields:
+    title: 'Shade of <span className="text-amber-500">BLINDNESS</span>'
+    slug: "the-underworld-court-shade"
+    act: 2
+    order: 290
+    puzzle: 253
+    text: >-
+      <p>It doesn’t surprise you that Pluto was associated with blindness- it’s dark down there, and justice is- or should be- blind. The bailiff who gave this to you remembered that, and passed that memory on to you. Keep it safe.</p>
+- model: puzzles.storycard
+  pk: 13
+  fields:
+    title: "The Hole in the Ceiling of Hades"
+    slug: "the-hole-in-the-ceiling-of-hades-unlock"
+    act: 1
+    order: 300
+    text: >-
+      <div>
+      <p>Poking around the caverns, you found a suspicious hole in the ceiling. Curious. Wasn’t this the part of the cosmos you and the other Interplanetary Theorists were doing critical research on before the meeting occurred? It seems there’s a god up above not so happy with what happened to you lot, and he, she, they... whoever they are, they’re offering some celestial guidance. You think this person might be behind the times and <b>you are quite sure whatever’s up there isn’t necessary for getting out of Hades</b> but maybe this was the extra help Hermes was talking about? Regardless, it’s not your highest priority to sort whatever this is out, but it’s definitely something to come back to if you think you’re feeling stuck or overwhelmed.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 14
+  fields:
+    slug: "the-hole-in-the-ceiling-of-hades-solve"
+    act: 1
+    order: 350
+    puzzle: 215
+    text: >-
+      <div>
+      <p>Hera! Pluto’s sister-in-law was really worried about him after all, and was coyly sending us help in the form of our own research until she could sneak into the stars herself. With a quick wink, she handed us Pluto’s scepter after we successfully deduced her own husband’s <span class="font-mono">POLYGRAMY</span>. Clearly she already knew, but wanted someone from the outside to witness it too.</p>
+      <p>Vanishing into the stars, you open your hand to find a small black scept... wait, this is a modern looking flashlight! It’s currently off, but surprisingly warm. You’re not sure if you’ve been duped, or if Hera really doesn’t understand modern technology like the other gods seem to. You hold onto it regardless.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 15
+  fields:
+    title: "?????"
+    slug: "the-hole-in-the-ceiling-of-hades-shade-b"
+    act: 1
+    order: 380
+    puzzle: 215
+    text: >-
+      <p>A flashlight (or as the Brits call it, a “torch”), bright enough to pierce the darkness. You have half a mind to think this is the gods pranking you, but Hera seemed pretty serious.</p>
+- model: puzzles.storycard
+  pk: 16
+  fields:
+    title: 'Shade of <span className="text-amber-500">FIRE</span>'
+    slug: "the-hole-in-the-ceiling-of-hades-shade"
+    act: 2
+    order: 390
+    puzzle: 215
+    text: >-
+      <p>Hera dropped us a modern Prometheus and gave us the gift of <span className="text-amber-500">FIRE</span> to light the way both in the caverns of Hades as well as on our escapades above ground. Even when powered off, it feels faintly warm.</p>
+
+# underworld runaround
+
+- model: puzzles.storycard
+  pk: 60
+  fields:
+    title: "Escaping the Underworld"
+    slug: "escaping-the-underworld-unlock"
+    act: 1
+    order: 500
+    text: >-
+      <p>You don’t know what’s inside the locked case you stole. You just know that whatever it is, it will help you escape. As you stare at it, you hear Cerberus sniffing around—three noses means triple the noise. You turn to see him pick up Charon’s oar in his mouths like it was an oversized chew toy. He starts jumping around, meaning to play, wildly flailing the oar. You jump out of the way as *THWACK*—the oar makes solid contact with the case, sending it flying across the chamber. The case collides with a sharp stalagmite, and the contents spill out! You rush over and find a note, a sealed envelope, and…a Walkman? You’ve busted the case—now it’s time to bust out of Hades.</p>
+- model: puzzles.storycard
+  pk: 17
+  fields:
+    slug: "escaping-the-underworld-runaround"
+    act: 1
+    order: 550
+    puzzle: 735
+    text: >-
+      <div>
+        <p>Escape! Air! And... more work to do??!?!?</p>
+        <p>Hermes met us at the exit, and gave us the details. The short version is this: sure, we have re-entered the mortal realm, but Hades-Pluto- the god of the Underworld, <u>that guy</u>, well, he kind of holds the universe all together. We broke him, so we should really be fixing him. And we can! Hades, like many gods, wasn’t just known for being the god of only one thing- he was worshiped for many smaller aspects, from wealth to love. If we gathered up pieces of his essence- shades of it- we might just be able to reassemble him. If a strong thought can break him, an equally potent one should be able to set things right. In fact, we already have a few shades- the slippers from Cerberus, the blindfold from the Judges, and the oar from Charon, just to name a few.</p>
+        <p>Come to think of it, the Oracles should have some updated information on what we’ve really found down in Hades. Maybe it’s worth paying them a visit.</p>
+        <p>Hermes gave us one of his sandals to help with the task, which he transformed into a Mercury station wagon for our convenience, and Cerberus is coming along for the ride to help find his master.</p>
+        <p>We can zip around the US in an instant in this thing! We have no time to waste: Cerberus’s strong nose can track down where other shades of Pluto might be hiding, but we’ll have to extract them ourselves by any means necessary, lest things get worse.</p>
+        <p>And fast.</p>
+      </div>
+
+# overworld
+
+- model: puzzles.storycard
+  pk: 52
+  fields:
+    title: "The Twin Cities"
+    slug: "minneapolis-st-paul-unlock"
+    act: 2
+    order: 1000
+    text: >-
+      <div>
+      <p>The half-brother Dioscuri have had something of a falling-out. They’ve endured a lifetime of hardships together, from the voyage of the Argo to the Trojan War. But the duo were unable to endure the most harrowing of setbacks- a losing Vikings season without the warm comfort of hot-dish. Now these two brothers are at loggerheads. If you bring the two together, maybe they can return the favor and help bring Pluto back together.</p>
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+        src="https://www.youtube-nocookie.com/embed/adnL887Oyq0"
+        frameborder="0" class="mx-auto"></iframe>
+      </div>
+- model: puzzles.storycard
+  pk: 53
+  fields:
+    slug: "minneapolis-st-paul-solve"
+    act: 2
+    order: 1050
+    puzzle: 350
+    text: >-
+      <p>Despite the gray skies and frigid weather, the iciness between Castor and Pollux has melted. You gave one of the half-brothers some sage advice—<span class="font-mono">DON’T POLLUX IT UP</span>—and he went to make amends with Castor. Along with a gift: a pallet of tater tots and a sliver of <span className="text-amber-500">GRACE</span>, which should be plenty for *fingers crossed* a deep Timberwolves post-season run.</p>
+- model: puzzles.storycard
+  pk: 54
+  fields:
+    title: 'Shade of <span className="text-amber-500">GRACE</span>'
+    slug: "minneapolis-st-paul-shade"
+    act: 2
+    order: 1080
+    puzzle: 350
+    text: >-
+      <p>A sliver of grace after the twins make up from their brotherly spat. It smells a bit like fried potatoes and entirely too much Cheddar cheese.</p>
+
+- model: puzzles.storycard
+  pk: 27
+  fields:
+    title: "Yellowstone, WY"
+    slug: "yellowstone-unlock"
+    act: 2
+    order: 1100
+    text: >-
+      <div>
+      <p>You arrive to seek Artemis’s aid in tracking down the next shade of Pluto, and find her shooting animals—shooting photos of animals, of course. Her tracking skills have led her to Yellowstone, in search of extremely elusive creatures so she can get the perfect picture. She’s holding on to a piece of Hades herself, so you won’t need to track that down, at least. If you help her find her camera’s next subjects, she’ll gladly call you square and hand it over.</p>
+      <p><span className="text-amber-500">(INSERT EPHEMERA HERE: NAT GEO ARTICLE ON ARTEMIS’ WORK)</span></p>
+      </div>
+- model: puzzles.storycard
+  pk: 28
+  fields:
+    slug: "yellowstone-solve"
+    act: 2
+    order: 1150
+    puzzle: 51
+    text: >-
+      <div>
+      <p>“Aha! That’s where to find the elusive Medusa- the <span class="font-mono">GORGON TRAIL</span>, of course!”</p>
+      <p>You chase after her- her and her assistant Perseus on Cerberus’s fluffy back and you crammed into the Mercury- as she flies down the trail, camera shutter snapping loud enough to hear with the radio on. Cerberus skids to a halt further down the road.</p>
+      <p>“Did you get it?”</p>
+      <p>“Dunno, I had to shoot without actually looking. But I know my aim is pretty good- I’ll develop these on my own time. You, though, you hunted well today. You deserve what I owe you.”</p>
+      <p>From her bag she pulled the strangest pair of sturdy cargo shorts- camo print, with the patterns changing before your eyes. “Hades would sneak off sometimes to join me on the hunts- the non-lethal variety, mind. They’re great for <span className="text-amber-500">CONCEALMENT</span> out in the brush. And don’t worry, I washed ‘em.”</p>
+      </div>
+- model: puzzles.storycard
+  pk: 29
+  fields:
+    title: 'Shade of <span className="text-amber-500">CONCEALMENT</span>'
+    slug: "yellowstone-shade"
+    act: 2
+    order: 1180
+    puzzle: 51
+    text: >-
+      <p>A pair of (thankfully washed) well-worn camo pants. For sneaking in dark places and shooting, yes, but not of the lethal kind. Hades is the god of the Underworld, after all- everyone forgets Thanatos is the god of death!</p>    
+
+- model: puzzles.storycard
+  pk: 39
+  fields:
+    title: "Hell, MI"
+    slug: "hell-unlock"
+    act: 2
+    order: 1200
+    text: >-
+      <div>
+      <p>As you whip at inhuman speeds through the roads surrounding Detroit, the Mercury suddenly makes a strange sound. Anytime you veer even remotely close, your fuel tank, otherwise 100% full, drops to a hair above empty. The source?</p>
+      <p>Hell.</p>
+      <p>Hell, Michigan, that is. Cerberus can’t smell much of anything here, but it’s definitely weird and worth a pit stop. If nothing else, you need some gas. Wonder if anything’s open...</p>
+      </div>
+- model: puzzles.storycard
+  pk: 40
+  fields:
+    slug: "hell-solve"
+    act: 2
+    order: 1250
+    puzzle: 164
+    text: >-
+      <div>
+      <p>Running back inside the abandoned coffee shop, you empty the shelves of every possible pastry- stale though they are- to help restore some <span class="font-mono">BEAR CLAW ‘N ORDER</span>, and some donut justice, and croissant cravings... and whatever else you can to soothe the insatiable appetites of those below. With a collective groan, the ghastly masses back down in Hades are satiated, for now. Your car is no longer blinking on empty while here, and oddly... there's a bag of pastries in the back seat.</p>
+      <p>Fresh ones. A big bag of <span className="text-amber-500">NOURISHMENT</span> if you say so yourself. But it’s probably better to not go and munch down when you could use it to revive Hades...</p>
+      </div>
+- model: puzzles.storycard
+  pk: 41
+  fields:
+    title: 'Shade of <span className="text-amber-500">NOURISHMENT</span>'
+    slug: "hell-shade"
+    act: 2
+    order: 1280
+    puzzle: 164
+    text: >-
+      <p>A bag of fresh pastries. When you take one and close the bag, it still feels just as heavy as before. Woo! Endless road trip snacks!!!! Note to self: do not question the perpetual bag of noms.</p>
+
+- model: puzzles.storycard
+  pk: 24
+  fields:
+    title: "Las Vegas, NV"
+    slug: "las-vegas-unlock"
+    act: 2
+    order: 1300
+    text: >-
+      <div>
+      <p>Almost immediately after entering Vegas, you’re stopped by a band of would-be super-thieves calling themselves the Argonauts. At first you think it’s a joke, until one of them- a giant of a man codenamed Cyzicus stepped forward- he had six arms! They’re after the heist of the century: the famed Golden Fleece of the Golden Fleece Casino, a rare treasure dating back to ancient Greece and bearer of untold riches- well, they would have been untold if you hadn’t just heard of them.</p>
+      <p>Guess it’s time to go full casino heist and help these guys. Hopefully you won’t need to double-cross them in the process...</p>
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+        src="https://www.youtube-nocookie.com/embed/qK_zwRaSrRo"
+        frameborder="0" class="mx-auto"></iframe>
+      </div>
+- model: puzzles.storycard
+  pk: 25
+  fields:
+    slug: "las-vegas-solve"
+    act: 2
+    order: 1350
+    puzzle: 13
+    text: >-
+      <div>
+        <p>The fleece was above everyone’s heads in plain sight the whole time! The issue then, wasn’t finding it, but figuring out how to get it from the giant sheep statue 20 feet off the ground. Scaling it wasn’t an option, since the Golden Fleece Casino has so many security eyes on the ground, but what about from the air? You and your crack team instead <span class="font-mono">RAPPEL TO RAM PARTS</span> and make off with the treasure, nobody the wiser. The Fleece, incidentally, is a luxurious golden coat… with a matching muffler! The Argonauts make off with their score, but you’ve gotten a bit of <span className="text-amber-500">WEALTH</span> too.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 26
+  fields:
+    title: 'Shade of <span className="text-amber-500">WEALTH</span>'
+    slug: "las-vegas-shade"
+    act: 2
+    order: 1380
+    puzzle: 13
+    text: >-
+      <p>A luxurious golden fleece muffler, perfect for when Hell freezes over.</p>
+
+- model: puzzles.storycard
+  pk: 45
+  fields:
+    title: "Everglades, FL"
+    slug: "everglades-unlock-with-sword"
+    act: 2
+    order: 1400
+    text: >-
+      <div>
+      <p>Oh NO! A trap set up by the Trojans- or one Trojan at least. One very, very persistent snake-y trojan. There must be a way to cut through the noise and fix the computer found in a random Floridian swamp that Cerberus is telling you must be a shade... so that you can find said shade.</p>
+      <p>And a sword you do have- but be wary, as it seems quite fragile. It looks to be one time use.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 46
+  fields:
+    title: "Everglades, FL"
+    slug: "everglades-unlock-without-sword"
+    act: 2
+    order: 1410
+    text: >-
+      <div>
+      <p>Oh NO! A trap set up by the Trojans- or one Trojan at least. One very, very persistent snake-y trojan. There must be a way to cut through the noise and fix the computer found in a random Floridian swamp that Cerberus is telling you must be a shade... so that you can find said shade.</p>
+      <p>Hm... where could we possibly get a viral sword? That app we used back in Hades doesn’t seem to pay in cash, but it might pay us a favor...</p>
+      </div>
+- model: puzzles.storycard
+  pk: 47
+  fields:
+    slug: "everglades-solve"
+    act: 2
+    order: 1450
+    puzzle: 141
+    text: >-
+      <div>
+      <p>With a sigh of relief, the final head of your <span class="font-mono">HEAD TO HEAD BATTLE</span> blinks off the screen, leaving behind a coder’s dream- a seemingly endless cup of coffee, sure to <span className="text-amber-500">REANIMATE</span> you after all that bug- (reptile?) -squashing. Don’t drink it all at once!</p>
+      </div>
+- model: puzzles.storycard
+  pk: 48
+  fields:
+    title: 'Shade of <span className="text-amber-500">REANIMATION</span>'
+    slug: "everglades-shade"
+    act: 2
+    order: 1480
+    puzzle: 141
+    text: >-
+      <p>That trojan… horse, er, snake, was both the problem and the solution, seems like. The virus held the power of <span className="text-amber-500">REANIMATION</span> just like Hades would. And the coffee you got out of this certainly smells strong enough to wake the dead.</p>
+
+- model: puzzles.storycard
+  pk: 49
+  fields:
+    title: "Mississippi River"
+    slug: "mississippi-river-unlock"
+    act: 2
+    order: 1500
+    text: >-
+      <div>
+      <p>Poseidon tunes up his ol’ banjo and gives you a Southern-fried version of the tale of Scylla and Charybdis, who occupy both sides of the Mississippi River. Seems Granny Charybdis was doing good business selling her pie to passing riverboats, until young Miss Scylla turned up on the opposite shore, dishing out stew. One poisoned pie and poisoned bowl of stew later, and they turned into the monstrosities we all know and despise: a giant whirlpool and a hideous monster with six demon dog-heads for knees. Poseidon will help us dredge out the shade of his poor brother from the ol’ Miss, once you deal with these two shore-hoggin’ monstrosities!</p>
+      </div>
+- model: puzzles.storycard
+  pk: 50
+  fields:
+    slug: "mississippi-river-solve"
+    act: 2
+    order: 1550
+    puzzle: 353
+    text: >-
+      <div>
+      <p>Scylla’s deadly talons are screeching right at you, so you can’t go left... and Charybdis’ maw is still slurping away, so you can’t go right, but you can... go under! Gripping the gearshift on the Mercury, you <span class="font-mono">PUT IT IN DIVE</span> and splash beneath the surface... not a moment too soon! Thrown off balance, Scylla hurtles through the space where you were a moment ago, and lands with a thud...right in the middle of Charybdis’ drinkin’ straw! While the two of them are trying to untangle themselves, Poseidon pops a worm onto his fishhook and starts dredging the river bottom.</p>
+      <p>“I got a bite!” he announces, and reels in... a muddy old boot. He looks at it and laughs. “That’s my brother, all right,” he chuckles, tossing the boot to you. “Most folks who dredge something up from the <span className="text-amber-500">DARKNESS BELOW</span> toss it back into the depths just as quickly. Pluto knew it was better to get it out in the open than quashin’ it down and lettin’ it fester, so don’t you go throwin’ that back now, y’hear?”</p>
+      </div>
+- model: puzzles.storycard
+  pk: 51
+  fields:
+    title: 'Shade of <span className="text-amber-500">DARKNESS BELOW</span>'
+    slug: "mississippi-river-shade"
+    act: 2
+    order: 1580
+    puzzle: 353
+    text: >-
+      <p>A muddy, damp boot that smells of seaweed. The sort of thing that’s usually confined to the depths.</p>
+
+- model: puzzles.storycard
+  pk: 33
+  fields:
+    title: "Newport, RI"
+    slug: "newport-unlock"
+    act: 2
+    order: 1600
+    text: >-
+      <div>
+      <p>You tried to visit Persephone at her family estate in Newport, Rhode Island, but gardener Vertumnus informed you she’s in mourning and isn’t seeing anyone. Indeed, when you entered the parlor unannounced, the grieving widow unceremoniously threw you out. But with a little help from Vertumnus’ unattended ladder, you’ve made it over the garden wall...</p>
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+        src="https://www.youtube-nocookie.com/embed/YKW6-X_XEWk"
+        frameborder="0" class="mx-auto"></iframe>
+      </div>
+- model: puzzles.storycard
+  pk: 34
+  fields:
+    slug: "newport-solve"
+    act: 2
+    order: 1650
+    puzzle: 138
+    text: >-
+      <div>
+      <p>As the last statue left standing collapses (luckily, directly onto the last zombie still standing), you survey the wreckage of the once perfectly manicured garden. Luckily, you managed to <span class="font-mono">PALM A GRANITE</span> in all the confusion, so now might be a good time to make a hasty exit. However, as you turn around to do so, you discover an unsmiling Persephone and Vertumnus blocking your escape.</p>
+      <p>Vertumnus is livid. “Those were my favorite plants!” he howls.</p>
+      <p>“Forget the plants!” snaps Persephone, “Those were my favorite corpses!” She senses the heart-shaped chunk of stone you’re carrying. “And that, I believe, is from Pluto’s favorite statue.” She suddenly grows wistful. “It was a sculpture of me, the <span className="text-amber-500">LOVE</span> of his life, in my younger days, doing a bit of body building.”</p>
+      <p>Before you can comment that you didn’t know she lifted weights, she concludes, “I was building them into a scale model of the Eiffel Tower.”</p>
+      <p>But her short-lived reverie abruptly ends. “Take it and go!” she commands, turning away from you. You don’t need to be told twice.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 35
+  fields:
+    title: 'Shade of <span className="text-amber-500">LOVE</span>'
+    slug: "newport-shade"
+    act: 2
+    order: 1680
+    puzzle: 138
+    text: >-
+      <p>A cold and broken heart that once belonged to Pluto’s wife Persephone... well, to a statue of Pluto’s wife Persephone.</p>
+
+- model: puzzles.storycard
+  pk: 42
+  fields:
+    title: "Nashville, TN"
+    slug: "mercury-unlock"  # using first round name instead of superround name
+    act: 2
+    order: 1700
+    text: >-
+      <div>
+      <p>A country music station has an interview with Nashville’s hottest new star, Hermes! Unfortunately, something’s a bit funky (and not the tunes), as Hermes keeps cutting out. Going there and figuring it out for yourself might sort out all the broken pieces.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 43
+  fields:
+    slug: "nashville-solve"
+    act: 2
+    order: 1750
+    puzzle: 335
+    text: >-
+      <div>
+      <p>Mercury and his people quickly set up <span class="font-mono">A LOCAL ARIA NETWORK</span> and connection is restored! Mercury smiles and closes his eyes, nodding his head in time to the celestial harmony that’s now pumping through his headphones. It takes him a moment to notice you. When he does, he smiles.</p>
+      <p>“I can feel that connection again,” he says, and holds out the headphones to you. “These will help you hear the <span className="text-amber-500">TRUTH</span>. Try them on.”</p>
+      <p>You put on the headphones. “You look terrible in those,” is what it sounds like Mercury says. You take them off and ask him to repeat himself.</p>
+      <p>“I said, ‘That’s a good look for you,’” he says.</p>
+      <p>Hmm… you’ll hold onto these headphones, but wearing them all the time could be dangerous.</p>      
+      </div>
+- model: puzzles.storycard
+  pk: 44
+  fields:
+    title: 'Shade of <span className="text-amber-500">TRUTH</span>'
+    slug: "nashville-shade"
+    act: 2
+    order: 1780
+    puzzle: 335
+    text: >-
+      <p>A pair of headphones that let you hear the truth... but don’t help with the consequences.</p>
+
+- model: puzzles.storycard
+  pk: 18
+  fields:
+    title: "Oahu, HI"
+    slug: "oahu-unlock"
+    act: 2
+    order: 1800
+    text: >-
+        <div>
+        <p>Aphrodite is a lot more no-nonsense than expected. She’s trying to match up others on her new reality dating show out in Oahu, Hawaii, but having little luck- not with the weather or the contestants, but all the organization! She badly needs a production assistant, and will give us some help if we find her one.</p>
+        </div>
+- model: puzzles.storycard
+  pk: 19
+  fields:
+    slug: "oahu-solve"
+    act: 2
+    order: 1850
+    puzzle: 137
+    text: >-
+      <div>
+        <p><span class="font-mono">MENAGE A TROY</span>! That’s it- we can take care of two things at once here- we’ve helped schedule her entire first season of love triangles, all the while getting Helen of Troy for a perfect production assistant. A thousand ships will certainly sail after this season.</p>
+        <p>Aphrodite comes to you just before filming is set to begin. “A picture may be worth a thousand words, but sometimes a single word is even more useful, ta!” She’s left you with a personal cell phone with a direct line. If this isn’t the shade of <span className="text-amber-500">ATTRACTION</span>, nothing is.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 20
+  fields:
+    title: 'Shade of <span className="text-amber-500">ATTRACTION</span>'
+    slug: "oahu-shade"
+    act: 2
+    order: 1880
+    puzzle: 137
+    text: >-
+      <p>A well used cell phone, filled with important numbers from important people. You could definitely attract the attention of anyone from Artemis to Zeus from this thing.</p>
+
+- model: puzzles.storycard
+  pk: 30
+  fields:
+    title: "NYC, NY"
+    slug: "nyc-unlock"
+    act: 2
+    order: 1900
+    text: >-
+      <div>
+      <p>As you stepped out of the cold into a hotel lobby in New York, you overheard a conversation between two employees. Looks like Janus is starting their shift at the front desk, just in time for a massive wave of customers to start rolling in. You’ve got to help them get through this motley queue before they’ll be able to help you.</p>
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+        src="https://www.youtube-nocookie.com/embed/FXRGhxxfeCQ"
+        frameborder="0" class="mx-auto"></iframe>
+      </div>
+- model: puzzles.storycard
+  pk: 31
+  fields:
+    slug: "nyc-solve"
+    act: 2
+    order: 1950
+    puzzle: 36
+    text: >-
+      <div>
+      <p>Exhausted from their shift, Janus smiles a- make that two- weary smiles. “You’ve done good, kid. This is yours, for now at least. I’ll get it back soon enough,” they add with a small chuckle.</p>
+      <p>“Consider it a long term loan.”</p>
+      <p>You look down at the watch in your hands, ticking backwards, hastily putting this marker of <span className="text-amber-500">DEATH</span> away before you know too much.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 32
+  fields:
+    title: 'Shade of <span className="text-amber-500">DEATH</span>'
+    slug: "nyc-shade"
+    act: 2
+    order: 1980
+    puzzle: 36
+    text: >-
+      <p>Hades doesn’t actually control death- that’s Thanatos’s job- but he certainly watches over it. Both in the “visual” sense and the “time ticks down” sense. Janus is keenly aware of this, and how important time is at their own job. They can always get a new timepiece, but this one’s better off in your hands.</p>
+
+- model: puzzles.storycard
+  pk: 21
+  fields:
+    title: "Olympic Park, WA"
+    slug: "olympic-unlock"
+    act: 2
+    order: 2000
+    text: >-
+      <div>
+      <p>You find Gaia in a clearing in Olympic Park- the air is cool, the night is a deep haze of dark purple, and wisps of visible breath curl from her lips as she speaks. “I’ve lost my way. This world is so big, and I am so small. And look above us! The sky stretches forever! I feel so lost out here.” You sit quietly next to Gaia and think. Maybe getting her out of her funk is exactly what you should be doing right now.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 22
+  fields:
+    slug: "olympic-solve"
+    act: 2
+    order: 2050
+    puzzle: 359
+    text: >-
+      <div>
+        <p>A <span class="font-mono">BENEPHACTOR</span>! Of course! With someone to give me guidance and a little push, I’ll be on top of the world again in no time!” She gently pets her small friend- once a fox, but now a bird- who nuzzles back, as she hands you her binoculars.</p>
+        <p>“This world is so big and so full of <span className="text-amber-500">MYSTERY</span>, don’t ever lose sight of that.” When you go to turn back at your new friend, she and the bird are already gone.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 23
+  fields:
+    title: 'Shade of <span className="text-amber-500">MYSTERY</span>'
+    slug: "olympic-shade"
+    act: 2
+    order: 2080
+    puzzle: 359
+    text: >-
+      <p>A pair of high-powered binoculars. With these, you can see far deeper into space than you thought possible, and yet, the sky is still so full of <span className="text-amber-500">MYSTERY</span>! There is always more to discover, both on the ground and in the heavens.</p>
+
+- model: puzzles.storycard
+  pk: 55
+  fields:
+    title: "Sedona, AZ"
+    slug: "sedona-unlock"
+    act: 2
+    order: 2100
+    text: >-
+      <div>
+      <p>Wow, does this place look so inviting and comfortable! And despite being full of Greek heroes of every shape, size, and city-state (including at least half of Troy), it seems eerily quiet. Like, beyond the standard serene normally found at spas like these. Hygeia is one of the minor goddesses of medicine, and she’s made the place so calm and lovely and... Maybe you could just... stay a while. Yeah. That’d be reeeeeeal niiiiiiiice...</p>
+      </div>
+- model: puzzles.storycard
+  pk: 56
+  fields:
+    slug: "sedona-solve"
+    act: 2
+    order: 2150
+    puzzle: 130
+    text: >-
+      <div>
+      <p>Through a series of events one could only chalk up to “unfortunate”, while in your yoga pose you become so relaxed you roll backwards, right into an inconveniently placed cask of ambrosia. In turn, it rolls, unsteady on the metal studs holding it together, smashing into the smooth rock concrete of the large natural salt pool, exploding into a shower of wooden splinters and white-clear liquid.</p>
+      <p>It barely needs to touch the skin of the heroes at the pool, including one unfortunate Paris of Troy, to <span class="font-mono">PLASTER PARIS</span> and cause the entire hotel’s patrons to become inexplicably intoxicated, turning the serene spa to the biggest frat party this side of the Mississippi. Hygeia is distraught- not mad, per se. More disappointed.</p>
+      <p>“I started this place to get these so-called heroes to stop fighting each other all the time,” she lamented. “Now look at them!”</p>
+      <p>She blinked. “Oh… they’re… not trying to kill each other? They seem to be having fun?”</p>
+      <p>You nod and suggest they set out a volleyball net.</p>
+      <p>“Thank you,” she replies with a smile. “But I’ll also say this- you’ve made an absolute mess of the place. If I send you away with a RESTful travel package, will you promise me you’ll leave? Like, now?”</p>
+      <p>You couldn't agree more.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 57
+  fields:
+    title: 'Shade of <span className="text-amber-500">REST</span>'
+    slug: "sedona-shade"
+    act: 2
+    order: 2180
+    puzzle: 130
+    text: >-
+      <p>A comfortable travel pillow, something of a going-away “gift” (read: bribe) while Paris and the other Greek heroes muck about the hotel, ruining anyone’s chances at a good night's sleep.</p>
+
+- model: puzzles.storycard
+  pk: 36
+  fields:
+    title: "Texas"
+    slug: "texas-unlock"
+    act: 2
+    order: 2200
+    text: >-
+      <div>
+      <p>You’re driving through Texas and find yourself at a massive County Fair! Maize Days, as they call it, seems to be a hoot and a half. Theseus is master of this festival—and its rodeo—and while he may be able to help you, he wants you to explore Maize Days and have fun. Who are you to argue?</p>
+      </div>
+- model: puzzles.storycard
+  pk: 37
+  fields:
+    slug: "texas-solve"
+    act: 2
+    order: 2250
+    puzzle: 124
+    text: >-
+      <div>
+      <p>After giving the Minotaur a <span class="font-mono">COWPIE A LA MOOED</span>, he no longer has any beef with you, so you head out of the Maize. Suddenly, you find yourself roped by a lasso! Theseus has you half-hogtied before he realizes his mistake.</p>
+      <p>“Sorry: with that bovine bully on the loose in there, I’m a bit jumpy,” he says sheepishly, as he starts to undo the knots. You explain how you managed to subdue the Minotaur, for the time being, at least. Theseus is impressed. “Finally! A chance to unwind!” he sighs. “I’m good at unwindin’... especially thread or yarn or...”</p>
+      <p>Something seems to occur to him as he unwinds the last loop on his lariat, setting you free. “...or a rope of <span className="text-amber-500">BINDING</span>,” he concludes, tossing the coil of rope to you and tipping his hat. “Happy trails, Pardner,” he calls as he moseys off into the sunset. You’d best hit the dusty trail, yourself.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 38
+  fields:
+    title: 'Shade of <span className="text-amber-500">BINDING</span>'
+    slug: "texas-shade"
+    act: 2
+    order: 2280
+    puzzle: 124
+    text: >-
+      <p>This trusty lariat can hogtie a minotaur before it can say boo. Uh... moo.</p>
+
+- model: puzzles.storycard
+  pk: 61
+  fields:
+    title: 'The Oracles'
+    slug: 'philadelphia-header'
+    act: 1
+    order: 5000
+    text: ''
+- model: puzzles.storycard
+  pk: 58
+  fields:
+    title: '?????'
+    slug: "philadelphia-shade-b"
+    act: 1
+    order: 5050
+    text: >-
+      <p>An extremely salty Philly-style soft pretzel. It is gigantic, enough to feed your entire team, but just looking at it makes you want to retain water from the saline content.</p>
+- model: puzzles.storycard
+  pk: 59
+  fields:
+    title: 'Shade of <span className="text-amber-500">MINERALS</span>'
+    slug: "philadelphia-shade"
+    act: 2
+    order: 5080
+    text: >-
+      <p>The Oracles, ever evasive, gave us enough minerals to recreate the crust of the earth itself, packed neatly on a frankly embarrassingly large Philly pretzel- big enough to make an event out of sharing it. Don’t even try to eat this thing, it's for bringing back Pluto for one, and for two, a bite might just send you back there yourself.</p>
+
+# oracle videos
+- model: puzzles.storycard
+  pk: 62
+  fields:
+    slug: 'oracle-1'
+    act: 1
+    order: 6000
+    text: >-
+      <iframe id="ytplayer" type="text/html" width="400" height="240"
+        src="https://www.youtube-nocookie.com/embed/8ZOpMJqXN-o"
+        frameborder="0" class="mx-auto inline-block" style="padding: 4px"></iframe>
+- model: puzzles.storycard
+  pk: 63
+  fields:
+    slug: 'oracle-2'
+    act: 1
+    order: 6010
+    text: >-
+      <iframe id="ytplayer" type="text/html" width="400" height="240"
+        src="https://www.youtube-nocookie.com/embed/zXaMV7q39fU"
+        frameborder="0" class="mx-auto inline-block" style="padding: 4px"></iframe>
+- model: puzzles.storycard
+  pk: 64
+  fields:
+    slug: 'oracle-3'
+    act: 1
+    order: 6020
+    text: >-
+      <iframe id="ytplayer" type="text/html" width="400" height="240"
+        src="https://www.youtube-nocookie.com/embed/9oSj-qoxy7A"
+        frameborder="0" class="mx-auto inline-block" style="padding: 4px"></iframe>
+- model: puzzles.storycard
+  pk: 65
+  fields:
+    slug: 'oracle-4'
+    act: 1
+    order: 6030
+    text: >-
+      <iframe id="ytplayer" type="text/html" width="400" height="240"
+        src="https://www.youtube-nocookie.com/embed/uwKfRlpqJa8"
+        frameborder="0" class="mx-auto inline-block" style="padding: 4px"></iframe>
+
+# Herc-U-Lease
+- model: puzzles.storycard
+  pk: 70
+  fields:
+    slug: 'herculease-unlock'
+    title: 'Herc-U-Lease'
+    act: 1
+    order: 295  # between court and hera
+    text: >-
+      <div>
+      <p>WELCOME EMPLOYEE [employee number] TO HERC-U-LEASE, THE PREMIER
+      GIG ECONOMY APP FOR DENIZENS OF THE UNDERWORLD.</p>
+      <p>Have you, [employee number] ever wished to improve your lot in
+      (the after)life? Well, now, [employee number] you can! We are so
+      [expression of false gratitude] to be able to provide this opportunity
+      for you to earn favor with the gods and possibly even riches* along
+      the way.</p>
+      <p>Perform these tasks, submit to the gods’ judgment, and reap the
+      benefits. It’s so easy, a dead guy could do it! We believe** in you,
+      [employee number]!</p>
+      <p style="font-size: 50%">*Riches are subject to terms and conditions.
+      Void within the void. Cannot be exchanged for actual living currency.
+      Ask your nearest Herc-U-Lease representative for more information.
+      No refunds, exchanges, or bargains for your mortal soul allowed.</p>
+      <p style="font-size: 50%">**Belief void where prohibited.</p>
+      </div>
+- model: puzzles.storycard
+  pk: 71
+  fields:
+    slug: 'herculease-solved'
+    act: 1
+    order: 296  # between court and hera
+    puzzle: 738
+    text: >-
+      <div>
+      <p>CONGRATULATIONS, [employee number]. YOU HAVE EARNED SUFFICIENT GODLY
+      FAVOR FOR REINCARNATION. UNFORTUNATELY, DUE TO HADES NO LONGER EXISTING,
+      WE CANNOT* PROVIDE THIS SERVICE.</p>
+      <p>PLEASE TAKE THIS DIGITAL COLLECTIBLE AS CONSOLATION. SHOULD HADES
+      EXIST SOMETIME IN THE NEXT [eternity] YOU MAY EXCHANGE IT FOR YOUR
+      FORMER LIFE.</p>
+      </div>

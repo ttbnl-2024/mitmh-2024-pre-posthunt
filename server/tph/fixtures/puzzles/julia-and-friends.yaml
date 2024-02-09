@@ -1,0 +1,81 @@
+- model: puzzles.puzzle
+  pk: 435
+  fields:
+    emoji: ':frog:'
+    deep: 1200
+- model: spoilr_core.puzzle
+  pk: 435
+  fields:
+    external_id: 435
+    round: 16
+    answer: I AM GROOT
+    name: Julia and Friends
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 435
+    is_meta: false
+    slug: julia-and-friends
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 373
+  fields:
+    puzzle: 435
+    description: Starting
+    order: 10.0
+    keywords: starting
+    content: Identify all the celebrities and see if you can find something they have
+      in common.
+- model: spoilr_hints.cannedhint
+  pk: 374
+  fields:
+    puzzle: 435
+    description: Connection
+    order: 25.0
+    keywords: connection
+    content: Try Googling all of the celebrities identified and seeing if they were
+      on a common TV show.
+- model: spoilr_hints.cannedhint
+  pk: 375
+  fields:
+    puzzle: 435
+    description: Flavor Text
+    order: 50.0
+    keywords: flavor text interpretation
+    content: The word manipulating clues two different things.  First, where the celebrities
+      are from, and second how to manipulate the clues.
+- model: spoilr_hints.cannedhint
+  pk: 376
+  fields:
+    puzzle: 435
+    description: Manipulation
+    order: 70.0
+    keywords: anagram
+    content: Look at the clues and see if you can anagram something that goes with
+      the puzzle's title, while changing a letter.
+- model: spoilr_hints.cannedhint
+  pk: 377
+  fields:
+    puzzle: 435
+    description: Extraction
+    order: 85.0
+    keywords: extraction
+    content: Take the letters that have been changed and use them to spell the clue
+      phrase.
+- model: spoilr_hints.cannedhint
+  pk: 378
+  fields:
+    puzzle: 435
+    description: Ordering
+    order: 90.0
+    keywords: ordering
+    content: The clue phrase will be spelled when you put the episodes in production
+      number order, as clued by the flavor text.
+- model: spoilr_hints.cannedhint
+  pk: 379
+  fields:
+    puzzle: 435
+    description: In case you missed it
+    order: 100.0
+    keywords: solving the puzzle
+    content: These clue phrases are anagrams of Muppets from "The Muppet Show" and
+      "Sesame Street" with one letter changed.

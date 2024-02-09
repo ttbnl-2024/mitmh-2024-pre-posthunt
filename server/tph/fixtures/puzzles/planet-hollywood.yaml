@@ -1,0 +1,75 @@
+- model: puzzles.puzzle
+  pk: 162
+  fields:
+    emoji: ':pizza:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 162
+  fields:
+    external_id: 162
+    round: 4
+    answer: PINDO
+    name: "Planet Holly\u00ADwood"
+    main_credits: John Bromels, Jacob N Scott, K. King, and Todd Becker
+    other_credits: ''
+    order: 162
+    is_meta: false
+    slug: planet-hollywood
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 311
+  fields:
+    puzzle: 162
+    description: Stuck on getting started
+    order: 0.0
+    keywords: pictures, what are these pictures
+    content: Say what you see, and keep a list.
+- model: spoilr_hints.cannedhint
+  pk: 312
+  fields:
+    puzzle: 162
+    description: Solvers haven't made the discovery of restaurant connections
+    order: 30.0
+    keywords: cracker roadhouse, what do these pictures mean
+    content: Perhaps do a web search of some of your picture results all together.
+- model: spoilr_hints.cannedhint
+  pk: 318
+  fields:
+    puzzle: 162
+    description: Solvers cannot see that they are restaurants
+    order: 31.0
+    keywords: what are these pictures
+    content: Where should we go for dinner tonight?  Pizza Stop or Wing Hut?
+- model: spoilr_hints.cannedhint
+  pk: 319
+  fields:
+    puzzle: 162
+    description: pictures ordering mechanism
+    order: 32.0
+    keywords: alphabetical, order, list
+    content: The pictures are alphabetical by last letter.
+- model: spoilr_hints.cannedhint
+  pk: 313
+  fields:
+    puzzle: 162
+    description: Solvers have the pictures, but are trying to make a complete loop
+      or chain.
+    order: 50.0
+    keywords: chain, loop, connect together
+    content: How many chains are there?
+- model: spoilr_hints.cannedhint
+  pk: 314
+  fields:
+    puzzle: 162
+    description: Solvers have not thought to map these chains
+    order: 75.0
+    keywords: five chains, five loops, what do I do with chains
+    content: Everyone loves a good origin story.  Where can you get started?
+- model: spoilr_hints.cannedhint
+  pk: 315
+  fields:
+    puzzle: 162
+    description: Solvers need to draw on a US map
+    order: 100.0
+    keywords: notice cities of origin, group of five geographical regions
+    content: Time to play connect the dots.

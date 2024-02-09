@@ -1,0 +1,87 @@
+- model: puzzles.puzzle
+  pk: 639
+  fields:
+    emoji: ':shark:'
+    deep: 280
+- model: spoilr_core.puzzle
+  pk: 639
+  fields:
+    external_id: 639
+    round: 20
+    answer: PRODUCT
+    name: Snark Tank
+    main_credits: David Latham, Jeremiahs Johnson, Linus Hamilton, Maya Rotenberg,
+      Nathaniel McManus, and Sophia McManus
+    other_credits: ''
+    order: 639
+    is_meta: false
+    slug: snark-tank
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1557
+  fields:
+    puzzle: 639
+    description: Getting started
+    order: 0.0
+    keywords: start, begin, first step
+    content: Do the title and general format remind you of something? They all seem
+      to broadly reference some sort of reality show that involves pitching products.
+- model: spoilr_hints.cannedhint
+  pk: 1559
+  fields:
+    puzzle: 639
+    description: Solving clues for the fake products
+    order: 30.0
+    keywords: pitches, clues, products
+    content: The fake pitches can be largely figured out by solving the clues directly
+      and using the enumerations. Once you've figured out some of them, what order
+      do they seem to be given in? Does that help you disambiguate or figure some
+      others out?
+- model: spoilr_hints.cannedhint
+  pk: 1561
+  fields:
+    puzzle: 639
+    description: Recognizing the products as from the correct set
+    order: 60.0
+    keywords: clues, products, reference
+    content: Have you tried googling some of these fake products in a group, to see
+      if similar products appear elsewhere in a list? If you have recognized the referenced
+      show, similar products have made an appearance there that are almost, but not
+      quite, exactly like what are being pitched here. Have you tried spotting the
+      differences?
+- model: spoilr_hints.cannedhint
+  pk: 1562
+  fields:
+    puzzle: 639
+    description: Final ordering
+    order: 90.0
+    keywords: extraction, ordering
+    content: Since the original products appear to have been given alphabetically,
+      chances are that they need to be reordered somehow. Have you used the judges'
+      scores so far? What are they suggestive of (a bunch of yes/no sequences of length
+      5)? Is there anything remarkable about the set of scores?
+- model: spoilr_hints.cannedhint
+  pk: 1563
+  fields:
+    puzzle: 639
+    description: Extraction
+    order: 100.0
+    keywords: extraction
+    content: The items you've solved and the originals in <i>Shark Tank</i> are only slightly
+      different. Have you tried making a note of these differences? They should spell
+      out a cluephrase.
+- model: spoilr_core.pseudoanswer
+  pk: 152
+  fields:
+    puzzle: 639
+    answer: ITSTHEPINGDP
+    response: Keep going! 3 3 1 2 3
+- model: spoilr_core.pseudoanswer
+  pk: 151
+  fields:
+    puzzle: 639
+    answer: THEPINGDP
+    response: Keep going! ITS 3 1 2 3

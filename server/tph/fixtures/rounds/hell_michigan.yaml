@@ -1,0 +1,15 @@
+- model: puzzles.round
+  pk: 15
+  fields:
+    'x': 65.192
+    'y': 27.025
+    'w': 8.867
+    autoresize: false
+    text_overlay: true
+- model: spoilr_core.round
+  pk: 15
+  fields:
+    act: 2
+    slug: hell
+    name: Hell, MI
+    order: 102

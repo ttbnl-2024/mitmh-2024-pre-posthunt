@@ -1,0 +1,157 @@
+- model: puzzles.puzzle
+  pk: 717
+  fields:
+    emoji: ':computer:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 717
+  fields:
+    external_id: 717
+    round: 3
+    answer: INTERNET PROVIDER
+    name: IO
+    main_credits: Neal Tibrewala
+    other_credits: ''
+    order: 717
+    is_meta: false
+    slug: io
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1328
+  fields:
+    puzzle: 717
+    description: Not sure what we're doing here.
+    order: 0.0
+    keywords: breaking in
+    content: The first task is to try to assign letters to the remaining colored wires.  I
+      and O are already labeled.
+- model: spoilr_hints.cannedhint
+  pk: 1329
+  fields:
+    puzzle: 717
+    description: Solvers don't know what to do about the first two lines of the test
+      code files
+    order: 1.0
+    keywords: circles, file, extensions
+    content: The file extensions are missing from three of the files.  Can you figure
+      out what they're written in?
+- model: spoilr_hints.cannedhint
+  pk: 1336
+  fields:
+    puzzle: 717
+    description: Solvers don't know what to do about the circles
+    order: 1.1
+    keywords: circles, dots
+    content: This is two ordered letters and a dot (circle).  Where do you find that,
+      or not find that, in the code?
+- model: spoilr_hints.cannedhint
+  pk: 1330
+  fields:
+    puzzle: 717
+    description: solvers are asking about the hex numbers
+    order: 2.0
+    keywords: hex numbers
+    content: The test files are all authored by roy g. biv.  Notice his name isn't
+      capitalized correctly.  are there other places where things are capitalized
+      inconsistently?
+- model: spoilr_hints.cannedhint
+  pk: 1333
+  fields:
+    puzzle: 717
+    description: asking about colors
+    order: 2.1
+    keywords: colors
+    content: Roy has a favorite app/tool that you might need.
+- model: spoilr_hints.cannedhint
+  pk: 1331
+  fields:
+    puzzle: 717
+    description: solvers don't know what to do about the numbers 21 25 and 80
+    order: 3.0
+    keywords: ports, port numbers
+    content: Those are quite "well known ports"
+- model: spoilr_hints.cannedhint
+  pk: 1332
+  fields:
+    puzzle: 717
+    description: don't know what to make of "comments"
+    order: 3.1
+    keywords: comments
+    content: The code files are making polite "Requests For Comments."
+- model: spoilr_hints.cannedhint
+  pk: 1334
+  fields:
+    puzzle: 717
+    description: solvers are wondering about page 37, 38 or what to make of the capitalized
+      numbers
+    order: 4.0
+    keywords: capitalized, 37, 38, page, or EBCD1C
+    content: '"Code pages" were used in the days before Unicode standardization.'
+- model: spoilr_hints.cannedhint
+  pk: 1447
+  fields:
+    puzzle: 717
+    description: Solvers found the RFC values but don't know what to do with them.
+    order: 4.1
+    keywords: RFC
+    content: Look at the difference between the actual RFC numbers and the asserted
+      numbers. You can convert them to letters using a certain character encoding
+      standard.
+- model: spoilr_hints.cannedhint
+  pk: 1335
+  fields:
+    puzzle: 717
+    description: don't know what to do with the AND OR gates
+    order: 5.0
+    keywords: AND OR GATES INPUTS OUTPUT
+    content: The code is sending 2 characters into each gate and getting out 1, so
+      5 or 6 total characters are involved.
+- model: spoilr_hints.cannedhint
+  pk: 1337
+  fields:
+    puzzle: 717
+    description: Stuck on extraction after all letters are found
+    order: 7.0
+    keywords: extraction
+    content: The final file is used for extraction.  You will extract two different
+      words.
+- model: spoilr_hints.cannedhint
+  pk: 1338
+  fields:
+    puzzle: 717
+    description: what does exorbitant hash do?
+    order: 7.1
+    keywords: exorbitant
+    content: There's a clue in the hash's name as to what it does.  This is similar
+      to how the AND and OR gates were used.
+- model: spoilr_hints.cannedhint
+  pk: 1339
+  fields:
+    puzzle: 717
+    description: solvers don't know how to assign the correct discriminator input
+    order: 7.2
+    keywords: discriminator
+    content: Have you counted the number of entries in the discriminator array?
+- model: spoilr_hints.cannedhint
+  pk: 1340
+  fields:
+    puzzle: 717
+    description: Solvers can't figure out what to do with correct outputs from the
+      hash
+    order: 7.3
+    keywords: exorbitant hash results
+    content: You will need to look at the results in a number format you haven't used
+      yet.
+- model: spoilr_hints.cannedhint
+  pk: 1448
+  fields:
+    puzzle: 717
+    description: Solvers are very stuck trying to figure out what to do with correct
+      outputs from the hash
+    order: 7.4
+    keywords: binary, letters
+    content: The 1s and 0s indicate whether or not a letter appears in that position.
+      Remember you are looking for 2 words.

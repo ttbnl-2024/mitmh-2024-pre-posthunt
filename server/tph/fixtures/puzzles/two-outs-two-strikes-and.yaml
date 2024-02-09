@@ -1,0 +1,83 @@
+- model: puzzles.puzzle
+  pk: 715
+  fields:
+    emoji: ':baseball::baseball:'
+    deep: 900
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 715
+  fields:
+    external_id: 715
+    round: 9
+    answer: DISTICHAL
+    name: Two Outs, Two Strikes, and...
+    main_credits: Alina Khankin, Brian Widerman, and John Bromels
+    other_credits: ''
+    order: 715
+    is_meta: false
+    slug: two-outs-two-strikes-and
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1499
+  fields:
+    puzzle: 715
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: Each line is a fragment of a sentence. They go together in sets of three,
+      but once you have put them together, you'll notice that something specific seems
+      to be missing from each.
+- model: spoilr_hints.cannedhint
+  pk: 1500
+  fields:
+    puzzle: 715
+    description: Solvers don't get the meaning of the removed o's/that it's about
+      castration.
+    order: 2.0
+    keywords: sentences, solved clues, animals
+    content: "Each sentence describes a male animal, and each sentence has had two\
+      \ o's cut out of it. Those o's represent something specific. \r\nThe title references\
+      \ a worst-case scenario in baseball: two outs, two strikes, and no balls. \r\
+      \nThese male animals have, alas, been castrated, so we'd refer to them by different\
+      \ terminology."
+- model: spoilr_hints.cannedhint
+  pk: 1501
+  fields:
+    puzzle: 715
+    description: Solvers understand the "balls" have been removed, but think the solution
+      is to find the female names of the animals.
+    order: 2.1
+    keywords: female
+    content: When a male animal has had its two balls removed, it does not become
+      a female. It becomes castrated. Many castrated adult animals have specific names
+      that are neither the names for the adult male or adult female of their species.
+      You'll need to use those names.
+- model: spoilr_hints.cannedhint
+  pk: 1502
+  fields:
+    puzzle: 715
+    description: Solvers cannot figure out the ordering
+    order: 3.0
+    keywords: ordering
+    content: 'The reassembled sentences begin with consecutive letters of the alphabet,
+      A-K. This is not a coincidence: that is the order in which to place your answers.'
+- model: spoilr_hints.cannedhint
+  pk: 1503
+  fields:
+    puzzle: 715
+    description: Solvers are stuck on extraction
+    order: 4.0
+    keywords: extraction
+    content: At least one fragment of every sentence (part 1, part 2, part 3) is boldfaced.
+      The boldfaced portion(s) of each sentence index which letter(s) of the final
+      answer for that sentence (1, 2, and/or 3) should be pulled.
+- model: spoilr_core.pseudoanswer
+  pk: 279
+  fields:
+    puzzle: 715
+    answer: GIVE US TWO BALLS
+    response: Please do so, in a manner consistent with Hunt etiquette and all applicable
+      laws. [Refresh the page to see the interaction form.]

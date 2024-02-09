@@ -1,0 +1,89 @@
+- model: puzzles.puzzle
+  pk: 115
+  fields:
+    emoji: ':bee:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 115
+  fields:
+    external_id: 115
+    round: 16
+    answer: JAMES E SCRIPPS
+    name: Befouled Spellings
+    main_credits: Jeremy Conner and Joseph Ong
+    other_credits: ''
+    order: 115
+    is_meta: false
+    slug: befouled-spellings
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1415
+  fields:
+    puzzle: 115
+    description: Solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: The answers to each clue set have a lot of repeated letters. How many
+      different letters do you need?
+- model: spoilr_hints.cannedhint
+  pk: 1416
+  fields:
+    puzzle: 115
+    description: What do I do with 7 different letters? (For teams who have never
+      heard of NYT Spelling Bee)
+    order: 10.0
+    keywords: 7, seven
+    content: The flavor text is pointing you at a particular puzzle the New York Times
+      publishes.
+- model: spoilr_hints.cannedhint
+  pk: 1417
+  fields:
+    puzzle: 115
+    description: What winning word? (For teams that haven't figure out you need to
+      find the Scripps winning words in the NYT puzzles
+    order: 25.0
+    keywords: winning
+    content: Each puzzle matching a set of words can form exactly one Scripps spelling
+      bee winning word. This isn't always in the New York Times' dictionary.
+- model: spoilr_hints.cannedhint
+  pk: 1418
+  fields:
+    puzzle: 115
+    description: Teams don't know what to do with the three clues.
+    order: 50.0
+    keywords: coagulate, final, degree, run
+    content: The answers to the clues next to the gold hexagon use each letter from
+      a gold hexagon in the first part of the puzzle once.
+- model: spoilr_hints.cannedhint
+  pk: 1419
+  fields:
+    puzzle: 115
+    description: Solvers are stuck at the end
+    order: 100.0
+    keywords: extraction, runners-up, 3rd, place
+    content: Use the numbers at the end to extract from the word each spelling bee
+      runner-up misspelled. The records for one very old spelling bee suggest the
+      concept of the winner having to spell another "winning" word after spelling
+      the runner-up's word correctly hadn't been invented yet. For that bee, use the
+      word misspelled by the 3rd place finisher.
+- model: spoilr_core.pseudoanswer
+  pk: 194
+  fields:
+    puzzle: 115
+    answer: EWSHALFBRO
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 193
+  fields:
+    puzzle: 115
+    answer: JAMES EDMUND SCRIPPS
+    response: Use the middle initial.
+- model: spoilr_core.pseudoanswer
+  pk: 192
+  fields:
+    puzzle: 115
+    answer: JAMES SCRIPPS
+    response: Add the middle initial.

@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 419
+  fields:
+    emoji: ':cow2:'
+    deep: 1
+    deep_key: "hydra-RRL"
+- model: spoilr_core.puzzle
+  pk: 419
+  fields:
+    external_id: 419
+    round: 13
+    answer: LABOR
+    name: Until They Come Home
+    main_credits: Nathan Fung
+    other_credits: ''
+    order: 419
+    is_meta: false
+    slug: until-they-come-home
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1722
+  fields:
+    puzzle: 419
+    description: Solvers don't know what the puzzle is about
+    order: 0.0
+    keywords: start, begin
+    content: The idiom the title is based on and the general location of the photos
+      suggest the topic of the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1723
+  fields:
+    puzzle: 419
+    description: Still don't know what the puzzle is about
+    order: 10.0
+    keywords: ''
+    content: Each photo is a location that a cow was at in Boston's 2023 Cowparade.
+- model: spoilr_hints.cannedhint
+  pk: 1724
+  fields:
+    puzzle: 419
+    description: Solvers are having trouble finding the distinguishing features
+    order: 20.0
+    keywords: cows, distinguishing features, match
+    content: The distinguishing features can be matched to each cow; one is on each
+      side. You can find larger photos of the cows outside of the official site.
+- model: spoilr_hints.cannedhint
+  pk: 1725
+  fields:
+    puzzle: 419
+    description: Solvers are on extract
+    order: 90.0
+    keywords: extract
+    content: Index into the name of the cows using the numbers of the two distinguishing
+      features.
+- model: spoilr_core.pseudoanswer
+  pk: 296
+  fields:
+    puzzle: 419
+    answer: LABOR OF HERCULES
+    response: Just the first word is enough

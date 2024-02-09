@@ -1,0 +1,54 @@
+- model: puzzles.puzzle
+  pk: 688
+  fields:
+    emoji: ':star_of_david:'
+    deep: 960
+- model: spoilr_core.puzzle
+  pk: 688
+  fields:
+    external_id: 688
+    round: 20
+    answer: TORAH
+    name: Shalom
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 688
+    is_meta: false
+    slug: shalom
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 810
+  fields:
+    puzzle: 688
+    description: Clues
+    order: 25.0
+    keywords: Clues
+    content: All the answers to these clues are 6 letters.
+- model: spoilr_hints.cannedhint
+  pk: 811
+  fields:
+    puzzle: 688
+    description: Pattern
+    order: 50.0
+    keywords: Pattern
+    content: Look for a pattern with the 6 six letter words in each star.
+- model: spoilr_hints.cannedhint
+  pk: 812
+  fields:
+    puzzle: 688
+    description: Letters
+    order: 75.0
+    keywords: Letters
+    content: There is a letter that gets used exactly once in each word, in a different
+      spot of the word.
+- model: spoilr_hints.cannedhint
+  pk: 813
+  fields:
+    puzzle: 688
+    description: Extraction
+    order: 100.0
+    keywords: extraction
+    content: Take the letters that you've found, and just read them off in order.

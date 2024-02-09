@@ -1,0 +1,60 @@
+- model: puzzles.puzzle
+  pk: 375
+  fields:
+    emoji: ':cupid:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 375
+  fields:
+    external_id: 375
+    round: 15
+    answer: BRACKET, CARBONYL, CHLOE, CRUNCHY, DANDER, WHINER
+    name: Matchmaker
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 375
+    is_meta: false
+    slug: matchmaker
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 688
+  fields:
+    puzzle: 375
+    description: Solvers haven't figured out it's about fictional predictions of real
+      events and inventions
+    order: 0.0
+    keywords: start, begin
+    content: The Wreck of the Titan is really only remembered for one reason. Each
+      of the other works of fiction has a similar claim to fame.
+- model: spoilr_hints.cannedhint
+  pk: 693
+  fields:
+    puzzle: 375
+    description: Solvers have trouble completing the phrases on the right
+    order: 50.0
+    keywords: blanks, confirm
+    content: 'Give solvers any particular phrase they are having trouble completing.
+      In the order they appear in the puzzle: Phobos and Deimos (Asaph Hall, 1877);
+      Apollo 11 (NASA, 1969); Wikipedia (2001); MIT Mystery Hunt (Brad Schaefer, 1981);
+      Waterbeds (Charles Hall, 1968); President Donald Trump (2017); World Trade Center
+      Destroyed in 2001; RMS Titanic Sinks (1912); Smartwatches (ca. 2013); Test-tube
+      babies (1978); Detroit is bankrupt (2013); Berlin Wall comes down in 1989; Adaptive
+      cruise control (Mitsubishi, 1995); Black United States president (2009); World
+      Wide Web (Tim Berners-Lee, 1991); Disney buys Fox (2019); E-cigarettes (China,
+      2003)'
+- model: spoilr_hints.cannedhint
+  pk: 695
+  fields:
+    puzzle: 375
+    description: Solvers have done the matching and filled the phrases but can't figure
+      out the extraction
+    order: 100.0
+    keywords: extraction
+    content: 'If you did the matching correctly, each line should cross one symbol
+      of each type. Divide the symbols into 6 groups by type of symbol and whether
+      they were crossed by a line. Each set is ordered in a different way: By left
+      clues, by right clues, right-to-left, left-to-right, top-to-bottom, and bottom-to-top.
+      Each phrase relates to a different puzzle in this round.'

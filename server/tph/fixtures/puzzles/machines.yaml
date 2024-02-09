@@ -1,0 +1,162 @@
+- model: puzzles.puzzle
+  pk: 711
+  fields:
+    emoji: ':green_book:'
+    deep: 15
+- model: spoilr_core.puzzle
+  pk: 711
+  fields:
+    external_id: 711
+    round: 22
+    answer: GEN Z
+    name: Machines
+    main_credits: Scott Harvey-Arnold
+    other_credits: ''
+    order: 711
+    is_meta: false
+    slug: machines
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1221
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: "Find a word that, when placed in cell A1, will make all the conditions\
+      \ green/TRUE. Do this for each sheet.\r\n\r\nNote that you will have to make\
+      \ a copy of the sheet (File \u2192 Make a copy) in order to edit it."
+- model: spoilr_hints.cannedhint
+  pk: 1222
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 1
+    order: 2.0
+    keywords: sheet 1
+    content: "The conditions in the six cells are (from top to bottom):\r\n\r\n1.\
+      \ The word must consist of letters A\u2013Z and must be in the \u201Cwordlist\u201D\
+      \ sheet.\r\n2. The word must be 5 letters long.\r\n3. The first letter must\
+      \ translate to 100 when interpreted as a Roman numeral.\r\n4. The second letter\
+      \ of the word must be listed in that row of letters at the column labeled by\
+      \ the same letter.\r\n5. The third letter must be a unit, 35 of which are approximately\
+      \ equal to 1 bushel.\r\n6. The last two letters, when read as an English word\
+      \ and translated into Spanish, yield the fourth letter."
+- model: spoilr_hints.cannedhint
+  pk: 1223
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 2
+    order: 3.0
+    keywords: sheet 2
+    content: "This is a word search. You must find the word \u201CPUZZLE\u201D. However,\
+      \ remember that your answer must be a word in the wordlist."
+- model: spoilr_hints.cannedhint
+  pk: 1224
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 3
+    order: 4.0
+    keywords: sheet 3
+    content: You will have to find a way to look through the long columns to find
+      the actual conditions that matter.
+- model: spoilr_hints.cannedhint
+  pk: 1225
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 3 (stronger hint)
+    order: 4.1
+    keywords: sheet 3
+    content: "You can use View \u2192 Show \u2192 Formulas (Ctrl+`) to make this easier,\
+      \ or use LEN(FORMULATEXT(...))."
+- model: spoilr_hints.cannedhint
+  pk: 1226
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 4
+    order: 5.0
+    keywords: sheet 4
+    content: "The intended solve path is to figure out the behavior of MATCH when\
+      \ it is told that the list of words is sorted but it actually isn\u2019t."
+- model: spoilr_hints.cannedhint
+  pk: 1227
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 4 (stronger hint)
+    order: 5.1
+    keywords: sheet 4
+    content: You could add formulas in column D that will show you the output of INDEX($E$1:$E$31,
+      MATCH(..., $E$1:$E$31)) for each of the words in this short list.
+- model: spoilr_hints.cannedhint
+  pk: 1228
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 5
+    order: 6.0
+    keywords: sheet 5
+    content: This is a Turing machine. Figure out what the program is intended to
+      do, then fill in the necessary parts of the program.
+- model: spoilr_hints.cannedhint
+  pk: 1229
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 5 (stronger hint)
+    order: 6.1
+    keywords: sheet 5
+    content: The Turing machine is expected to accept numbers that are perfect squares,
+      and reject all others.
+- model: spoilr_hints.cannedhint
+  pk: 1230
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 6
+    order: 7.0
+    keywords: sheet 6
+    content: Find a path through the maze that takes you from the top-left corner
+      to the bottom-right corner.
+- model: spoilr_hints.cannedhint
+  pk: 1231
+  fields:
+    puzzle: 711
+    description: Solvers are stuck on sheet 6 (stronger hint)
+    order: 7.1
+    keywords: sheet 6
+    content: Find the only 8-letter word in the wordlist consisting of 7 unique letters
+      that will open just the right set of gates so that you can reach the goal.
+- model: spoilr_hints.cannedhint
+  pk: 1232
+  fields:
+    puzzle: 711
+    description: "Solvers have the cluephrase but don\u2019t understand it"
+    order: 8.0
+    keywords: color,is,one,using,cell,function,cluephrase
+    content: The cluephrase is referencing the CELL() function.
+- model: spoilr_hints.cannedhint
+  pk: 1233
+  fields:
+    puzzle: 711
+    description: "Solvers have the cluephrase but don\u2019t understand it (stronger\
+      \ hint)"
+    order: 8.1
+    keywords: color,is,one,using,cell,function,cluephrase
+    content: Find all cells where CELL("color", ...) returns 1.
+- model: spoilr_hints.cannedhint
+  pk: 1234
+  fields:
+    puzzle: 711
+    description: "Solvers have applied CELL() correctly but can\u2019t read the answer"
+    order: 9.0
+    keywords: cell,color,makes no sense
+    content: "* In Sheet 3, you need to read primarily from left to right, not top\
+      \ to bottom.\r\n* If you used conditional formatting to find the applicable\
+      \ cells, make sure to drag your rule above all existing conditional formatting\
+      \ rules so that it will take precedence."
+- model: spoilr_core.pseudoanswer
+  pk: 261
+  fields:
+    puzzle: 711
+    answer: MAKE A SPREADSHEET IN REAL LIFE
+    response: Please make us a spreadsheet in real life and send us a picture or
+      video at spreadsheet@mitmh2024.com.

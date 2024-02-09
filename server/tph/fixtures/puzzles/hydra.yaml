@@ -1,0 +1,150 @@
+- model: puzzles.puzzle
+  pk: 141
+  fields:
+    emoji: ':dragon_face:'
+    deep: 1
+    deep_key: 'hydra-meta'
+- model: spoilr_core.puzzle
+  pk: 141
+  fields:
+    external_id: 141
+    round: 13
+    answer: HEAD TO HEAD BATTLE
+    name: Hydra
+    main_credits: Craig Kasper and Jim Hays
+    other_credits: ''
+    order: 141
+    is_meta: true
+    slug: hydra
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 27
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on getting started.
+    order: 5.0
+    keywords: getting started
+    content: You would not believe how many answers this meta might eventually have...
+      or maybe you would.  In any case, you are very unlikely to be able to solve
+      this metapuzzle before you've opened the puzzles whose names start to repeat.
+- model: spoilr_hints.cannedhint
+  pk: 28
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on getting started (2).
+    order: 20.0
+    keywords: getting started, start
+    content: With each puzzle forking in the earlier levels, it's not only the puzzles
+      that fork - the answers do too.  See if you can identify how the answer forking
+      works.
+- model: spoilr_hints.cannedhint
+  pk: 29
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on getting started, but know the answers fork (3).
+    order: 20.1
+    keywords: getting started, start
+    content: The answer forking between the two-puzzle/four-puzzle/eight-puzzle levels
+      is associated with what is on either side of each answer.
+- model: spoilr_hints.cannedhint
+  pk: 30
+  fields:
+    puzzle: 141
+    description: Solvers have reached the third level, but have not yet figured out
+      the word-adding mechanism.
+    order: 30.0
+    keywords: third level, changes, changes between levels
+    content: The answer forking between the two-puzzle/four-puzzle/eight-puzzle levels
+      is associated with what the letters on either side of each answer.  Understanding
+      what is happening with the eight-puzzle level involves understanding what could
+      be on one side or the other of each answer, but this time it involves understanding
+      words that could be on either side of the puzzle answer.
+- model: spoilr_hints.cannedhint
+  pk: 31
+  fields:
+    puzzle: 141
+    description: Solvers have reached the third level, but have not yet figured out
+      the word-adding mechanism (2).
+    order: 30.1
+    keywords: third level, changes, changes between levels
+    content: For the four answers on one side of the two-answer-to-four-answer fork,
+      the word which can be added to the answer goes before the answer; for the four
+      answers on the other side of the two-answer-to-four-answer fork, the word which
+      can be added goes after the answer.
+- model: spoilr_hints.cannedhint
+  pk: 32
+  fields:
+    puzzle: 141
+    description: Solvers have reached the third level, but have not yet figured out
+      the word-adding mechanism (3).
+    order: 30.2
+    keywords: third level, changes, changes between levels
+    content: Just as the words which are added to the answers at the eight-puzzle
+      level can go on the left side or the right side of the answer, the words that
+      are added are LEFT and RIGHT.
+- model: spoilr_hints.cannedhint
+  pk: 33
+  fields:
+    puzzle: 141
+    description: Solvers have reached the fourth level, but have not yet figured out
+      the mechanism.
+    order: 50.0
+    keywords: fourth level, repeating puzzles, changes between levels
+    content: Puzzles at the 16-puzzle level and every subsequent level do not follow
+      the same patterns as the preceding levels, but they do follow a consistent pattern,
+      and that pattern is related to the patterns of the preceding levels.
+- model: spoilr_hints.cannedhint
+  pk: 34
+  fields:
+    puzzle: 141
+    description: Solvers have reached the fourth level, but have not yet figured out
+      the mechanism or how to use it to extract (2).
+    order: 70.0
+    keywords: fourth level, repeating puzzles, changes between levels, extraction
+    content: Puzzles at the 16-puzzle level and every subsequent level follow a pattern
+      related to the letters in the answers.
+- model: spoilr_hints.cannedhint
+  pk: 35
+  fields:
+    puzzle: 141
+    description: Solvers have reached the fourth level, but have not yet figured out
+      the mechanism or how to use it to extract (3).
+    order: 70.1
+    keywords: fourth level, repeating puzzles, changes between levels, extraction
+    content: The pattern related to the letters in the answers at the 16-puzzle level
+      and every subsequent level does not select a specific letter or letters from
+      that answer, but can be used to identify a letter corresponding to that answer
+      when combined with the previous puzzles.
+- model: spoilr_hints.cannedhint
+  pk: 36
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on extraction (1).
+    order: 90.0
+    keywords: extraction
+    content: The answers at the 16-puzzle level and below contain exactly three letters
+      which are either L or R; these letters allow you to extract a letter from that
+      answer.
+- model: spoilr_hints.cannedhint
+  pk: 37
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on extraction (2).
+    order: 90.1
+    keywords: extraction
+    content: The structure of the puzzle at the two-puzzle, four-puzzle, and eight-puzzle
+      levels is left/right related; you can use this structure to navigate (L)eft
+      and (R)ight to a specific puzzle at the eight-puzzle level.
+- model: spoilr_hints.cannedhint
+  pk: 38
+  fields:
+    puzzle: 141
+    description: Solvers are stuck on extraction (3).
+    order: 90.2
+    keywords: extraction
+    content: The answers at the eight-puzzle level start with eight different letters.
+      Once you have used the L's and R's in the answers at the sixteen puzzle level
+      or below to navigate to one of those answers, take its first letter.

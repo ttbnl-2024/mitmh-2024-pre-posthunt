@@ -1,0 +1,255 @@
+- model: puzzles.puzzle
+  pk: 272
+  fields:
+    emoji: ':spy:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 272
+  fields:
+    external_id: 272
+    round: 11
+    answer: TUITION
+    name: Intelligence Collection
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 272
+    is_meta: false
+    slug: intelligence-collection
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 240
+  fields:
+    puzzle: 272
+    description: Solvers do not recognize the game Codenames
+    order: 0.0
+    keywords: Getting started, starting, start, cards, recognize, game
+    content: The cards are from a party game that won the coveted Spiel des Jahres
+      Game of the Year award within the last decade.
+- model: spoilr_hints.cannedhint
+  pk: 263
+  fields:
+    puzzle: 272
+    description: Solvers have identified the game Codenames, but aren't sure how to
+      proceed
+    order: 1.0
+    keywords: start, getting started
+    content: Like in the game Codenames, you should look for one-word clues in each
+      board that can be associated with multiple cards.
+- model: spoilr_hints.cannedhint
+  pk: 243
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that KISS is one of the clues for the
+      first set of cards
+    order: 11.1
+    keywords: first set of cards
+    content: One of the clue words for the first set of cards connects both Blow and
+      French, in the form "Blow a ____" or "French ____".
+- model: spoilr_hints.cannedhint
+  pk: 244
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that AMTRAK is one of the clues for
+      the first set of cards
+    order: 11.2
+    keywords: first set of cards
+    content: One of the clue words for the first set of cards connects both "Passenger"
+      and "Train", in a way that relates to the United States.
+- model: spoilr_hints.cannedhint
+  pk: 245
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that EMERGENCY is one of the clues for
+      the second set of cards
+    order: 12.1
+    keywords: second set of cards
+    content: One of the clue words for the second set of cards connects both "Brake"
+      and "State" in the form of "___ Brake" or "State of ___".
+- model: spoilr_hints.cannedhint
+  pk: 246
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that DORY is one of the clues for the
+      second set of cards
+    order: 12.2
+    keywords: second set of cards
+    content: One of the clue words for the second set of cards connects "Regal" to
+      "Tang".
+- model: spoilr_hints.cannedhint
+  pk: 247
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that YOUTUBE is one of the clues for
+      the third set of cards
+    order: 13.1
+    keywords: third set of cards
+    content: One of the clue words for the third set of cards connects "Streaming"
+      and "Platform".
+- model: spoilr_hints.cannedhint
+  pk: 248
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that ELECTRIC is one of the clues for
+      the third set of cards
+    order: 13.2
+    keywords: third set of cards
+    content: One of the clue words for the third set of cards connects both "Guitar"
+      and "Shock" in the form of "___ Guitar" or "___ Shock".
+- model: spoilr_hints.cannedhint
+  pk: 249
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that BULL is one of the clues for the
+      fourth set of cards
+    order: 14.1
+    keywords: fourth set of cards
+    content: One of the clue words for the fourth set of cards connects both "Frog"
+      and "Horn" in the form of "___frog" or "___ Horn".
+- model: spoilr_hints.cannedhint
+  pk: 250
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that FEELING is one of the clues for
+      the fourth set of cards
+    order: 14.2
+    keywords: fourth set of cards
+    content: One of the clue words for the fourth set of cards connects both "Gut"
+      and "Lucky" in the form of "Gut ___" or "___ Lucky".
+- model: spoilr_hints.cannedhint
+  pk: 251
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that OCEAN is one of the clues for the
+      fifth set of cards
+    order: 15.1
+    keywords: fifth set of cards
+    content: One of the clue words for the fifth set of cards connects both "Floor"
+      and "Voyage" in the form of "___ Floor" or "___ Voyage".
+- model: spoilr_hints.cannedhint
+  pk: 252
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that QUEEN is one of the clues for the
+      fifth set of cards
+    order: 15.2
+    keywords: fifth set of cards
+    content: One of the clue words for the fifth set of cards connects both "Dairy"
+      and "Drama" in the form of "Dairy ___" or "Drama ___".
+- model: spoilr_hints.cannedhint
+  pk: 253
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that APPLE is one of the clues for the
+      sixth set of cards
+    order: 16.1
+    keywords: sixth set of cards
+    content: One of the clue words for the sixth set of cards connects both "Pine"
+      and "Sauce" in the form of "Pine___" or "___sauce".
+- model: spoilr_hints.cannedhint
+  pk: 254
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that RAY is one of the clues for the
+      sixth set of cards
+    order: 16.2
+    keywords: sixth set of cards
+    content: One of the clue words for the sixth set of cards connects both "Charles"
+      and "Sting" in the form of "___ Charles" or "Sting___".
+- model: spoilr_hints.cannedhint
+  pk: 255
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that ROYAL is one of the clues for the
+      seventh set of cards
+    order: 17.1
+    keywords: seventh set of cards
+    content: One of the clue words for the seventh set of cards connects both "Decree"
+      and "Family" in the form of "___ Decree" or "___ Family".
+- model: spoilr_hints.cannedhint
+  pk: 256
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that SCARE is one of the clues for the
+      seventh set of cards
+    order: 17.2
+    keywords: seventh set of cards
+    content: One of the clue words for the seventh set of cards connects both "Crow"
+      and "Jump" in the form of "___crow" or "Jump ___".
+- model: spoilr_hints.cannedhint
+  pk: 257
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that DEEP is one of the clues for the
+      eighth set of cards
+    order: 18.1
+    keywords: eighth set of cards
+    content: One of the clue words for the eighth set of cards connects both "Ankle"
+      and "Fry" in the form of "Ankle ___" or "___ Fry".
+- model: spoilr_hints.cannedhint
+  pk: 258
+  fields:
+    puzzle: 272
+    description: Solvers have not figured out that WEDDING is one of the clues for
+      the eighth set of cards
+    order: 18.2
+    keywords: eighth set of cards
+    content: One of the clue words for the eighth set of cards connects both "Cake"
+      and "Ring" in the form of "___ Cake" or "___ Ring".
+- model: spoilr_hints.cannedhint
+  pk: 264
+  fields:
+    puzzle: 272
+    description: Solvers are not sure what to do with the clue words that they have
+      found from each grid
+    order: 20.0
+    keywords: clue words
+    content: After each set of 25 cards, there are two sets of blanks.  The first
+      set of blanks is for the first player, and the second set of blanks is for the
+      second player.  The first player's clue in each grid is associated with one
+      more card than the second player's clue.  Look at the first player's clues in
+      order for a hint about what to do next.
+- model: spoilr_hints.cannedhint
+  pk: 265
+  fields:
+    puzzle: 272
+    description: Players have rearranged the grid, but don't know what to do next
+    order: 30.0
+    keywords: ''
+    content: In Codenames, each board has cards for the first player's team, second
+      player's team, one assassin, and innocent bystanders.  Take a look at the innocent
+      bystanders for a hint about what to do next.
+- model: spoilr_hints.cannedhint
+  pk: 266
+  fields:
+    puzzle: 272
+    description: Players have the extraction message, but don't know what "RED" refers
+      to
+    order: 98.0
+    keywords: REDISGOL, red, assassins
+    content: In Codenames, One team is Red, and the other is Blue.  Is there a way
+      to sort the clue words you have found into Red teams and Blue teams?
+- model: spoilr_hints.cannedhint
+  pk: 241
+  fields:
+    puzzle: 272
+    description: Solvers have found REDISGOL, but do not know what this clue means
+    order: 99.0
+    keywords: extraction, REDISGOL
+    content: REDISGOL should be parsed as "Red is GoL".  The puzzle's flavor text
+      should help you figure out what the letters in GoL stand for.
+- model: spoilr_hints.cannedhint
+  pk: 242
+  fields:
+    puzzle: 272
+    description: Solvers know they should use Conway's Game of Life, but don't know
+      how to do that.
+    order: 100.0
+    keywords: Extraction, Game of Life
+    content: There are online tools that allow you to play Conway's Game of Life,
+      such as https://playgameoflife.com/.
+- model: spoilr_core.pseudoanswer
+  pk: 15
+  fields:
+    puzzle: 272
+    answer: REDISGOL
+    response: Keep going!

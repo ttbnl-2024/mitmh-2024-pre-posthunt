@@ -1,0 +1,122 @@
+- model: puzzles.puzzle
+  pk: 414
+  fields:
+    emoji: ':green_square:'
+    deep: 700
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 414
+  fields:
+    external_id: 414
+    round: 9
+    answer: GUTTURALS
+    name: Do You Like Wordle?
+    main_credits: Jeck Lim, Joseph Lubars, and Ursula Gartz
+    other_credits: ''
+    order: 414
+    is_meta: false
+    slug: do-you-like-wordle
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 483
+  fields:
+    puzzle: 414
+    description: Solvers don't understand what to do
+    order: 9.0
+    keywords: impossible
+    content: You can't solve all boards, that's clear.  And answers all reset when
+      you restart.   I recommend you start looking a pattern.  I hope you like Wordle!
+- model: spoilr_hints.cannedhint
+  pk: 480
+  fields:
+    puzzle: 414
+    description: Solvers are stuck on getting started
+    order: 10.0
+    keywords: break-in
+    content: Have you noticed there's different colors you might get on the summary
+      board when an individual Wordle board is solved?
+- model: spoilr_hints.cannedhint
+  pk: 481
+  fields:
+    puzzle: 414
+    description: Solvers have noticed Blue/ Green colors, but don't know what triggers
+      them
+    order: 20.0
+    keywords: blue, green
+    content: Have you noticed some words will usually trigger green resolutions, and
+      some words will usually trigger blue resolutions?
+- model: spoilr_hints.cannedhint
+  pk: 499
+  fields:
+    puzzle: 414
+    description: Solvers still can't figure out what green/ blue means
+    order: 21.0
+    keywords: blue, green
+    content: "Have you noticed these colors only pop up only on boards that have been\
+      \ solved?\r\nThe trigger for a specific board's solution color will be something\
+      \ unique to that specific board, and independent of boards around it.  So you\
+      \ can focus on one at a time to find the trigger."
+- model: spoilr_hints.cannedhint
+  pk: 500
+  fields:
+    puzzle: 414
+    description: Solvers STILL can't figure out what green / blue means
+    order: 22.0
+    keywords: blue, green
+    content: "A board will light up green if there's a specific letter MISSING throughout\
+      \ the solving process.\r\nA board will light up blue if there's a specific letter\
+      \ INCLUDED in the solving process."
+- model: spoilr_hints.cannedhint
+  pk: 482
+  fields:
+    puzzle: 414
+    description: Solvers have noticed some boards mostly or always resolve to green,
+      and some mostly or always resolve to blue, but they don't know why
+    order: 30.0
+    keywords: always, mostly, blue, green
+    content: Have you looked beyond the actual answers that each board produces?  Have
+      you looked at the path you used to get there?
+- model: spoilr_hints.cannedhint
+  pk: 484
+  fields:
+    puzzle: 414
+    description: Solvers did some fancy programming where they captured answers and
+      colors, and they've realized there's underlying letters sometimes
+    order: 40.0
+    keywords: sometimes, underlying, letter, inconsistent
+    content: Nice programming skills!  However, if you captured only the answers /
+      colors for each board, you might have missed some information that would help.
+- model: spoilr_hints.cannedhint
+  pk: 485
+  fields:
+    puzzle: 414
+    description: Solvers know what to do, but some boards are just way too hard to
+      disambiguate
+    order: 80.0
+    keywords: close, ambiguous
+    content: It would help if you had multiple trial sets that helped test specific
+      letters.
+- model: spoilr_hints.cannedhint
+  pk: 486
+  fields:
+    puzzle: 414
+    description: Solvers have solved it but can't understand the extraction
+    order: 100.0
+    keywords: extraction
+    content: You need to bring us over at HQ a very small token of appreciation in
+      the shape of your team's emoji.  Make haste!
+- model: spoilr_core.pseudoanswer
+  pk: 51
+  fields:
+    puzzle: 414
+    answer: bringhqxsmalltokenofteamsemoji
+    response: The running team can't wait to see what you'll bring!
+- model: spoilr_core.pseudoanswer
+  pk: 50
+  fields:
+    puzzle: 414
+    answer: Bring HQ xsmall token of teams emoji
+    response: The running team can't wait to see what you'll bring!

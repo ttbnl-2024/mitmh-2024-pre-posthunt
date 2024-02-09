@@ -1,0 +1,243 @@
+- model: puzzles.puzzle
+  pk: 273
+  fields:
+    emoji: ':question:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 273
+  fields:
+    external_id: 273
+    round: 3
+    answer: ROTARY SAWBLADE
+    name: A Trip Down Memory Lane
+    main_credits: Barney Rafter and Preston Phillips
+    other_credits: Thanks to Jeramiahs Johnson, The Dan Miller
+    order: 273
+    is_meta: false
+    slug: a-trip-down-memory-lane
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1529
+  fields:
+    puzzle: 273
+    description: Solvers are not sure where to begin or are wondering what the fish
+      are for.
+    order: 0.0
+    keywords: Start, Begin
+    content: Those fish are there to remind you of a similar set of fishy-looking
+      puzzles from 2019. Does anything look familiar? The hidden message is there
+      to indicate that the current order of the puzzles is a 'RED HERRING' and will
+      need to be reordered later on.
+- model: spoilr_hints.cannedhint
+  pk: 1530
+  fields:
+    puzzle: 273
+    description: Solvers are wondering what the messages written above the minipuzzles
+      are for.
+    order: 1.0
+    keywords: Start, Begin, phrases
+    content: The messages written above the sub-puzzles are mnemonics that appear
+      to have been remembered incorrectly.
+- model: spoilr_hints.cannedhint
+  pk: 1531
+  fields:
+    puzzle: 273
+    description: Solvers are wondering where the answer submission boxes are.
+    order: 2.0
+    keywords: Answer Submission Box, Answer Checker, Check Answer, Check Answers
+    content: It looks like quite a few things are missing from this puzzle, or maybe
+      the authors just 'forgot' to put them in. Just because there are no answer submission
+      boxes doesn't mean there aren't other methods you could try to check your answers.
+      Who knows, maybe they will just turn up somewhere? Perhaps the instructions
+      themselves might even provide a few ideas.
+- model: spoilr_hints.cannedhint
+  pk: 1532
+  fields:
+    puzzle: 273
+    description: Solvers are not sure what to do with the minipuzzles.
+    order: 3.0
+    keywords: Mini-puzzles, sub-puzzles, answers, instructions
+    content: Solving each mini-puzzle will give you an instruction. Follow the instructions
+      in the most creative way possible and send us your findings!
+- model: spoilr_hints.cannedhint
+  pk: 1533
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on North East.
+    order: 3.1
+    keywords: North East, Map
+    content: This puzzle can be solved by overlaying the 'map' with the MIT campus.
+      Use the letters and corresponding building numbers to get the solution. Visit
+      the given location in person and look for something hidden there that could
+      be related to this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1534
+  fields:
+    puzzle: 273
+    description: Solvers are having trouble with Mind Games.
+    order: 3.2
+    keywords: Mind Games
+    content: These are all logic puzzles. Find the missing letters/numbers and use
+      A1Z26 on the numbers.
+- model: spoilr_hints.cannedhint
+  pk: 1535
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on Flying High.
+    order: 3.3
+    keywords: Flying High, Emojis, sports
+    content: The grid can be filled with the titles of well-known sports films featuring
+      the sports indicated by the emojis.
+- model: spoilr_hints.cannedhint
+  pk: 1536
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on Red Letter.
+    order: 3.4
+    keywords: Red Letter, abbreviation, symbols,
+    content: Each chemical symbol is also an abbreviation for a book from the King
+      James bible. This puzzle is a simple book cipher.
+- model: spoilr_hints.cannedhint
+  pk: 1537
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on Radio Silence.
+    order: 3.5
+    keywords: Radio Silence
+    content: Each word/phrase spoken in the audio hints at a word from the NATO phonetic
+      alphabet. Use a Playfair cipher with NATO as the key to decrypt the message.
+- model: spoilr_hints.cannedhint
+  pk: 1538
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on Tunnel Vision.
+    order: 3.6
+    keywords: Tunnel Vision, Crossword, Forgotten Clues, Cryptic, British, American
+    content: The missing words from the crossword puzzle spell out an instruction
+      when ordered by the numbers of the corresponding forgotten clues. Only one unique
+      solution will fill each space.
+- model: spoilr_hints.cannedhint
+  pk: 1539
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on Grid Locked.
+    order: 3.7
+    keywords: Grid Locked, Sudoku, Killer
+    content: This mini-puzzle is a killer sudoku grid. Flip the grid vertically, then
+      use a Caesar-shift on each letter by the number indicated in each square to
+      solve.
+- model: spoilr_hints.cannedhint
+  pk: 1540
+  fields:
+    puzzle: 273
+    description: Solvers don't know what to do with the Mnemonics or jumbled mini-puzzle
+      answers.
+    order: 4.0
+    keywords: puzzle answers
+    content: An instruction hidden within the Mnemonics will provide a way to unscramble
+      each mini-puzzle answer. The instruction may also become helpful later on.
+- model: spoilr_hints.cannedhint
+  pk: 1541
+  fields:
+    puzzle: 273
+    description: Solvers are not sure what to do with the photos/images.
+    order: 5.0
+    keywords: Photos, Images, Mnemosyne's Friends
+    content: Each of the provided images are of Mnemosyne's forgetful friends.  They
+      are all well-known fictional characters who have had some sort of amnesia or
+      memory-related issues in their respective stories. You will need to use their
+      canonical character names.
+- model: spoilr_hints.cannedhint
+  pk: 1542
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on the minipuzzle flavourtext or puzzle ordering.
+    order: 6.0
+    keywords: Minipuzzle, Flavour, Flavourtext, Puzzle Ordering, Order, Character
+      Speech
+    content: The messages spoken by Mnemosyne's friends are flavour-text for the mini-puzzles
+      associated with those characters. Rearrange the puzzle answers by the order
+      of the associated characters.
+- model: spoilr_hints.cannedhint
+  pk: 1543
+  fields:
+    puzzle: 273
+    description: Solvers are stuck with the incomplete answers or the submission boxes.
+    order: 7.0
+    keywords: Partial Answers, Mini-Puzzle Answers, Submission Boxes, Check Answers,
+      Question Marks
+    content: Each unscrambled mini-puzzle answer is only one-half of a larger 'forgotten'
+      answer. Submitting the partial answers in the submission boxes will provide
+      hints for the complete solutions. The question marks indicate which half of
+      the solution is missing.
+- model: spoilr_hints.cannedhint
+  pk: 1544
+  fields:
+    puzzle: 273
+    description: Solvers need further hints for what the full answers are.
+    order: 8.0
+    keywords: Complete, Full, Answers, Hints, Submission Box, Hints, Answer Checker
+    content: Each of the full/complete answers are thematically linked to their corresponding
+      fictional character and/or the content or an aspect of their respective mini-puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1545
+  fields:
+    puzzle: 273
+    description: Solvers are stuck on extraction.
+    order: 9.0
+    keywords: Extraction, Missing 'Mystery Hunting' Tool, Characters, Character Names
+    content: You need to look for something in common between the full/complete answers
+      and their corresponding character names. Counting the number of letters is a
+      good place to start. If your final answer to the puzzle looks like a jumbled
+      mess, try repeating a step you used earlier on similar-looking jumbled answers.
+      Now you should know the identity of the missing or forgotten 'mystery hunting'
+      tool.
+- model: spoilr_core.pseudoanswer
+  pk: 283
+  fields:
+    puzzle: 273
+    answer: CHECK THE DROPPED PIN LOCATION
+    response: Well that's strange. It appears Mnemosyne may have left something outside
+      of the entrance to the Department of Learning and Memory in the Brain and Cognitive
+      Sciences Complex. Get a team member to visit the location and see if anything there
+      might help you remember the answer to this puzzle. Please note, you will not need
+      to enter the building. 
+- model: spoilr_core.pseudoanswer
+  pk: 287
+  fields:
+    puzzle: 273
+    answer: FIX CAVITY SAMS BROKEN HEART
+    response: Refresh the page!
+- model: spoilr_core.pseudoanswer
+  pk: 285
+  fields:
+    puzzle: 273
+    answer: PUT ENERGY INTO RED BULL ADVERT
+    response: Refresh the page!
+- model: spoilr_core.pseudoanswer
+  pk: 284
+  fields:
+    puzzle: 273
+    answer: RECORD AN ORIGINAL SONG
+    response: Refresh the page!
+- model: spoilr_core.pseudoanswer
+  pk: 289
+  fields:
+    puzzle: 273
+    answer: STAGE A CRIME SCENE
+    response: Refresh the page!
+- model: spoilr_core.pseudoanswer
+  pk: 288
+  fields:
+    puzzle: 273
+    answer: THROW SHADE TOWARDS MICROSOFT OPERATING SYSTEM
+    response: Refresh the page!
+- model: spoilr_core.pseudoanswer
+  pk: 286
+  fields:
+    puzzle: 273
+    answer: VISIT HQ DRESSED AS PRIEST
+    response: Refresh the page!

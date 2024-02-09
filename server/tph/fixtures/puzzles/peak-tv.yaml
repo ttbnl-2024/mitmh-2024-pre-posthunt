@@ -1,0 +1,61 @@
+- model: puzzles.puzzle
+  pk: 409
+  fields:
+    emoji: ':tv:'
+    deep: 400
+- model: spoilr_core.puzzle
+  pk: 409
+  fields:
+    external_id: 409
+    round: 20
+    answer: STONE
+    name: Peak TV
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 409
+    is_meta: false
+    slug: peak-tv
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 153
+  fields:
+    puzzle: 409
+    description: Getting started
+    order: 10.0
+    keywords: Identify
+    content: Identify who the people in the photo are.
+- model: spoilr_hints.cannedhint
+  pk: 154
+  fields:
+    puzzle: 409
+    description: Flavor text
+    order: 30.0
+    keywords: Flavor text
+    content: Read the flavor text for a hint as which info to use from the photo identification.
+- model: spoilr_hints.cannedhint
+  pk: 155
+  fields:
+    puzzle: 409
+    description: ordering
+    order: 50.0
+    keywords: ordering
+    content: Identify the photos at the bottom to figure out a good way to order the
+      answer.
+- model: spoilr_hints.cannedhint
+  pk: 156
+  fields:
+    puzzle: 409
+    description: extraction
+    order: 75.0
+    keywords: extraction
+    content: Use the final image at the bottom to figure out what to call in.
+- model: spoilr_hints.cannedhint
+  pk: 157
+  fields:
+    puzzle: 409
+    description: Extraction
+    order: 90.0
+    keywords: Extraction
+    content: When you sort the people by the row on the bottom, using the hint from
+      the flavor text, you should notice a pattern with the names that will help you
+      find the final clue phrase.

@@ -1,0 +1,355 @@
+- model: puzzles.puzzle
+  pk: 475
+  fields:
+    emoji: ':video_game:'
+    deep: 1300
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 475
+  fields:
+    external_id: 475
+    round: 8
+    answer: JAWBONE
+    name: Steam Library
+    main_credits: Craig Kasper and Ethan Ordentlich
+    other_credits: ''
+    order: 475
+    is_meta: false
+    slug: steam-library
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: true
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 205
+  fields:
+    puzzle: 475
+    description: Solvers have not heard of a meta-matching set
+    order: 0.0
+    keywords: getting started
+    content: This is a meta-matching set. The minipuzzles use the given answers, much
+      like a metapuzzle uses feeder answers. We don't tell you which feeder goes to
+      which meta, though -- that's for you to figure out! The Binding of Isaac puzzle
+      is the finale, and uses the answers from the other 6 puzzles.
+- model: spoilr_hints.cannedhint
+  pk: 206
+  fields:
+    puzzle: 475
+    description: Solvers need help getting started on matching
+    order: 10.1
+    keywords: ''
+    content: "One thing you could do is look for some patterns in your answers.\r\n\
+      \r\nYou could also try to look at some of the flavors / shells / cluephrases\
+      \ of the minimetas to see if they could give you a starting point. The only\
+      \ one we recommend saving for when you have fewer answers is Dave the Diver,\
+      \ though Portal is also on the trickier side. We've seen that the other 4 are\
+      \ fairly approachable even with a large list of remaining answers."
+- model: spoilr_hints.cannedhint
+  pk: 207
+  fields:
+    puzzle: 475
+    description: 'Help: Baba Is You'
+    order: 20.0
+    keywords: ''
+    content: '[Baba Is You]: What do you notice in the flavortext, particularly "rereading"
+      and "baba"? This minipuzzle does not use game content.'
+- model: spoilr_hints.cannedhint
+  pk: 305
+  fields:
+    puzzle: 475
+    description: 'Help: Baba Is You (2)'
+    order: 20.1
+    keywords: ''
+    content: '[Baba Is You]: All this puzzle''s answers have adjacent repeated bigrams.
+      Think about the flavortext -- how could you relate "rereading" and "disappearing"?'
+- model: spoilr_hints.cannedhint
+  pk: 306
+  fields:
+    puzzle: 475
+    description: 'Help: Baba Is You (3)'
+    order: 20.2
+    keywords: ''
+    content: '[Baba Is You]: The flavortext hints at the transformation (RERE->F)ADING.
+      Apply a similar transformation to your answers.'
+- model: spoilr_hints.cannedhint
+  pk: 216
+  fields:
+    puzzle: 475
+    description: 'Help: Baba Is You answers'
+    order: 20.5
+    keywords: ''
+    content: "[Baba Is You]: This minipuzzle uses the following answers: \r\nALLELES\r\
+      \nARGININE\r\nCANADA DAY\r\nCHORISIS\r\nCUCUMBER\r\nDADAIST\r\nDINING OUT\r\n\
+      GO TO TOWN\r\nPARTITION\r\nSOUP UP\r\nSTOWAWAY\r\nSUSURRANT"
+- model: spoilr_hints.cannedhint
+  pk: 208
+  fields:
+    puzzle: 475
+    description: 'Help: Dave the Diver'
+    order: 30.0
+    keywords: ''
+    content: '[Dave the Diver]: What do you think "you sure caught a lot" could be
+      referring to, given the game?'
+- model: spoilr_hints.cannedhint
+  pk: 212
+  fields:
+    puzzle: 475
+    description: 'Help: Dave the Diver (2)'
+    order: 30.1
+    keywords: ''
+    content: '[Dave the Diver]: This minipuzzle does not use game content, but (similar
+      to the game) is themed around catching fish.'
+- model: spoilr_hints.cannedhint
+  pk: 209
+  fields:
+    puzzle: 475
+    description: 'Help: Dave the Diver (3)'
+    order: 30.2
+    keywords: ''
+    content: '[Dave the Diver]: Look at the fish you caught -- does anything pop out
+      to you? What could your "net linings" be?'
+- model: spoilr_hints.cannedhint
+  pk: 317
+  fields:
+    puzzle: 475
+    description: 'Help: Dave the Diver (4)'
+    order: 30.3
+    keywords: '"this is almost correct, but is missing something"'
+    content: '[Dave the Diver]: The `!` is part of the answer -- make sure to submit
+      it!'
+- model: spoilr_hints.cannedhint
+  pk: 217
+  fields:
+    puzzle: 475
+    description: 'Help: Dave the Diver answers'
+    order: 30.5
+    keywords: ''
+    content: "[Dave the Diver]: This minipuzzle uses the following answers: \r\nEL-CREEPO!\r\
+      \nFASTAPI\r\nINCHCAPE\r\nKENSEI\r\nKOENIGSMACKER\r\nLINEAR LOGIC\r\nMONTSERRAT\r\
+      \nOUTLANDISH\r\nSUBSTR\r\nSUPPOSAL"
+- model: spoilr_hints.cannedhint
+  pk: 210
+  fields:
+    puzzle: 475
+    description: 'Help: Fallout: New Vegas'
+    order: 40.0
+    keywords: ''
+    content: '[Fallout: New Vegas]: This minipuzzle uses game content. Try searching
+      the wiki for these scenarios.'
+- model: spoilr_hints.cannedhint
+  pk: 211
+  fields:
+    puzzle: 475
+    description: 'Help: Fallout: New Vegas (2)'
+    order: 40.1
+    keywords: ''
+    content: '[Fallout: New Vegas]:  Each line refers to a specific skill check in
+      the game.'
+- model: spoilr_hints.cannedhint
+  pk: 213
+  fields:
+    puzzle: 475
+    description: 'Help: Fallout: New Vegas (3)'
+    order: 40.2
+    keywords: ''
+    content: '[Fallout: New Vegas]:  Each skill can be matched with one answer to
+      make a phrase. Index into the answer by the corresponding scenario''s level
+      divided by 10.'
+- model: spoilr_hints.cannedhint
+  pk: 218
+  fields:
+    puzzle: 475
+    description: 'Help: Fallout: New Vegas answers'
+    order: 40.5
+    keywords: ''
+    content: "[Fallout: New Vegas]: This minipuzzle uses the following answers:\r\n\
+      ASSAULT\r\nATTACK\r\nBEYOND\r\nCOMBAT\r\nHERBAL\r\nINSTINCT\r\nPATTERN\r\nPLASTIC\r\
+      \nROCKET"
+- model: spoilr_hints.cannedhint
+  pk: 214
+  fields:
+    puzzle: 475
+    description: 'Help: Portal'
+    order: 50.0
+    keywords: ''
+    content: '[Portal]: This minipuzzle does not use game content. The "O"''s in the
+      flavortext seem to be emphasized -- what are they replaced with, and how could
+      this relate to a crisscross grid?'
+- model: spoilr_hints.cannedhint
+  pk: 316
+  fields:
+    puzzle: 475
+    description: 'Help: Portal (2)'
+    order: 50.1
+    keywords: ''
+    content: '[Portal]: The O''s in the flavortext have been replaced with a portal,
+      much like the game''s logo.'
+- model: spoilr_hints.cannedhint
+  pk: 215
+  fields:
+    puzzle: 475
+    description: 'Help: Portal (3)'
+    order: 50.2
+    keywords: ''
+    content: '[Portal]: This is a variety crisscross, where the letter O acts as a
+      "portal" to somewhere else in the grid. In the game, you need portals at both
+      the entrance and exit.'
+- model: spoilr_hints.cannedhint
+  pk: 219
+  fields:
+    puzzle: 475
+    description: 'Help: Portal answers'
+    order: 50.5
+    keywords: ''
+    content: "[Portal]: This minipuzzle uses the following answers:\r\nFEDERAL BUREAU\
+      \ OF INVESTIGATION\r\nNEW KIDS ON THE BLOCK\r\nQUANTUM OF SOLACE\r\nROMANTIC\
+      \ COMEDIES\r\nSWORN TO SECRECY\r\nTRUTH OR CONSEQUENCES\r\nWALKED ON TIPTOE\r\
+      \nWENT FOR BROKE"
+- model: spoilr_hints.cannedhint
+  pk: 220
+  fields:
+    puzzle: 475
+    description: 'Help: Stardew Valley'
+    order: 60.0
+    keywords: ''
+    content: '[Stardew Valley]: This minipuzzle uses game content. Take a look at
+      the wiki to see what might be relevant.'
+- model: spoilr_hints.cannedhint
+  pk: 221
+  fields:
+    puzzle: 475
+    description: 'Help: Stardew Valley (2)'
+    order: 60.1
+    keywords: ''
+    content: '[Stardew Valley]: The villagers will "love" these gifts -- how do we
+      know?'
+- model: spoilr_hints.cannedhint
+  pk: 222
+  fields:
+    puzzle: 475
+    description: 'Help: Stardew Valley (3)'
+    order: 60.2
+    keywords: ''
+    content: '[Stardew Valley]: Each villager has a specific "loved" gift where an
+      answer is a specific kind or brand of that gift. Index into the answer by the
+      number of hearts, and order by the villager''s birthday.'
+- model: spoilr_hints.cannedhint
+  pk: 223
+  fields:
+    puzzle: 475
+    description: 'Help: Stardew Valley answers'
+    order: 60.5
+    keywords: ''
+    content: "[Stardew Valley]: This minipuzzle uses the following answers:\r\nDEEP\
+      \ DISH\r\nENERGIZER\r\nFETA\r\nHONEYDEW\r\nJALAPENO\r\nMAINE\r\nSIERRA NEVADA"
+- model: spoilr_hints.cannedhint
+  pk: 310
+  fields:
+    puzzle: 475
+    description: 'Help: Terraria'
+    order: 70.0
+    keywords: ''
+    content: '[Terraria]: This minipuzzle uses game content. The far left is the player
+      character (and not relevant), and the remaining are enemies. Try identifying
+      the enemies first!'
+- model: spoilr_hints.cannedhint
+  pk: 226
+  fields:
+    puzzle: 475
+    description: 'Help: Terraria (2)'
+    order: 70.1
+    keywords: ''
+    content: '[Terraria]: The 10 enemies in the image each inflict a unique debuff.
+      How would you (in-game) protect yourself from these debuffs?'
+- model: spoilr_hints.cannedhint
+  pk: 227
+  fields:
+    puzzle: 475
+    description: 'Help: Terraria (3)'
+    order: 70.2
+    keywords: ''
+    content: '[Terraria]: Each debuff has a corresponding accessory that protects
+      against specifically that debuff, which is rarely dropped by the enemy in the
+      image. The answers for this minipuzzle share enumerations and first letters
+      with the accessories. Extract the unique overlapping letter.'
+- model: spoilr_hints.cannedhint
+  pk: 228
+  fields:
+    puzzle: 475
+    description: 'Help: Terraria answers'
+    order: 70.5
+    keywords: ''
+    content: "[Terraria]: This minipuzzle uses the following answers:\r\nAHMAD PEJMAN\r\
+      \nASSISTED BRAKING\r\nBANNERMAN\r\nBEETLE\r\nFREE CLIMB\r\nMISSPELLS\r\nNEVER\r\
+      \nPIYUSH MISHRA\r\nTWELFTH MAN\r\nVOLUMNIA"
+- model: spoilr_hints.cannedhint
+  pk: 229
+  fields:
+    puzzle: 475
+    description: 'Help: Binding of Isaac'
+    order: 80.0
+    keywords: ''
+    content: '[The Binding of Isaac]: This is the minimeta, so we recommend holding
+      off on this one until you have more minipuzzle answers. This minipuzzle uses
+      game content.'
+- model: spoilr_hints.cannedhint
+  pk: 231
+  fields:
+    puzzle: 475
+    description: 'Help: Binding of Isaac (2)'
+    order: 80.1
+    keywords: ''
+    content: '[The Binding of Isaac]: The flavortext mentions a "collection." What
+      in the game could be related to this?'
+- model: spoilr_hints.cannedhint
+  pk: 307
+  fields:
+    puzzle: 475
+    description: 'Help: Binding of Isaac (3)'
+    order: 80.3
+    keywords: ''
+    content: '[The Binding of Isaac]: Each answer can be associated with a Binding
+      of Isaac (Repentance) item, one per Collection Page. Use the grids to find other
+      items on the collection pages, and index into all of them.'
+- model: spoilr_core.pseudoanswer
+  pk: 27
+  fields:
+    puzzle: 475
+    answer: CAESAREAN
+    response: This is a correct minipuzzle answer!
+- model: spoilr_core.pseudoanswer
+  pk: 34
+  fields:
+    puzzle: 475
+    answer: FISH STICK
+    response: This is almost correct, but is missing something.
+- model: spoilr_core.pseudoanswer
+  pk: 33
+  fields:
+    puzzle: 475
+    answer: FISH STICK!
+    response: This is a correct minipuzzle answer!
+- model: spoilr_core.pseudoanswer
+  pk: 31
+  fields:
+    puzzle: 475
+    answer: MINERS LAMP
+    response: This is a correct minipuzzle answer!
+- model: spoilr_core.pseudoanswer
+  pk: 26
+  fields:
+    puzzle: 475
+    answer: PRESENT
+    response: This is a correct minipuzzle answer!
+- model: spoilr_core.pseudoanswer
+  pk: 24
+  fields:
+    puzzle: 475
+    answer: QUEEN BEE
+    response: This is a correct minipuzzle answer!
+- model: spoilr_core.pseudoanswer
+  pk: 32
+  fields:
+    puzzle: 475
+    answer: UNREMEMBERED
+    response: This is a correct minipuzzle answer!

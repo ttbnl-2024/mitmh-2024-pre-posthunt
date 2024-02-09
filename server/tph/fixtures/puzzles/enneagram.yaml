@@ -1,0 +1,89 @@
+- model: puzzles.puzzle
+  pk: 338
+  fields:
+    emoji: ':nine:'
+    deep: 975
+- model: spoilr_core.puzzle
+  pk: 338
+  fields:
+    external_id: 338
+    round: 19
+    answer: TENNESSEE
+    name: ENNEAGRAM
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 338
+    is_meta: false
+    slug: enneagram
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 471
+  fields:
+    puzzle: 338
+    description: Solvers have started solving puzzles, but haven't noticed taking
+      the first letter of every answer in a row spells out a clue.
+    order: 10.0
+    keywords: ''
+    content: '*Starting* with the nine answers in each row should help you proceed
+      to the next step.'
+- model: spoilr_hints.cannedhint
+  pk: 469
+  fields:
+    puzzle: 338
+    description: Solvers have not yet noticed that one answer in each row is the name
+      of an enneagram type, and are either struggling with answering those clues,
+      or
+    order: 50.0
+    keywords: MELAZARUS, BULLINGER, FWDEKLERK, ordering
+    content: If you haven't done so yet, spend a little time researching the title
+      of the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 470
+  fields:
+    puzzle: 338
+    description: Solvers have solved puzzle 81, and gotten the congratulations message,
+      but haven't noticed the acrostic NOWSEEOCT.
+    order: 60.0
+    keywords: NICESOLVE, OURTHANKS WONDERFUL, SOLIDGOLD, EXQUISITE, EXCELLENT, OHFINEJOB,
+      CELEBRATE, THRILLING, 81
+    content: The congratulatory message after solving puzzle 81 should help you *head*
+      in the right direction.
+- model: spoilr_hints.cannedhint
+  pk: 472
+  fields:
+    puzzle: 338
+    description: Solvers know they need to look at Octogram, but are wondering if
+      they need to solve all of Octogram, too.
+    order: 70.0
+    keywords: octogram
+    content: You needn't solve all of Octogram to solve this puzzle. The full set
+      of clues to Octogram can be Hard To Make Legible, but we believe in you!
+- model: spoilr_hints.cannedhint
+  pk: 473
+  fields:
+    puzzle: 338
+    description: Solvers know they need to look at Octogram, but are wondering if
+      they need Octograms clues or answers.
+    order: 80.0
+    keywords: clues, answers, Octogram
+    content: Some Octograms allow for multiple answers that start with different letters,
+      and some Octograms have numbers for answers.  You'll want to find a method that
+      gives one unique letter for each of your nine numbers.
+- model: spoilr_hints.cannedhint
+  pk: 474
+  fields:
+    puzzle: 338
+    description: Solvers have DEKASTATE, but aren't sure what it means.
+    order: 100.0
+    keywords: DEKASTATE
+    content: The final answer is a 9-letter location in the US, and treats "deka-"
+      as a prefix.
+- model: spoilr_core.pseudoanswer
+  pk: 58
+  fields:
+    puzzle: 338
+    answer: DEKASTATE
+    response: KEEPGOING ?????????

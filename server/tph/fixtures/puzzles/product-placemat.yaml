@@ -1,0 +1,96 @@
+- model: puzzles.puzzle
+  pk: 530
+  fields:
+    emoji: ':canned_food:'
+    deep: 220
+- model: spoilr_core.puzzle
+  pk: 530
+  fields:
+    external_id: 530
+    round: 20
+    answer: MODICUM
+    name: Product Placemat
+    main_credits: Daniel Kramarsky, Nathaniel Barnett, RJ Antonello, and Sophia Caspe
+    other_credits: ''
+    order: 530
+    is_meta: false
+    slug: product-placemat
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1505
+  fields:
+    puzzle: 530
+    description: Solvers haven't broken into the puzzle (light nudge)
+    order: 0.0
+    keywords: Start, break-in
+    content: "Some of these snacks might be pretty obscure\u2014why might the puzzle\
+      \ call for chicken and waffles-flavored chips or peanut butter-flavored oreos?"
+- model: spoilr_hints.cannedhint
+  pk: 1506
+  fields:
+    puzzle: 530
+    description: Solvers haven't broken into the puzzle (medium nudge)
+    order: 1.0
+    keywords: Start, break-in
+    content: There's a lot of overlap between these foods, including two kinds of
+      fruit snacks in the same row of images! What other overlaps can you find?
+- model: spoilr_hints.cannedhint
+  pk: 1509
+  fields:
+    puzzle: 530
+    description: Solvers don't know how to categorize items that don't explicitly
+      state food groups
+    order: 2.0
+    keywords: protein, vegetable, fruit, grain
+    content: "In this puzzle, only the words on the packaging are important\u2014\
+      the actual makeup of each item isn't used."
+- model: spoilr_hints.cannedhint
+  pk: 1510
+  fields:
+    puzzle: 530
+    description: Solvers don't know how to categorize items that don't explicitly
+      state food groups (heavy nudge)
+    order: 2.1
+    keywords: food group, sort, category
+    content: Using only the words on the packaging, you should be able to sort each
+      item into at most two categories.
+- model: spoilr_hints.cannedhint
+  pk: 1507
+  fields:
+    puzzle: 530
+    description: Solvers have identified some food groups, but haven't found MyPlate
+    order: 4.0
+    keywords: groups, identified, protein, grain, vegetable, fruit
+    content: "These nutritional groups can be found in a famous American graphic\u2014\
+      try looking to the flavortext for inspiration."
+- model: spoilr_hints.cannedhint
+  pk: 1508
+  fields:
+    puzzle: 530
+    description: Solvers haven't heard of MyPlate
+    order: 8.0
+    keywords: food pyramid
+    content: Try looking at the USDA's MyPlate graphic.
+- model: spoilr_hints.cannedhint
+  pk: 1511
+  fields:
+    puzzle: 530
+    description: Solvers have figured out MyPlate, but haven't extracted (light nudge)
+    order: 16.0
+    keywords: MyPlate, extraction
+    content: "These products do not contain any dairy elements, so you should only\
+      \ consider the large plate in the graphic. You can mark which sections each\
+      \ product satisfies\u2014what do you notice about the diagram?"
+- model: spoilr_hints.cannedhint
+  pk: 1512
+  fields:
+    puzzle: 530
+    description: Solvers have figured out MyPlate, but haven't extracted (heavy nudge)
+    order: 16.1
+    keywords: MyPlate, extraction
+    content: "After plotting all of the snacks on the MyPlate chart, we can represent\
+      \ each snack as a direction. Pairing the two images represents an encoding\u2014\
+      try looking to the flavortext for inspiration."

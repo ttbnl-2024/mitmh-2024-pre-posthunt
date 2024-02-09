@@ -1,0 +1,123 @@
+- model: puzzles.puzzle
+  pk: 144
+  fields:
+    emoji: ':deaf_person:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 144
+  fields:
+    external_id: 144
+    round: 4
+    answer: POULT
+    name: The Venetian
+    main_credits: John Bromels
+    other_credits: ''
+    order: 144
+    is_meta: false
+    slug: the-venetian
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 865
+  fields:
+    puzzle: 144
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start, begin
+    content: Each "spell" Medea casts is a series of five gestures; each gesture is
+      an American Sign Language (ASL) letter; the five letters spell a five-letter
+      English word (which may include proper names).
+- model: spoilr_hints.cannedhint
+  pk: 867
+  fields:
+    puzzle: 144
+    description: Solvers don't know what to do with the 5-letter words
+    order: 1.0
+    keywords: ''
+    content: Each group of five spells (Medea's original castings and her recastings
+      using Ken's suggestions) represents a Wordle grid of five words. When Ken says
+      a gesture/letter can stay where it is, that's a "green" letter in Wordle, and
+      when he says a gesture can be kept but should be moved elsewhere, that's a "yellow"
+      gesture. There is only one possible five-letter word that can complete each
+      grid and it is never a word that's already guessed. Additionally, one of the
+      comments Ken makes after each series of spells is a crossword-style clue for
+      the ultimate answer.
+- model: spoilr_hints.cannedhint
+  pk: 877
+  fields:
+    puzzle: 144
+    description: Solvers don't understand how the two grids in the first clip are
+      related, or are stuck trying to reconcile the words formed by Ken's changes
+      and the effects of the spells.
+    order: 2.0
+    keywords: first, one
+    content: Making Ken's changes in the first audition yield the instruction, "SHIFT
+      WORDS THREE SLOTS RIGHT." Apply this instruction to all of the initial spell
+      words, so SITAR becomes TARSI, etc.
+- model: spoilr_hints.cannedhint
+  pk: 885
+  fields:
+    puzzle: 144
+    description: Solvers don't understand how the two grids (sets of spells) in the
+      second clip are related, or are stuck trying to reconcile the words formed by
+      Ken's changes and the effects of the spells in that clip.
+    order: 2.2
+    keywords: second, two
+    content: Making Ken's changes in the second audition yields the instruction, "PIVOT
+      FRAME THREE RIGHT TURNS." Apply this instruction to the 5x5 grid, so the "D"
+      in "STAND" is now at the top left instead of the top right, making the top row
+      "DELES." and four new words in the next four rows.
+- model: spoilr_hints.cannedhint
+  pk: 886
+  fields:
+    puzzle: 144
+    description: Solvers don't understand how to extract a word from the second grid
+      in the third clip.
+    order: 2.4
+    keywords: third, three
+    content: This is a logic puzzle. Ken mentions that the spells have gotten progressively
+      better, with no green letters in the first spell and four green letters in the
+      fifth spell. So we know that none of the letters in TORTE are used, but the
+      final answer is one letter off from BASIN. In order for only two letters in
+      MUSIC to be incorrect, the final answer must either be MASIN (not a word), BUSIN
+      (also not a word), or BASIC (the only possible answer).
+- model: spoilr_hints.cannedhint
+  pk: 887
+  fields:
+    puzzle: 144
+    description: Solvers can't extract a usable word out of one of the six grids.
+    order: 3.0
+    keywords: extraction
+    content: "The correct solution words from the six grids are:\r\nBEAST\r\nCRISP\r\
+      \nGRUEL\r\nSCONE\r\nSAVOR\r\nBASIC"
+- model: spoilr_hints.cannedhint
+  pk: 888
+  fields:
+    puzzle: 144
+    description: Solvers cannot understand what's going on with Peller's gesture descriptions,
+      or can't figure out how to apply the resulting instruction
+    order: 4.0
+    keywords: intro, peller
+    content: 'Peller has a British accent, so he doesn''t use American ASL: he uses
+      British BSL. Translating his gesture list to BSL yields the following phrase:
+      QUOTE EVERY SEVEN INTRO WORDS. Ken specifically designates one of his speeches
+      as the "intro," so count every seven words, starting from the seventh word,
+      ("first") moving to the 14th word ("five"), the 21st word ("answers"), etc.'
+- model: spoilr_hints.cannedhint
+  pk: 889
+  fields:
+    puzzle: 144
+    description: Solvers cannot figure out the final extraction
+    order: 5.0
+    keywords: extraction, ternary
+    content: "Taking every seventh word from the intro yields, \"First five answers\
+      \ seed final frame. To get shades for letters, turn sixth into ternary code\
+      \ (\u201Cturn air reek ode\u201D), where one is gold and two is green. Apply\
+      \ to rows, one per line.\u201D The sixth answer, BASIC, in ternary code is:\
+      \ \r\n00002\r\n00001\r\n00201\r\n00100\r\n00010\r\nTurn this into a 5x5 grid\
+      \ in which the 0s are gray squares, the 1s are yellow squares, and the 2s are\
+      \ green squares. Fill the grid with the other five answers (in order). Now use\
+      \ Wordle rules to come up with the only possible solution and enter it as your\
+      \ answer."

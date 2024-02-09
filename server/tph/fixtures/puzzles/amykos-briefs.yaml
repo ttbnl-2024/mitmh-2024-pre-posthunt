@@ -1,0 +1,89 @@
+- model: puzzles.puzzle
+  pk: 441
+  fields:
+    emoji: ':onion:'
+    deep: 1
+    deep_key: "hydra-LR"
+- model: spoilr_core.puzzle
+  pk: 441
+  fields:
+    external_id: 441
+    round: 13
+    answer: OUTREACH
+    name: Amykos' Briefs
+    main_credits: Craig Kasper, Michael Andersen, and Paul Melamud
+    other_credits: ''
+    order: 441
+    is_meta: false
+    slug: amykos-briefs
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 953
+  fields:
+    puzzle: 441
+    description: Solvers are stuck and haven't found anything relevant yet
+    order: 10.1
+    keywords: start,starting,begin,beginning
+    content: Some of the footnotes might help you find your way through this document.
+- model: spoilr_hints.cannedhint
+  pk: 955
+  fields:
+    puzzle: 441
+    description: Solvers are stuck getting started and need guidance on which footnotes
+      are important
+    order: 10.5
+    keywords: start,starting,footnotes
+    content: Footnotes 2 and 12 might be particularly helpful in navigating this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 956
+  fields:
+    puzzle: 441
+    description: Solvers are confused by the Table of Authorities
+    order: 40.1
+    keywords: table of authorities
+    content: It sounds like you've noticed that the Table of Authorities doesn't actually
+      cite puzzles mentioned in the brief. One of the footnotes might help provide
+      guidance on what to do with that information.
+- model: spoilr_hints.cannedhint
+  pk: 1002
+  fields:
+    puzzle: 441
+    description: Solvers haven't found the Sixth Circuit court case
+    order: 50.1
+    keywords: amicus brief, matches
+    content: Sounds like you've been trying to apply the instruction to the puzzle
+      document but it's not working. Maybe there's something you're missing? The introduction
+      and title page should help you in your search.
+- model: spoilr_hints.cannedhint
+  pk: 957
+  fields:
+    puzzle: 441
+    description: Solvers haven't found the Onion's amicus brief
+    order: 60.1
+    keywords: fairly using,amicus brief
+    content: The contents of Argument IV might be able to shed some light on what
+      you're supposed to be looking for, now.
+- model: spoilr_hints.cannedhint
+  pk: 959
+  fields:
+    puzzle: 441
+    description: Solvers found Onion Amicus Brief and Introduction Instruction but
+      don't know what to do
+    order: 90.1
+    keywords: extraction,final letters
+    content: It sounds like you've found the Onion's amicus brief, and located the
+      instruction "FAIRLY USING AMICUS BRIEF LINE AND WORD MATCHES IN ARGUMENT". Try
+      seeing if you can find some of those matches.
+- model: spoilr_hints.cannedhint
+  pk: 960
+  fields:
+    puzzle: 441
+    description: Solvers Are Having Trouble Matching and are Getting Frustrated
+    order: 90.5
+    keywords: extraction,final letters
+    content: Try highlighting words that are the same, using similar counting rules
+      to what you'd use for book ciphers (i.e., page 30 / line 4 / word 3, as an example
+      that is outside the bounds of this particular document).

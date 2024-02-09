@@ -1,0 +1,80 @@
+- model: puzzles.puzzle
+  pk: 343
+  fields:
+    emoji: ':projector:'
+    deep_key: 'everglades-first-layer'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 343
+  fields:
+    external_id: 343
+    round: 13
+    answer: TENFOLD
+    name: How to Quadruple Your Money in Hollywood
+    main_credits: John Bromels and Summer Barron
+    other_credits: ''
+    order: 343
+    is_meta: false
+    slug: how-to-quadruple-your-money-in-hollywood
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1403
+  fields:
+    puzzle: 343
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: These are all descriptions of actual movies starring George Clooney.
+      Identifying them is a necessary first step.
+- model: spoilr_hints.cannedhint
+  pk: 1404
+  fields:
+    puzzle: 343
+    description: Solvers have identified the movies, but don't know what to do next.
+    order: 2.0
+    keywords: Clooney
+    content: 'The title and flavor text suggest something to do with coins, particularly
+      a type of coin in which "George" is the "face," and can be "quadrupled": US
+      quarters.'
+- model: spoilr_hints.cannedhint
+  pk: 1405
+  fields:
+    puzzle: 343
+    description: Solvers don't know what quarters/coins to look for
+    order: 3.0
+    keywords: which coins, which quarters, what coins, what quarters
+    content: Note that each movie listed has a pair of years for its "release." One
+      is the actual release year of the movie. The other is the release year of a
+      US quarter. Look closely at the backs of the US quarters released in those years.
+- model: spoilr_hints.cannedhint
+  pk: 1406
+  fields:
+    puzzle: 343
+    description: Solvers can't figure out what to do with the quarters from the given
+      year
+    order: 3.2
+    keywords: ''
+    content: "One quarter released in each of these years -- either part of the 50\
+      \ State Quarters series or the America the Beautiful series -- shares at least\
+      \ one word or picture in common with a word in the name of the Clooney movie\
+      \ with which it is paired:\r\nBATMAN & ROBIN/National Park (of American Samoa):\
+      \ Bat;\r\nTHE MEN WHO STARE AT GOATS/Glacier NP: (Mountain) Goat;\r\nSAND AND\
+      \ SORROW/Great Sand Dunes NP: Sand;\r\nOCEAN'S TWELVE/War in the Pacific NHP\
+      \ (Guam): (Pacific) Ocean;\r\nUP IN THE AIR/North Carolina: (Wright Flyer) In\
+      \ the Air;\r\nGRIZZLY II: REVENGE/Alaska: Grizzly (Bear);\r\nHAIL, CAESAR!/Delaware:\
+      \ Caesar (Rodney)."
+- model: spoilr_hints.cannedhint
+  pk: 1407
+  fields:
+    puzzle: 343
+    description: Solvers are stuck on extraction
+    order: 4.0
+    keywords: extraction
+    content: "Use the amount of money (in millions of dollars) committed by the mogul\
+      \ to each film. Index that number into the titles of the quarters as shown on\
+      \ the back (listed below), using the order provided by the email threads:\r\n\
+      NATIONAL PARK (of American Samoa);\r\nGLACIER (NP);\r\nGREAT SAND DUNES;\r\n\
+      WAR IN THE PACIFIC (NHP, Guam);\r\nNORTH CAROLINA;\r\nALASKA;\r\nDELAWARE."

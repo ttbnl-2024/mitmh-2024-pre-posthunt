@@ -1,0 +1,150 @@
+- model: puzzles.puzzle
+  pk: 412
+  fields:
+    emoji: ':hamburger:'
+    deep: 16
+- model: spoilr_core.puzzle
+  pk: 412
+  fields:
+    external_id: 412
+    round: 22
+    answer: DEMOCRACY
+    name: "Good Company"
+    main_credits: Brian Widerman
+    other_credits: ''
+    order: 412
+    is_meta: false
+    slug: good-company
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 487
+  fields:
+    puzzle: 412
+    description: The solvers don't know where to start
+    order: 0.0
+    keywords: ''
+    content: What's going on in this puzzle? The flavor mentions an animated shopkeeper
+      next to a burger joint. Maybe this is based on an animated TV show?
+- model: spoilr_hints.cannedhint
+  pk: 488
+  fields:
+    puzzle: 412
+    description: The solvers want to be told where to start
+    order: 0.1
+    keywords: ''
+    content: This is a puzzle about the show Bob's Burgers. Look for a list of stores
+      related to the show.
+- model: spoilr_hints.cannedhint
+  pk: 489
+  fields:
+    puzzle: 412
+    description: Solvers know it's Bob's Burgers, but don't know what to do with the
+      ads
+    order: 1.0
+    keywords: ''
+    content: Look for a running gag in Bob's Burgers. The ads can be matched to jokes
+      from the show. These ads are presented in one order and need to be reordered
+      into another - look for clues about which store closed immediately prior to
+      each store to form a new ordering.
+- model: spoilr_hints.cannedhint
+  pk: 490
+  fields:
+    puzzle: 412
+    description: Solvers have the stores in order and don't know where to go next
+    order: 10.0
+    keywords: ''
+    content: Look at the phone numbers. The middle three digits are always 555, so
+      they can be ignored. Do you notice anything about the first three digits?
+- model: spoilr_hints.cannedhint
+  pk: 491
+  fields:
+    puzzle: 412
+    description: Solvers want a stronger hint about the first phone number step
+    order: 10.1
+    keywords: ''
+    content: The first three digits can be chained together across all 19 stores to
+      form an A1Z26 string. Decode the string to get a hint at the next step.
+- model: spoilr_hints.cannedhint
+  pk: 492
+  fields:
+    puzzle: 412
+    description: Solvers don't know what to do with the last four digits of each phone
+      number
+    order: 15.0
+    keywords: ''
+    content: To figure out what you need to do with the last four digits of the phone
+      number, try re-reading the flavor text and maybe listen to the phone numbers
+      as they're read in the audio ads.
+- model: spoilr_hints.cannedhint
+  pk: 493
+  fields:
+    puzzle: 412
+    description: Solvers want a stronger hint at what to do with the last 4 phone
+      number digits
+    order: 15.1
+    keywords: ''
+    content: The flavor mentions "dialing back his rhetoric" and the 4 digits in each
+      ad are read as 2 two-digit numbers. Each phone number should extract a two word
+      clue.
+- model: spoilr_hints.cannedhint
+  pk: 494
+  fields:
+    puzzle: 412
+    description: Solvers want to know how the phone numbers work
+    order: 15.2
+    keywords: ''
+    content: Read the last four digits of the phone number as two two-digit numbers.
+      Use those numbers as an index into the text of the ad itself to get a two-word
+      clue from each ad.
+- model: spoilr_hints.cannedhint
+  pk: 495
+  fields:
+    puzzle: 412
+    description: Solvers don't know what to do with the two word clues they've extracted
+      from each ad
+    order: 20.0
+    keywords: ''
+    content: This puzzle started out as a Store Next Door puzzle. Are there any other
+      running gags in the show that you can use here?
+- model: spoilr_hints.cannedhint
+  pk: 496
+  fields:
+    puzzle: 412
+    description: Solvers want to be told how to use the two word clues
+    order: 20.1
+    keywords: ''
+    content: Use each two word clue to identify one of the Pest Control Trucks from
+      the Bob's Burgers episode intros. The trucks will be in episode order.
+- model: spoilr_hints.cannedhint
+  pk: 497
+  fields:
+    puzzle: 412
+    description: Solvers are stuck on final extraction
+    order: 30.0
+    keywords: ''
+    content: What's one piece of data from this puzzle that you haven't used yet?
+- model: spoilr_hints.cannedhint
+  pk: 498
+  fields:
+    puzzle: 412
+    description: Solvers want a stronger hint on final extraction
+    order: 30.1
+    keywords: ''
+    content: Use the number of products that each store sells as an index into each
+      pest control truck.
+- model: spoilr_core.pseudoanswer
+  pk: 326
+  fields:
+    puzzle: 412
+    answer: CALL PEST CONTROL GUYS
+    response: Keep going! When you call the pest control guys, you can count on their
+      word that they'll show up!
+- model: spoilr_core.pseudoanswer
+  pk: 83
+  fields:
+    puzzle: 412
+    answer: SERVE US A PUNNY BURGER
+    response: Refresh this page to continue!

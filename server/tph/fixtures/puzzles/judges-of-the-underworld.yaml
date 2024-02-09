@@ -1,0 +1,81 @@
+- model: puzzles.puzzle
+  pk: 253
+  fields:
+    emoji: ':judge:'
+    deep: 9
+    deep_key: 'judges-meta'
+- model: spoilr_core.puzzle
+  pk: 253
+  fields:
+    external_id: 253
+    round: 8
+    answer: WREST THE CASE
+    name: Judges of the Underworld
+    main_credits: Nick Poulos
+    other_credits: ''
+    order: 253
+    is_meta: true
+    slug: judges-of-the-underworld
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 104
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start
+    content: Which _judges_ could these be to cause such _supreme_ worry?
+- model: spoilr_hints.cannedhint
+  pk: 111
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on getting started (2)
+    order: 0.2
+    keywords: start
+    content: Finding a list of supreme judges may prove fruitful.
+- model: spoilr_hints.cannedhint
+  pk: 105
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on getting started (3)
+    order: 0.5
+    keywords: started
+    content: The Supreme Court's Justices' Names show up in each of your feeders.
+- model: spoilr_hints.cannedhint
+  pk: 106
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on ordering
+    order: 50.0
+    keywords: ordering
+    content: These replaced letters don't seem to have any rhyme or reason. Perhaps
+      some order of the justices themselves can help.
+- model: spoilr_hints.cannedhint
+  pk: 107
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on ordering (2)
+    order: 50.5
+    keywords: ordering
+    content: Order them by when each Justice was appointed to the Supreme court.
+- model: spoilr_hints.cannedhint
+  pk: 108
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on extraction
+    order: 90.0
+    keywords: extraction
+    content: The feeders all seem to be just almost the name of the Justices. Perhaps
+      we should record the changes.
+- model: spoilr_hints.cannedhint
+  pk: 109
+  fields:
+    puzzle: 253
+    description: Solvers are stuck on extraction (2)
+    order: 90.5
+    keywords: extraction
+    content: Write down the letter in the answer that has replaced a letter in the
+      Justice's name.

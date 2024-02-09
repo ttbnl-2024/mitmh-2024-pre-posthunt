@@ -1,0 +1,41 @@
+- model: puzzles.puzzle
+  pk: 372
+  fields:
+    emoji: ':mag:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 372
+  fields:
+    external_id: 372
+    round: 15
+    answer: ADORN, BEAMER, CRAWLY, DANDER, OXALATE, STOWED
+    name: Word Search
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 372
+    is_meta: false
+    slug: word-search
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 699
+  fields:
+    puzzle: 372
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: start, begin
+    content: The clues are ordered alphabetically by their answers. The first answer
+      is BEHEST, which is found backward in the top row. The two birds clued near
+      the middle of the list are PUFFIN and QUETZAL.
+- model: spoilr_hints.cannedhint
+  pk: 700
+  fields:
+    puzzle: 372
+    description: Solvers found the words and are stuck how to proceed
+    order: 100.0
+    keywords: extraction
+    content: Read the unused letters to get three phrases that have to be applied
+      elsewhere. A similar interaction to one that one phrase describes can be used
+      in  a fourth place.

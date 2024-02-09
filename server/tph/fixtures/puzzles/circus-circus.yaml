@@ -1,0 +1,61 @@
+- model: puzzles.puzzle
+  pk: 590
+  fields:
+    emoji: ':circus_tent:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 590
+  fields:
+    external_id: 590
+    round: 4
+    answer: PLOVER
+    name: Circus Circus
+    main_credits: Joseph DeVincentis, Nathan Fung, and RJ Antonello
+    other_credits: ''
+    order: 590
+    is_meta: false
+    slug: circus-circus
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1420
+  fields:
+    puzzle: 590
+    description: Solvers have no idea how to get started
+    order: 0.0
+    keywords: start, begin
+    content: The first diagram refers to Venn diagrams and web tricks. The Venn diagrams
+      are obvious. Web tricks usually mean something's hidden on the page. Look for
+      it right there.
+- model: spoilr_hints.cannedhint
+  pk: 1421
+  fields:
+    puzzle: 590
+    description: Solvers don't understand ring numbers
+    order: 25.0
+    keywords: ring, numbers
+    content: Number the keywords in the list on the web site and look for the ones
+      named.
+- model: spoilr_hints.cannedhint
+  pk: 1422
+  fields:
+    puzzle: 590
+    description: Solvers do not understand F
+    order: 50.0
+    keywords: F
+    content: Use your understanding of ring numbers from the first diagram to identify
+      z in the second diagram. In the third diagram it's the same z. Only one of z's
+      keywords works for F.
+- model: spoilr_hints.cannedhint
+  pk: 1423
+  fields:
+    puzzle: 590
+    description: Solvers do not understand the last diagram
+    order: 100.0
+    keywords: K, xc, yk
+    content: x_c and y_k refer to the red dots before it. You don't know what c, k,
+      or K are, but you learned what F was from the third diagram. Find F that wrote
+      a Ring M puzzle and a (this year's theme) puzzle. There are only two currently
+      in the index.

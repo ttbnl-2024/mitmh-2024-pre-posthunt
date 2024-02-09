@@ -1,0 +1,13 @@
+- model: puzzles.round
+  pk: 21
+  fields:
+    text_overlay: true
+    autoresize: false
+- model: spoilr_core.round
+  pk: 21
+  fields:
+    act: 2
+    slug: mercury
+    name: Mercury (Start)
+    order: 1026
+    superround: 500

@@ -1,0 +1,96 @@
+- model: puzzles.puzzle
+  pk: 461
+  fields:
+    emoji: ':notes:'
+    deep: 1200
+- model: spoilr_core.puzzle
+  pk: 461
+  fields:
+    external_id: 461
+    round: 11
+    answer: STEPHEN
+    name: Musical Scores
+    main_credits: Elaine Lowinger, Josie Nelson, Maya Rotenberg, and Preston Phillips
+    other_credits: ''
+    order: 461
+    is_meta: false
+    slug: musical-scores
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1460
+  fields:
+    puzzle: 461
+    description: Solvers don't know where to start with brackets.
+    order: 10.0
+    keywords: Starting, audio, first bracket.
+    content: Each audio clip contains the lines from one half of a Broadway duet.
+      You'll need to find the actor/actress who sang these lines.
+- model: spoilr_hints.cannedhint
+  pk: 1461
+  fields:
+    puzzle: 461
+    description: can't identify correct actors or actresses
+    order: 15.0
+    keywords: which actor, which actress
+    content: Use the date given to disambiguate between different actors/actresses
+      who played these roles on Broadway.
+- model: spoilr_hints.cannedhint
+  pk: 1490
+  fields:
+    puzzle: 461
+    description: Solvers found the audible singer but have not found their missing
+      duet partners.
+    order: 20.0
+    keywords: singer, bracket
+    content: Each bracket is a duet with only one part audible. Look up the the partners
+      of the duet.
+- model: spoilr_hints.cannedhint
+  pk: 1463
+  fields:
+    puzzle: 461
+    description: Solvers don't know how to determine the winner of the brackets
+    order: 45.0
+    keywords: winner, bracket
+    content: The winner of each bracket is the one person who sang the missing lines
+      opposite both of the actors/actresses in their given clips.
+- model: spoilr_hints.cannedhint
+  pk: 1464
+  fields:
+    puzzle: 461
+    description: Solvers don't know what to do with the successive brackets.
+    order: 50.0
+    keywords: next bracket
+    content: '"Winners" from a bracket advance to the next bracket, where you''ll
+      need to find a single actor/actress who sang duets with them both in the years
+      indicated.  That person is the new "winner," and so on, until the last bracket.'
+- model: spoilr_hints.cannedhint
+  pk: 1462
+  fields:
+    puzzle: 461
+    description: solvers don't know how to apply the index
+    order: 55.0
+    keywords: extraction, indexing, index
+    content: Apply the number given next to each half of the bracket as an index into
+      the full name of the singer.
+- model: spoilr_hints.cannedhint
+  pk: 1465
+  fields:
+    puzzle: 461
+    description: Solvers don't understand the clue phrase.
+    order: 60.0
+    keywords: clue phrase, final answer
+    content: The final clue phrase, "End Duets' Author" indicates that you need the
+      author of the both of the duets from the last bracket.  When you've identified
+      who the winner of that bracket should be, you should be able to identify the
+      author of the two duets (which is the same person).
+- model: spoilr_hints.cannedhint
+  pk: 1466
+  fields:
+    puzzle: 461
+    description: Solvers don't realize they only need the first name.
+    order: 65.0
+    keywords: stephen sondheim, final answer
+    content: The answer to the puzzle is the author's first name.

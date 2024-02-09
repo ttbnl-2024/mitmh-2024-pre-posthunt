@@ -1,0 +1,47 @@
+- model: puzzles.puzzle
+  pk: 686
+  fields:
+    emoji: ':one:'
+    deep: 360
+- model: spoilr_core.puzzle
+  pk: 686
+  fields:
+    external_id: 686
+    round: 20
+    answer: REST
+    name: "\U0001F620\U0001F620\U0001F620\U0001F620\U0001F620\U0001F620\U0001F620\U0001F620\
+      \U0001F620\U0001F620\U0001F620\U0001F620"
+    main_credits: Bella (Songshan) Guo and Daniel Kramarsky
+    other_credits: ''
+    order: 686
+    is_meta: false
+    slug: angry
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 757
+  fields:
+    puzzle: 686
+    description: They don't get the first aha.
+    order: 1.0
+    keywords: aha, movie, film, 12, twelve, angry, men, emoticons
+    content: "What is the title of this puzzle?\r\n\r\nThose sure are a lot of mad\
+      \ emoticons!"
+- model: spoilr_hints.cannedhint
+  pk: 758
+  fields:
+    puzzle: 686
+    description: They do not see the connection between names and numbers.
+    order: 25.0
+    keywords: names, numbers, jurors, characters, order
+    content: What characters do the actors play?
+- model: spoilr_hints.cannedhint
+  pk: 759
+  fields:
+    puzzle: 686
+    description: They don't know to replace the boxes with spelled numbers.
+    order: 80.0
+    keywords: replace, extraction
+    content: "How many squares in each column?  \r\nWhat else might go there?"

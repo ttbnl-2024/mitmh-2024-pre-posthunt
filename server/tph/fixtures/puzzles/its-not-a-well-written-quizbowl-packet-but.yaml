@@ -1,0 +1,76 @@
+- model: puzzles.puzzle
+  pk: 408
+  fields:
+    emoji: ':amphora:'
+    deep: 650
+- model: spoilr_core.puzzle
+  pk: 408
+  fields:
+    external_id: 408
+    round: 12
+    answer: A CRYSTAL AGE
+    name: It's Not a Well Written Quizbowl Packet But...
+    main_credits: Jessica Li
+    other_credits: ''
+    order: 408
+    is_meta: false
+    slug: its-not-a-well-written-quizbowl-packet-but
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1622
+  fields:
+    puzzle: 408
+    description: Solvers have identified the primary Greek figures but have not found
+      the other figures in the toss-up
+    order: 1.0
+    keywords: start, begin, first step
+    content: Take a closer look at the individual lines of the toss-up questions.
+      Doing a search for Aphrodite's father or Cetus might yield some interesting
+      information that will explain the three point values in the toss-up as well
+      as the flag bank.
+- model: spoilr_hints.cannedhint
+  pk: 1626
+  fields:
+    puzzle: 408
+    description: Solvers need a stronger clue to find the other figures in the toss
+      up questions
+    order: 1.5
+    keywords: stuck, toss up
+    content: Two lines in each toss up are valid for another mythical figure in addition
+      to the primary subject of the toss up. For instance, although the Iliad calls
+      Zeus the father of Aphrodite, other sources like the Theogony put Uranus in
+      that role. The enumerations of the names are given in the points value of the
+      last line and the flag bank indicates the origins of all the figures in this
+      puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1624
+  fields:
+    puzzle: 408
+    description: Solvers don't know how to use the question marks
+    order: 2.0
+    keywords: bonus, question marks, ambiguous
+    content: The bonus questions are intentionally vague. The number of question marks
+      at the end of each bonus question indicates how many answers you should look
+      for.
+- model: spoilr_hints.cannedhint
+  pk: 1623
+  fields:
+    puzzle: 408
+    description: Solvers are requesting verification of their work
+    order: 3.0
+    keywords: check work, answers
+    content: '[Check that the answers in the toss-up and bonuses are correct according
+      to the solution doc]'
+- model: spoilr_hints.cannedhint
+  pk: 1625
+  fields:
+    puzzle: 408
+    description: Solvers are having trouble ordering the final answer
+    order: 4.0
+    keywords: order, which answer
+    content: Notice that one question mark in each bonus question is bolded. When
+      you answered the toss up questions, the answers are in alphabetical order. You
+      should do the same to your bonus answers.

@@ -1,0 +1,106 @@
+- model: puzzles.puzzle
+  pk: 193
+  fields:
+    emoji: ':newspaper:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 193
+  fields:
+    external_id: 193
+    round: 14
+    answer: SEED
+    name: Shifting Times
+    main_credits: Max Tepermeister
+    other_credits: ''
+    order: 193
+    is_meta: false
+    slug: shifting-times
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1672
+  fields:
+    puzzle: 193
+    description: Solvers stuck on where to start
+    order: 0.0
+    keywords: start, begin
+    content: The headlines are related to the images.
+- model: spoilr_hints.cannedhint
+  pk: 1675
+  fields:
+    puzzle: 193
+    description: Haven't figured out that the sentences are partial cryptograms/ciphers.
+      Small hint
+    order: 20.0
+    keywords: ''
+    content: Each of the headlines can be changed in some way to match its corresponding
+      image.
+- model: spoilr_hints.cannedhint
+  pk: 1676
+  fields:
+    puzzle: 193
+    description: Haven't figured out that the sentences are partial cryptograms/ciphers.
+      Large hint
+    order: 21.0
+    keywords: ''
+    content: Each headline is a ciphertext. When decoded, each plaintext is depicted
+      in the headline's corresponding image. The ciphers all have to do with keyboards.
+- model: spoilr_hints.cannedhint
+  pk: 1677
+  fields:
+    puzzle: 193
+    description: Figured out colemac and dvorak ciphers but not shift ciphers. Small
+      hint
+    order: 40.0
+    keywords: Capitalization, capital, bRag As A, zest got
+    content: The change in capitalization inside two of the headlines corresponds
+      to hitting <capslock> on the keyboard when mistyping the plaintext.
+- model: spoilr_hints.cannedhint
+  pk: 1678
+  fields:
+    puzzle: 193
+    description: Figured out colemac and dvorak ciphers but not shift ciphers. Large
+      Hint
+    order: 41.0
+    keywords: Capitalization, capital
+    content: Some headline ciphers are the result of typing on the keyboard with your
+      hands shifted one key.
+- model: spoilr_hints.cannedhint
+  pk: 1679
+  fields:
+    puzzle: 193
+    description: Figured out left and right but not colemac or dvorak. Small hint
+    order: 50.0
+    keywords: Jr abe, map has, bake racer, pay yale
+    content: What other ways are there to misuse a keyboard?
+- model: spoilr_hints.cannedhint
+  pk: 1680
+  fields:
+    puzzle: 193
+    description: Figured out left and right but not colemac or dvorak. Large hint
+    order: 51.0
+    keywords: ''
+    content: Some of the headlines are typed using the wrong keyboard layout as if
+      it were QWERTY.
+- model: spoilr_hints.cannedhint
+  pk: 1673
+  fields:
+    puzzle: 193
+    description: Stuck on letter part of extraction. Have all sentences correctly
+      decoded and ordered
+    order: 100.0
+    keywords: extract, extraction
+    content: Each of the decoded headlines has a word missing a letter.
+- model: spoilr_hints.cannedhint
+  pk: 1674
+  fields:
+    puzzle: 193
+    description: Stuck on ordering for extraction
+    order: 100.0
+    keywords: extraction, ordering, order, extract
+    content: The apparent ciphertext headlines form a chain that can be used to order
+      each headline.  Each ciphertext headline (except the last in the chain) has
+      a part that shows up in another headline's image.

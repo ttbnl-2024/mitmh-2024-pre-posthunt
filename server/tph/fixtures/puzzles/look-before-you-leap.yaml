@@ -1,0 +1,122 @@
+- model: puzzles.puzzle
+  pk: 195
+  fields:
+    emoji: ':frog:'
+    deep: 1225
+- model: spoilr_core.puzzle
+  pk: 195
+  fields:
+    external_id: 195
+    round: 7
+    answer: LOG SEMIRING
+    name: Look Before You Leap
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 195
+    is_meta: false
+    slug: look-before-you-leap
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 572
+  fields:
+    puzzle: 195
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start, letter strings
+    content: The strings of letters look kind of like words of some sort.  They're
+      not anagrams (some of them, like "mntan", definitely are not anagrammable);
+      could there be something missing?
+- model: spoilr_hints.cannedhint
+  pk: 846
+  fields:
+    puzzle: 195
+    description: Solvers are still stuck on what to do with the group of letters at
+      the top
+    order: 11.0
+    keywords: ''
+    content: These words look like they could plausibly be Latin words with letters
+      missing. What is commonly represented with two Latin words?
+- model: spoilr_hints.cannedhint
+  pk: 847
+  fields:
+    puzzle: 195
+    description: Solvers want to know what to do with the words at the top so they
+      can move on to the next step
+    order: 12.0
+    keywords: ''
+    content: The words are the scientific names of species of frogs and toads with
+      letters removed.
+- model: spoilr_hints.cannedhint
+  pk: 848
+  fields:
+    puzzle: 195
+    description: Solvers don't know what to do with the letters that were removed
+      from the frog species names
+    order: 20.0
+    keywords: ''
+    content: Notice that each species from the first step was missing 10 letters and
+      there are 10 columns in the grid. Each row within the grid has cells numbered
+      1-10.
+- model: spoilr_hints.cannedhint
+  pk: 849
+  fields:
+    puzzle: 195
+    description: Solvers want a better hint about how to use the letters and the grid
+    order: 22.0
+    keywords: ''
+    content: Each row in the grid can be filled with the letters that were removed
+      from one of the frog species. It will take some work to figure out the correct
+      ordering, but you'll know when you have it correct.
+- model: spoilr_hints.cannedhint
+  pk: 850
+  fields:
+    puzzle: 195
+    description: Solvers have the words in the grid, but don't know how to interpret
+      the questions about the "journey" at the bottom of the puzzle
+    order: 70.0
+    keywords: ''
+    content: Somehow you need to take a journey within the grid. Reexamine the puzzle
+      title, flavor, and theme. What could the grid represent? Why would you be leaping
+      and not sure of whether something will be there when you land?
+- model: spoilr_hints.cannedhint
+  pk: 851
+  fields:
+    puzzle: 195
+    description: Solvers have the words in the grid, but want a stronger hint about
+      how to interpret the questions about the "journey" at the bottom of the puzzle
+    order: 71.0
+    keywords: ''
+    content: This puzzle is referencing a video game.
+- model: spoilr_hints.cannedhint
+  pk: 852
+  fields:
+    puzzle: 195
+    description: Solvers have the words in the grid, but want an even stronger hint
+      about how to interpret the questions about the "journey" at the bottom of the
+      puzzle
+    order: 72.0
+    keywords: ''
+    content: The grid represents a game of Frogger.
+- model: spoilr_hints.cannedhint
+  pk: 853
+  fields:
+    puzzle: 195
+    description: Solvers want a strong hint about how to form a path through the grid
+    order: 80.0
+    keywords: ''
+    content: 'There are two parts to a game of Frogger: hopping across a highway and
+      avoiding vehicles, and hopping between logs, alligators, and turtles to cross
+      a river.'
+- model: spoilr_hints.cannedhint
+  pk: 854
+  fields:
+    puzzle: 195
+    description: Solvers want the strongest hint about how to form a path through
+      the grid
+    order: 85.0
+    keywords: ''
+    content: Chart a course across the highway and river that avoids CARs and VANs,
+      and uses LOGs and GATORs.

@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 6
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 28.5
+    'y': 46.3
+    'w': 8.867
+    'z': 10
+- model: spoilr_core.round
+  pk: 6
+  fields:
+    act: 2
+    slug: oahu
+    name: Oahu, HI
+    order: 108

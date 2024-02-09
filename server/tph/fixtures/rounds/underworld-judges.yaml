@@ -1,0 +1,17 @@
+- model: puzzles.round
+  pk: 8
+  fields:
+    # Underworld map
+    "x": 48.2
+    "y": 15.867
+    "w": 12.825
+    # For round page
+    text_overlay: true
+    autoresize: false
+- model: spoilr_core.round
+  pk: 8
+  fields:
+    act: 1
+    slug: the-underworld-court
+    name: The Underworld Court
+    order: 6

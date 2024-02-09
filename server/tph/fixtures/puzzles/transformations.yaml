@@ -1,0 +1,135 @@
+- model: puzzles.puzzle
+  pk: 256
+  fields:
+    emoji: ':spider:'
+    deep: 1400
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 256
+  fields:
+    external_id: 256
+    round: 8
+    answer: TRIER
+    name: "Transform\u00ADations"
+    main_credits: Jacob N Scott and K. King
+    other_credits: ''
+    order: 256
+    is_meta: false
+    slug: transformations
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 736
+  fields:
+    puzzle: 256
+    description: Solvers don't know what to do with the garbled strings
+    order: 0.0
+    keywords: start, stuck, clues
+    content: Each string is garbled by taking an English sentence and applying some
+      transformation to each of its words (such as replacing letter A with letter
+      B), then concatenating all of its words removing spaces.  You must identify
+      the original sentence and what transformation was applied.
+- model: spoilr_hints.cannedhint
+  pk: 737
+  fields:
+    puzzle: 256
+    description: Solvers have decoded most of the garbled strings, but haven't arranged
+      them or identified them as being parts of myths
+    order: 30.0
+    keywords: decoded, sentences
+    content: The ungarbled sentences must be grouped and ordered within each group
+      to form 6 separate stories, one for each of the sequences in the image.  Each
+      story has a number of sentences equal to the number of arrows in its sequence.
+- model: spoilr_hints.cannedhint
+  pk: 738
+  fields:
+    puzzle: 256
+    description: Solvers have grouped the ungarbled sentences into myths, but haven't
+      put words into the blanks
+    order: 50.0
+    keywords: myths, blanks
+    content: For each story (which comes from grouping and ordering the ungarbled
+      sentences), start from a certain starting word.  Then apply the transformation
+      by which each sentence was garbled, in order, to get the (reasonably common
+      English) words that go in the blanks, with the last sentence transforming the
+      final blank into the shown image.  The starting and ending word (image) relate
+      to the story in a way that is common to all the chains.
+- model: spoilr_hints.cannedhint
+  pk: 739
+  fields:
+    puzzle: 256
+    description: Solvers have filled in most of the blanks but haven't decoded the
+      resulting garbled clue
+    order: 70.0
+    keywords: filled, garbled, clue
+    content: For each chain left-to-right take the starred letters from top to bottom
+      to get another garbled clue of 6 words.  The transformation garbling this clue
+      involves replacing two letters with other letters and deleting the 3rd-from-last
+      letter.
+- model: spoilr_hints.cannedhint
+  pk: 740
+  fields:
+    puzzle: 256
+    description: Solvers have decoded the extracted garbled clue
+    order: 100.0
+    keywords: decoded, extraction
+    content: The decoded final clue mentions someone from Greek myth, but applying
+      the transformation by which the clue was garbled to her name does not work.  In
+      the myth being referenced what happened to her, in a way that relates to the
+      starts and ends of the 6 transformation chains?
+- model: spoilr_core.pseudoanswer
+  pk: 66
+  fields:
+    puzzle: 256
+    answer: AGAITT
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 69
+  fields:
+    puzzle: 256
+    answer: ARACHNE
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 67
+  fields:
+    puzzle: 256
+    answer: ATHNA
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 65
+  fields:
+    puzzle: 256
+    answer: COMREED
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 71
+  fields:
+    puzzle: 256
+    answer: MAER
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 68
+  fields:
+    puzzle: 256
+    answer: SPIDER
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 63
+  fields:
+    puzzle: 256
+    answer: TARETRY
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 72
+  fields:
+    puzzle: 256
+    answer: TARETRY MAER TAT COMREED AGAITT ATHNA
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 64
+  fields:
+    puzzle: 256
+    answer: TAT
+    response: Keep going!

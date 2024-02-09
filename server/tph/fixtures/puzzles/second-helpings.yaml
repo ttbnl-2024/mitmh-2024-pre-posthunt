@@ -1,0 +1,71 @@
+- model: puzzles.puzzle
+  pk: 447
+  fields:
+    emoji: ':mag:'
+    deep: 1900
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 447
+  fields:
+    external_id: 447
+    round: 8
+    answer: SURGERY
+    name: Second Helpings
+    main_credits: Daniel Kramarsky
+    other_credits: ''
+    order: 447
+    is_meta: false
+    slug: second-helpings
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 878
+  fields:
+    puzzle: 447
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: The first dish just seems elementary, my dear.
+- model: spoilr_hints.cannedhint
+  pk: 879
+  fields:
+    puzzle: 447
+    description: Stronger starting hint if hint 0.0 is insufficient
+    order: 10.0
+    keywords: start, begin
+    content: Each dish is in agreement with a famous author/character combo.
+- model: spoilr_hints.cannedhint
+  pk: 880
+  fields:
+    puzzle: 447
+    description: Very heavy consonantcy hint if hint 10.0 was insufficient
+    order: 20.0
+    keywords: start, begin, heavy
+    content: In each dish, the first line is consonant with an author and the second
+      is consonant with their famous sleuth.
+- model: spoilr_hints.cannedhint
+  pk: 881
+  fields:
+    puzzle: 447
+    description: Hint at the redacted item
+    order: 30.0
+    keywords: second, helping, helper
+    content: I feel like seconds - give me the redacted item on the menu.
+- model: spoilr_hints.cannedhint
+  pk: 882
+  fields:
+    puzzle: 447
+    description: Stronger hint at detective sidekicks if hint 30.0 was insufficient
+    order: 40.0
+    keywords: second, helping, helper, heavy
+    content: Every good detective has a sidekick! Find the hidden ones.
+- model: spoilr_hints.cannedhint
+  pk: 883
+  fields:
+    puzzle: 447
+    description: Extraction hint
+    order: 50.0
+    keywords: extraction
+    content: Look at the prices next to each dish - they are in the sidekicks' lines.

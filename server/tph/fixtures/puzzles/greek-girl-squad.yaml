@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 149
+  fields:
+    emoji: ':lion:'
+    deep: 400
+- model: spoilr_core.puzzle
+  pk: 149
+  fields:
+    external_id: 149
+    round: 5
+    answer: FATE STAY NIGHT
+    name: Greek Girl Squad
+    main_credits: John Bromels and Todd Becker
+    other_credits: ''
+    order: 149
+    is_meta: false
+    slug: greek-girl-squad
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 150
+  fields:
+    puzzle: 149
+    description: The solvers are extensively looking for Teen Girl Squad materials
+      to apply to the puzzle.
+    order: 0.0
+    keywords: Episode, Teen Girl Squad, TGS, Strong Bad
+    content: Cartoons can be mostly for enjoyment.  Source material is not needed
+      for this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 151
+  fields:
+    puzzle: 149
+    description: The solvers have been using apostrophes in their list of crossword
+      clue answers.
+    order: 50.0
+    keywords: Scratch'd, Catscan'd, Catscann'd, Hound'd, Stone'd
+    content: The Lion's death scene is a good indicator of how to use punctuation
+      marks.
+- model: spoilr_hints.cannedhint
+  pk: 152
+  fields:
+    puzzle: 149
+    description: Matching words to Greek letters for extraction
+    order: 80.0
+    keywords: greek letters, extract, index, match
+    content: What are your word lengths?
+- model: spoilr_hints.cannedhint
+  pk: 196
+  fields:
+    puzzle: 149
+    description: Solvers have the words and Greek letters but have no finish
+    order: 100.0
+    keywords: stuck on final, how to apply, alphabet
+    content: Alpha = what letter?
+- model: spoilr_core.pseudoanswer
+  pk: 5
+  fields:
+    puzzle: 149
+    answer: SEND US A CARTOON DEATH SCENE
+    response: "IT'S NOT OVER! Your team has found a hidden clickable in the Flash\
+      \ file from Strong Bad taunting if you can do him one better\u2014send us your\
+      \ own Girl Squad of your team's BURNINATION or other untimely demise. (Cheat\
+      \ Commandos sold separately). Send your video to cartoon-death@mitmh2024.com."

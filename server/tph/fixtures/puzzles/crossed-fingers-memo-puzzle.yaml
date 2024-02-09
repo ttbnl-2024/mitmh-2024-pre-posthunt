@@ -1,0 +1,47 @@
+- model: puzzles.puzzle
+  pk: 696
+  fields:
+    emoji: ':fingers_crossed:'
+    deep: 240
+- model: spoilr_core.puzzle
+  pk: 696
+  fields:
+    external_id: 696
+    round: 20
+    answer: ETHICAL
+    name: "\U0001F91E\U0001F4DD\U0001F9E9"
+    main_credits: Charles Steinhardt and John Bromels
+    other_credits: ''
+    order: 696
+    is_meta: false
+    slug: crossed-fingers-memo-puzzle
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1145
+  fields:
+    puzzle: 696
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: "You need to interpret the emojis as crossword clues. You only need the\
+      \ emojis in the \u201Cemoji bank\u201D on the first page."
+- model: spoilr_hints.cannedhint
+  pk: 1146
+  fields:
+    puzzle: 696
+    description: "Solvers can\u2019t find an emoji for some clues such as \u201CE.T.\
+      \ phone home\u201D"
+    order: 2.0
+    keywords: emoji,missing
+    content: Some cells in the crossword do not take emojis.
+- model: spoilr_hints.cannedhint
+  pk: 1147
+  fields:
+    puzzle: 696
+    description: Solvers have filled the grid
+    order: 3.0
+    keywords: extraction
+    content: "What\u2019s *not* in the emoji bank?"

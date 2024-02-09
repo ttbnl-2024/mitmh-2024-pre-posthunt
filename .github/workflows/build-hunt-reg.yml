@@ -1,0 +1,15 @@
+name: build-hunt-reg
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # build the image for this commit
+  build-push:
+    uses: ./.github/workflows/docker-buildx.yml
+    with:
+      push: 1
+      cache: 1
+      ENABLE_HUNT_SITE: 1
+      ENABLE_REGISTRATION_SITE: 1
+    secrets: inherit

@@ -1,0 +1,100 @@
+- model: puzzles.puzzle
+  pk: 473
+  fields:
+    emoji: ':smiling_imp:'
+    deep: 640
+- model: spoilr_core.puzzle
+  pk: 473
+  fields:
+    external_id: 473
+    round: 20
+    answer: FRICTION
+    name: Deep, Deep Trouble
+    main_credits: Alina Khankin, Brian Widerman, and Craig Kasper
+    other_credits: ''
+    order: 473
+    is_meta: false
+    slug: deep-deep-trouble
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 634
+  fields:
+    puzzle: 473
+    description: The solvers have not gotten the xkcd comic connection
+    order: 0.0
+    keywords: start, begin
+    content: Have you considered a certain webcomic describing my hobby?
+- model: spoilr_hints.cannedhint
+  pk: 635
+  fields:
+    puzzle: 473
+    description: Heavy hint to xkcd comics if hint 0 was insufficient
+    order: 1.0
+    keywords: start, begin
+    content: Check out "my hobby" in the XKCD webcomic!
+- model: spoilr_hints.cannedhint
+  pk: 636
+  fields:
+    puzzle: 473
+    description: Solvers have the hobbies, but don't know how to move on
+    order: 10.0
+    keywords: xkcd, hobbies, continue
+    content: Look at the descriptions - do any words (or letters) stand out?
+- model: spoilr_hints.cannedhint
+  pk: 637
+  fields:
+    puzzle: 473
+    description: Heavy hint at the acrostic if hint 10.0 was insufficient
+    order: 11.0
+    keywords: xkcd, hobbies, continue
+    content: Some letters are inappropriately capitalized - what do they spell?
+- model: spoilr_hints.cannedhint
+  pk: 638
+  fields:
+    puzzle: 473
+    description: Solvers have the hobbies and "episodes", but don't know how to move
+      on
+    order: 20.0
+    keywords: xkcd, hobbies, episodes, continue
+    content: You've used the webcomics, now move on to the cartoons! Do you know any
+      cartoons with a chalkboard gag?
+- model: spoilr_hints.cannedhint
+  pk: 639
+  fields:
+    puzzle: 473
+    description: Solvers have the hobbies and the Simpsons, but didn't make the episodes
+      connection
+    order: 30.0
+    keywords: xkcd, hobbies, episodes, simpsons
+    content: Have you used the message from the capitalized letters to match the hobbies
+      to the cartoons?
+- model: spoilr_hints.cannedhint
+  pk: 640
+  fields:
+    puzzle: 473
+    description: Solvers have the Simpsons episodes, but haven't matched the chalkboard
+      gag to the given text
+    order: 40.0
+    keywords: xkcd, hobbies, episodes, simpsons
+    content: Now that you found the cartoon episodes, what is written on the chalkboards?
+- model: spoilr_hints.cannedhint
+  pk: 641
+  fields:
+    puzzle: 473
+    description: Solvers have the chalkboard text, but are stuck on extraction
+    order: 50.0
+    keywords: extraction
+    content: How many words are in the phrases? Does anything seem significant?
+- model: spoilr_hints.cannedhint
+  pk: 642
+  fields:
+    puzzle: 473
+    description: Heavy hint at the extraction in case hint 50 was insufficient
+    order: 60.0
+    keywords: extraction
+    content: Note that the number of words in the hobby descriptions and the chalkboard
+      gags are the same. Time to pay attention to the improperly capitalized words
+      again. Can they be matched to other words?

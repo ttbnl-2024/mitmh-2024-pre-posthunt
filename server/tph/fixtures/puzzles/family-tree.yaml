@@ -1,0 +1,106 @@
+- model: puzzles.puzzle
+  pk: 393
+  fields:
+    emoji: ':dog:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 393
+  fields:
+    external_id: 393
+    round: 10
+    answer: WARRIORS THREE
+    name: Family Tree
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 393
+    is_meta: false
+    slug: family-tree
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 350
+  fields:
+    puzzle: 393
+    description: Solvers haven't identified theme for puzzle
+    order: 1.0
+    keywords: theme, head of the family
+    content: The head of a well-known family passed away in the Fall of 2022.
+- model: spoilr_hints.cannedhint
+  pk: 349
+  fields:
+    puzzle: 393
+    description: Solvers are looking for people as answers to the clues.
+    order: 5.0
+    keywords: people, queen's family, England, royal family, House of Windsor
+    content: The clues in the puzzle do not relate to people.
+- model: spoilr_hints.cannedhint
+  pk: 354
+  fields:
+    puzzle: 393
+    description: Even knowing the clues don't refer to people, solvers are still stuck.
+    order: 6.0
+    keywords: not people, family, royal
+    content: These clues all refer to dogs owned by Queen Elizabeth II.
+- model: spoilr_hints.cannedhint
+  pk: 351
+  fields:
+    puzzle: 393
+    description: Solvers don't know how to interpret letter/number codes
+    order: 8.0
+    keywords: codes, letter, number
+    content: A sound examination of the codes should lead you to Soundex.
+- model: spoilr_hints.cannedhint
+  pk: 355
+  fields:
+    puzzle: 393
+    description: Solvers having trouble with Soundex identification
+    order: 9.0
+    keywords: Soundex, codes
+    content: You can work in either direction using the Soundex codes and familial
+      relationship to identify the two family members in each clue.
+- model: spoilr_hints.cannedhint
+  pk: 348
+  fields:
+    puzzle: 393
+    description: Solver doesn't understand term "nibling"
+    order: 10.0
+    keywords: nibling, grandnibling, great-grandnibling
+    content: Nibling is used as a gender-neutral replacement for niece or nephew.
+- model: spoilr_hints.cannedhint
+  pk: 352
+  fields:
+    puzzle: 393
+    description: Solvers must realize reordering is required.
+    order: 10.1
+    keywords: order, reorder, reordering
+    content: Clues are given alphabetically, and must be reordered in a direct line
+      from the most distant ancestor on the tree to the most recent descendent.
+- model: spoilr_hints.cannedhint
+  pk: 353
+  fields:
+    puzzle: 393
+    description: Solvers don't know how to extract
+    order: 11.0
+    keywords: extraction, indexing, index
+    content: Extract two letters from the name at the end of each clue, using the
+      two numbers given as indices.
+- model: spoilr_core.pseudoanswer
+  pk: 13
+  fields:
+    puzzle: 393
+    answer: GOLDENSTATEWARRIORS3
+    response: SUBMIT NUMBER AS WORD; LOCATION NOT REQUIRED
+- model: spoilr_core.pseudoanswer
+  pk: 7
+  fields:
+    puzzle: 393
+    answer: GOLDENSTATEWARRIORSTHREE
+    response: LOCATION NOT REQUIRED
+- model: spoilr_core.pseudoanswer
+  pk: 12
+  fields:
+    puzzle: 393
+    answer: WARRIORS3
+    response: NUMBER WRITTEN AS WORD

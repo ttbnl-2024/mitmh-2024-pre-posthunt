@@ -1,0 +1,62 @@
+- model: puzzles.puzzle
+  pk: 731
+  fields:
+    emoji: ':microphone:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 731
+  fields:
+    external_id: 731
+    round: 4
+    answer: HERRING
+    name: Wynn
+    main_credits: Frankie Rady
+    other_credits: ''
+    order: 731
+    is_meta: false
+    slug: wynn
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1770
+  fields:
+    puzzle: 731
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: begin, first step, start
+    content: Start by identifying the musical clips being play. They say music has
+      no borders, but these songs kinda do. The conductor's comment on each segment
+      contain a clue to help you confirm the identification.
+- model: spoilr_hints.cannedhint
+  pk: 1771
+  fields:
+    puzzle: 731
+    description: Solvers have identified the national anthems but have not found the
+      exact lyrics needed.
+    order: 10.0
+    keywords: national anthems
+    content: For a class where the conductor wants people to sing loud and proud,
+      there's a conspicuous lack of vocals here. What lyrics belong to each clip,
+      and what part of the clip seems off?
+- model: spoilr_hints.cannedhint
+  pk: 1772
+  fields:
+    puzzle: 731
+    description: Solvers need help reordering.
+    order: 20.0
+    keywords: wrong notes, syllable, sorting, ordering
+    content: The white board labelled "Last week's notes" has 6 notes on it, matching
+      the 6 notes you obtained from the anthems. Order your notes as shown on the
+      white board. Read the associated syllables for what to do next.
+- model: spoilr_core.pseudoanswer
+  pk: 318
+  fields:
+    puzzle: 731
+    answer: GIVE US A MELODY
+    response: Congrats! You've got a good ear for music, why don't you show us your
+      own vocal performance? Have X people in your team (where X is 5 unless your
+      team size is less than 10, then X will be 2) sing a song together that has a
+      global appeal, specifically one from the Billboard Global 200. Keep it PG, of
+      course, and send your video to melody@mitmh2024.com!

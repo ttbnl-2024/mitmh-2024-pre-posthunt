@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+source scripts/docker_compose
+
+# Usage: ./scripts/save_fixtures
+
+echo "Are you sure you have all existing db changes? This will overwrite files in server/tph/fixtures. [y/N]"
+read line
+if [[ $line == "y" ]]; then
+    mkdir -p server/tph/fixtures/{puzzles,rounds,events,story,interactions,emails}
+    docker_compose exec tph /app/server/manage.py puzzle_fixtures --fixtures-dir fixtures --save "$@"
+
+    docker_compose exec -T tph /app/server/manage.py setting_fixtures fixtures/settings --save "$@"
+
+else
+    echo "Stopping"
+    exit 1
+fi

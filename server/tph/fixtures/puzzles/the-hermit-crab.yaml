@@ -1,0 +1,250 @@
+- model: puzzles.puzzle
+  pk: 170
+  fields:
+    emoji: ':crab:'
+    deep: 350
+- model: spoilr_core.puzzle
+  pk: 170
+  fields:
+    external_id: 170
+    round: 12
+    answer: GASOLINE CAN
+    name: The Hermit Crab
+    main_credits: Linus Hamilton
+    other_credits: ''
+    order: 170
+    is_meta: false
+    slug: the-hermit-crab
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1176
+  fields:
+    puzzle: 170
+    description: What's going on??
+    order: 0.0
+    keywords: start
+    content: All the crab's stories take place during previous Mystery Hunts. For
+      example, the second story takes place in last year's Museum of Interesting Things,
+      specifically the Cafe.
+- model: spoilr_hints.cannedhint
+  pk: 1177
+  fields:
+    puzzle: 170
+    description: The solvers can't find the right Mystery Hunt shells for some subpuzzles,
+      or have ID'd some incorrectly.
+    order: 0.1
+    keywords: can't find, which
+    content: "<You might provide only the ones the solvers asked for and/or have ID'd\
+      \ incorrectly.>\r\n\r\nHere's where the crab has lived, in order by subpuzzle:\r\
+      \n1 - Wonderland's Caucus Race: https://puzzles.mit.edu/2014/round/caucus_race/\r\
+      \n2 - The Museum of Interesting Things' Cafe: https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/the-cafe\r\
+      \n3 - The Horror Hunt's puzzle with no title: https://puzzles.mit.edu/2001/phase2/13/index.html\r\
+      \n4 - The Time Bandits' stone table: http://puzzles.mit.edu/2004/pirates/3VS/\r\
+      \n5 - The Bank Heist's Password Update: http://puzzles.mit.edu/2013/coinheist.com/sneakers/password_update/index.html\r\
+      \n6 - Hell's (https://puzzles.mit.edu/2007/puzzles/) presentation \"How to Succeed\
+      \ at Advanced World Domination by Being Really Really Evil\"\r\n7 - Bookspace's\
+      \ Plot Device: https://puzzles.mit.edu/2022/puzzle/battery-pack/\r\n8 - \u22A5\
+      IW's Athletics Field: https://puzzles.mit.edu/2021/puzzle/athletics/\r\n\r\n\
+      <Due to hint length limit, 9-11 are in hint 0.2>"
+- model: spoilr_hints.cannedhint
+  pk: 1178
+  fields:
+    puzzle: 170
+    description: (More shell locations. Continued from 0.1.)
+    order: 0.2
+    keywords: can't find, which
+    content: "9 - The Video Game World's Craps Man: https://puzzles.mit.edu/2011/puzzles/mega_man/craps.html\r\
+      \n10 - Penny Park's Safari Adventure, specifically the Cub Scout: https://puzzles.mit.edu/2020/puzzle/cubs_scout/\r\
+      \n11 - \u22A5IW's Random Hall: https://puzzles.mit.edu/2021/puzzle/random-hall/"
+- model: spoilr_hints.cannedhint
+  pk: 1179
+  fields:
+    puzzle: 170
+    description: The first subpuzzle, the Caucus Race.
+    order: 1.0
+    keywords: first, caucus
+    content: "The Caucus Ballot is looking for a bunch of \"X or Y\" phrases.\r\n\r\
+      \nFor extraction, the + and - columns indicate Caesar shifts."
+- model: spoilr_hints.cannedhint
+  pk: 1180
+  fields:
+    puzzle: 170
+    description: The second subpuzzle, the Cafe.
+    order: 2.0
+    keywords: second, cafe, atrium, museum
+    content: Each of the crab's belongings has one thing wrong with it. Specifically
+      (rot13), Punatr n yrggre, fhpu nf oevax gb qevax, gb trg n sbbq-eryngrq jbeq.
+      Fvapr gur peno'f orybatvatf ner nycunorgvpny, hfr gur chmmyr'f sbbq beqre.
+- model: spoilr_hints.cannedhint
+  pk: 1181
+  fields:
+    puzzle: 170
+    description: The third subpuzzle, from the horror hunt.
+    order: 3.0
+    keywords: third, horror, no title, word search
+    content: BURIED PIRATE TREASURE hints what letter to start on. From there, each
+      subsequent answer in order gives you a compass direction and a length to travel
+      in that direction.
+- model: spoilr_hints.cannedhint
+  pk: 1182
+  fields:
+    puzzle: 170
+    description: The fourth subpuzzle, the Time Bandits' Voyage.
+    order: 4.0
+    keywords: fourth, time bandits, pirate, voyage
+    content: "Like the crab says, you can ignore the coordinates below the grid.\r\
+      \n\r\nThe gemstones are circular white and black pearls... does that remind\
+      \ you of a logic puzzle type?\r\n\r\nFor extraction, find the \"hidden black\
+      \ gems,\" i.e., places where black pearls could have been."
+- model: spoilr_hints.cannedhint
+  pk: 1183
+  fields:
+    puzzle: 170
+    description: The fifth subpuzzle, the Hacker's Password Update.
+    order: 5.0
+    keywords: fifth, password, hacker
+    content: The crab's belongings correspond to the strings HBMUN AUNAM HAEHD...
+      in order. Each belonging picks out a subset of those letters. Sometimes they
+      use the A-Z = 1-26 position of the letter, e.g., for NON-FIBONACCI.
+- model: spoilr_hints.cannedhint
+  pk: 1184
+  fields:
+    puzzle: 170
+    description: The sixth subpuzzle, in Hell.
+    order: 6.0
+    keywords: sixth, hell, evil
+    content: "You only need the reporters' numbers (for an ordering 4 thru 11), and\
+      \ radio station names.\r\n\r\nThe letters \"W\" and \"K\" at the start of a\
+      \ radio station name have a special meaning. Do you know what it is?"
+- model: spoilr_hints.cannedhint
+  pk: 1185
+  fields:
+    puzzle: 170
+    description: The seventh puzzle, the Plot Device's Battery Pack.
+    order: 7.0
+    keywords: seventh, device, battery
+    content: This is a dropquote. The crab's belongings give the letters to drop into
+      the four columns, in order.
+- model: spoilr_hints.cannedhint
+  pk: 1186
+  fields:
+    puzzle: 170
+    description: "The eighth subpuzzle, \u22A5IW's Athletics Field."
+    order: 8.0
+    keywords: "eighth, \u22A5IW, athletics"
+    content: Treat the 5x5 grid as a crossword. It has some questionable fill, but
+      according to my wordlist, it's fine...
+- model: spoilr_hints.cannedhint
+  pk: 1187
+  fields:
+    puzzle: 170
+    description: The ninth subpuzzle, Craps Man.
+    order: 9.0
+    keywords: ninth, megaman, craps, monopoly
+    content: The crab doesn't have an opponent, so ignore the Craps Man's rolls. The
+      red/black color doesn't matter either. You're only using the other five 2d6
+      rolls, in an order you'll have to determine. What board game has "lots of expensive
+      houses and hotels"?
+- model: spoilr_hints.cannedhint
+  pk: 1188
+  fields:
+    puzzle: 170
+    description: The tenth subpuzzle, the Cubs Scout.
+    order: 10.0
+    keywords: tenth, cubs, scout, safari, penny park
+    content: All the crab's belongings are (sometimes whimsically) unsafe in one of
+      the four safety diamond categories. As a hint for matching, the bottom diamond
+      only uses the "reacts badly with water" attribute.
+- model: spoilr_hints.cannedhint
+  pk: 1189
+  fields:
+    puzzle: 170
+    description: "The eleventh and final subpuzzle, the \u22A5IW Random Hall."
+    order: 11.0
+    keywords: "eleventh, last, final, \u22A5IW, random"
+    content: "Heed the words \"round to the nearest.\"\r\n\r\nThe crab simply observed\
+      \ 17 numbers here, and used them as indices. Unfortunately, if you're unlucky,\
+      \ you might see a different list of numbers. Or even invalid numbers (ones that\
+      \ round to 0).\r\n\r\nHopefully, nutrimatic helps. Along with some process of\
+      \ elimination; just because the numbers are random doesn't mean they can be\
+      \ anything."
+- model: spoilr_hints.cannedhint
+  pk: 1190
+  fields:
+    puzzle: 170
+    description: OK, I've solved a bunch of subpuzzles. What do I do now?
+    order: 100.0
+    keywords: extract, extraction
+    content: "The crab's journey is not finished! Your answers may help you identify\
+      \ where the crab will live this year, as well as how to use it.\r\n\r\nNote\
+      \ that, in the past, the crab \"never cared how a previous owner used their\
+      \ house.\" But this year, it's time for a change."
+- model: spoilr_core.pseudoanswer
+  pk: 139
+  fields:
+    puzzle: 170
+    answer: AFTERLIFE
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 133
+  fields:
+    puzzle: 170
+    answer: BEAR NORTH
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 135
+  fields:
+    puzzle: 170
+    answer: BOAT DOCKS
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 137
+  fields:
+    puzzle: 170
+    answer: CHTHONIAN
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 141
+  fields:
+    puzzle: 170
+    answer: EAST COAST
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 143
+  fields:
+    puzzle: 170
+    answer: ESCORTING
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 138
+  fields:
+    puzzle: 170
+    answer: GO UPRIVER
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 136
+  fields:
+    puzzle: 170
+    answer: LAST FERRY
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 142
+  fields:
+    puzzle: 170
+    answer: NAUPATHIA
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 140
+  fields:
+    puzzle: 170
+    answer: TOSS A COIN
+    response: Yes!
+- model: spoilr_core.pseudoanswer
+  pk: 134
+  fields:
+    puzzle: 170
+    answer: TRADE BANK
+    response: Yes!

@@ -1,0 +1,69 @@
+- model: puzzles.puzzle
+  pk: 120
+  fields:
+    emoji: ':regional_indicator_v:'
+    deep: 100
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 120
+  fields:
+    external_id: 120
+    round: 9
+    answer: RELAXANTS
+    name: Why The Romans Never Invented Logic Puzzles
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 120
+    is_meta: false
+    slug: why-the-romans-never-invented-logic-puzzles
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 902
+  fields:
+    puzzle: 120
+    description: Solvers are stuck at the very beginning, and haven't figured out
+      the rules of the logic puzzle
+    order: 30.0
+    keywords: stuck, beginning, rules
+    content: The example grids teach you the rules of this variant logic puzzle.  The
+      I, V, and X in each row and column need to be dividable into legit Roman numerals
+      satisfying a property defined by the number for that row/column.  For example
+      IVII might divide as IV then II, or it might divide as I then VII, etc.  No
+      Roman numeral (segment a row/column is divided into) can occur more than once
+      in an entry.
+- model: spoilr_hints.cannedhint
+  pk: 903
+  fields:
+    puzzle: 120
+    description: Solvers approximately know the rules of the puzzle, but are stuck
+      on the logic puzzle part itself
+    order: 50.0
+    keywords: logic, hard
+    content: "To be unambiguous, the full rules of the puzzle are:\r\n-- Enter the\
+      \ letters I, V, X in the grid.\r\n-- Each row/column must be dividable into\
+      \ any number (including 1) of legit Roman numerals (e.g IX is ok but IIX is\
+      \ not), each <=39 (equivalent to only using I, V, and X) such that the product\
+      \ of those numbers equals the entry in the row/column.  1 is allowed.\r\n--\
+      \ No entry can have the same factor more than once (including 1).\r\n\r\nTips:\r\
+      \n-- There needn't be an unambiguous way to divide a row/column into Roman numerals.\
+      \  e.g., if 20=XIII, that could be X*II*I or X*I*II - the entry in the grid is\
+      \ the same.\r\n-- Approach each corner separately, generally starting with the\
+      \ shorter entries and smaller products.\r\n-- Look for numbers that have relatively\
+      \ few factorizations, especially with repeated prime factors (98=2*7^2, 32=2^5,\
+      \ etc.).  Because factors cannot be repeated, these are usually quite forced.\r\
+      \n-- If you can identify the lone I in an entry, the remainder becomes much\
+      \ more forced."
+- model: spoilr_hints.cannedhint
+  pk: 904
+  fields:
+    puzzle: 120
+    description: Solvers have completed the grid but are stuck on extraction
+    order: 100.0
+    keywords: extraction
+    content: Like in the example puzzle read the letters corresponding to the Vs in
+      the grid.  You are asked to "reparse" two strings to get an answer of length
+      9.  "Reparsing" means re-dividing a sequence of I, V, and X into legit Roman
+      numerals, just like you did in the logic puzzle.

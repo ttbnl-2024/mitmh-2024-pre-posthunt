@@ -1,0 +1,70 @@
+- model: puzzles.puzzle
+  pk: 417
+  fields:
+    emoji: ':oil:'
+    deep: 460
+- model: spoilr_core.puzzle
+  pk: 417
+  fields:
+    external_id: 417
+    round: 20
+    answer: ETHER
+    name: Oil Prices
+    main_credits: Josie Nelson and Maya Rotenberg
+    other_credits: ''
+    order: 417
+    is_meta: false
+    slug: oil-prices
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1467
+  fields:
+    puzzle: 417
+    description: Solvers don't recognize these processes imply redox equations.
+    order: 10.0
+    keywords: Theme, starting
+    content: Each of the production methods involves a reduction-oxidation (redox)
+      reaction which can be described with an equation.
+- model: spoilr_hints.cannedhint
+  pk: 1468
+  fields:
+    puzzle: 417
+    description: Solvers don't know how to find the specific redox equations.
+    order: 15.0
+    keywords: redox reaction, how to use redox reaction
+    content: Google will lead to the specific redox reaction indicated for each production
+      method.
+- model: spoilr_hints.cannedhint
+  pk: 1469
+  fields:
+    puzzle: 417
+    description: Solvers don't know what to do with the redox equations.
+    order: 20.0
+    keywords: solving equation
+    content: The mnemonic "OILRIG," which stands for "Oxidation is loss, reduction
+      is gain (referring to the transfer of electrons)" is hinted in the flavortext
+      along with an instruction to "reduce" the prices.  Thus, you'll need to determine
+      which element is reduced in each equation. There are online tools which will
+      do this for you.
+- model: spoilr_hints.cannedhint
+  pk: 1470
+  fields:
+    puzzle: 417
+    description: Solvers don't know what to do with the reduced elements they've found.
+    order: 25.0
+    keywords: element, price reduction
+    content: Each price should be reduced by an amount equal to the value of the atomic
+      number of the reduced element from that production method.
+- model: spoilr_hints.cannedhint
+  pk: 1471
+  fields:
+    puzzle: 417
+    description: Solvers don't see the final answer after making price reductions.
+    order: 30.0
+    keywords: final answer, extraction
+    content: The "reduced price" (obtained by subtracting the atomic number of the
+      reduced element from the original price) results in a number which can be used
+      to index into the reduced element.

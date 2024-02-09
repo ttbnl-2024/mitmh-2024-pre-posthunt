@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 496
+  fields:
+    emoji: ':person_bowing:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 496
+  fields:
+    external_id: 496
+    round: 21
+    answer: HALIMEDE
+    name: Sorry Not Sorry
+    main_credits: Jeremiahs Johnson, Jeremy Conner, Josie Nelson, Maya Rotenberg,
+      Sophia McManus, and Cookie McManus
+    other_credits: ''
+    order: 496
+    is_meta: false
+    slug: sorry-not-sorry
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1343
+  fields:
+    puzzle: 496
+    description: Solvers are having difficulty figuring out what is going in
+    order: 20.0
+    keywords: getting started, start
+    content: I'm sorry to inform you that apology videos are their own genre on YouTube,  (I'm
+      not sorry to inform you that identifying which apology videos are being referenced
+      in this video will be quite helpful.)
+- model: spoilr_hints.cannedhint
+  pk: 1345
+  fields:
+    puzzle: 496
+    description: Solvers don't know how to fill in the crossword
+    order: 40.0
+    keywords: crossword
+    content: I'm sorry to tell you that each apology very broadly clues one of the
+      crossword answers.  (I'm not sorry to tell you that each apology also embeds
+      a fairly direct indication of the the grid location for the answer being clued
+      by each apology. The sixth video, for example, talks about "get[ting] this one
+      across".)
+- model: spoilr_hints.cannedhint
+  pk: 1346
+  fields:
+    puzzle: 496
+    description: Solvers have filled in the crossword and are not sure how to extract.
+    order: 80.0
+    keywords: crossword, extract
+    content: I'm sorry to tell you that Sorry! (with an exclamation point) is a board
+      game whose board looks suspiciously like the crossword grid you have completed.  (I'm
+      not sorry to tell you that you need to be aware of what the special spaces in
+      Sorry! are.)
+- model: spoilr_hints.cannedhint
+  pk: 1347
+  fields:
+    puzzle: 496
+    description: Solvers understand the importance of Sorry! but still are not sure
+      how to extract.
+    order: 90.0
+    keywords: ''
+    content: I'm sorry to tell you that the Sorry! spaces of interest are the spaces
+      where the pawns start from and end at.  (I'm not sorry to tell you that you
+      will be reading the letters in those squares clockwise.)

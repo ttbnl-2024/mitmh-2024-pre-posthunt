@@ -1,0 +1,88 @@
+- model: puzzles.puzzle
+  pk: 588
+  fields:
+    emoji: ':clock:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 588
+  fields:
+    external_id: 588
+    round: 11
+    answer: MAILE VINES
+    name: "The Chrom\u00ADosome of a Highly Colored Fish's Eye"
+    main_credits: Nathaniel Barnett, Nick Boyer, and Paul Melamud
+    other_credits: ''
+    order: 588
+    is_meta: false
+    slug: the-chromosome-of-a-highly-colored-fishs-eye
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1523
+  fields:
+    puzzle: 588
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start
+    content: Start by identifying the images at the bottom of the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1524
+  fields:
+    puzzle: 588
+    description: Solvers have identified the cities, but have not made the connection
+      to city name changes.
+    order: 10.0
+    keywords: cities, clues
+    content: There are many more clues than pictures of cities - why might that be?
+      The first clue is a good place to start when looking for what these cities have
+      in common.
+- model: spoilr_hints.cannedhint
+  pk: 1525
+  fields:
+    puzzle: 588
+    description: Solvers have not found the mostly chronological ordering of the cities
+      given.
+    order: 20.0
+    keywords: ordering
+    content: Many of the first few clues have the word "today", and the clues are
+      not listed in alphabetical order. Think about why that is.
+- model: spoilr_hints.cannedhint
+  pk: 1526
+  fields:
+    puzzle: 588
+    description: Solvers do not know how to order the "How could I forget!" clues
+      or why they are out of order.
+    order: 30.0
+    keywords: ordering
+    content: One of the "How could I forget!" clues contain extra information.
+- model: spoilr_hints.cannedhint
+  pk: 1527
+  fields:
+    puzzle: 588
+    description: Solvers do not know how to extract.
+    order: 100.0
+    keywords: extraction
+    content: The flavor text contains a clue about how to extract. In addition, have
+      a look at the chronology of the clues - it's a little off, isn't it?
+- model: spoilr_hints.cannedhint
+  pk: 1591
+  fields:
+    puzzle: 588
+    description: Solvers are stuck on ordering
+    order: 100.1
+    keywords: ordering, stuck, tried everything
+    content: One of the name changes is misplaced in the timeline. Look for what should
+      be in that spot instead.
+- model: spoilr_hints.cannedhint
+  pk: 1592
+  fields:
+    puzzle: 588
+    description: Solvers are very stuck on extraction and want the strongest hint.
+    order: 100.2
+    keywords: wrong time, wrong order, extraction, index, stuck
+    content: You can form a chain by associating the clues that are out of time with
+      the city that should be there instead, with Tsaritsyn placed last as instructed.
+      That will give you the ordering. Index the number of name changes (not total
+      names) into the out-of-time city name.

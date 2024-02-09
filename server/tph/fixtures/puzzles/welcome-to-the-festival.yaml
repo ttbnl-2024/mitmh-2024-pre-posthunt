@@ -1,0 +1,46 @@
+- model: puzzles.puzzle
+  pk: 446
+  fields:
+    emoji: ':carousel_horse:'
+    deep: 480
+- model: spoilr_core.puzzle
+  pk: 446
+  fields:
+    external_id: 446
+    round: 20
+    answer: BEGINNING
+    name: Welcome to the Festival
+    main_credits: Mike Staley
+    other_credits: ''
+    order: 446
+    is_meta: false
+    slug: welcome-to-the-festival
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1113
+  fields:
+    puzzle: 446
+    description: getting started
+    order: 0.0
+    keywords: Start, locations
+    content: Each clue leads to a real world location.
+- model: spoilr_hints.cannedhint
+  pk: 1114
+  fields:
+    puzzle: 446
+    description: Solvers have found locations
+    order: 50.0
+    keywords: Fairs, maps, paths
+    content: The paths revealed in the clues map out to letters.
+- model: spoilr_hints.cannedhint
+  pk: 1115
+  fields:
+    puzzle: 446
+    description: solvers have found letters on maps
+    order: 100.0
+    keywords: sorting, ranking, answer word
+    content: The letters revealed can be sorted by the founding year of the fairs
+      they came from.

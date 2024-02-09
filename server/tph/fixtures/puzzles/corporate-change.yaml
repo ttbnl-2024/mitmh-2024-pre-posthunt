@@ -1,0 +1,85 @@
+- model: puzzles.puzzle
+  pk: 500
+  fields:
+    emoji: ':bird:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 500
+  fields:
+    external_id: 500
+    round: 10
+    answer: CHEMICAL X
+    name: Corporate Change
+    main_credits: Jeremy Conner
+    other_credits: ''
+    order: 500
+    is_meta: false
+    slug: corporate-change
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1255
+  fields:
+    puzzle: 500
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: ''
+    content: This is a word search -- start by finding words!
+- model: spoilr_hints.cannedhint
+  pk: 1256
+  fields:
+    puzzle: 500
+    description: Solvers are not sure what to do with the enumerations at the bottom
+    order: 10.0
+    keywords: ''
+    content: The enumerations won't (directly) match the words / phrases you find.
+      You'll need to change something first before they match.
+- model: spoilr_hints.cannedhint
+  pk: 1257
+  fields:
+    puzzle: 500
+    description: Solvers need an explicit hint to find birds
+    order: 50.0
+    keywords: ''
+    content: Each enumerated word or phrase contains a bird that has been replaced
+      with something.
+- model: spoilr_hints.cannedhint
+  pk: 1258
+  fields:
+    puzzle: 500
+    description: Solvers have found birds, but are stuck what to do next.
+    order: 75.0
+    keywords: ''
+    content: A common thing to do in wordsearches is to read the unused letters.
+- model: spoilr_hints.cannedhint
+  pk: 1259
+  fields:
+    puzzle: 500
+    description: Solvers have the numbers, but can't apply them to extraction
+    order: 99.0
+    keywords: ''
+    content: Birds are given in alphabetical order, so you'll need to reorder them.
+- model: spoilr_hints.cannedhint
+  pk: 1260
+  fields:
+    puzzle: 500
+    description: Solvers have the numbers, but can't apply them to extraction (2)
+    order: 99.9
+    keywords: ''
+    content: Index into the birds from left to right in column order.
+- model: spoilr_hints.cannedhint
+  pk: 1261
+  fields:
+    puzzle: 500
+    description: Solvers are stuck on CHEMICAL TWITTER
+    order: 100.0
+    keywords: ''
+    content: What's Twitter? I don't know that company...
+- model: spoilr_core.pseudoanswer
+  pk: 271
+  fields:
+    puzzle: 500
+    answer: CHEMICAL TWITTER
+    response: I don't know a "Twitter".

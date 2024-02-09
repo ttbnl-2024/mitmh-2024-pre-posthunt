@@ -1,0 +1,64 @@
+- model: puzzles.puzzle
+  pk: 493
+  fields:
+    emoji: ':question:'
+    deep: 19
+- model: spoilr_core.puzzle
+  pk: 493
+  fields:
+    external_id: 493
+    round: 22
+    answer: ELVIS
+    name: The Show Must Go On
+    main_credits: Haley Moore and Logan Pribyl
+    other_credits: ''
+    order: 493
+    is_meta: false
+    slug: the-show-must-go-on
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1454
+  fields:
+    puzzle: 493
+    description: Solvers don't know how to render the audio clips so they can be heard.
+    order: 10.0
+    keywords: can't hear, can't understand
+    content: Audio clips can be slowed down using online tools or free software such
+      as Audacity.
+- model: spoilr_hints.cannedhint
+  pk: 1455
+  fields:
+    puzzle: 493
+    description: Solvers haven't identified sources for the quotes
+    order: 20.0
+    keywords: quotes
+    content: Each quote can be linked to a specific name.
+- model: spoilr_hints.cannedhint
+  pk: 1456
+  fields:
+    puzzle: 493
+    description: Solvers haven't identified connection between names.
+    order: 30.0
+    keywords: names, connections
+    content: Each quote can be attributed to a person who shares their name with a
+      character played by Nicolas Cage.
+- model: spoilr_hints.cannedhint
+  pk: 1457
+  fields:
+    puzzle: 493
+    description: Solvers do not know how to re-order
+    order: 40.0
+    keywords: order, reorder, reordering
+    content: Answers should be reordered by the release date of the Nicolas Cage movie.
+- model: spoilr_hints.cannedhint
+  pk: 1458
+  fields:
+    puzzle: 493
+    description: Solvers don't know how to index
+    order: 50.0
+    keywords: extraction, indexing, index
+    content: The length of each audio clip is an exact number of seconds, which can
+      be used to index into its corresponding movie title.

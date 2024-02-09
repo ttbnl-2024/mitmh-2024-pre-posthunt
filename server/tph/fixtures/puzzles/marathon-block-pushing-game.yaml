@@ -1,0 +1,78 @@
+- model: puzzles.puzzle
+  pk: 730
+  fields:
+    emoji: ':question:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 730
+  fields:
+    external_id: 730
+    round: 16
+    answer: I SEE DEAD PEOPLE
+    name: Marathon Block Pushing Game
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 730
+    is_meta: false
+    slug: marathon-block-pushing-game
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1726
+  fields:
+    puzzle: 730
+    description: Solvers don't know how to start
+    order: 0.0
+    keywords: start
+    content: The aim of the game is to get every target square (the small black squares)
+      covered by a box. You can also look at the source code by clicking the "hack"
+      link in the menu screen.
+- model: spoilr_hints.cannedhint
+  pk: 1727
+  fields:
+    puzzle: 730
+    description: Solvers found source code, but don't know how to solve the Sokoban
+    order: 10.0
+    keywords: hack, source code
+    content: Try to break up the grid into smaller "rooms" with one entrance and two
+      exits. Analyze how the room functions. In what situations can you take each
+      exit?
+- model: spoilr_hints.cannedhint
+  pk: 1728
+  fields:
+    puzzle: 730
+    description: Solvers have roughly figured out how to solve the Sokoban, but not
+      computed the number of moves.
+    order: 30.0
+    keywords: solvable, exponential
+    content: Don't be afraid and compute the number of moves required to solve it!
+      The "debug" at the bottom of the source code tells you how many moves it takes
+      to reach certain checkpoints, which will make it easier to debug your computation.
+- model: spoilr_hints.cannedhint
+  pk: 1773
+  fields:
+    puzzle: 730
+    description: Solvers found the number of moves but don't know what to do with
+      it.
+    order: 50.0
+    keywords: '2210912041915111502011400'
+    content: How would you turn this into a string with an even number of digits without
+      changing the number?
+- model: spoilr_hints.cannedhint
+  pk: 1729
+  fields:
+    puzzle: 730
+    description: Solvers got the task message, but cannot solve the task
+    order: 70.0
+    keywords: build sokoban
+    content: Can you make a room with an entrance and exit so that in order to push
+      the box through the room, it blocks the entrance and you need to backtrack all
+      the way to the exit side of the room?
+- model: spoilr_core.pseudoanswer
+  pk: 315
+  fields:
+    puzzle: 730
+    answer: BUILD SOKOBAN
+    response: Refresh the puzzle for instructions.

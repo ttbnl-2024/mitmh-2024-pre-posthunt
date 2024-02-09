@@ -1,0 +1,148 @@
+- model: puzzles.puzzle
+  pk: 379
+  fields:
+    emoji: ':baseball:'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 379
+  fields:
+    external_id: 379
+    round: 5
+    answer: AB TEST
+    name: A Routine Cryptic
+    main_credits: Charles Steinhardt and Craig Kasper
+    other_credits: ''
+    order: 379
+    is_meta: false
+    slug: a-routine-cryptic
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 914
+  fields:
+    puzzle: 379
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: This puzzle's clues are cryptic clues. If you have never seen or solved
+      cryptic clues before, a guide to cryptic clues, such as the one at https://archive.nytimes.com/www.nytimes.com/premium/xword/cryptics.html,
+      will likely be helpful (And as with many mystery hunt puzzles, there is also
+      something else going on).
+- model: spoilr_hints.cannedhint
+  pk: 915
+  fields:
+    puzzle: 379
+    description: Solvers are having difficulty solving the cryptic clues
+    order: 20.0
+    keywords: stuck, cryptic, clues
+    content: If you are having difficulty solving the cryptic clues, it may not (just)
+      be because they are difficult clues.  As with many mystery hunt puzzles, there
+      is a twist, and in the case of this puzzle, the twist affects every clue.  If
+      you have possible clue answers, but you can't quite make the wordplay fit, this
+      is probably why.
+- model: spoilr_hints.cannedhint
+  pk: 916
+  fields:
+    puzzle: 379
+    description: Solvers are having difficulty solving the cryptic clues (2)
+    order: 20.1
+    keywords: stuck, cryptic, clues
+    content: In every across clue and every down clue, the wordplay includes one extraneous
+      letter.  You will need to account for this when solving the clues.
+- model: spoilr_hints.cannedhint
+  pk: 917
+  fields:
+    puzzle: 379
+    description: Solvers have solved a significant number of the clues, but are having
+      difficulty finishing the grid
+    order: 30.0
+    keywords: crossword
+    content: "If you're bogged down in the upper right (the most common place for\
+      \ our testers to get bogged down), 10-down is AVE MARIAS, with an extraneous\
+      \ T in the wordplay, and 16-across is ALL BUT A FEW with an extraneous C.  \r\
+      \n\r\nIf you are bogged down in other areas, please identify them specifically."
+- model: spoilr_hints.cannedhint
+  pk: 918
+  fields:
+    puzzle: 379
+    description: Solvers have completed the grid, but don't know what to do next
+    order: 40.0
+    keywords: grid, solved, aha
+    content: The extraneous letters in the wordplay for the across answers provide
+      one helpful message, and the extraneous letters in the wordplay for the down
+      answers provide another.
+- model: spoilr_hints.cannedhint
+  pk: 919
+  fields:
+    puzzle: 379
+    description: Solvers have completed the grid, and have the messages from the extraneous
+      letters, but don't know what to do next (1)
+    order: 60.0
+    keywords: grid, message
+    content: You will need to use the message in the extra letters from the wordplay
+      in the acrosses before you use the message from the downs.
+- model: spoilr_hints.cannedhint
+  pk: 920
+  fields:
+    puzzle: 379
+    description: Solvers have completed the grid, and have the messages from the extraneous
+      letters, but don't know what to do next (2)
+    order: 60.1
+    keywords: grid, diamond
+    content: The message in the extraneous letters from the wordplay in the Across
+      answers clues "diamond" Where might you go about finding a diamond here?  And
+      given the clue pointed at by the message, what kind of diamond would you be
+      looking for?
+- model: spoilr_hints.cannedhint
+  pk: 921
+  fields:
+    puzzle: 379
+    description: Solvers have completed the grid, and have the messages from the extraneous
+      letters, but don't know what to do next (3)
+    order: 60.3
+    keywords: grid, diamond
+    content: Treat the completed grid as a baseball diamond, with the circled cell
+      in the bottom row of the grid as home plate.
+- model: spoilr_hints.cannedhint
+  pk: 922
+  fields:
+    puzzle: 379
+    description: Solvers have completed the grid, and have the messages from the extraneous
+      letters, but don't know what to do next (4)
+    order: 60.4
+    keywords: grid, diamond, naughty nineties
+    content: The Abbott and Costello movie "The Naughty Nineties" which is mentioned
+      in the message from the extraneous wordplay letters in the Down clues, is most
+      famous for one specific routine.  That routine is important for interpreting
+      what you eventually get from the message from the letters from Across clues.
+- model: spoilr_hints.cannedhint
+  pk: 923
+  fields:
+    puzzle: 379
+    description: The solvers have identified the Who's On First routine and the players,
+      but do not know how to extract (1)
+    order: 80.0
+    keywords: Who's On First, extraction, positions
+    content: Once you have found the "Who's on First" routine and the six player names
+      in the diamond shape in the grid, you are ready to extract.  Start by naming
+      the positions associated with the player names.
+- model: spoilr_hints.cannedhint
+  pk: 1024
+  fields:
+    puzzle: 379
+    description: The solvers have identified the Who's On First routine and the players,
+      but do not know how to extract (2)
+    order: 80.1
+    keywords: Who's On First, extraction, positions
+    content: While you might be tempted to use the fact that positions in baseball
+      have canonical numbers, what you need to extract the answer is the names of
+      the positions.  No other baseball knowledge is helpful; however, remembering
+      the type of puzzle this is will be.
+- model: spoilr_core.pseudoanswer
+  pk: 121
+  fields:
+    puzzle: 379
+    answer: absess
+    response: We would like you to know that your short stop is out of position.

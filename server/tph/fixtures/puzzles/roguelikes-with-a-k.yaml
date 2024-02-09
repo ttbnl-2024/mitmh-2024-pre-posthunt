@@ -1,0 +1,84 @@
+- model: puzzles.puzzle
+  pk: 188
+  fields:
+    emoji: ':video_game:'
+    deep: 1200
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 188
+  fields:
+    external_id: 188
+    round: 8
+    answer: STRONTIUM
+    name: Roguelikes with a K
+    main_credits: Linus Hamilton
+    other_credits: ''
+    order: 188
+    is_meta: false
+    slug: roguelikes-with-a-k
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1299
+  fields:
+    puzzle: 188
+    description: Solvers are having trouble beating one or more games.
+    order: 0.0
+    keywords: games, hard
+    content: "<<Depending on which game(s) they're stuck on, here are some likely\
+      \ hints:>>\r\n\r\nAnt Dueler: The easiest path is probably going all the way\
+      \ to the right before going down. If a stream of bullets is aimed directly at\
+      \ you, you can move very slowly and still dodge all of them. If all else fails,\
+      \ it's possible, though a bit harder, to solve the puzzle without beating all\
+      \ 5 games.\r\n\r\nAre We Necro or Are We Dancer, level 2 passcode: No, you're\
+      \ not missing a piece of paper (assuming you found all 3, including the one\
+      \ that's only hinting the rhythm and not related to the passcode.) Think stupid.\r\
+      \n\r\nOnly Humans Will Survive: Troll enemy: Whenever you press the R key, the\
+      \ game restarts. Can you somehow solve the captcha without pressing your R key?\r\
+      \nOnly Humans Will Survive: Ghost enemy: Think literal."
+- model: spoilr_hints.cannedhint
+  pk: 1300
+  fields:
+    puzzle: 188
+    description: Solvers beat the games, but don't know what to do with the capitalized
+      words etc.
+    order: 80.0
+    keywords: beat games, nine, interpretation, high-value, roguelike, factors
+    content: 'I''ll quote from the always-helpful "Have you tried..." document: "Have
+      you tried... typing it into a search engine?"'
+- model: spoilr_hints.cannedhint
+  pk: 1301
+  fields:
+    puzzle: 188
+    description: Solvers know to use the Berlin Interpretation, but dunno how to extract.
+    order: 90.0
+    keywords: extraction
+    content: When you beat each game, you'll be greeted with a message containing
+      one EMPHASIZED word, as well as one other bit of info that should help with
+      extraction. You don't have to reorder the factors.
+- model: spoilr_hints.cannedhint
+  pk: 1342
+  fields:
+    puzzle: 188
+    description: Solvers know to use the Berlin Interpretation, but dunno how to extract
+      (2)
+    order: 99.0
+    keywords: extraction
+    content: Five games, five emphasized words pointing to a specific Interpretation,
+      and five numbers with a specific relationship to each other should point you
+      in the direction of a fairly common (by Mystery Hunt standards) encoding to
+      apply nine times.
+- model: spoilr_hints.cannedhint
+  pk: 1408
+  fields:
+    puzzle: 188
+    description: Solvers have the Berlin Interpretation table filled out, but are
+      not sure about Complexity and Modality.
+    order: 99.1
+    keywords: Berlin Interpretation, unsure, check work
+    content: Complexity is unfortunately hard to convey in a small game. We've done
+      our best with complicated rules that need a long explanation guide. In regards
+      to the modality of Are We Necro or Are We Dancer, think about how you entered
+      the passcode.

@@ -1,0 +1,86 @@
+- model: puzzles.puzzle
+  pk: 643
+  fields:
+    emoji: ':seedling:'
+    deep: 120
+- model: spoilr_core.puzzle
+  pk: 643
+  fields:
+    external_id: 643
+    round: 20
+    answer: CREATION
+    name: Return to Sender
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 643
+    is_meta: false
+    slug: return-to-sender
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 771
+  fields:
+    puzzle: 643
+    description: Solvers are stuck on getting started.
+    order: 5.0
+    keywords: start
+    content: Each of the plants ordered is the state flower for one of the customers.
+- model: spoilr_hints.cannedhint
+  pk: 772
+  fields:
+    puzzle: 643
+    description: Solvers recognize plants match with states, but don't know what to
+      do with them.
+    order: 10.0
+    keywords: matched, don't match
+    content: Create a chain of customers going from the customer who received a particular
+      plant to the customer who would have ordered it, based on the state where they
+      live.
+- model: spoilr_hints.cannedhint
+  pk: 774
+  fields:
+    puzzle: 643
+    description: Solvers are confused where the chain should start/end, or have the
+      order backwards.
+    order: 11.0
+    keywords: chain beginning, direction
+    content: A chain starting with the customer from Idaho and ending with the customer
+      from Wisconsin will be the most useful.
+- model: spoilr_hints.cannedhint
+  pk: 773
+  fields:
+    puzzle: 643
+    description: Solvers have found the chain but do not see the acrostic message
+      in it.
+    order: 15.0
+    keywords: chain completed
+    content: Reading the first letters of the customer names down the chain reveals
+      a clue.
+- model: spoilr_hints.cannedhint
+  pk: 775
+  fields:
+    puzzle: 643
+    description: Solvers don't understand the acrostic message
+    order: 20.0
+    keywords: USDA plant zone, acrostic
+    content: There is a searchable map for USDA plant zones at https://planthardiness.ars.usda.gov/
+- model: spoilr_hints.cannedhint
+  pk: 776
+  fields:
+    puzzle: 643
+    description: Solvers don't know what to do with plant zones
+    order: 25.0
+    keywords: plant zones, cities, ZIP codes
+    content: Entering the ZIP code into the USDA plant hardiness zone map will give
+      you the name of the city and its plant zone number.
+- model: spoilr_hints.cannedhint
+  pk: 777
+  fields:
+    puzzle: 643
+    description: Solvers don't know how to extract.
+    order: 30.0
+    keywords: extraction, indexing, index
+    content: Indexing into the city names by their plant zone number reveals a final
+      instruction.

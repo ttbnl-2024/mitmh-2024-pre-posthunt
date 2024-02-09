@@ -1,0 +1,142 @@
+- model: puzzles.puzzle
+  pk: 138
+  fields:
+    emoji: ':blossom::woman_zombie:'
+    deep: 8
+    deep_key: newport-meta
+- model: spoilr_core.puzzle
+  pk: 138
+  fields:
+    external_id: 138
+    round: 16
+    answer: PALM A GRANITE
+    name: Persephone
+    main_credits: Craig Kasper
+    order: 138
+    is_meta: true
+    slug: persephone
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 16
+  fields:
+    puzzle: 138
+    description: Solvers are stuck on getting started.
+    order: 5.0
+    keywords: getting started, start
+    content: The flavortext talks about two sides in "tendril-to-limb" combat.  What
+      non-mythical combatants, which are plausibly appropriate for each of Persephone's
+      six-month periods of residency, might be facing off versus each other here?
+- model: spoilr_hints.cannedhint
+  pk: 17
+  fields:
+    puzzle: 138
+    description: Solvers haven't really gotten started, but think they should put
+      answers in the grid.
+    order: 10.0
+    keywords: getting started, start
+    content: If you have answers for half or more of this meta's feeder puzzles, you
+      may have noticed that some of the answers are too long to fit in the provided
+      grid.  Are there any parts of the answers which you might consider squeezing
+      into a single grid cell?
+- model: spoilr_hints.cannedhint
+  pk: 18
+  fields:
+    puzzle: 138
+    description: Solvers asked for a stronger hint on how to get started.
+    order: 10.1
+    keywords: ''
+    content: If you examine your answers closely, you may find things associated with
+      one side or the other's combatants; placing these items into a single grid cell
+      will allow all feeder puzzle answers, including the answers which are otherwise
+      too long, to fit within the provided grid.
+- model: spoilr_hints.cannedhint
+  pk: 19
+  fields:
+    puzzle: 138
+    description: The solvers have tried placing the answers into the grid with rebus
+      squares.
+    order: 30.0
+    keywords: Too many answers, fitting answers into grid
+    content: There are twice as many answers as there are rows in the grid, which
+      means that you can't place the answers in the grid without the answers being
+      in conflict with each other.  This is because the answers **are** in conflict
+      with each other.  In each row, you will have two "conflicting" answers, just
+      as the flavortext describes it.
+- model: spoilr_hints.cannedhint
+  pk: 20
+  fields:
+    puzzle: 138
+    description: The solvers have not yet figured out the grid ordering.
+    order: 40.0
+    keywords: Ordering
+    content: Of the twelve answers, six of each of belong to each side, with each
+      side associated with a specific six-month period.  The association between the
+      each warring side and their six-month period may be stronger than you realized.
+- model: spoilr_hints.cannedhint
+  pk: 21
+  fields:
+    puzzle: 138
+    description: The solvers have asked for an even stronger hint on the grid ordering.
+    order: 40.1
+    keywords: Ordering
+    content: Take another look at the puzzle titles.  All twelve of them have something
+      in common, in one way or another.
+- model: spoilr_hints.cannedhint
+  pk: 22
+  fields:
+    puzzle: 138
+    description: The solvers have asked you to tell them what's going on with the
+      grid ordering.
+    order: 40.2
+    keywords: Ordering
+    content: The provided diagram illustrates the cyclical nature of time.  Keeping
+      that in mind, as well as remember where and how Persephone divides her time,
+      should enable you to associate each of your answers with a row of the diagram.
+- model: spoilr_hints.cannedhint
+  pk: 23
+  fields:
+    puzzle: 138
+    description: Solvers are trying to figure out how to enter conflicting answers.
+    order: 60.0
+    keywords: fitting answers into grid
+    content: Once you have each answer associated with a row in the grid, you can
+      start to deal with their conflicts.  Place the answers in the provided grid,
+      entering from their respective sides and heading towards each other, and remembering
+      to squeeze the RIP inscriptions and the plant parts into a single grid cell
+      when you do.
+- model: spoilr_hints.cannedhint
+  pk: 24
+  fields:
+    puzzle: 138
+    description: Solvers are trying to figure out how to enter conflicting answers
+      (2).
+    order: 60.1
+    keywords: fitting answers into grid
+    content: "If you've never played the Plants Vs. Zombies games, it might help you\
+      \ to know that:\r\n\r\nPlants enter from the left side of the grid --->\r\n\
+      and\r\n<--- .thgir eht morf retne seibmoZ"
+- model: spoilr_hints.cannedhint
+  pk: 25
+  fields:
+    puzzle: 138
+    description: Solvers are stuck on extraction.
+    order: 80.0
+    keywords: extraction
+    content: Once you have the warring answers entered into the grid in the appropriate
+      month order and direction, there will be a letter from the other answer in every
+      grid cell with a plant part, and there will also be a letter from the other
+      answer in every grid cell with an RIP inscription.  The extraction uses these
+      letters from the other answers.
+- model: spoilr_hints.cannedhint
+  pk: 26
+  fields:
+    puzzle: 138
+    description: Solvers are stuck on extraction (2).
+    order: 80.1
+    keywords: ordering, extraction
+    content: Read the letters from the other answer, in the cells with the plant parts
+      and RIP inscriptions, in Spring-Summer-Fall-Winter order - that is, chronologically
+      from March to February.  For each month, take the letter from the other answer,
+      not the answer associated from that month - that is, take the letters from the
+      squares with the plant parts for the spring and summer months, and letters associated
+      with the RIP inscriptions for the fall and winter months.

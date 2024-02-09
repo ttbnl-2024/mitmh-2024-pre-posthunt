@@ -1,0 +1,80 @@
+- model: puzzles.puzzle
+  pk: 568
+  fields:
+    emoji: ':1234:'
+    deep: 875
+- model: spoilr_core.puzzle
+  pk: 568
+  fields:
+    external_id: 568
+    round: 19
+    answer: COBBLESTONES
+    name: "Transyl\u00ADvanian Math"
+    main_credits: The Dan Miller
+    other_credits: ''
+    order: 568
+    is_meta: false
+    slug: transylvanian-math
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1109
+  fields:
+    puzzle: 568
+    description: Solvers are stuck starting
+    order: 1.0
+    keywords: start
+    content: Can you think of a Transylvanian that likes numbers?
+- model: spoilr_hints.cannedhint
+  pk: 1110
+  fields:
+    puzzle: 568
+    description: Solvers know it's related to the count but are stuck moving further
+      (hammer-y hint)
+    order: 5.0
+    keywords: count record
+    content: This puzzle is related to the 1975 album The Count Counts.
+- model: spoilr_hints.cannedhint
+  pk: 1111
+  fields:
+    puzzle: 568
+    description: Solvers have identified most / all of the songs but are stuck on
+      what to do
+    order: 10.0
+    keywords: indexing
+    content: Each song has one or more additional numbers - index those into the song's
+      title.
+- model: spoilr_hints.cannedhint
+  pk: 1112
+  fields:
+    puzzle: 568
+    description: Solvers got the first clue (POSITIONS OF ADDED NUMBERS) but are stuck
+      moving forward
+    order: 20.0
+    keywords: extraction, positions
+    content: Find the positions of where the added numbers appear in each song. Use
+      a common cipher to extract.
+- model: spoilr_hints.cannedhint
+  pk: 1132
+  fields:
+    puzzle: 568
+    description: Solvers don't know how to interpret the position of the added numbers
+      (stronger hint)
+    order: 20.1
+    keywords: extraction, position, cipher
+    content: The positions of the added number are between 1 and 26. What cipher is
+      that?
+- model: spoilr_core.pseudoanswer
+  pk: 147
+  fields:
+    puzzle: 568
+    answer: POSITIONSTHATHAVEADDEDNUMBERS
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 148
+  fields:
+    puzzle: 568
+    answer: ROCKSMAKINGUPOLDSTREETSTWELVE
+    response: Keep going!

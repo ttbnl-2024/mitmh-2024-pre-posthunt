@@ -1,0 +1,59 @@
+- model: puzzles.puzzle
+  pk: 334
+  fields:
+    emoji: ':thermometer:'
+    deep: 5
+    deep_key: mercury-r1-meta
+- model: spoilr_core.puzzle
+  pk: 334
+  fields:
+    external_id: 334
+    round: 21
+    answer: CALL HIM FREDDIE
+    name: Mercury
+    main_credits: Charles Steinhardt, Jeremiahs Johnson, and Jeremy Horwitz
+    other_credits: ''
+    order: 334
+    is_meta: true
+    slug: mercury
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1472
+  fields:
+    puzzle: 334
+    description: Starting Hint
+    order: 1.0
+    keywords: start, first step
+    content: Each of the answers in the puzzle can be associated with a planet.  Each
+      of the individual puzzles in this round has two key words that also can be associated
+      with these planets (via a different method).
+- model: spoilr_hints.cannedhint
+  pk: 1473
+  fields:
+    puzzle: 334
+    description: Solvers don't understand the association of the keywords
+    order: 2.0
+    keywords: planet, feeder puzzles
+    content: The association with the individual puzzles has to do with the Planets
+      suite by Gustav Holst.
+- model: spoilr_hints.cannedhint
+  pk: 1504
+  fields:
+    puzzle: 334
+    description: Solvers don't know how to find the keywords.
+    order: 2.5
+    keywords: Holst, planets, feeders
+    content: Pay close attention to the body (text or audio) of the feeder puzzles.
+- model: spoilr_hints.cannedhint
+  pk: 1474
+  fields:
+    puzzle: 334
+    description: Extraction Specifics
+    order: 3.0
+    keywords: extraction
+    content: Place the planets in order of Gustav's suite and use the key words from
+      their puzzles to choose an index based on the same ordering.  Final answer is
+      three words.

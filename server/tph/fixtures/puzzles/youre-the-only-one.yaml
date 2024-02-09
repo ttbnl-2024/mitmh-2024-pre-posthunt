@@ -1,0 +1,56 @@
+- model: puzzles.puzzle
+  pk: 337
+  fields:
+    emoji: ':pickup_truck:'
+    deep: 740
+- model: spoilr_core.puzzle
+  pk: 337
+  fields:
+    external_id: 337
+    round: 20
+    answer: SAMIAN
+    name: You're the Only One
+    main_credits: Linus Hamilton
+    other_credits: ''
+    order: 337
+    is_meta: false
+    slug: youre-the-only-one
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 391
+  fields:
+    puzzle: 337
+    description: The solvers have not solved any clues
+    order: 0.0
+    keywords: begin, start
+    content: '"Are you from Tennessee? Because..."'
+- model: spoilr_hints.cannedhint
+  pk: 393
+  fields:
+    puzzle: 337
+    description: The solvers have solved clues from only the first batch (states)
+      or only the second batch (countries) and are stuck on the other batch.
+    order: 50.0
+    keywords: first, second, states, countries
+    content: Not all of the pick-up lines are about <<states/countries>>. You'll have
+      to <<widen your search area/look closer to home>>.
+- model: spoilr_hints.cannedhint
+  pk: 392
+  fields:
+    puzzle: 337
+    description: The solvers solved all/most of the clues but are having trouble squinting
+      the cluephrase.
+    order: 100.0
+    keywords: extraction, cluephrase
+    content: "<<Help the solvers identify any errors or confirm their partial work.>>\r\
+      \n\r\nThe final answer is a six-letter word directly defined by the cluephrase.\
+      \ It's not a do-it-again."
+- model: spoilr_core.pseudoanswer
+  pk: 303
+  fields:
+    puzzle: 337
+    answer: SAMIOT
+    response: Please give us the other name for someone/something FROM SAMOS

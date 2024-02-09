@@ -1,0 +1,25 @@
+name: deploy-registration-staging
+
+on:
+  workflow_dispatch:
+
+concurrency: deploy-registration-staging
+
+jobs:
+  deploy-registration-staging:
+    uses: ./.github/workflows/deploy.yml
+    with:
+      DEPLOY_USER: registration
+      DEPLOY_HOST: registration-staging.mitmh2024.secretfakewebsite.com
+      SERVER_ENVIRONMENT: staging
+      REGISTRATION_HOST: registration-staging.mitmh2024.secretfakewebsite.com
+      BUILD_SITE: reg
+      EXTRA_ENV: |-
+        ADDITIONAL_BASICAUTH=mitmh FIXME
+        SKIP_LARGE_DEPENDENCIES=1
+        # serve HTTP on 172.17.0.1:31080
+        SERVER_HTTP_BIND_PREFIX=172.17.0.1:31
+        GOOGLE_ANALYTICS_ID=FIXME
+        EMAIL_USER_DOMAIN=mitmh2024.com
+        CDN_REGISTRATION_HOST=cdn.registration-staging.mitmh2024.secretfakewebsite.com
+    secrets: inherit

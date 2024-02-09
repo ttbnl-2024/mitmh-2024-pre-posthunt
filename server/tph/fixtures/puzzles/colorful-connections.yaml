@@ -1,0 +1,74 @@
+- model: puzzles.puzzle
+  pk: 600
+  fields:
+    emoji: ':red_circle:'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 600
+  fields:
+    external_id: 600
+    round: 14
+    answer: EASER
+    name: Colorful Connections
+    main_credits: Charles Steinhardt and Craig Kasper
+    other_credits: ''
+    order: 600
+    is_meta: false
+    slug: colorful-connections
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1034
+  fields:
+    puzzle: 600
+    description: Solvers have answered some clues, but are stuck on getting started
+    order: 20.0
+    keywords: start, begin, first step, solving clues
+    content: '[[Check their answered clues]] Good work so far! Can you draw any (colorful)
+      connections between your answers?'
+- model: spoilr_hints.cannedhint
+  pk: 1035
+  fields:
+    puzzle: 600
+    description: Solvers want an explicit hint on the connections
+    order: 50.0
+    keywords: connection
+    content: One letter in each answer can be changed to make a word that is part
+      of a phrase with a color.
+- model: spoilr_hints.cannedhint
+  pk: 1036
+  fields:
+    puzzle: 600
+    description: Solvers want an even more explicit hint on the connections
+    order: 51.0
+    keywords: connection, change
+    content: 'Your altered answers can be prefixed with one of 2 colors: red or black.'
+- model: spoilr_hints.cannedhint
+  pk: 1037
+  fields:
+    puzzle: 600
+    description: Solvers are confused on what to do with the colors and grid
+    order: 80.0
+    keywords: grid
+    content: The grid clues a specific game that is played using red and black tokens.
+      The changed letters tell you how this game proceeded, with alternating turns.
+- model: spoilr_hints.cannedhint
+  pk: 1038
+  fields:
+    puzzle: 600
+    description: Solvers want explicit guidance on the game
+    order: 90.0
+    keywords: game
+    content: The game is Connect Four. The original letters are A-G, for the columns
+      in the Connect Four board.
+- model: spoilr_hints.cannedhint
+  pk: 1039
+  fields:
+    puzzle: 600
+    description: Solvers are confused on extraction
+    order: 100.0
+    keywords: filled grid, extraction
+    content: Once the game ends, take the new letters from the pieces that are a part
+      of the win.

@@ -1,0 +1,114 @@
+- model: puzzles.puzzle
+  pk: 12
+  fields:
+    emoji: ':skull:'
+    deep: 850
+- model: spoilr_core.puzzle
+  pk: 12
+  fields:
+    external_id: 12
+    round: 12
+    answer: SOCORRO DOVE
+    name: Long Strange Tour
+    main_credits: Jeremiahs Johnson
+    other_credits: ''
+    order: 12
+    is_meta: false
+    slug: long-strange-tour
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1383
+  fields:
+    puzzle: 12
+    description: Solvers have not identified that the music and images relate to Dead
+      & Co
+    order: 0.0
+    keywords: start, getting started, starting
+    content: The music and images relate to one specific band that is alluded to by
+      the title of the puzzle and who gave their final tour last year.
+- model: spoilr_hints.cannedhint
+  pk: 1384
+  fields:
+    puzzle: 12
+    description: Solvers have not found a canonical source for the poster images
+    order: 10.0
+    keywords: images, pictures, posters
+    content: '"Drop of Posters" in the flavor text is a clue to a site where you can
+      find the larger images that all of the small cropped images are taken from.'
+- model: spoilr_hints.cannedhint
+  pk: 1388
+  fields:
+    puzzle: 12
+    description: Solvers have ID'd all the posters, but are unsure about where some
+      of the borders should be for alignment with the overlay
+    order: 20.0
+    keywords: borders, posters, alignment
+    content: "The rectangular frame with numbers should be aligned with the show posters\
+      \ based on the borders of the physical, printed 18\u201Dx24\u201D ratio posters\
+      \ (some have ink right to the border and some don\u2019t).  Here's some clarification\
+      \ around the borders compared with the ones found at posterdrops.com\r\n\r\n\
+      Boulder, CO - The white margin is part of the physical poster.  The wooden background\
+      \ is NOT.\r\nBristow, VA - The white margins on the physical poster are the\
+      \ same width on all four sides.  In the posterdrops version, the left and right\
+      \ margins are wider than they are in the physical poster\r\nCincinnati, OH -\
+      \ The white margin is NOT part of the physical poster\r\nGeorge, WA - The white\
+      \ margin is NOT part of the physical poster\r\nSaratoga Springs, NY - The purple\
+      \ background is NOT part of the physical poster\r\n\r\nThe margins on all the\
+      \ other posters are part of the physical posters."
+- model: spoilr_hints.cannedhint
+  pk: 1389
+  fields:
+    puzzle: 12
+    description: Solvers are struggling with song ID, and having a hard time making
+      out the lyrics
+    order: 30.0
+    keywords: song identification, id, lyrics
+    content: "[Send the relevant lyrics for any songs they are having trouble IDing,\
+      \ along with the numbers for those songs]\r\n\r\n1. \"Daddy made whiskey and\
+      \ he made it well.\"\r\n2. \"Well she went up to her room, and she sang a fateful\
+      \ tune.\"\r\n3. \"Make good money / five dollars a day / made any more / I might\
+      \ move away.\"\r\n4. (no lyrics)\r\n5. \"Look around.\"\r\n6. \"Got two reasons\
+      \ why I cry away each lonely night.\"\r\n7. \"Don't wanna be treated this a-way.\"\
+      \r\n8. \"I was blind all the time I was learning to see.\"\r\n9. \"Jock-a-mo\
+      \ feeno a na nay / Jack-a-mo fee na nay.\" (various spellings)\r\n10. \"Darkness,\
+      \ got to give.\"\r\n11. \"One man gathers what another man spills.\"\r\n12.\
+      \ \"His job is to shed light, but not to master.\"\r\n13. \"If the thunder don't\
+      \ get you then the lightning will.\"\r\n14. \"Lately it occurs to me / what\
+      \ a long strange trip it's been.\""
+- model: spoilr_hints.cannedhint
+  pk: 1391
+  fields:
+    puzzle: 12
+    description: Solvers have overlaid the posters to extract letters, but are unsure
+      about ordering.  They have not gotten `ROTBYSETLISTFM`
+    order: 40.0
+    keywords: ordering, posters, extraction
+    content: The letters extracted from the poster should be ordered according to
+      the poster snippets shown in the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1392
+  fields:
+    puzzle: 12
+    description: Solvers are unsure how to proceed after getting ROTBYSETLISTFM
+    order: 90.0
+    keywords: ROTBYSETLISTFM
+    content: You will need to rotate the letters extracted from the poster forward
+      using values extracted from Setlist.fm. Look at the dates and songs that you've
+      identified.
+- model: spoilr_hints.cannedhint
+  pk: 1394
+  fields:
+    puzzle: 12
+    description: Solvers are unsure what ordering to use for the final extraction
+    order: 100.0
+    keywords: ordering, extraction
+    content: Use chronological order for the final extraction.
+- model: spoilr_core.pseudoanswer
+  pk: 36
+  fields:
+    puzzle: 12
+    answer: ROTBYSETLISTFM
+    response: Keep truckin' on!

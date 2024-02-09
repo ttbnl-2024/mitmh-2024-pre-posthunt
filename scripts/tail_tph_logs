@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Use ./scripts/tail_tph_logs to print out docker logs.
+# The -n argument lets you specify the number of lines to look back on start
+# The -c/--celery argument lets you include celery logs.
+
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+source scripts/docker_compose
+
+lines=50
+extralogs=""
+
+while :; do
+  case $1 in
+    -n)
+      lines=$2
+      shift
+      ;;
+    -c|--celery)
+      extralogs="/srv/logs/celery.stdout.log /srv/logs/celery.stderr.log"
+      ;;
+    *) break
+  esac
+  shift
+done
+
+# Show caddy logs with updates. Optional argument to set number of lines to look back on start.
+docker_compose exec tph sh -c "tail -f -n \"$lines\" /srv/logs/nextjs.log /srv/logs/django*.log* /srv/logs/request.log /srv/logs/uvicorn*.log* /srv/logs/periodic-restart.log $extralogs"

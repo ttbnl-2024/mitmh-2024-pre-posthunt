@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""
+This script prunes docker containers and images from old deployed branches.
+"""
+import os
+import subprocess
+
+# Our branch server is somewhat beefy. A branch frontend takes ~200 MB RAM.
+MAX_BRANCHES = int(os.getenv("DEPLOY_MAX_BRANCHES", "5"))
+
+
+def get_frontend_container_info():
+    keys = [
+        "Names",
+        "Image",
+        "CreatedAt",
+        "Labels",
+    ]
+
+    p = subprocess.run(
+        [
+            "docker",
+            "container",
+            "ls",
+            "--format",
+            "\t".join("{{." + key + "}}" for key in keys),
+            "--filter",
+            "label=com.tph.is_test_branch",
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+
+    # parse out each item
+    objs = []
+    for line in p.stdout.strip().split("\n"):
+        values = line.split("\t")
+        assert len(keys) == len(values)
+        obj = {}
+        for key, value in zip(keys, values, strict=True):
+            obj[key] = value
+        objs.append(obj)
+    return objs
+
+
+def prune(objs):
+    if len(objs) > MAX_BRANCHES:
+        # stop and remove earliest deployed branch
+        obj = min(objs, key=lambda info: info["CreatedAt"])
+        print(f"Attempting to stop {obj['Names']}")
+        labels = {}
+        for kv in obj["Labels"].split(","):
+            if "=" in kv:
+                k, v = kv.split("=", 1)
+                labels[k] = v
+        cwd = labels["com.docker.compose.project.working_dir"]
+
+        # This is fine -- it only runs in branch frontends, which have their
+        # own directory names.
+        # stop containers
+        subprocess.run(["docker", "compose", "down", "--volumes"], cwd=cwd, check=True)
+        print(f"Stopped {obj['Names']}")
+
+    # remove all images not in use
+    # allowed to fail, no need to check return code
+    subprocess.run(["docker", "image", "prune", "-af"], check=False)
+    subprocess.run(["docker", "network", "prune", "-f"], check=False)
+
+
+def main():
+    objs = get_frontend_container_info()
+    print(f"{len(objs)} running branches:")
+    for o in objs:
+        print(f"* {o['Names']}")
+    while len(objs) > MAX_BRANCHES:
+        prune(objs)
+        objs = get_frontend_container_info()
+
+
+if __name__ == "__main__":
+    main()

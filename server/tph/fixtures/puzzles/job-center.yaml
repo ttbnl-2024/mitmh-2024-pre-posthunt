@@ -1,0 +1,46 @@
+- model: puzzles.puzzle
+  pk: 255
+  fields:
+    emoji: ':office_worker:'
+    deep: 520
+- model: spoilr_core.puzzle
+  pk: 255
+  fields:
+    external_id: 255
+    round: 20
+    answer: EIDOLON
+    name: Job Center
+    main_credits: Mike Staley
+    other_credits: ''
+    order: 255
+    is_meta: false
+    slug: job-center
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 415
+  fields:
+    puzzle: 255
+    description: help getting started
+    order: 0.0
+    keywords: start
+    content: Each job has been portrayed by one of the listed actors in a film.
+- model: spoilr_hints.cannedhint
+  pk: 416
+  fields:
+    puzzle: 255
+    description: After the solvers have found a matching film for each actor job combination.
+    order: 50.0
+    keywords: entering titles
+    content: One film title for each actor job combination should fit into one of
+      the sets of blanks.
+- model: spoilr_hints.cannedhint
+  pk: 417
+  fields:
+    puzzle: 255
+    description: After all of the film titles have been fit into sets of blanks.
+    order: 100.0
+    keywords: extraction
+    content: Taking the highlighted letter from each title in order reveals the answer.

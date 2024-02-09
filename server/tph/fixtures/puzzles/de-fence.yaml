@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 593
+  fields:
+    emoji: ':sword:'
+    deep: 1
+    deep_key: hydra-LRR
+- model: spoilr_core.puzzle
+  pk: 593
+  fields:
+    external_id: 593
+    round: 13
+    answer: HONOURABLE
+    name: De Fence
+    main_credits: Neal Tibrewala and Todd Becker
+    other_credits: ''
+    order: 593
+    is_meta: false
+    slug: de-fence
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 515
+  fields:
+    puzzle: 593
+    description: Stuck on getting started
+    order: 0.0
+    keywords: start, started
+    content: Do some of the emojis remind you of something you might have seen?
+- model: spoilr_hints.cannedhint
+  pk: 516
+  fields:
+    puzzle: 593
+    description: Solvers do not recognize the logic puzzle type
+    order: 50.0
+    keywords: logic puzzle, grid, dots, fence, fences, border block, border, block
+    content: If you have a block, the title might help steer you to this type of logic
+      puzzle
+- model: spoilr_hints.cannedhint
+  pk: 517
+  fields:
+    puzzle: 593
+    description: solvers are working on the border block but are stuck
+    order: 70.0
+    keywords: numbers, making borders, drawing in the grid, fencing the grid, areas
+    content: Some of the best stories have the best places and things in them.
+- model: spoilr_hints.cannedhint
+  pk: 518
+  fields:
+    puzzle: 593
+    description: Solvers are having trouble with the enumerations
+    order: 90.0
+    keywords: enumerations, numbers, don't match, can't find the numbers
+    content: We have the What and Where, so Who got their paycheck from this?
+- model: spoilr_hints.cannedhint
+  pk: 519
+  fields:
+    puzzle: 593
+    description: Solvers can't finish the extraction
+    order: 100.0
+    keywords: extract, answer, extraction, have the actors, have the areas of grid
+    content: Look at the flavor again for some help in this area.

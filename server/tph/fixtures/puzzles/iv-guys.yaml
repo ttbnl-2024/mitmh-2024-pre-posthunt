@@ -1,0 +1,262 @@
+- model: puzzles.puzzle
+  pk: 62
+  fields:
+    emoji: ':family_mmbb:'
+    deep: 200
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 62
+  fields:
+    external_id: 62
+    round: 9
+    answer: DRESSCOAT
+    name: IV GUYS
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 62
+    is_meta: false
+    slug: iv-guys
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 168
+  fields:
+    puzzle: 62
+    description: Solvers have not yet made the connection that they are looking for
+      store names
+    order: 0.0
+    keywords: aha, start, getting started, get started
+    content: "You may have the best luck getting started by focusing on the following\
+      \ pictures:\r\n- the aquatic mammals on bar stools\r\n- the black blob by a\
+      \ piece of paper\r\n- the accordion player\r\n- the back of an ant and the front\
+      \ of a bald eagle\r\n- Mark Hamill surrounded by food"
+- model: spoilr_hints.cannedhint
+  pk: 158
+  fields:
+    puzzle: 62
+    description: Solvers are unfamiliar with the puzzle's title and don't know what
+      it references
+    order: 0.0
+    keywords: title
+    content: Googling the puzzle's title will help find a meme that is relevant to
+      this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 161
+  fields:
+    puzzle: 62
+    description: Solvers have not identified RAT BARRE
+    order: 11.0
+    keywords: DANCE & LET PRY, rat, mouse
+    content: The first image in the DANCE & LET PRY category shows a RAT doing a specific
+      type of ballet exercise.
+- model: spoilr_hints.cannedhint
+  pk: 162
+  fields:
+    puzzle: 62
+    description: Solvers have not identified who the people are in [ET]HAN ALLEN
+    order: 12.0
+    keywords: DANCE & LET PRY, Woody Allen, Han Solo
+    content: The second image in the DANCE & LET PRY category shows a cosplay of a
+      specific Star Wars character being done by Woody ALLEN.
+- model: spoilr_hints.cannedhint
+  pk: 163
+  fields:
+    puzzle: 62
+    description: The solvers have not ID'd Eisenhower
+    order: 13.0
+    keywords: DANCE & LET PRY, Eisenhower, man, tie
+    content: The third image in the DANCE & LET PRY category shows Dwight David "Ike"
+      Eisenhower.
+- model: spoilr_hints.cannedhint
+  pk: 164
+  fields:
+    puzzle: 62
+    description: The solvers are unsure of what type of animal is in the [P]OTTER[Y]
+      BAR[N] image
+    order: 14.0
+    keywords: DANCE & LET PRY, sea otter, bar
+    content: The fourth image in the DANCE & LET PRY category shows a sea OTTER group
+      out at an establishment for drinking together.
+- model: spoilr_hints.cannedhint
+  pk: 165
+  fields:
+    puzzle: 62
+    description: Solvers have not identified [FAMO]US FOOT[W]EAR
+    order: 21.0
+    keywords: WELSH MOM FADS, foot, ear, US, American, flag, earring
+    content: The first image in the WELSH MOM FADS category shows a foot with an ear
+      that is very patriotic for the US.
+- model: spoilr_hints.cannedhint
+  pk: 166
+  fields:
+    puzzle: 62
+    description: Solvers have not identified the game World of Goo for GOO[D]WILL
+    order: 22.0
+    keywords: WELSH MOM FADS, black blob, world of goo, goo, will
+    content: The second image in the WELSH MOM FADS category shows a blob of GOO from
+      the game World of Goo, who has written a last will and testament.
+- model: spoilr_hints.cannedhint
+  pk: 170
+  fields:
+    puzzle: 62
+    description: Solvers have not identified Weird Al in MARS[H]AL[LS]
+    order: 23.0
+    keywords: WELSH MOM FADS, Weird Al, Yankovic, accordion, mars, martian, rover
+    content: The third image in the WELSH MOM FADS category shows, in front of a Martian
+      rover and landscape, "Weird AL" Yankovic playing the accordion.
+- model: spoilr_hints.cannedhint
+  pk: 171
+  fields:
+    puzzle: 62
+    description: Solvers have not identified STEIN[M]ART
+    order: 24.0
+    keywords: WELSH MOM FADS, beer, stein, girl, pearl, earring, mona, lisa
+    content: The fourth image in the WELSH MOM FADS category shows two beers contained
+      in a specific kind of drinking vessel, with famous works of ART on them.
+- model: spoilr_hints.cannedhint
+  pk: 172
+  fields:
+    puzzle: 62
+    description: Solvers have not identified DOLL[AR] GENE[RAL]
+    order: 31.0
+    keywords: SWAG CART REFILL, funko, pop, gene, simmons, kiss, guitar, bass, doll,
+      toy, torch, tongue
+    content: The first image in the SWAG CART REFILL category shows a toy DOLL of
+      the bassist and co-lead singer of the band Kiss.
+- model: spoilr_hints.cannedhint
+  pk: 173
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [F]OOD [L]ION
+    order: 32.0
+    keywords: SWAG CART REFILL, ood, atom, hydrogen, ion, plus, tentacles, alien,
+      monster
+    content: The second image in the SWAG CART REFILL category shows a tentacled creature
+      from Dr Who holding a charted Hydrogen ION.
+- model: spoilr_hints.cannedhint
+  pk: 174
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [GI]ANT EAGLE
+    order: 33.0
+    keywords: SWAG CART REFILL, ant, eagle, bug, bald
+    content: The third image in the SWAG CART REFILL category shows the back half
+      of an ANT, and the front half of a specific American bird.
+- model: spoilr_hints.cannedhint
+  pk: 175
+  fields:
+    puzzle: 62
+    description: Solvers have not identified [W]HOLE FOODS MARK[ET]
+    order: 34.0
+    keywords: SWAG CART REFILL, Mark, Hamill, swiss, cheese, donut, cereal, froot,
+      loops, fruit
+    content: The fourth image in the SWAG CART REFILL category shows FOODS sharing
+      a common property surrounding an actor most famous for their leading role in
+      Star Wars.
+- model: spoilr_hints.cannedhint
+  pk: 176
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out MOB[IL]
+    order: 41.0
+    keywords: OPAL ZIP SIS, mob, angry, torch, drawing, sketch, riot
+    content: The first image in the OPAL ZIP SIS category shows a large, disorderly
+      crowd of angry people, who might cause trouble or violence. The exact title
+      of the work that the image comes from can be identified using a reverse-image
+      search tool like TinEye.
+- model: spoilr_hints.cannedhint
+  pk: 177
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [P]HILL[IPS] 66
+    order: 42.0
+    keywords: OPAL ZIP SIS, mountains, hills, grass, sun, clouds, trees
+    content: The second image in the OPAL ZIP SIS category shows a specific number
+      of short, rounded, elevated sections of earth.
+- model: spoilr_hints.cannedhint
+  pk: 178
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out SHEET[Z]
+    order: 43.0
+    keywords: OPAL ZIP SIS, bed, sheet, bedsheet
+    content: The third image in the OPAL ZIP SIS category shows an arrow pointing
+      to a specific part of a bed, between the covers and the mattress.
+- model: spoilr_hints.cannedhint
+  pk: 179
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [S]HELL
+    order: 44.0
+    keywords: OPAL ZIP SIS, devil, devils, fire, flames, pitchfork, trident
+    content: The fourth image in the OPAL ZIP SIS category shows a fiery place where
+      devils might hang out.
+- model: spoilr_hints.cannedhint
+  pk: 180
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out PANDA [EX]PRESS
+    order: 51.0
+    keywords: WAX HEELS WEST, panda, newspaper, news, reading, bear
+    content: The first image in the WAX HEELS WEST category shows an animal reading
+      some news that is hot off the PRESS.
+- model: spoilr_hints.cannedhint
+  pk: 181
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [S]TEAK & [S]HAKE
+    order: 52.0
+    keywords: WAX HEELS WEST, tree, fish, teak, hake, cod, forest
+    content: The second image in the WAX HEELS WEST category shows a specific variety
+      of tree, along with a specific type of cod.  Google Image's search-by-image
+      might be helpful in identifying the specific varieties.
+- model: spoilr_hints.cannedhint
+  pk: 182
+  fields:
+    puzzle: 62
+    description: Solvers have not figured out [W]HAT[A]BURGER
+    order: 53.0
+    keywords: WAX HEELS WEST, Trilby, hat, fedora, sandwich, burger, hamburger
+    content: The third image in the WAX HEELS WEST category shows a type of sandwich
+      where the patty has been replaced with a HAT.
+- model: spoilr_hints.cannedhint
+  pk: 167
+  fields:
+    puzzle: 62
+    description: Solvers do not know how to identify the people in the fourth photo
+      of the WAX HEELS WEST group.
+    order: 54.0
+    keywords: WAX HEELS WEST, people, photo
+    content: The fourth image in the WAX HEELS WEST category shows a group of people
+      from the cast of a movie.  The tool TinEye can help identify the movie.
+- model: spoilr_hints.cannedhint
+  pk: 159
+  fields:
+    puzzle: 62
+    description: Solvers are working to identify images, but have not figured out
+      that the images within each group are alphabetical
+    order: 60.0
+    keywords: ordering, identifying images
+    content: Within each group of four images, the phrases you are looking for associated
+      with each image are in a standardized order.
+- model: spoilr_hints.cannedhint
+  pk: 160
+  fields:
+    puzzle: 62
+    description: Solvers have identified many images, and are working on extraction,
+      but do not know that the missing letters from the store names are repeated in
+      the text
+    order: 100.0
+    keywords: extraction
+    content: Like in the title of the puzzle, some of the letters in the title of
+      each group of images should be "burned out".  How can you identify which letters
+      to "burn out"?
+- model: spoilr_hints.cannedhint
+  pk: 183
+  fields:
+    puzzle: 62
+    description: Solvers believe that every group of images will produce two letters,
+      and are having trouble with the fifth group
+    order: 100.0
+    keywords: extraction, letters, count, two
+    content: Not every group of images leads to the same number of letters in the
+      final answer.

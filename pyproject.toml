@@ -1,0 +1,72 @@
+[tool.black]
+# exclude all puzzle migration directories
+extend-exclude = '^.*/migrations/'
+target-version = ['py311']
+preview = true
+color = true
+line-length = 88
+
+[tool.mypy]
+mypy_path = "server"
+plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+ignore_missing_imports = true
+exclude = [
+    ".*/migrations/",
+]
+#strict = true
+
+warn_unused_configs = true
+warn_redundant_casts = true
+strict_equality = true
+strict_concatenate = true  # https://github.com/python/mypy/issues/16189
+check_untyped_defs = true
+disallow_subclassing_any = true
+disallow_untyped_decorators = true
+disallow_any_generics = false  # Annoying to use with Django
+
+# TODO: try to incrementally turn these on?
+disallow_untyped_calls = false
+disallow_incomplete_defs = false
+disallow_untyped_defs = false
+
+[tool.django-stubs]
+django_settings_module = "tph.settings.base"
+
+[tool.ruff]
+fix = true
+line-length = 88
+extend-exclude = ["**/migrations/"]
+# By default, includes E (pycodestyle error), F (pyflakes)
+extend-select = [
+    "W",
+    "I",    # isort
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+    "C4",   # flake8-comprehensions
+    "DJ",   # flake8-django
+    "DTZ",  # flake8-datetimez
+    "ISC",  # flake8-implicit-string-concat
+    "EM",   # flake8-errmsg
+    "PIE",
+    "Q",    # flake8-quotes
+    "SIM",  # flake8-simplify
+    "TCH",  # flake8-type-checking
+    "PL",
+    "RUF",
+    # "PTH",  # flake8-pathlib -- needs more work than I want rn
+    # "PERF", # perflint -- annoying
+    # "FURB", # refurb -- in preview
+]
+ignore = [
+    "RUF012",  # doesn't play nice with Django (https://github.com/astral-sh/ruff/issues/5243)
+    "E501",
+    "F401",
+    "F403",
+    "SIM102",
+    "PLR091",
+    "PLR2004",
+    "DJ001",  # TODO: fix
+    "DJ006",  # TODO: fix
+    "DJ008",  # TODO: fix
+    "DJ012",  # TODO: fix
+]

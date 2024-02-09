@@ -1,0 +1,217 @@
+- model: puzzles.puzzle
+  pk: 415
+  fields:
+    emoji: ':cookie:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 415
+  fields:
+    external_id: 415
+    round: 11
+    answer: SUGARED
+    name: Cheerful Ruler's Kingdom
+    main_credits: Blake Weil and Jeremy Conner
+    other_credits: ''
+    order: 415
+    is_meta: false
+    slug: cheerful-rulers-kingdom
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1278
+  fields:
+    puzzle: 415
+    description: Solvers have not solved the first puzzle
+    order: 0.0
+    keywords: start, letters
+    content: The banks referred to in the flavortext are letterbanks, and the cookies
+      are not necessarily real cookies, but are from a specific Kingdom (clued by
+      the title).
+- model: spoilr_hints.cannedhint
+  pk: 1279
+  fields:
+    puzzle: 415
+    description: Solvers still have not solved the first puzzle
+    order: 1.0
+    keywords: start, cookies
+    content: "These are cookies from Cookie Run Kingdom. For example, the first string\
+      \ is a letter bank for SCHWARZW\xC4LDER, with K left over."
+- model: spoilr_hints.cannedhint
+  pk: 1280
+  fields:
+    puzzle: 415
+    description: Pure Vanilla (1) - Solvers have not found the relevant section
+    order: 10.0
+    keywords: Hollyberry Kingdom, where to find puzzles
+    content: The relevant section is the 6 areas near the far left of the kingdom,
+      near the train station.
+- model: spoilr_hints.cannedhint
+  pk: 1281
+  fields:
+    puzzle: 415
+    description: Pure Vanilla (2) - Solvers have not identified MITMH coins
+    order: 11.0
+    keywords: ''
+    content: The flavortext for this puzzle mentions April Fools 2022 and Pure Vanilla,
+      and winning the MIT Mystery Hunt. What connects these together?
+- model: spoilr_hints.cannedhint
+  pk: 1282
+  fields:
+    puzzle: 415
+    description: Pure Vanilla (3) - Explicit
+    order: 12.0
+    keywords: ''
+    content: Each area clues an MITMH theme. The flowers below each area are an enumeration
+      for the coin that year.
+- model: spoilr_hints.cannedhint
+  pk: 1283
+  fields:
+    puzzle: 415
+    description: Hollyberry (1) - Solvers need help getting started
+    order: 20.0
+    keywords: ''
+    content: The relevant part of the kingdom is the 4x4 grid of buildings in the
+      top-middle-right ish. This puzzle is an application of CRK knowledge. The characters
+      used are from the Location puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1284
+  fields:
+    puzzle: 415
+    description: Hollyberry (2) - Solvers need help with the grid
+    order: 21.0
+    keywords: ''
+    content: '[[Check work]]'
+- model: spoilr_hints.cannedhint
+  pk: 1285
+  fields:
+    puzzle: 415
+    description: Hollyberry (3) - Solvers need help with extract
+    order: 22.0
+    keywords: ''
+    content: Remember that there's a grid of numbers on the puzzle page for this minipuzzle!
+- model: spoilr_hints.cannedhint
+  pk: 1286
+  fields:
+    puzzle: 415
+    description: Dark Cacao (1) - Solvers need help getting started
+    order: 30.0
+    keywords: ''
+    content: The relevant part of this kingdom is the 3 rows of buildings in the middle
+      of the kingdom.
+- model: spoilr_hints.cannedhint
+  pk: 1287
+  fields:
+    puzzle: 415
+    description: Dark Cacao (2) - Solvers need help getting started (2)
+    order: 31.0
+    keywords: ''
+    content: 'The relevant features of these buildings are: the goods they produce,
+      the line of things in front of them, and the line of things to their right.'
+- model: spoilr_hints.cannedhint
+  pk: 1288
+  fields:
+    puzzle: 415
+    description: Dark Cacao (3) - Explicit
+    order: 32.0
+    keywords: ''
+    content: Each building produces different kinds of goods at each level. The line
+      in front indicates how many levels, and the line to the right is an index.
+- model: spoilr_hints.cannedhint
+  pk: 1289
+  fields:
+    puzzle: 415
+    description: Golden Cheese (1) - Solvers are stuck getting started
+    order: 40.0
+    keywords: ''
+    content: Look for the gnomes! They're near the top-middle (lampposts), center
+      (blue carpet and shrubs), and bottom-middle (olive skewers).
+- model: spoilr_hints.cannedhint
+  pk: 1290
+  fields:
+    puzzle: 415
+    description: Golden Cheese (2) - Solvers are stuck decoding the gnomes
+    order: 41.0
+    keywords: ''
+    content: '[[Give explicit hints for the gnomes]]'
+- model: spoilr_hints.cannedhint
+  pk: 1291
+  fields:
+    puzzle: 415
+    description: Golden Cheese (3) - Solvers are stuck extracting or ordering
+    order: 42.0
+    keywords: ''
+    content: For extraction, some of the letters in the kingdom were "different" in
+      some way.  For ordering, the phrases are all meme phrases. The gnomes make another
+      meme.
+- model: spoilr_hints.cannedhint
+  pk: 1292
+  fields:
+    puzzle: 415
+    description: White Lily (1) - Solves are stuck getting started
+    order: 50.0
+    keywords: ''
+    content: You're making cookies once again! Your subpuzzle answers fit in the blanks.
+- model: spoilr_hints.cannedhint
+  pk: 1293
+  fields:
+    puzzle: 415
+    description: White Lily (2) - Solvers are confused on decors
+    order: 51.0
+    keywords: ''
+    content: Decors, or decorations are a concept from CRK. For the new cookies, each
+      has a decor that appears in the kingdom near one of the earlier puzzles.
+- model: spoilr_hints.cannedhint
+  pk: 1294
+  fields:
+    puzzle: 415
+    description: White Lily (3) - Solvers need help with meta subpuzzles
+    order: 52.0
+    keywords: ''
+    content: '[[Check work, say where decors are, give hints, etc.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1295
+  fields:
+    puzzle: 415
+    description: White Lily (4) - Solvers are stuck on final cluephrase
+    order: 53.0
+    keywords: ''
+    content: This is a wordplay-ish clue. The BTS cookies are https://cookierunkingdom.fandom.com/wiki/Category:BTS_Cookies.
+      BAD 4 is https://cookierunkingdom.fandom.com/wiki/B.A.D_4.
+- model: spoilr_core.pseudoanswer
+  pk: 45
+  fields:
+    puzzle: 415
+    answer: A COIN COMIN IN HOT
+    response: This is a correct subpuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 47
+  fields:
+    puzzle: 415
+    answer: CONCOCT THE BEST BEER
+    response: This is a correct subpuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 48
+  fields:
+    puzzle: 415
+    answer: DAMN DANIEL PROSPERS
+    response: This is a correct subpuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 44
+  fields:
+    puzzle: 415
+    answer: KINGTOBENAMEDLTR
+    response: Welcome to the kingdom! Scroll down for the rest of the puzzle.
+- model: spoilr_core.pseudoanswer
+  pk: 46
+  fields:
+    puzzle: 415
+    answer: PART FIRE PARRY SABER
+    response: This is a correct subpuzzle answer.
+- model: spoilr_core.pseudoanswer
+  pk: 49
+  fields:
+    puzzle: 415
+    answer: SEE THEIR DECORS
+    response: Keep going!

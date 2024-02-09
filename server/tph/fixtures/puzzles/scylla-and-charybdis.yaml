@@ -1,0 +1,87 @@
+- model: puzzles.puzzle
+  pk: 353
+  fields:
+    emoji: ':blue_car:'
+    deep: 7
+    deep_key: mississippi-river-meta
+- model: spoilr_core.puzzle
+  pk: 353
+  fields:
+    external_id: 353
+    round: 12
+    answer: PUT IT IN DIVE
+    name: Scylla and Charybdis
+    main_credits: Charles Steinhardt and Nick Poulos
+    other_credits: ''
+    order: 353
+    is_meta: true
+    slug: scylla-and-charybdis
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 866
+  fields:
+    puzzle: 353
+    description: Solvers have not realized that these words can be configured into
+      a grid
+    order: 0.0
+    keywords: start, begin
+    content: This round's 11 answers are all 11 letters long. As a group they make
+      a perfect square of letters.
+- model: spoilr_hints.cannedhint
+  pk: 868
+  fields:
+    puzzle: 353
+    description: Solvers know they should make a grid, but don't know what to do next.
+    order: 15.0
+    keywords: grid, answers
+    content: Scylla and Charybdis each appear 11 times in your grid.
+- model: spoilr_hints.cannedhint
+  pk: 870
+  fields:
+    puzzle: 353
+    description: Solvers want to make a grid, strategically arranging the S's and
+      C's, but have NOT noticed there is exactly one of each per column.
+    order: 25.0
+    keywords: grid, S, C, S and C, arrange
+    content: Scylla and Charybdis appear in every column of your grid.
+- model: spoilr_hints.cannedhint
+  pk: 869
+  fields:
+    puzzle: 353
+    description: Solvers know they want to make a grid, strategically arranging each
+      column's S and C.
+    order: 50.0
+    keywords: grid, S, C, columns, S and C, arrange
+    content: There should be 1 letter between each column's pair of S and C.
+- model: spoilr_hints.cannedhint
+  pk: 871
+  fields:
+    puzzle: 353
+    description: Solvers know to arrange the answers so each column has one letter
+      between S and C, but are not sure it should wrap around
+    order: 75.0
+    keywords: Grid, logic, arrange, letter, between, S, C, S and C, bottom, top, row,
+      column
+    content: In order to get a letter from every row, assume this grid wraps around
+      from the bottom back to the top.
+- model: spoilr_hints.cannedhint
+  pk: 873
+  fields:
+    puzzle: 353
+    description: Solvers know to arrange answers so each column has a letter between
+      S and C, but wrongly assume that every feeder ANSWER has one S and one C.  (Their
+      team hasn't unlocked PROGRESS BAR or VENICE BEACH)
+    order: 80.0
+    keywords: all answers, S, C, S and C, per answer, grid, arrange, order, column
+    content: Every column has one S and one C, but not every row has both.
+- model: spoilr_hints.cannedhint
+  pk: 872
+  fields:
+    puzzle: 353
+    description: Solvers have the correct grid but don't know how to extract the answer
+    order: 100.0
+    keywords: extraction, grid, complete, letters, columns
+    content: Read your letters column-by-column, left to right.

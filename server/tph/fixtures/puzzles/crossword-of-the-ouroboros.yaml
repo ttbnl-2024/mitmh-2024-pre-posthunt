@@ -1,0 +1,130 @@
+- model: puzzles.puzzle
+  pk: 403
+  fields:
+    emoji: ':snake:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 403
+  fields:
+    external_id: 403
+    round: 6
+    answer: POPESSE
+    name: Crossword of the Ouroboros
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 403
+    is_meta: false
+    slug: crossword-of-the-ouroboros
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 405
+  fields:
+    puzzle: 403
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: The first thing you need to do is to solve the clues.  Be aware that
+      you will likely need between a considerable number of clue answers to start
+      filling in the grid with confidence - likely at least half of them, by the author's
+      estimation.  You may find it helpful to know the answers have been clued in
+      alphabetical order regardless of length.
+- model: spoilr_hints.cannedhint
+  pk: 406
+  fields:
+    puzzle: 403
+    description: The solvers have many/most of answers but are unsure how to proceed
+    order: 20.0
+    keywords: getting started, start, stuck, how to solve
+    content: The list of clued words combines two word lists.  One list is a list
+      containing the words which fit in the crisscross across and down in the usual
+      way; the other list is a list of words which trace the paths indicated in the
+      diagram by the heavy outlines.  It is up to the solver to figure out which words
+      are from which list
+- model: spoilr_hints.cannedhint
+  pk: 407
+  fields:
+    puzzle: 403
+    description: The solvers are having difficulty getting the criss-cross started
+    order: 20.1
+    keywords: getting started, start, stuck
+    content: If you are having difficulty getting started on the crisscross, you may
+      find it helpful to focus on the very long answers - there's a fifteen letter
+      answer reading across in the upper half of the puzzle, for instance - or the
+      very short ones, as all of the three-letter answers are criss-cross answers,
+      rather than the ones which snake through the grid.
+- model: spoilr_hints.cannedhint
+  pk: 408
+  fields:
+    puzzle: 403
+    description: The grid is completed but the solvers are uncertain of what to do
+      next
+    order: 50.0
+    keywords: extraction, stuck
+    content: Seven snaking parts of the completed grid are more important than the
+      rest - and these parts of the grid have something visible in common.
+- model: spoilr_hints.cannedhint
+  pk: 409
+  fields:
+    puzzle: 403
+    description: The grid is completed but the solvers are uncertain of what to do
+      next.
+    order: 50.1
+    keywords: extraction, stuck
+    content: There are seven snaking parts of the completed grid which are more important
+      than the rest.  What they are - and what they look like - are hinted at by the
+      puzzle's title.
+- model: spoilr_hints.cannedhint
+  pk: 410
+  fields:
+    puzzle: 403
+    description: Solvers have found the seven snakes entries which are chasing their
+      tails but are not sure what to do with them (1 of 2)
+    order: 70.0
+    keywords: extraction, stuck, ouroboros
+    content: The seven snakes which are chasing their own tails are indeed significant.  If
+      a snake was chasing its tail, how would it move?
+- model: spoilr_hints.cannedhint
+  pk: 411
+  fields:
+    puzzle: 403
+    description: Solvers have found the seven snakes entries which are chasing their
+      tails but are not sure what to do with them (2 of 2)
+    order: 70.1
+    keywords: extraction, stuck, ouroboros
+    content: A snake chasing it's tail would move in a circle.  Obviously, the letters
+      in these snakes can't move - they're locked in place.  But can the snakes themselves
+      move?
+- model: spoilr_hints.cannedhint
+  pk: 412
+  fields:
+    puzzle: 403
+    description: Solvers have discovered that the snakes move, but are not sure what
+      to do with the new snake words. (1 of 3)
+    order: 80.0
+    keywords: stuck, extraction, ouroboros
+    content: You are correct that the ouroboros words need to become new words which
+      start in a different place around their snaking loop.  (The +numbers given at
+      the end of the puzzle are movement offsets for the snakes in ascending order,
+      and you can use them to confirm you've identified the new words correctly.)
+- model: spoilr_hints.cannedhint
+  pk: 413
+  fields:
+    puzzle: 403
+    description: Solvers have discovered that the snakes move, but are not sure what
+      to do with the new snake words. (2 of 3)
+    order: 80.1
+    keywords: extraction, stuck, ouroboros
+    content: Read the first letters of the new snakes to get your new answer.
+- model: spoilr_hints.cannedhint
+  pk: 414
+  fields:
+    puzzle: 403
+    description: Solvers have discovered that the snakes move, but are not sure what
+      to do with the new snake words. (3 of 3)
+    order: 80.2
+    keywords: extraction, stuck, ouroboros, ordering
+    content: Read the first letters of the new snakes in left-to-right diagram order
+      to get your new answer.

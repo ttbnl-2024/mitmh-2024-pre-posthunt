@@ -1,0 +1,120 @@
+- model: puzzles.puzzle
+  pk: 416
+  fields:
+    emoji: ':arrows_counterclockwise:'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 416
+  fields:
+    external_id: 416
+    round: 4
+    answer: NAGARA
+    name: Sahara
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 416
+    is_meta: false
+    slug: sahara
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 341
+  fields:
+    puzzle: 416
+    description: Solvers don't know how to use graphic tees.
+    order: 5.0
+    keywords: tee, shirt, graphic
+    content: Each graphic tee points to a specific class of natural numbers. The person
+      wearing that shirt would only choose to bet on a number that belongs in that
+      class.
+- model: spoilr_hints.cannedhint
+  pk: 344
+  fields:
+    puzzle: 416
+    description: Solvers can't figure out specific number classes.
+    order: 7.0
+    keywords: tee, shirt, number class, number sequence, sequence
+    content: 'Number classes are given alphabetically by the graphic tees:  Abundant,
+      Fibonacci, Happy, Palindrome, Square, and Telephone.'
+- model: spoilr_hints.cannedhint
+  pk: 342
+  fields:
+    puzzle: 416
+    description: Solvers don't understand colors for chips, or are confused about
+      why they are all $1.
+    order: 10.0
+    keywords: colors, chips, denominations
+    content: While in other parts of the casino different colored chips indicate different
+      denominations ($1, $5, $100), at the roulette table each player is given a different
+      color so that the croupier can keep track of which bets are associated with
+      a given player when they are all interspersed across the table.  When the player
+      buys in, they tell the croupier what denomination they would like each chip
+      to be worth.  In this case, each player starts with one hundred chips of their
+      color, and each chip is worth $1.
+- model: spoilr_hints.cannedhint
+  pk: 345
+  fields:
+    puzzle: 416
+    description: Solvers can't figure out which numbers are possible bets.
+    order: 12.0
+    keywords: numbers, bet, sequences
+    content: The American roulette wheel has a 0 and 00 and then goes from 1 to 36.  We
+      are told no player bet on 0 or 00. Each class of numbers has a different number
+      of numbers which fall between 1 and 36, except for the green and orange. Those
+      values constrain the range of potential bets for each player.
+- model: spoilr_hints.cannedhint
+  pk: 343
+  fields:
+    puzzle: 416
+    description: Can't figure out which player has which color, how many spins of
+      wheel, or how many times they won.
+    order: 15.0
+    keywords: players, colors, number of spins, number of wins
+    content: "It is important to understand how the roulette payout works.  In American\
+      \ roulette, a \"straight bet\" (which these all are) covers a single number,\
+      \ and pays $35 plus you keep the $1 you had originally bet.  So, you can consider\
+      \ placing each bet as -$1 on their total, and each win as +$36 on their total.\r\
+      \n\r\nIt is possible to set up and simultaneously solve 5 different equations\
+      \ for the 5 statements about amounts received upon cashing out.  This uniquely\
+      \ determines the number of spins of the wheel, the number of bets placed by\
+      \ each player per spin, and how many wins each player had.  This can be done\
+      \ through programming or calculating possible payouts for different numbers\
+      \ of spins through a spreadsheet."
+- model: spoilr_hints.cannedhint
+  pk: 346
+  fields:
+    puzzle: 416
+    description: Not sure where to start with logic
+    order: 30.0
+    keywords: green, orange, starting, logic
+    content: One way to start would be to try to disambiguate the orange player from
+      the green player based on what you've identified as the two possible number
+      classes they might be betting from. Once you have identified which type of numbers
+      they are betting, use the statement about which of their numbers won to identify
+      the winning and non-winning numbers.  Work through the logic, keeping track
+      of the numbers from 1 to 36, testing possibilities against the different constraints
+      given and marking them as winners or non-winners.
+- model: spoilr_hints.cannedhint
+  pk: 347
+  fields:
+    puzzle: 416
+    description: Solvers have identified all 15 winning numbers, but don't know how
+      to use them
+    order: 70.0
+    keywords: Extraction, winning numbers
+    content: Look at the positions where players placed winning bets on the roulette
+      table.
+- model: spoilr_hints.cannedhint
+  pk: 340
+  fields:
+    puzzle: 416
+    description: Solvers think it's Braille, but aren't getting letters that make
+      sense.
+    order: 100.0
+    keywords: Braille, not working
+    content: Once you've identified that using Braille on the chip positions on the
+      table is relevant, consider the flavortext "from where you were standing," keeping
+      in mind that the croupier stands on the opposite side of the table from the
+      bettors.

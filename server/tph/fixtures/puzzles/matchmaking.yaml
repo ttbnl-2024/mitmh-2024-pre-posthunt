@@ -1,0 +1,55 @@
+- model: puzzles.puzzle
+  pk: 507
+  fields:
+    emoji: ':pick:'
+    deep: 60
+- model: spoilr_core.puzzle
+  pk: 507
+  fields:
+    external_id: 507
+    round: 20
+    answer: DIGIT
+    name: "Match\u00ADmaking"
+    main_credits: Jennifer Kidder and Seth Bisen-Hersh
+    other_credits: ''
+    order: 507
+    is_meta: false
+    slug: matchmaking
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 259
+  fields:
+    puzzle: 507
+    description: Starting
+    order: 10.0
+    keywords: starting
+    content: 'This puzzle consists of 2 columns of names: firsts and lasts.'
+- model: spoilr_hints.cannedhint
+  pk: 260
+  fields:
+    puzzle: 507
+    description: Matching
+    order: 50.0
+    keywords: matching
+    content: Match the first names (which are alphabetical by name) to the last names
+      (which are ordered for extraction)
+- model: spoilr_hints.cannedhint
+  pk: 261
+  fields:
+    puzzle: 507
+    description: Who are they?
+    order: 75.0
+    keywords: identification
+    content: The names are all fictional archaeologists.
+- model: spoilr_hints.cannedhint
+  pk: 262
+  fields:
+    puzzle: 507
+    description: Extraction
+    order: 100.0
+    keywords: extract
+    content: Index into the full name of the fictional archaeologist to find the final
+      answer.

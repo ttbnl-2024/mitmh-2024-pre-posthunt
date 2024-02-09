@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 727
+  fields:
+    emoji: ':wood:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 727
+  fields:
+    external_id: 727
+    round: 5
+    answer: ACDC
+    name: The 10,000 Commit Git Repository
+    main_credits: Ethan Ordentlich
+    other_credits: ''
+    order: 727
+    is_meta: false
+    slug: the-10000-commit-git-repository
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1660
+  fields:
+    puzzle: 727
+    description: Solvers are not sure what to do
+    order: 0.0
+    keywords: ''
+    content: This puzzle is exactly what it says it is! You can use `git log` to see
+      that the commits are out of order, both in terms of the ordinal number in the
+      README file, and in terms of the timestamp. Your task is to create a repository
+      that has them in the correct order.
+- model: spoilr_hints.cannedhint
+  pk: 1661
+  fields:
+    puzzle: 727
+    description: Solvers are trying to do something overly complex with git
+    order: 50.0
+    keywords: ''
+    content: One interesting thing about git is that commit hashes are deterministic.
+      That is, commits with the exact same details will have exactly the same hash.
+      The puzzle tells you all the information that goes into a commit hash (along
+      with the parent commit), so you'll need to figure out how to set those. You
+      can use the hash given in the puzzle to check that you're doing the first commit
+      correctly.
+- model: spoilr_hints.cannedhint
+  pk: 1662
+  fields:
+    puzzle: 727
+    description: Solvers are stuck extracting
+    order: 100.0
+    keywords: ''
+    content: Once you've confirmed that the end of your hash is correct, just look
+      at the first 4 hex digits!
+- model: spoilr_core.pseudoanswer
+  pk: 299
+  fields:
+    puzzle: 727
+    answer: acdc00
+    response: Just the first 4 hex digits!
+- model: spoilr_core.pseudoanswer
+  pk: 298
+  fields:
+    puzzle: 727
+    answer: acdc008563621fcaa38e9ee9fa12543916efb954
+    response: Just the first 4 hex digits!

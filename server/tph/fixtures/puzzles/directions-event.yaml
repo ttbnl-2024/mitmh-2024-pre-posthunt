@@ -1,0 +1,21 @@
+- model: puzzles.puzzle
+  pk: 583
+  fields:
+    emoji: ':man_beard:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 583
+  fields:
+    external_id: 583
+    round: 23
+    answer: OMEGA PHONE
+    name: Directions Event
+    main_credits: Michael Andersen
+    other_credits: ''
+    order: 583
+    is_meta: false
+    slug: directions-event
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []

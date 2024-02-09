@@ -1,0 +1,75 @@
+- model: puzzles.puzzle
+  pk: 571
+  fields:
+    emoji: ':arrows_counterclockwise:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 571
+  fields:
+    external_id: 571
+    round: 21
+    answer: CLAUDE BERRI
+    name: Split the Difference
+    main_credits: Jeremiahs Johnson, Paul Melamud, and Sophia McManus
+    other_credits: ''
+    order: 571
+    is_meta: false
+    slug: split-the-difference
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 970
+  fields:
+    puzzle: 571
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: "This puzzle is a \u201Csplit ends\u201D puzzle: each \u201Cclue\u201D\
+      \ is only half of a clue."
+- model: spoilr_hints.cannedhint
+  pk: 973
+  fields:
+    puzzle: 571
+    description: Solvers have filled the grid
+    order: 2.0
+    keywords: filled grid,stuck,next step
+    content: "Consider the clue for 52 across, which says \u201C... (or does it?)\u201D\
+      ."
+- model: spoilr_hints.cannedhint
+  pk: 980
+  fields:
+    puzzle: 571
+    description: Solvers have filled the grid (stronger hint)
+    order: 2.1
+    keywords: filled grid,stuck,next step
+    content: Find words in the grid that let you do Verlan in English.
+- model: spoilr_hints.cannedhint
+  pk: 975
+  fields:
+    puzzle: 571
+    description: Solvers have found the Verlan pairs
+    order: 3.0
+    keywords: verlan,english,pairs,found
+    content: Find clue fragments that pair up to give clues for the verlanned words.
+- model: spoilr_hints.cannedhint
+  pk: 977
+  fields:
+    puzzle: 571
+    description: "Solvers have found the clue pairs but don\u2019t know how to extract"
+    order: 4.0
+    keywords: verlan,found,clues,extract
+    content: 'The clue for LURKER is composed of fragments #74 and #10. The verlanned
+      word, CURLER, is clued by fragments #10 and #75. Ignore the common one.'
+- model: spoilr_hints.cannedhint
+  pk: 981
+  fields:
+    puzzle: 571
+    description: "Solvers have found the clue pairs but don\u2019t know how to extract\
+      \ (stronger hint)"
+    order: 4.1
+    keywords: verlan,found,clues,extract
+    content: "The clue for LURKER is composed of fragments #74 and #10. The verlanned\
+      \ word, CURLER, is clued by fragments #10 and #75. Ignore the common one. 75\
+      \ \u2212 74 = 1."

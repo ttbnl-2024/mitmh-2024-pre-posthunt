@@ -1,0 +1,82 @@
+- model: puzzles.puzzle
+  pk: 697
+  fields:
+    emoji: ':question:'
+    deep: 540
+- model: spoilr_core.puzzle
+  pk: 697
+  fields:
+    external_id: 697
+    round: 20
+    answer: RAY
+    name: A Triangular Space
+    main_credits: Charles Steinhardt and John Bromels
+    other_credits: ''
+    order: 697
+    is_meta: false
+    slug: a-triangular-space
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1573
+  fields:
+    puzzle: 697
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: Have you googled the flavortext theorem? That will explain the "triangle"
+      part of the title. Consider how the theorem name might relate to "space".
+- model: spoilr_hints.cannedhint
+  pk: 1574
+  fields:
+    puzzle: 697
+    description: Heavier hint at Apollo missions in case hint 0.0 was insufficient
+    order: 10.0
+    keywords: start, begin, stronger hint
+    content: The flavortext refers to Apollonius's theorem. Apollonius and Space...
+      you are looking for something relating to the NASA Apollo missions.
+- model: spoilr_hints.cannedhint
+  pk: 1575
+  fields:
+    puzzle: 697
+    description: The solvers understand they are looking for Apollo-related images,
+      but do not understand that they need to connect the two modules
+    order: 20.0
+    keywords: apollo, continue, connect
+    content: The images refer to two different modules for the Apollo missions. Can
+      you find and connect them?
+- model: spoilr_hints.cannedhint
+  pk: 1576
+  fields:
+    puzzle: 697
+    description: Heavier hint at the two modules in case hint 20 was insufficient
+    order: 30.0
+    keywords: apollo, continue, connect
+    content: Each mission has a command module and a lunar module. The call sign for
+      each is clued by an image, and you need to connect them.
+- model: spoilr_hints.cannedhint
+  pk: 1577
+  fields:
+    puzzle: 697
+    description: The solvers connected the modules but do not know what to do next
+    order: 40.0
+    keywords: extraction, lines, connections
+    content: The crossed-out letters are not relevant here. Look inside the shapes
+      you made
+- model: spoilr_hints.cannedhint
+  pk: 1578
+  fields:
+    puzzle: 697
+    description: Heavier hint at extraction in case hint 40 was insufficient
+    order: 50.0
+    keywords: extraction, lines, connections, hexagons, triangles
+    content: As the title suggests, if you look inside the hexagons, you'll see a
+      message TRI NOT HEX. Now look inside the small triangles.
+- model: spoilr_core.pseudoanswer
+  pk: 132
+  fields:
+    puzzle: 697
+    answer: TRI NOT HEX
+    response: It says, "NOT hex!"

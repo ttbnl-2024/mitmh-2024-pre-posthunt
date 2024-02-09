@@ -1,0 +1,54 @@
+- model: puzzles.puzzle
+  pk: 466
+  fields:
+    emoji: ':violin:'
+    deep: 720
+- model: spoilr_core.puzzle
+  pk: 466
+  fields:
+    external_id: 466
+    round: 20
+    answer: THEME
+    name: Name That Tune
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 466
+    is_meta: false
+    slug: name-that-tune
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 192
+  fields:
+    puzzle: 466
+    description: The solvers do not know what to do with the notes as presented
+    order: 0.0
+    keywords: notes, note, melody, melodies, tune, tunes,
+    content: How many unique notes are there?
+- model: spoilr_hints.cannedhint
+  pk: 193
+  fields:
+    puzzle: 466
+    description: solvers have the crossword clues answered but don't know the next
+      step
+    order: 40.0
+    keywords: crossword clue, spring, SPRING, ocean, OCEAN, jeremiah, JEREMIAH, help
+    content: Have you used the title?
+- model: spoilr_hints.cannedhint
+  pk: 194
+  fields:
+    puzzle: 466
+    description: Symphonies named, but need a push to extraction
+    order: 80.0
+    keywords: names of symphonies, symphony, named, symphony 1
+    content: You need another associated name to get to the answer.
+- model: spoilr_hints.cannedhint
+  pk: 195
+  fields:
+    puzzle: 466
+    description: When the solver has all information but can't extract the answer
+    order: 100.0
+    keywords: stuck on extraction, index, index symphony,
+    content: Index a number to a name.

@@ -1,0 +1,102 @@
+- model: puzzles.puzzle
+  pk: 137
+  fields:
+    emoji: ':two_hearts::small_red_triangle:'
+    deep: 8
+    deep_key: oahu-meta
+- model: spoilr_core.puzzle
+  pk: 137
+  fields:
+    external_id: 137
+    round: 6
+    answer: MENAGE A TROY
+    name: Aphrodite's Plutonic Affection Connection
+    main_credits: Barney Rafter, Blake Weil, Michael Andersen, and Sara Winters
+    order: 137
+    is_meta: true
+    slug: aphrodites-plutonic-affection-connection
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 5
+  fields:
+    puzzle: 137
+    description: The solvers don't know where to begin.
+    order: 0.0
+    keywords: start, beginning, no ideas
+    content: "Direct solvers to think about ways to match up contestants indicated\
+      \ through feeder puzzle answers with the characters listed on the cast\r\n\r\
+      \nIf the feeder puzzle answers are describing additional contestants, how do\
+      \ you think the production crew might use them to \u201Cunleash some interference\
+      \ of mythical proportions\u201D?"
+- model: spoilr_hints.cannedhint
+  pk: 6
+  fields:
+    puzzle: 137
+    description: The solvers know they're trying to match feeder solutions with the
+      shows, but not much else.
+    order: 10.3
+    keywords: feeder puzzles, feeder answers
+    content: "Direct solvers to realize the feeder puzzle answers are referencing\
+      \ mythic beings:\r\n\r\n\"It sounds like you\u2019re trying to find some 'interference\
+      \ of mythic proportions' - can you think of any ways the feeder answers might\
+      \ lead you to mythic figures?\""
+- model: spoilr_hints.cannedhint
+  pk: 7
+  fields:
+    puzzle: 137
+    description: The solvers have figured out that the feeder answers are clues to
+      mythical figures, but *not* Persona.
+    order: 10.7
+    keywords: feeder puzzles, feeder answers
+    content: "Nudge solvers to the Persona connection:\r\n\r\n\"It sounds like you\
+      \ have a theory on how Aphrodite wants to unleash some interference of mythic\
+      \ proportions, but how can you respond to user testing to make things more personal?\
+      \ You might find some advice in the feeder answers themselves.\""
+- model: spoilr_hints.cannedhint
+  pk: 8
+  fields:
+    puzzle: 137
+    description: The solvers have figured out the mythology and Persona connections,
+      but don't know what to do with it.
+    order: 40.0
+    keywords: anime, hotness, degrees, height
+    content: "Nudge them towards thinking about heights / confirming that height is\
+      \ the right way to go.\r\n\r\n\"We\u2019re convinced that the contestants themselves\
+      \ are what we need to have the show hit the height of the ratings - there\u2019\
+      s probably some information out there that could help us see things from all\
+      \ three sides.\""
+- model: spoilr_hints.cannedhint
+  pk: 9
+  fields:
+    puzzle: 137
+    description: The solvers think they're working with triangles, but haven't figured
+      out what to do.
+    order: 60.0
+    keywords: triangle, anime, height, degrees
+    content: "Nudge them to Side-Angle-Side triangle forming and reassure that rounding\
+      \ is okay as long as the numbers are close.\r\n\r\n\"It\u2019s impossible to\
+      \ find a perfect match for every couple, but we\u2019ve found that our hotness\
+      \ ratings are specific enough to get really close to finding the best angle\
+      \ for every episode.\""
+- model: spoilr_hints.cannedhint
+  pk: 10
+  fields:
+    puzzle: 137
+    description: The solvers have the triangles, but don't know how to extract.
+    order: 90.0
+    keywords: final step, extraction, last step
+    content: "Remind them that the anime chosen was significant and might give a method\
+      \ of indexing\r\n\r\n\"Once you\u2019ve found a way to make each episode of\
+      \ the show more personal, it\u2019s worth looking back at where our original\
+      \ contestant pairs came from. That should help you find the answer you\u2019\
+      re looking for.\""
+- model: spoilr_hints.cannedhint
+  pk: 11
+  fields:
+    puzzle: 137
+    description: '[internal]'
+    order: 100.0
+    keywords: ''
+    content: "Full hints overview / walkthrough of likely sticking points can be found\
+      \ at the below link, if you would like a refresher on likely sticking points:\
+      \ \r\nhttps://docs.google.com/document/d/1oSHJq3Khub-qq1DD9mhB-lXskvufAPafpxX838e9_Sw/edit"

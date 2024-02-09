@@ -1,0 +1,71 @@
+- model: puzzles.puzzle
+  pk: 192
+  fields:
+    emoji: ':headstone:'
+    deep: 820
+- model: spoilr_core.puzzle
+  pk: 192
+  fields:
+    external_id: 192
+    round: 20
+    answer: AUGUR
+    name: I Write These Words in Stele
+    main_credits: Harel Dor
+    other_credits: ''
+    order: 192
+    is_meta: false
+    slug: i-write-these-words-in-stele
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1050
+  fields:
+    puzzle: 192
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: how to start
+    content: This isn't an alphabet that we made up just for this puzzle -- it's from
+      a real fictional series. The message was created by transliterating letters.
+- model: spoilr_hints.cannedhint
+  pk: 1249
+  fields:
+    puzzle: 192
+    description: Solvers can't find the alphabet
+    order: 10.0
+    keywords: alphabet source
+    content: The title is another clue to the alphabet's source -- "I write these
+      words in..." (not stele, but?)
+- model: spoilr_hints.cannedhint
+  pk: 1250
+  fields:
+    puzzle: 192
+    description: Solvers really can't find the alphabet
+    order: 15.0
+    keywords: alphabet, can't find, don't know
+    content: The alphabet is the Steel alphabet from Brandon Sanderson's Mistborn
+      series. The text is drawn from Kwaan's inscription.
+- model: spoilr_hints.cannedhint
+  pk: 1247
+  fields:
+    puzzle: 192
+    description: Solvers have translated the passage, but are stuck on the next step
+    order: 50.0
+    keywords: translated, stuck
+    content: It seems like there's some typos in here. Can you find a pattern in them?
+- model: spoilr_hints.cannedhint
+  pk: 1248
+  fields:
+    puzzle: 192
+    description: Solvers need help with the typo pattern
+    order: 60.0
+    keywords: extraction, typo
+    content: Some words have been transformed from the original inscription by moving
+      one letter to the end of the word.
+- model: spoilr_core.pseudoanswer
+  pk: 317
+  fields:
+    puzzle: 192
+    answer: MISTINGFORM
+    response: Keep going! MISTING FOR M (If you haven't read the books, try the Coppermind)

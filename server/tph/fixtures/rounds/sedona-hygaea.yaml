@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 7
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 29.5992
+    'y': 27.5679
+    'w': 8.867
+    'z': 8
+- model: spoilr_core.round
+  pk: 7
+  fields:
+    act: 2
+    slug: sedona
+    name: Sedona, AZ
+    order: 111

@@ -1,0 +1,109 @@
+- model: puzzles.puzzle
+  pk: 331
+  fields:
+    emoji: ':badger:'
+    deep: 1100
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 331
+  fields:
+    external_id: 331
+    round: 8
+    answer: THE MASK
+    name: Badges Badges Badges Badges Badges Badges Badges Badges Badges
+    main_credits: Alina Khankin, Brian Widerman, and John Bromels
+    other_credits: ''
+    order: 331
+    is_meta: false
+    slug: badges
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1116
+  fields:
+    puzzle: 331
+    description: Solvers don't know what this puzzle is and have no clue where to
+      start
+    order: 0.0
+    keywords: ''
+    content: The puzzle title references badges. You should have received badges in
+      your team bag at kickoff and there should be obvious puzzly aspects to them.
+      If you don't have badges, contact HQ.
+- model: spoilr_hints.cannedhint
+  pk: 1117
+  fields:
+    puzzle: 331
+    description: Solvers need help decoding the messages on the badges
+    order: 10.0
+    keywords: ''
+    content: For the Ceres message, think of common series where the items start with
+      the first letters on the badges. For Eris, you might be able to get some help
+      from Sherlock Holmes. For Gonggong, it's a common code that uses dots and dashes.
+      For Haumea, look for a Yankee Uniform in your Hotel. For Makemake, it's A Simple
+      Code Identifying Information. For Orcus, try reading with your hands. Quaoar's
+      code sounds like it was invented by an actor from Footloose. For Sedna, it's
+      elementary.
+- model: spoilr_hints.cannedhint
+  pk: 1118
+  fields:
+    puzzle: 331
+    description: Solvers have decoded the 8 messages, but don't know what to do next
+    order: 15.0
+    keywords: ''
+    content: The puzzle title is Badges Badges Badges Badges Badges Badges Badges
+      Badges Badges. That's 9 badges, but you only have 8. Have you noticed the icons
+      at the edges of your badges line up with each other? Something's missing. You're
+      looking for a ninth badge, but your team doesn't have it. Where might you expect
+      to find a different badge design?
+- model: spoilr_hints.cannedhint
+  pk: 1119
+  fields:
+    puzzle: 331
+    description: Solvers want to be told where to find the 9th badge
+    order: 20.0
+    keywords: ''
+    content: The running team's badges have a Pluto design. Find a member of the running
+      team and ask to see their badge to get to the next step on this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1120
+  fields:
+    puzzle: 331
+    description: Solvers have decoded all locations but don't know what to do
+    order: 30.0
+    keywords: ''
+    content: Notice that each badge talks about the god the dwarf planet is named
+      after. If you go to the locations that are encoded on the badges, you will find
+      posters that are (very loosely) themed after each of those gods. You need to
+      get information from those posters somehow.
+- model: spoilr_hints.cannedhint
+  pk: 1121
+  fields:
+    puzzle: 331
+    description: Solvers need more help knowing what to do with the posters
+    order: 35.0
+    keywords: ''
+    content: You need to use your badge to extract information (a word) from each
+      poster.
+- model: spoilr_hints.cannedhint
+  pk: 1122
+  fields:
+    puzzle: 331
+    description: Solvers want to know exactly how to interact with the posters
+    order: 36.0
+    keywords: ''
+    content: Each encoded badge message mentions an item depicted on one of the posters.
+      Align the planet from your badge with the item on the poster and read the word
+      from the poster that is under the star.
+- model: spoilr_hints.cannedhint
+  pk: 1123
+  fields:
+    puzzle: 331
+    description: Solvers have the words from the posters, but don't know what to do
+      with them
+    order: 40.0
+    keywords: ''
+    content: Each badge has a guide telling you how to pronounce the name of the dwarf
+      planet. You just need to put the words in order (going clockwise) to get a clue
+      phrase that gives the answer to this puzzle.

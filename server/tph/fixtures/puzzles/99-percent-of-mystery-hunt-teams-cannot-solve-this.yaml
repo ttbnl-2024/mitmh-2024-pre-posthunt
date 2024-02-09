@@ -1,0 +1,59 @@
+- model: puzzles.puzzle
+  pk: 219
+  fields:
+    emoji: ':1234:'
+    deep: 750
+- model: spoilr_core.puzzle
+  pk: 219
+  fields:
+    external_id: 219
+    round: 12
+    answer: MULTIPHASIC
+    name: 99% of Mystery Hunt Teams Cannot Solve This!
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 219
+    is_meta: false
+    slug: 99-percent-of-mystery-hunt-teams-cannot-solve-this
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 940
+  fields:
+    puzzle: 219
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: "The flavor text mentions IMO. Hint: it\u2019s not the International\
+      \ Maritime Organization (lol). Find something that is relevant to the content\
+      \ of this puzzle."
+- model: spoilr_hints.cannedhint
+  pk: 941
+  fields:
+    puzzle: 219
+    description: Solvers found the IMO problems and are stuck after that
+    order: 2.0
+    keywords: found,imo,problems,identified,diagrams
+    content: What percentage of contestants fully solved (score of 7 out of 7) each
+      of the problems?
+- model: spoilr_hints.cannedhint
+  pk: 943
+  fields:
+    puzzle: 219
+    description: Solvers can't figure out what to do with the three-letter codes
+    order: 3.0
+    keywords: codes,three-letter,abbreviations
+    content: Perhaps these three-letter codes can be found on Google. You could even
+      add `site:imo-official.org` to your Google query to limit your results to the
+      official IMO website.
+- model: spoilr_hints.cannedhint
+  pk: 944
+  fields:
+    puzzle: 219
+    description: Solvers don't know how to interpret the diagram on the bottom
+    order: 4.0
+    keywords: extraction,diagram,last step
+    content: Each country fields 6 contestants. Can you see (or not see) which contestants
+      fully solved (score of 7 out of 7) each problem?

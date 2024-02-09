@@ -1,0 +1,66 @@
+- model: puzzles.puzzle
+  pk: 648
+  fields:
+    emoji: ':astronaut:'
+    deep: 1300
+- model: spoilr_core.puzzle
+  pk: 648
+  fields:
+    external_id: 648
+    round: 6
+    answer: ENSIGN VORIK
+    name: Spacing Out
+    main_credits: Nathan Fung and Seth Bisen-Hersh
+    other_credits: ''
+    order: 648
+    is_meta: false
+    slug: spacing-out
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 814
+  fields:
+    puzzle: 648
+    description: Solvers have trouble starting the puzzle
+    order: 10.0
+    keywords: start, clues
+    content: When answering clues, keep in mind, most of these are very tiny answers.
+- model: spoilr_hints.cannedhint
+  pk: 815
+  fields:
+    puzzle: 648
+    description: Solvers solved most or all the clues but don't know how to proceed
+    order: 40.0
+    keywords: solved clues, next step
+    content: Try combining the small answers to create names.
+- model: spoilr_hints.cannedhint
+  pk: 816
+  fields:
+    puzzle: 648
+    description: Solvers combined the answers into names but haven't found the Star
+      Trek connection
+    order: 75.0
+    keywords: Names
+    content: Try googling a few of these names to figure out what franchise they have
+      in common.
+- model: spoilr_hints.cannedhint
+  pk: 1133
+  fields:
+    puzzle: 648
+    description: Solvers combined the answers into names but haven't found the Star
+      Trek connection (strong hint)
+    order: 75.1
+    keywords: names, franchise
+    content: The people you've found will boldly go where no man has gone before.
+- model: spoilr_hints.cannedhint
+  pk: 817
+  fields:
+    puzzle: 648
+    description: Extraction
+    order: 85.0
+    keywords: extraction
+    content: Using the flavor text, figure out when these characters have crossed
+      over and use the number of series to index into the character names.  The diagram
+      gives you the order.

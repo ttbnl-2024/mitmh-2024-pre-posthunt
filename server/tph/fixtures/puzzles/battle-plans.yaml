@@ -1,0 +1,103 @@
+- model: puzzles.puzzle
+  pk: 728
+  fields:
+    emoji: ':anchor:'
+    deep: 1
+- model: spoilr_core.puzzle
+  pk: 728
+  fields:
+    external_id: 728
+    round: 2
+    answer: SING A CHANTEY
+    name: Battle Plans
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 728
+    is_meta: false
+    slug: battle-plans
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1749
+  fields:
+    puzzle: 728
+    description: Solvers don't know where to begin
+    order: 10.0
+    keywords: getting started, start
+    content: All of the talk about battle plans and ships might suggest "battleships"
+      to you.  There is, in fact, a logic puzzle type called "Battleships" (see https://en.wikipedia.org/wiki/Battleship_(puzzle)
+      for details), although the version presented here uses pairs of letters instead
+      of drawn ship segments.   Please note that pairs of letters already in each
+      grid are the cloud cover referred to in the flavor text, rather than ships in
+      your fleet or any plausible enemy ships.
+- model: spoilr_hints.cannedhint
+  pk: 1750
+  fields:
+    puzzle: 728
+    description: Solvers have recognized that this is a Battleships puzzle but don't
+      know how to solve it
+    order: 30.0
+    keywords: stuck, battleships, ambiguous, broken
+    content: "As suggested by the bigrams already visible in the grids, the ship \"\
+      words\" under the grid will be entered two letters at a time.  Even understanding\
+      \ that, however, there is no solution for each puzzle if ships are understood\
+      \ to not cross the bigrams in the grid, and multiple solutions if the ships\
+      \ are understood to ignore them..\r\n\r\nThe flavortext talks about ships hiding\
+      \ under the clouds.  If the bigrams already in the grid are understood to be\
+      \ clouds, what does that suggest about finding a single correct solution for\
+      \ each grid?"
+- model: spoilr_hints.cannedhint
+  pk: 1751
+  fields:
+    puzzle: 728
+    description: Solvers have recognized that this is a Battleships puzzle but don't
+      know how to solve it (2)
+    order: 30.1
+    keywords: stuck, battleships, ambiguous, broken
+    content: In this battleships puzzle, the ships hide under the cloud cover (given
+      bigrams).  For each diagram, there is only one way for the ships to hide one
+      or more of their bigrams under the clouds (so that they are no longer seen)
+      in a way that new words are spelled by a combination of the ships segments and
+      the cloud segments for every ship.
+- model: spoilr_hints.cannedhint
+  pk: 1752
+  fields:
+    puzzle: 728
+    description: Solvers have solved the Battleships puzzles but don't know how to
+      extract the answer
+    order: 60.0
+    keywords: battleships, extraction, stuck
+    content: Most Battleships puzzles include submarines (one-cell ships); this puzzle
+      has an asterisk where they would be in the ship list.  While there are no submarines
+      in the main logic puzzle part of this puzzle, that doesn't mean there are no
+      submarines in this puzzle at all...
+- model: spoilr_hints.cannedhint
+  pk: 1753
+  fields:
+    puzzle: 728
+    description: Solvers have solved the Battleships puzzles but don't know how to
+      extract the answer (2)
+    order: 60.1
+    keywords: battleships, extraction, stuck
+    content: There are five one-cell submarines in each puzzle which are not on the
+      ship list (they must be submerged) but which can nevertheless be placed.  Place
+      those five submarines according to standard Battleships rules, and observe which
+      cloud segments certain submarines are under.
+- model: spoilr_hints.cannedhint
+  pk: 1754
+  fields:
+    puzzle: 728
+    description: Solvers have solved and submitted the task phrase, but don't know
+      any chanteys to sing
+    order: 90.0
+    keywords: chantey
+    content: Technically, the theme song from Spongebob Squarepants is a sea chantey.
+- model: spoilr_core.pseudoanswer
+  pk: 308
+  fields:
+    puzzle: 728
+    answer: re-enable this if usuing as a back-up puzzle - SING A CHANTEY
+    response: Send us a video of some or all of your team performing a sea chantey!
+      the performance must be at least two minutes and must be recognizable as a Chantey.

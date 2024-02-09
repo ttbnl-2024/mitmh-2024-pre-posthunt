@@ -1,0 +1,135 @@
+- model: puzzles.puzzle
+  pk: 362
+  fields:
+    emoji: ':airplane:'
+    deep: 975
+- model: spoilr_core.puzzle
+  pk: 362
+  fields:
+    external_id: 362
+    round: 19
+    answer: BEER BOTTLE
+    name: Icarus Away!
+    main_credits: Charles Steinhardt, Jeremiahs Johnson, John Bromels, Linus Hamilton,
+      and Nick Poulos
+    other_credits: ''
+    order: 362
+    is_meta: false
+    slug: icarus-away
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1579
+  fields:
+    puzzle: 362
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: "It looks like you are being asked to complete a flight itinerary using\
+      \ substandard tools. You'll have to make the best of it! \r\nAccording to Crassus,\
+      \ you need to book flights on icarusaway.com. Have you visited that site and\
+      \ looked around? \r\nYou are also provided with two sets of photos. The first\
+      \ is apparently a set of flight itinerary details (Crassus says they represent\
+      \ destinations, but may be cities, airports, or nearby landmarks). The second\
+      \ is a set of \"Tell-a-Phony\" confirmations of real flights by real airlines.\
+      \ Try to identify these photos."
+- model: spoilr_hints.cannedhint
+  pk: 1580
+  fields:
+    puzzle: 362
+    description: Solvers don't know how to interpret the first set of photos (flight
+      destinations from Pictoristan)
+    order: 2.0
+    keywords: pictures, photos, destinations, Pictoristan
+    content: Each photo represents a destination for a domestic flight in the itinerary.
+      The photos are shown in alphabetical order. For example, the first photo shows
+      the BARCELONA (Spain) soccer team, but clues an arrival city of BARCELONA, Venezuela.
+      The second photo is of the BRANDENBURG Gate, but clues BRANDENBURG airport in
+      Berlin, Germany. Each location will be added to one of the destination spots
+      in your inventory that has the correct number of blanks.
+- model: spoilr_hints.cannedhint
+  pk: 1581
+  fields:
+    puzzle: 362
+    description: Solvers don't know how to interpret the second set of photos (Tell-a-Phony)
+    order: 2.1
+    keywords: Photos, pictures, Tell-a-Phony
+    content: "This is the output from \"Tell-a-Phony,\" sent to you by Callie DeSignatis,\
+      \ who apparently mentioned that there was a piece of \"ancillary data\" in each\
+      \ photo along with a confirmation that this was a real flight from a real airline.\
+      \ \r\nEach photo represents the radio telephony (\"Tell-a-Phony\") designation,\
+      \ or call sign, from an actual airline, along with another word or pair of words.\
+      \ By looking up these call signs and cross-checking them with the airline's\
+      \ destinations served, you should be able to fill out the inventory that has\
+      \ been booked for you thus far."
+- model: spoilr_hints.cannedhint
+  pk: 1582
+  fields:
+    puzzle: 362
+    description: Solvers don't know what to do with the itinerary
+    order: 3.0
+    keywords: itinerary, blanks
+    content: "[NOTE: If solvers have completed the ENTIRE itinerary, including long-haul\
+      \ international flights, skip to Hint 5.0]\r\nThe itinerary list has replaced\
+      \ all text with blanks. Counting the number of blanks will narrow down your\
+      \ destinations (from the first set of photos), and checking routes within countries\
+      \ will narrow down the departure cities. You can tell whether a flight is domestic\
+      \ or short-haul international by counting the blanks in the \"Domestic/International?\"\
+      \ column. Once you know the departure and arrival cities for all flights, you\
+      \ can go to icarusaway.com and book the remaining long-haul international flights."
+- model: spoilr_hints.cannedhint
+  pk: 1583
+  fields:
+    puzzle: 362
+    description: Solvers are stuck trying to plug locations for domestic flights into
+      the itinerary.
+    order: 3.1
+    keywords: Itinerary, cities
+    content: "The routes for flights that have already been booked are:\r\nGermany:\
+      \ Dusseldorf to (Berlin)-Brandenburg;\r\nMalaysia: Kuching to Miri;\r\nHonduras:\
+      \ Tegucigalpa to Juan Manuel Galvez;\r\nUganda: Entebbe to Queen Elizabeth National\
+      \ Park (Mweya/Kasese Airstrip);\r\nIreland: Dublin to Isle of Man;\r\nCanada:\
+      \ Prince George to Terrace;\r\nPhilippines: Cebu to Clark;\r\nKyrgyzstan: Bishkek\
+      \ to Irkutsk;\r\nVietnam: Hanoi to Hue;\r\nSri Lanka: Colombo to Waters Edge;\r\
+      \nVenezuela: Caracas to Barcelona;\r\nAustralia: Melbourne to Darwin;\r\nSouth\
+      \ Africa: Johannesburg to George."
+- model: spoilr_hints.cannedhint
+  pk: 1584
+  fields:
+    puzzle: 362
+    description: Solvers can't figure out what flights to book
+    order: 4.0
+    keywords: which flights, what flights, book, booking
+    content: "[NOTE: DO NOT GIVE THIS HINT unless the solvers have completed the itinerary\
+      \ and know which domestic/short-haul routes they are flying]\r\nNow that you\
+      \ have a complete-so-far itinerary, you should book flights that connect the\
+      \ countries to which you are already visiting (by the way, you can contact the\
+      \ icarusaway.com helpdesk for additional ideas). For example, you start in Seattle\
+      \ and need to go to Dusseldorf, so you should look up a flight from United States\
+      \ to Germany. This gives you an arrival time of 13:45 and a price of $90.38.\
+      \ Then you'll fly from Brandenburg to Kuching, so search for a flight from Germany\
+      \ to Malaysia, which gives you a departure time of 16:55, an arrival time of\
+      \ 13:45, and a cost of $26.77. You should be able to complete the full itinerary\
+      \ in this manner."
+- model: spoilr_hints.cannedhint
+  pk: 1585
+  fields:
+    puzzle: 362
+    description: Solvers are stuck on extraction
+    order: 5.0
+    keywords: Extraction, numbers mean
+    content: "[NOTE: This hint should only be given once solvers have completed the\
+      \ entire itinerary (long-haul, short-haul, and domestic flights) except for\
+      \ flight numbers.]\r\nThe Icarus Away! site warns you to leave an hour (not\
+      \ \"at least\" an hour: an hour) between arrivals and departures. Your international\
+      \ flight to Dusseldorf arrives at 13:45, while your international flight from\
+      \ Brandenburg leaves at 16:55. That means that your domestic flight from Dusseldorf\
+      \ to Brandenburg aboard (Eurowings) Discover must depart at 14:45 and arrive\
+      \ at 15:55. Heading to Google Flights, we see that exactly corresponds to Flight\
+      \ 9042, which is the flight number we can fill in for this flight. All flights\
+      \ are listed on Google Flights except for Entebbe to Queen Elizabeth National\
+      \ Park aboard Aerolink Uganda (hint: check the Aerolink website for a full flight\
+      \ schedule) and Bishkek to Irkutsk aboard Avia Traffic Company (hint: Google\
+      \ the route name with airline name)."

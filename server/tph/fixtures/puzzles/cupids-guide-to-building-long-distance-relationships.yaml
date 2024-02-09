@@ -1,0 +1,98 @@
+- model: puzzles.puzzle
+  pk: 598
+  fields:
+    emoji: ':basket:'
+    deep: 380
+- model: spoilr_core.puzzle
+  pk: 598
+  fields:
+    external_id: 598
+    round: 20
+    answer: ITEM
+    name: "Cupid\u2019s Guide to Building Long-Distance Relation\u00ADships"
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 598
+    is_meta: false
+    slug: cupids-guide-to-building-long-distance-relationships
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 764
+  fields:
+    puzzle: 598
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: start, getting started
+    content: If you haven't done so yet, try investigating the collection of books
+      found on the bookshelf.
+- model: spoilr_hints.cannedhint
+  pk: 765
+  fields:
+    puzzle: 598
+    description: Solvers got a hint to look at the bookshelf, but still haven't found
+      the Kansas City Community Bookshelf
+    order: 1.0
+    keywords: extraction
+    content: Is there one real-life place where you can find the exact set of books
+      found on the bookshelf?
+- model: spoilr_hints.cannedhint
+  pk: 767
+  fields:
+    puzzle: 598
+    description: Solvers have found the novelty architecture, but aren't sure what
+      to do with the X.XX## numbers
+    order: 10.0
+    keywords: decimals numbers
+    content: The numbers like "X.XX##" can be used to refine the last few digits of
+      each novelty architecture building's latitude and longitude coordinates.
+- model: spoilr_hints.cannedhint
+  pk: 768
+  fields:
+    puzzle: 598
+    description: Solvers have found the mimetic architecture, but aren't sure what
+      to do with the large decimal numbers
+    order: 20.0
+    keywords: decimals, latitude, longitude
+    content: The numbers at the head of each arrow are latitude or longitude offsets
+      from the location of the building you found.
+- model: spoilr_hints.cannedhint
+  pk: 769
+  fields:
+    puzzle: 598
+    description: Solvers aren't sure what letter the Seoul City Hall Building is
+    order: 30.0
+    keywords: Seoul City Hall
+    content: Seoul City Hall is intended to be an "R".
+- model: spoilr_hints.cannedhint
+  pk: 770
+  fields:
+    puzzle: 598
+    description: Solvers aren't sure what letter the water tower is
+    order: 31.0
+    keywords: water tower
+    content: The water tower is intended to be a "Y".
+- model: spoilr_hints.cannedhint
+  pk: 766
+  fields:
+    puzzle: 598
+    description: Solvers have the final phrase LOVERS MAY BE AN, but aren't sure what
+      the blanks should be
+    order: 100.0
+    keywords: extraction
+    content: "You might try using Nutrimatic on the phrase \"BE AN ____\" and looking\
+      \ for something thematic to complete the phrase.\r\nhttps://nutrimatic.org/?q=%22be+an+AAAA%22&go=Go"
+- model: spoilr_core.pseudoanswer
+  pk: 61
+  fields:
+    puzzle: 598
+    answer: LOVERS MAY BE AN
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 60
+  fields:
+    puzzle: 598
+    answer: LOVERS MAY BE AN ITEM
+    response: Submit the last 4 letters only

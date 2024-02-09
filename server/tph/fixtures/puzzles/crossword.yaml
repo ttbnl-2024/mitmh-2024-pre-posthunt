@@ -1,0 +1,38 @@
+- model: puzzles.puzzle
+  pk: 371
+  fields:
+    emoji: ':crossed_swords:'
+    deep: 75
+- model: spoilr_core.puzzle
+  pk: 371
+  fields:
+    external_id: 371
+    round: 15
+    answer: ADONIS, BARGING, BEAMER, BENZOYL, BRACKET, CRONE
+    name: Crossword
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 371
+    is_meta: false
+    slug: crossword
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 793
+  fields:
+    puzzle: 371
+    description: Trouble solving the crossword
+    order: 0.0
+    keywords: start, begin
+    content: The crossword part is normal. The answer to 8-across is NAN GYI. The
+      answer to 50-across is PUSAN.
+- model: spoilr_hints.cannedhint
+  pk: 794
+  fields:
+    puzzle: 371
+    description: Need help with extraction
+    order: 100.0
+    keywords: extraction
+    content: Do what you're told. Where might the "clue" and "useful command" be useful?

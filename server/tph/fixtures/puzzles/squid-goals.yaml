@@ -1,0 +1,115 @@
+- model: puzzles.puzzle
+  pk: 252
+  fields:
+    emoji: ':squid:'
+    deep: 1
+- model: spoilr_core.puzzle
+  pk: 252
+  fields:
+    external_id: 252
+    round: 2
+    answer: PERFORM A CHEER
+    name: SQUID GOALS
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 252
+    is_meta: false
+    slug: squid-goals
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 829
+  fields:
+    puzzle: 252
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: This puzzle's clues are cryptic clues.  If you have never seen or solved
+      cryptic clues before, a guide to cryptic clues, such as the one at  https://archive.nytimes.com/www.nytimes.com/premium/xword/cryptics.html,
+      will likely be helpful.
+- model: spoilr_hints.cannedhint
+  pk: 831
+  fields:
+    puzzle: 252
+    description: The solvers know these clues are cryptic clues but are having difficulty
+      solving them
+    order: 20.0
+    keywords: stuck, aha
+    content: This puzzle's title seems a little off.  What do you think the title
+      should ordinarily be expected to be?
+- model: spoilr_hints.cannedhint
+  pk: 833
+  fields:
+    puzzle: 252
+    description: The solvers know these clues are cryptic clues but are having difficulty
+      solving them (2)
+    order: 20.1
+    keywords: stuck, aha
+    content: This puzzle's title seems a little off.  What do you think the title
+      should ordinarily be expected to be?  And can you think of a five-word maxim
+      that this title could be interpreted as defying by way of this difference between
+      the "expected" title and the actual title?
+- model: spoilr_hints.cannedhint
+  pk: 838
+  fields:
+    puzzle: 252
+    description: The solvers know these clues are cryptic clues but are having difficulty
+      solving them (3)
+    order: 20.2
+    keywords: stuck, aha
+    content: This puzzle's title seems awfully close to the popular idiom of "Squad
+      Goals."  Can you think of a five-word maxim that this this title change could
+      be an example of defying?  And how might that impact the answers to the cryptic
+      clues?
+- model: spoilr_hints.cannedhint
+  pk: 910
+  fields:
+    puzzle: 252
+    description: The solvers know these clues are cryptic clues but are having difficulty
+      solving them (4)
+    order: 20.3
+    keywords: stuck, aha
+    content: This puzzle's title, "Squad Goals", is an example of a word phrase that
+      defies the maxim "There is no I in 'Team'" by taking a team ("Squad") and putting
+      an I in it (to make it "Squid").  All of the answers to the cryptic clues in
+      this puzzle are names of sports teams, and the wordplay in the cryptic clues
+      follows a similar pattern.
+- model: spoilr_hints.cannedhint
+  pk: 913
+  fields:
+    puzzle: 252
+    description: The solvers know these clues are cryptic clues but are having difficulty
+      solving them (5)
+    order: 20.4
+    keywords: stuck, aha
+    content: This puzzle's title, "Squad Goals", is an example of a word phrase that
+      defies the maxim that "There is no I in 'Team'" by taking a team ("Squad") and
+      putting an I in it (to make it "Squid"). All of the answers to the cryptic clues
+      in this puzzle are names of sports teams; the wordplay for each clue defies
+      the maxim that "There is no I in 'Team'" by likewise replacing one letter of
+      a team's name with an I.  (The straight definition defines the team's actual
+      name, as you would expect, though not as the name of the team.)
+- model: spoilr_hints.cannedhint
+  pk: 911
+  fields:
+    puzzle: 252
+    description: The solvers have solved most or all of the cryptic clues and don't
+      know what to do next.
+    order: 70.0
+    keywords: extraction
+    content: In the wordplay for each cryptic clue, the I which has been injected
+      into the wordplay replaces another letter.  The letters which are replaced by
+      I's are important.
+- model: spoilr_hints.cannedhint
+  pk: 912
+  fields:
+    puzzle: 252
+    description: The solvers have solved most or all of the cryptic clues and don't
+      know what to do next. (2)
+    order: 70.1
+    keywords: extraction
+    content: Read the wordplay letters which have been replaced by I's in the order
+      in which their clues appear in the puzzle.  These letters will provide an additional
+      instruction for you to perform.

@@ -1,0 +1,38 @@
+name: deploy-prod
+
+on:
+  workflow_dispatch:
+
+concurrency: deploy-prod
+
+jobs:
+  deploy-prod:
+    uses: ./.github/workflows/deploy.yml
+    with:
+      # only allow if the main branch or the tag latest
+      assert_branch: main
+      assert_tag: latest
+      DEPLOY_USER: prod
+      DEPLOY_HOST: mitmh2024.com
+      SERVER_ENVIRONMENT: prod
+      BUILD_SITE: hunt-reg
+      POSTGRES_CONF: deploy/postgresql.prod.conf
+      HUNT_HOST: mythstoryhunt.world
+      REGISTRATION_HOST: mitmh2024.com
+      # scale to number of cores - c2-standard-60
+      # UVICORN_NUM_PROCS: 52
+      # CELERY_NUM_PROCS: 30
+      UVICORN_NUM_PROCS: 1
+      CELERY_NUM_PROCS: 1
+      COPY_GCS_CREDS: 1
+      # EXTRA_ENV: |-
+      #   DB_SHM_SIZE=12gb
+      #   CDN_HUNT_HOST=cdn.mythstoryhunt.world
+      #   CDN_REGISTRATION_HOST=cdn.mitmh2024.com
+      #   WWW_REDIRECT=www.mitmh2024.com, www.mythstoryhunt.world
+      EXTRA_ENV: |-
+        DB_SHM_SIZE=1gb
+        CDN_HUNT_HOST=cdn.mythstoryhunt.world
+        CDN_REGISTRATION_HOST=cdn.mitmh2024.com
+        WWW_REDIRECT=www.mitmh2024.com, www.mythstoryhunt.world
+    secrets: inherit

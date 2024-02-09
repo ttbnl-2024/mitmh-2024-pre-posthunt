@@ -1,0 +1,157 @@
+- model: puzzles.puzzle
+  pk: 315
+  fields:
+    emoji: ':chess_pawn:'
+    deep: 1300
+- model: spoilr_core.puzzle
+  pk: 315
+  fields:
+    external_id: 315
+    round: 11
+    answer: JOYFUL SPIRITS
+    name: Queen Marchesa to g4
+    main_credits: Andrey Gorlin and Linus Hamilton
+    other_credits: ''
+    order: 315
+    is_meta: false
+    slug: queen-marchesa-to-g4
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1094
+  fields:
+    puzzle: 315
+    description: The first subpuzzle.
+    order: 1.0
+    keywords: Ragefire, first
+    content: This puzzle would be impossible if Ragefire said "Ragefire deals 3 damage
+      to target creature an opponent controls."
+- model: spoilr_hints.cannedhint
+  pk: 1095
+  fields:
+    puzzle: 315
+    description: The second subpuzzle.
+    order: 2.0
+    keywords: pony, second
+    content: "Currently, your king is in check. This is because your opponent can\
+      \ cast Motivated Pony, have it enter the battlefield on d1, and then cast Serpent's\
+      \ Gift to give it Deathtouch. Then because it has Haste, it can immediately\
+      \ attack MotivatedPonyxf2.\r\n\r\nGuard Duty is a spell you can cast on your\
+      \ turn, that will make one creature unable to attack."
+- model: spoilr_hints.cannedhint
+  pk: 1096
+  fields:
+    puzzle: 315
+    description: The third subpuzzle.
+    order: 3.0
+    keywords: time walk, extra turn, fourth
+    content: Imagine it were Black to move in the diagram. Then 1... Ke7 would be
+      an illegal move, because it would put the king in check (from Nc6, Time Walk,
+      Nxe7).
+- model: spoilr_hints.cannedhint
+  pk: 1097
+  fields:
+    puzzle: 315
+    description: The fourth subpuzzle.
+    order: 4.0
+    keywords: Arwen, Undomiel, Angel's, Herald, Yotian, Soldier
+    content: "Creature types determine a creature's chess moves. Most creature types,\
+      \ like \"Elf\" and \"Human,\" don't give any chess moves.\r\n\r\nThe solution\
+      \ may be unintuitive, since it's a double check that could never happen in a\
+      \ normal game of chess."
+- model: spoilr_hints.cannedhint
+  pk: 1098
+  fields:
+    puzzle: 315
+    description: The fifth subpuzzle.
+    order: 5.0
+    keywords: mindslaver, helpmate, fifth
+    content: "The Mindslavers let you choose both of your opponent's moves, but they\
+      \ must both be legal moves. (You can't make them move into check.) Chess problemists\
+      \ call this a \"helpmate.\"\r\n\r\nIn the helpmate, the Black king never moves.\
+      \ White's second move is 2. Kb4."
+- model: spoilr_hints.cannedhint
+  pk: 1099
+  fields:
+    puzzle: 315
+    description: The sixth subpuzzle.
+    order: 6.0
+    keywords: Bloodshed Fever, sixth
+    content: To "attack" is to move. Therefore, the Black king can never move, which
+      should make it very easy to checkmate. Unfortunately, your bishop must attack
+      every turn if able. The words "if able" are crucial here. Your bishop isn't
+      able to attack on your first turn, because you have no legal bishop moves. Can
+      you make that happen again?
+- model: spoilr_hints.cannedhint
+  pk: 1100
+  fields:
+    puzzle: 315
+    description: The seventh subpuzzle.
+    order: 7.0
+    keywords: wall, walls, seventh, wood
+    content: "Your king won't help deliver the mate. (It will move once, to lose a\
+      \ tempo. Which of the 3 squares it moves to doesn't matter.)\r\n\r\nIt's impossible\
+      \ to checkmate their king on a7 or b7, since it'll just move to the other square.\
+      \ It may help to first search for any possible checkmate."
+- model: spoilr_hints.cannedhint
+  pk: 1101
+  fields:
+    puzzle: 315
+    description: The eighth subpuzzle.
+    order: 8.0
+    keywords: Nimbus, eighth
+    content: "To \"attack\" is to move. Therefore, by activating Rage Nimbus on your\
+      \ opponent's turn before their combat phase, you can choose what your opponent\
+      \ moves -- though you can't choose where they move to.\r\n\r\nNote that Rage\
+      \ Nimbus says the creature must attack \"if able.\" Let me clarify what \"if\
+      \ able\" means, because the exact rule is important. Say you activate Rage Nimbus\
+      \ targeting your opponent's h6 pawn, but don't move your king away from h5,\
+      \ so that the pawn isn't \"able\" to move. The Magic the Gathering rules say\
+      \ that a player must satisfy as many \"if able\" requirements as possible. In\
+      \ that example, the maximum number of \"if able\" requirements Black can satisfy\
+      \ is 0, so they can freely choose from any move that satisfies 0 requirements."
+- model: spoilr_hints.cannedhint
+  pk: 1102
+  fields:
+    puzzle: 315
+    description: The ninth subpuzzle
+    order: 9.0
+    keywords: warhorse, jerren, ninth
+    content: "The Fit of Rages (Fits of Rage?) are only here to ensure that horses/Jerren\
+      \ can capture each other just like in normal chess, so that you don't have to\
+      \ worry about power/toughness.\r\n\r\nAim for a draw by perpetual check. Don't\
+      \ give Black time to move a queen."
+- model: spoilr_hints.cannedhint
+  pk: 1103
+  fields:
+    puzzle: 315
+    description: The tenth subpuzzle.
+    order: 10.0
+    keywords: mettle, blessing, mirror, irregular, cohort, tenth
+    content: "If you cast Irregular Cohort, it's basically a free checkmate. Unfortunately,\
+      \ you don't have enough white mana to cast it.\r\n\r\nThis isn't obvious, but\
+      \ there's no mate in 2 without Irregular Cohort. So you need another card that\
+      \ can tap for white mana. <<IF THE SOLVER ALREADY REALIZED THAT: To transform\
+      \ Path of Mettle, you need to attack with two creatures at once. Don't worry\
+      \ about the restriction; all normal chess pieces already have vigilance, not\
+      \ to mention first strike and deathtouch when attacking.>>"
+- model: spoilr_hints.cannedhint
+  pk: 1104
+  fields:
+    puzzle: 315
+    description: The eleventh and final subpuzzle.
+    order: 11.0
+    keywords: lotus, market, omnath, nishoba, eleventh, last, final
+    content: "On the chessboard, it seems like you're absolutely doomed. Your one\
+      \ copy of Black Market isn't helping you either; you have nothing to spend that\
+      \ mana on.\r\n\r\nHow did we get here? For example, how can Black control both\
+      \ Omnath and Arctic Nishoba with only a single Forest?"
+- model: spoilr_core.pseudoanswer
+  pk: 153
+  fields:
+    puzzle: 315
+    answer: NOW WRITE ONE FOR US
+    response: Nice try :) (You're welcome to write a problem, but it's not going to
+      help you progress in the hunt.)

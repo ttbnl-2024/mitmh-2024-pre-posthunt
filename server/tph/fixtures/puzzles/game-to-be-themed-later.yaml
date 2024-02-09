@@ -1,0 +1,55 @@
+- model: puzzles.puzzle
+  pk: 510
+  fields:
+    emoji: ':white_circle:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 510
+  fields:
+    external_id: 510
+    round: 11
+    answer: PAINTED EGG
+    name: Game to Be Themed Later
+    main_credits: Elaine Lowinger
+    other_credits: ''
+    order: 510
+    is_meta: false
+    slug: game-to-be-themed-later
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1713
+  fields:
+    puzzle: 510
+    description: Solvers want help getting started
+    order: 0.0
+    keywords: pages, start, print outs
+    content: Get the ball rolling by identifying where these images come from. Once
+      you have the names, you should be able to see how to sort them.
+- model: spoilr_hints.cannedhint
+  pk: 1714
+  fields:
+    puzzle: 510
+    description: Solvers need a stronger hint to get started.
+    order: 0.5
+    keywords: start, game names, sorting
+    content: Each name has a numerical word hidden inside. Stack your sheets in that
+      order and put the black cover on top to read a secret message.
+- model: spoilr_hints.cannedhint
+  pk: 1715
+  fields:
+    puzzle: 510
+    description: Solvers are playing the game without figuring out the sequence
+    order: 50.0
+    keywords: pinball machine, how to play
+    content: If you've been playing with enough skill, you should be scoring some
+      points. Take note of the different scores you get. Does the art in the playfield
+      look familiar? It might help you figure out your next few plays.
+- model: spoilr_core.pseudoanswer
+  pk: 43
+  fields:
+    puzzle: 510
+    answer: PLAYAMEANPINBALL
+    response: Refresh this page to request a new appointment.

@@ -1,0 +1,94 @@
+- model: puzzles.puzzle
+  pk: 591
+  fields:
+    emoji: ':ice_cube:'
+    deep: 1025
+- model: spoilr_core.puzzle
+  pk: 591
+  fields:
+    external_id: 591
+    round: 7
+    answer: MANY-SIDED DIE
+    name: Building Blocks
+    main_credits: Nathan Fung
+    other_credits: ''
+    order: 591
+    is_meta: false
+    slug: building-blocks
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1730
+  fields:
+    puzzle: 591
+    description: Solvers don't know how to start
+    order: 0.0
+    keywords: start, begin
+    content: The pieces can be assembled so that the labels on the edges are satisfied
+      by the word at the center of the piece next to it.
+- model: spoilr_hints.cannedhint
+  pk: 1731
+  fields:
+    puzzle: 591
+    description: Solvers aren't sure what to make
+    order: 5.0
+    keywords: ''
+    content: The pieces can be assembled into eight cubes.
+- model: spoilr_hints.cannedhint
+  pk: 1732
+  fields:
+    puzzle: 591
+    description: Solvers have the cubes, but not the message from the numbered arrows
+    order: 10.0
+    keywords: numbered arrows
+    content: Reading the first letters of the center words on the cube faces pointed
+      to by the numbered arrows spells a message.
+- model: spoilr_hints.cannedhint
+  pk: 1733
+  fields:
+    puzzle: 591
+    description: Solvers haven't figured out how to pair faces
+    order: 20.0
+    keywords: pair faces
+    content: The words at the center of the cube faces can be paired to form clues
+      for words that pair with the word FACE.
+- model: spoilr_hints.cannedhint
+  pk: 1734
+  fields:
+    puzzle: 591
+    description: Solvers haven't figured out that all the words can be paired
+    order: 21.0
+    keywords: ''
+    content: All of the words can be paired forming twenty-four pairs.
+- model: spoilr_hints.cannedhint
+  pk: 1735
+  fields:
+    puzzle: 591
+    description: Solvers haven't figured out they're making a tesseract
+    order: 22.0
+    keywords: final figure
+    content: The final figure is a tesseract with each face being the overlap between
+      one pair of the cube faces.
+- model: spoilr_hints.cannedhint
+  pk: 1736
+  fields:
+    puzzle: 591
+    description: Solvers haven't figured out how to use the lines and stars at the
+      bottom
+    order: 30.0
+    keywords: stars, blanks
+    content: The 16 sets of blanks can each be paired with one of the vertices of
+      the tesseract by alphabetizing the words that pair with face and taking into
+      account whether the word face is before or after the clued word.
+- model: spoilr_hints.cannedhint
+  pk: 1737
+  fields:
+    puzzle: 591
+    description: Solvers need help on final extract
+    order: 90.0
+    keywords: extraction
+    content: The numbers can be used to index into the indicated word to assign each
+      vertex a letter. Starting at the vertex pointed at by the arrow, a path can
+      be found that reads a final message.

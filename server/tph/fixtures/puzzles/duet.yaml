@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 335
+  fields:
+    emoji: ':question:'
+    deep: 10
+    deep_key: 'mercury-r2-meta'
+- model: spoilr_core.puzzle
+  pk: 335
+  fields:
+    external_id: 335
+    round: 22
+    answer: A NIGHT AT THE OPERA
+    name: Duet
+    main_credits: Charles Steinhardt, Jeremiahs Johnson, and Jeremy Horwitz
+    other_credits: Performed by Jeremiahs Johnson and Cookie McManus
+    order: 335
+    is_meta: true
+    slug: duet
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1475
+  fields:
+    puzzle: 335
+    description: Solvers are unsure which meta puzzle answers they need
+    order: 1.0
+    keywords: start, feeders
+    content: You will need fifteen previous answers to work with this meta puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1476
+  fields:
+    puzzle: 335
+    description: People are stuck looking at the transcript
+    order: 2.0
+    keywords: transcript
+    content: The video is essential, you cannot solve this puzzle looking at the transcripts
+      alone.
+- model: spoilr_hints.cannedhint
+  pk: 1489
+  fields:
+    puzzle: 335
+    description: Solvers are solving according to the video but cannot find either
+      of the intended clue phrases.
+    order: 2.5
+    keywords: check work, stuck, instructions
+    content: '[[check their work]]'
+- model: spoilr_hints.cannedhint
+  pk: 1477
+  fields:
+    puzzle: 335
+    description: People don't know how to interpret the initial phrase
+    order: 3.0
+    keywords: lyre liar
+    content: If you know times when someone is lying, ignore everything they say at
+      those points.
+- model: spoilr_core.pseudoanswer
+  pk: 2
+  fields:
+    puzzle: 335
+    answer: HERMESISALYRELIAR
+    response: Keep going!

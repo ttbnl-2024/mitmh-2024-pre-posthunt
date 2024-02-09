@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 51
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 84.763
+    'y': 75.55
+    'w': 30.45
+    'z': 8
+- model: spoilr_core.round
+  pk: 51
+  fields:
+    act: 1
+    slug: herc-u-lease
+    name: Herc-U-Lease
+    order: 300

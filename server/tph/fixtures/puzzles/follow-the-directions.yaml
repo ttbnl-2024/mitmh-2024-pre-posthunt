@@ -1,0 +1,147 @@
+- model: puzzles.puzzle
+  pk: 198
+  fields:
+    emoji: ':compass:'
+    deep: 350
+- model: spoilr_core.puzzle
+  pk: 198
+  fields:
+    external_id: 198
+    round: 12
+    answer: VENICE BEACH
+    name: Follow the Directions
+    main_credits: David Latham and Jennifer Kidder
+    other_credits: ''
+    order: 198
+    is_meta: false
+    slug: follow-the-directions
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 643
+  fields:
+    puzzle: 198
+    description: Solvers don't recognize what3words format.
+    order: 1.0
+    keywords: three words, periods, format
+    content: Each of these three word clues indicates a location on the earth's surface
+      in the what3words format.
+- model: spoilr_hints.cannedhint
+  pk: 644
+  fields:
+    puzzle: 198
+    description: Solvers are looking at the locations, but not in the w3w grid.
+    order: 1.5
+    keywords: what3words, location
+    content: You'll need to find these locations in the grid at https://what3words.com.
+- model: spoilr_hints.cannedhint
+  pk: 649
+  fields:
+    puzzle: 198
+    description: Solvers are not understanding the need to travel in the grid.
+    order: 3.0
+    keywords: directions, how to follow
+    content: Using the grid view at https://what3words.com, look at the what3words
+      designations for squares in the grid moving away from the starting square in
+      the direction indicated.
+- model: spoilr_hints.cannedhint
+  pk: 645
+  fields:
+    puzzle: 198
+    description: Solvers don't see where they should stop traveling from the starting
+      location.
+    order: 5.0
+    keywords: stop
+    content: Watch for a grid location that could be interpreted as a clue phrase.
+- model: spoilr_hints.cannedhint
+  pk: 648
+  fields:
+    puzzle: 198
+    description: Solvers know to look for a clue phrase, but still aren't spotting
+      them.
+    order: 6.0
+    keywords: can't find clue phrase
+    content: The theme of the answers to the clue phrases is hinted in the flavortext.
+- model: spoilr_hints.cannedhint
+  pk: 647
+  fields:
+    puzzle: 198
+    description: Solvers are not spotting all the element clue phrases.
+    order: 7.0
+    keywords: can't find clue, can't figure out
+    content: Clue phrases could point to an element name, its number, or its symbol.
+- model: spoilr_hints.cannedhint
+  pk: 646
+  fields:
+    puzzle: 198
+    description: Solvers have identified elements from clue phrases but don't know
+      what to do next.
+    order: 10.0
+    keywords: identified, elements, next
+    content: There is a message to be found in the distances traveled from each starting
+      grid square to the square that can be interpreted as a clue phrase.
+- model: spoilr_hints.cannedhint
+  pk: 653
+  fields:
+    puzzle: 198
+    description: Solvers don't realize they now need the periodic table.
+    order: 12.0
+    keywords: intersections, where, can't find
+    content: The intersections referred to in the clue message will use a different
+      grid than what3words.
+- model: spoilr_hints.cannedhint
+  pk: 651
+  fields:
+    puzzle: 198
+    description: Solvers don't understand instruction to find each pair intersection.
+    order: 15.0
+    keywords: periodic table, intersection
+    content: Again using the given direction words for each pair, work with the grid
+      of the periodic table and travel in the proper direction from the elements clued
+      and find the element where those pairs intersect.
+- model: spoilr_hints.cannedhint
+  pk: 652
+  fields:
+    puzzle: 198
+    description: Solvers don't know what to do with elements found at intersections.
+    order: 17.0
+    keywords: elements, intersections
+    content: Stringing together the symbols for the elements found at the intersections
+      in the order given results in an answer to the flavortext question.
+- model: spoilr_hints.cannedhint
+  pk: 650
+  fields:
+    puzzle: 198
+    description: Solvers don't know what to do with final clue phrase.
+    order: 20.0
+    keywords: at, busy, refers, flute
+    content: At busy refers flute points back to another location in what3words.
+- model: spoilr_hints.cannedhint
+  pk: 654
+  fields:
+    puzzle: 198
+    description: Solvers don't notice they are at Venice Beach.
+    order: 25.0
+    keywords: busy refers flute
+    content: The answer to the puzzle is the specific location where busy.refers.flute
+      is found on the what3words map.
+- model: spoilr_core.pseudoanswer
+  pk: 41
+  fields:
+    puzzle: 198
+    answer: at busy refers flute
+    response: keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 37
+  fields:
+    puzzle: 198
+    answer: AT BUSY REFERS FLUTE
+    response: keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 38
+  fields:
+    puzzle: 198
+    answer: BUSY REFERS FLUTE
+    response: keep going!

@@ -1,0 +1,23 @@
+# This docker compose override file is used to build and start an ad hoc staging environment
+version: '3.8'
+
+name: testing-tph
+services:
+  tph:
+    build: .
+    environment:
+      - SERVER_ENVIRONMENT=staging
+      - SERVER_HOSTNAME=testing.mitmh2024.secretfakewebsite.com
+    image: ${IMAGE_TAG}
+    env_file: .env
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - django
+    ports:
+      - '${SERVER_HTTP_BIND_PREFIX}080:80'
+      - '${SERVER_HTTP_BIND_PREFIX}443:443'
+      - '${SERVER_HTTP_BIND_PREFIX}443:443/udp'
+    volumes:
+      - ${HOME}/srv:/srv

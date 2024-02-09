@@ -1,0 +1,55 @@
+- model: puzzles.puzzle
+  pk: 469
+  fields:
+    emoji: "\U0001F42D"
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 469
+  fields:
+    external_id: 469
+    round: 20
+    answer: PINKY
+    name: Dear Diary
+    main_credits: Alina Khankin and Brian Widerman
+    other_credits: ''
+    order: 469
+    is_meta: false
+    slug: dear-diary
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 197
+  fields:
+    puzzle: 469
+    description: Solvers haven't made the connection to fictional rodents
+    order: 10.0
+    keywords: start, identify
+    content: What an eclectic bunch of authors - who are they and what do they have
+      in common?
+- model: spoilr_hints.cannedhint
+  pk: 199
+  fields:
+    puzzle: 469
+    description: Heavy hint to fictional rodents if hint 10 was insufficient
+    order: 15.0
+    keywords: identify
+    content: These entries seem a bit cheesy. Who are these fictional ratty or mousy
+      authors?
+- model: spoilr_hints.cannedhint
+  pk: 198
+  fields:
+    puzzle: 469
+    description: Solvers identified the writers of the diary entries, but are stuck
+      on the next step
+    order: 20.0
+    keywords: extraction
+    content: Look closer - perhaps the writers left one or two hints for you in their
+      diaries
+- model: spoilr_hints.cannedhint
+  pk: 200
+  fields:
+    puzzle: 469
+    description: Heavy hint to numbers in the entries if hint 20 was insufficient
+    order: 30.0
+    keywords: extraction
+    content: Look closer - there are numbers hiding in each of the entries. How can
+      these numbers be combined with the authors' names?

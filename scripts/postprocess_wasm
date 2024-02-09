@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+source scripts/docker_compose
+
+if $(docker_compose exec tph bash -c '[[ "$SERVER_ENVIRONMENT" == dev ]]')
+then
+  docker_compose exec -u "$(id -u):$(id -g)" tph /app/server/manage.py postprocess_wasm
+else
+  >&2 echo Error: Is the dev environment running?
+  exit 1
+fi

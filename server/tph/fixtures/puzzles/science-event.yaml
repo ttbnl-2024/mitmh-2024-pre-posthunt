@@ -1,0 +1,21 @@
+- model: puzzles.puzzle
+  pk: 332
+  fields:
+    emoji: ':test_tube:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 332
+  fields:
+    external_id: 332
+    round: 23
+    answer: MITE EYE
+    name: Science Event
+    main_credits: Bella (Songshan) Guo and RJ Antonello
+    other_credits: ''
+    order: 332
+    is_meta: false
+    slug: science-event
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []

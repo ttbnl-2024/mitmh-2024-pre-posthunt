@@ -1,0 +1,98 @@
+- model: puzzles.puzzle
+  pk: 460
+  fields:
+    emoji: ':dove:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 460
+  fields:
+    external_id: 460
+    round: 4
+    answer: EGRET
+    name: The Linq
+    main_credits: Craig Kasper, Jia Yue Wu, and Kayton Truong & Slooth
+    other_credits: ''
+    order: 460
+    is_meta: false
+    slug: the-linq
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 924
+  fields:
+    puzzle: 460
+    description: The solvers have trouble getting started / don't have the Wingspan
+      boardgame connection
+    order: 0.0
+    keywords: start, begin
+    content: You are looking for Wingspan (the standard board)
+- model: spoilr_hints.cannedhint
+  pk: 925
+  fields:
+    puzzle: 460
+    description: The players got the Wingspan connection but don't know what to do
+    order: 10.0
+    keywords: wingspan, birds, next step
+    content: Solve the logic puzzle using the Wingspan birds cards (you will need
+      the base game plus the swift start pack, no expansions)
+- model: spoilr_hints.cannedhint
+  pk: 926
+  fields:
+    puzzle: 460
+    description: The solvers are having trouble with the logic puzzle; some early
+      help hint
+    order: 20.0
+    keywords: logic puzzle
+    content: Start with clue 2, which means you only have 1 hawk. Also, clue 6 gives
+      you a bird, and clue 7 gives its position. Clue 12 names another bird, and its
+      location can be deduced by combining clues 11 and 16. Continue working back
+      and forth between the clues and the board to fill in the rest.
+- model: spoilr_hints.cannedhint
+  pk: 1106
+  fields:
+    puzzle: 460
+    description: The solvers are stuck on harder parts of the logic puzzle, such as
+      row 2
+    order: 40.0
+    keywords: Hard, wording, logic, row 2, second row, middle row
+    content: Many clues from earlier can help eliminate birds now. Most birds can't
+      eat fish (clue 6), cannot have a color in their name (clue 5), can't nest in
+      platforms (clue 7), etc. Also, note specificity - "immediately beside" means
+      "adjacent," and "birds" means "definitely plural," while "the bird" means "definitely
+      singular."
+- model: spoilr_hints.cannedhint
+  pk: 928
+  fields:
+    puzzle: 460
+    description: The solvers filled the board but don't know how to extract
+    order: 50.0
+    keywords: extraction
+    content: Note that birds in different habitats communicate differently - the forest
+      birds are always looking for food, the field birds like to count their eggs
+      before they hatch, and the wetlands birds hold their cards close to their chests.
+- model: spoilr_hints.cannedhint
+  pk: 929
+  fields:
+    puzzle: 460
+    description: Heavy hint at the extraction in case hint 50 was insufficient
+    order: 51.0
+    keywords: extraction, heavy
+    content: Index the top row birds' names by the food cost, the middle row by the
+      egg nest capacity, and the bottom row by the draw card amount to get a cluephrase
+- model: spoilr_hints.cannedhint
+  pk: 930
+  fields:
+    puzzle: 460
+    description: The solvers have the final cluephrase, but cannot get the answer
+    order: 60.0
+    keywords: final step, answer, clue phrase
+    content: You are almost there! What's the name of the core 'snowy' avian, or the
+      only 'snowy' bird in the core set?
+- model: spoilr_core.pseudoanswer
+  pk: 130
+  fields:
+    puzzle: 460
+    answer: A CORE SNOWY AVIAN
+    response: Keep going!

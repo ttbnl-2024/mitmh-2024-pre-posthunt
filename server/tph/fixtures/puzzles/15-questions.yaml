@@ -1,0 +1,92 @@
+- model: puzzles.puzzle
+  pk: 724
+  fields:
+    emoji: ':moneybag:'
+    deep: 1325
+- model: spoilr_core.puzzle
+  pk: 724
+  fields:
+    external_id: 724
+    round: 7
+    answer: GLASS FLUTE
+    name: 15 Questions
+    main_credits: Bowen Kerins
+    other_credits: ''
+    order: 724
+    is_meta: false
+    slug: 15-questions
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1716
+  fields:
+    puzzle: 724
+    description: Solvers want help getting started
+    order: 0.0
+    keywords: start, begin, first step
+    content: If I had to pick a first step, well I'd answer the trivia questions.
+- model: spoilr_hints.cannedhint
+  pk: 1718
+  fields:
+    puzzle: 724
+    description: Solvers are answered the questions but haven't connected it to Who
+      Wants to Be A Millionaire.
+    order: 5.0
+    keywords: answered, stuck
+    content: We'll throw you a lifeline and say that the question format is reminiscent
+      of a game show whose titular cash prize is more impressive 20 years ago thanks
+      to inflation.
+- model: spoilr_hints.cannedhint
+  pk: 1717
+  fields:
+    puzzle: 724
+    description: Solvers have answered the questions but haven't made the BNL connection.
+    order: 10.0
+    keywords: answered, Who Wants to Be a Millionaire, stuck
+    content: We got you some WWTBAM questions (but not real WWTBAM questions, that's
+      a dead end). Read the questions again and figure out who else has plans for
+      spending the money.
+- model: spoilr_hints.cannedhint
+  pk: 1719
+  fields:
+    puzzle: 724
+    description: Solvers still haven't found BNL (strong hint)
+    order: 10.5
+    keywords: who, spending the money
+    content: If I had a million dollars, I'd attend a show by the band who sang "One
+      Week", "Call and Answer", and "Pinch Me". We wouldn't have to search for lyrics
+      in the puzzle, but we would search for lyrics - we'd just search more!
+- model: spoilr_hints.cannedhint
+  pk: 1720
+  fields:
+    puzzle: 724
+    description: Solvers are stuck on ordering
+    order: 15.0
+    keywords: order
+    content: If I had a bunch of questions (in no apparent order) and a song, I'd
+      order by lyric (and sing-along while I do).
+- model: spoilr_hints.cannedhint
+  pk: 1721
+  fields:
+    puzzle: 724
+    description: Solvers are stuck on extraction
+    order: 20.0
+    keywords: extraction
+    content: If I had a million dollars, I wouldn't have to go on Who Wants to Be
+      a Millionaire. Or maybe I would, to get more money. There are 15 stages in the
+      game. Use the nonzero part of the prize value (for large numbers, read the
+      digits separately) to index into the correct answers.
+- model: spoilr_core.pseudoanswer
+  pk: 309
+  fields:
+    puzzle: 724
+    answer: BITLY SLASH BNLS MESSAGE
+    response: https://bitly.com/bnlsmessage
+- model: spoilr_core.pseudoanswer
+  pk: 282
+  fields:
+    puzzle: 724
+    answer: USE RIGHT ANSWERS
+    response: Keep going!

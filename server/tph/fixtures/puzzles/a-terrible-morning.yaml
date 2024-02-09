@@ -1,0 +1,117 @@
+- model: puzzles.puzzle
+  pk: 572
+  fields:
+    emoji: ':technologist:'
+    deep: 1075
+- model: spoilr_core.puzzle
+  pk: 572
+  fields:
+    external_id: 572
+    round: 19
+    answer: SCISSORS
+    name: A Terrible Morning
+    main_credits: Alina Khankin
+    other_credits: ''
+    order: 572
+    is_meta: false
+    slug: a-terrible-morning
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 609
+  fields:
+    puzzle: 572
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: What a terrible morning! Try focusing on the strange and wrong objects
+      our narrator encountered.
+- model: spoilr_hints.cannedhint
+  pk: 610
+  fields:
+    puzzle: 572
+    description: The solvers understand that they need to focus on wrong objects,
+      but don't know how to make progress
+    order: 10.0
+    keywords: wrong objects, strange objects, word search
+    content: So you've noticed that we have a number of wrong objects. Can you see
+      if anything is hidden in the word search?
+- model: spoilr_hints.cannedhint
+  pk: 611
+  fields:
+    puzzle: 572
+    description: The solvers are making progress in the word search, but have not
+      yet found the secret message.
+    order: 20.0
+    keywords: word search, words in the search, message
+    content: Indeed, there is a hidden message in the word search - can you find more
+      words related to the strange objects to reveal the message?
+- model: spoilr_hints.cannedhint
+  pk: 612
+  fields:
+    puzzle: 572
+    description: Give the solvers the secret message if previous hints were insufficient
+    order: 30.0
+    keywords: secret message
+    content: "To help you along, here is the secret message hidden in the word search:\r\
+      \n\"You are on the right track! Now complete the wrong item titles. Next, see\
+      \ how two wrongs by only one digit come together to correct the \u201Cseries\
+      \ of unfortunate invents.\u201D Message completed. Over.\""
+- model: spoilr_hints.cannedhint
+  pk: 613
+  fields:
+    puzzle: 572
+    description: The solvers have the secret message from the word search, but haven't
+      gotten the patent connection
+    order: 40.0
+    keywords: titles, items, pairs
+    content: Try connecting the found words to complete pairs of wrong items. Where
+      could you see such unusual titles?
+- model: spoilr_hints.cannedhint
+  pk: 614
+  fields:
+    puzzle: 572
+    description: Stronger hint at patents if hint 40 was insufficient
+    order: 50.0
+    keywords: items, pairs, titles
+    content: These US items are patentably strange! Why would anyone invent them?
+- model: spoilr_hints.cannedhint
+  pk: 615
+  fields:
+    puzzle: 572
+    description: Solvers have the patent numbers but do not notice the wrong digit
+      connection to the right inventions
+    order: 60.0
+    keywords: patent numbers, pairs of inventions
+    content: So you've got the wrong item numbers - how are they different, and how
+      could they be made right?
+- model: spoilr_hints.cannedhint
+  pk: 616
+  fields:
+    puzzle: 572
+    description: Strong hint at wrong patents in case hint 60 was insufficient
+    order: 70.0
+    keywords: patent numbers, wrong inventions
+    content: You are looking for the right patents for the objects that our narrator
+      needed. Have you looked between the wrong digits?
+- model: spoilr_hints.cannedhint
+  pk: 617
+  fields:
+    puzzle: 572
+    description: The solvers have to correct patents, but have not gotten the final
+      patent yet
+    order: 80.0
+    keywords: right patents, correct patents, extraction
+    content: Look at place values - can you come up with one final number?
+- model: spoilr_hints.cannedhint
+  pk: 618
+  fields:
+    puzzle: 572
+    description: Solvers have the final string of numbers, but do not realize it's
+      another US patent
+    order: 90.0
+    keywords: extraction, final number
+    content: You are almost there! Now see what invention this final number stands
+      for!

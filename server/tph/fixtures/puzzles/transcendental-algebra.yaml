@@ -1,0 +1,78 @@
+- model: puzzles.puzzle
+  pk: 333
+  fields:
+    emoji: ':speech_bubble:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 333
+  fields:
+    external_id: 333
+    round: 5
+    answer: SHENZHEN IO
+    name: Transcendental Algebra
+    main_credits: Wesley "Adalbert Zollern" Zhang
+    other_credits: In memory of Dragomir Radev
+    order: 333
+    is_meta: false
+    slug: transcendental-algebra
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1765
+  fields:
+    puzzle: 333
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start
+    content: The title does look like an apt description for the problem content.
+      Maybe it's an actual term...
+- model: spoilr_hints.cannedhint
+  pk: 1766
+  fields:
+    puzzle: 333
+    description: Solvers understand the problem is about Transcendental Algebra, but
+      are having trouble with translation.
+    order: 20.0
+    keywords: transcendental algebra, translation
+    content: '[Guide translation. Identify relevant aspects of Transcendental Algebra''s
+      grammar during explanation.]'
+- model: spoilr_hints.cannedhint
+  pk: 1767
+  fields:
+    puzzle: 333
+    description: Solvers understand the problem is about Transcendental Algebra, but
+      not what the statements are about.
+    order: 50.0
+    keywords: ''
+    content: The third, fourth, and fifth statements on the first page identify what
+      is being discussed on the following pages.
+- model: spoilr_hints.cannedhint
+  pk: 1768
+  fields:
+    puzzle: 333
+    description: Solvers have identified that the puzzle is about the IOL, but are
+      unable to identify which problems are used.
+    order: 80.0
+    keywords: IOL, linguistics
+    content: In each entry, the first sentence is a general description of the problem,
+      while the second identifies a relevant feature of the language (most often,
+      this can be found in the solution for each problem).
+- model: spoilr_hints.cannedhint
+  pk: 1769
+  fields:
+    puzzle: 333
+    description: Solvers are stuck on extraction.
+    order: 100.0
+    keywords: extraction
+    content: What does the third sentence in each entry have to do with the problem
+      as a whole?
+- model: spoilr_core.pseudoanswer
+  pk: 322
+  fields:
+    puzzle: 333
+    answer: HOLD BILINGUAL DIALOG
+    response: Please send a video of two team members holding a conversation in at
+      least two languages.

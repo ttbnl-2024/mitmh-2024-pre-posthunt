@@ -1,0 +1,125 @@
+- model: puzzles.puzzle
+  pk: 354
+  fields:
+    emoji: ':guitar:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 354
+  fields:
+    external_id: 354
+    round: 21
+    answer: BALIO TOWERS
+    name: "Revolting Develop\u00ADments"
+    main_credits: Alina Khankin, Brian Widerman, Charles Steinhardt, Danny Tomkoski, and John
+      Bromels
+    other_credits: ''
+    order: 354
+    is_meta: false
+    slug: revolting-developments
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 855
+  fields:
+    puzzle: 354
+    description: Solvers don't know where to start
+    order: 0.0
+    keywords: start, begin, first step
+    content: Try Googling the historical events from the newspaper headlines. They
+      all have something in common. What could that have to do with the songs mentioned
+      in the flavor text?
+- model: spoilr_hints.cannedhint
+  pk: 856
+  fields:
+    puzzle: 354
+    description: Solvers still don't know how to start
+    order: 5.0
+    keywords: start, first step, stuck
+    content: The flavor text mentions songs and some of the images from the newspapers
+      have musical notes on them. What could the images represent?
+- model: spoilr_hints.cannedhint
+  pk: 857
+  fields:
+    puzzle: 354
+    description: Solvers need a strong hint about where to start
+    order: 10.0
+    keywords: first step, stuck, headlines, images
+    content: All of the newspaper headline events happened in December. All of the
+      images represent song titles by a single band.
+- model: spoilr_hints.cannedhint
+  pk: 858
+  fields:
+    puzzle: 354
+    description: Solvers are confused by the sentences beneath the newspaper images
+    order: 20.0
+    keywords: clues
+    content: The sentences look like pretty straightforward dictionary definitions,
+      but something's off about them. Are there extra words added to each one?
+- model: spoilr_hints.cannedhint
+  pk: 859
+  fields:
+    puzzle: 354
+    description: Solvers want a stronger hint about the sentences beneath the newspaper
+      images
+    order: 25.0
+    keywords: clues, stuck
+    content: Once you identify the words from the dictionary definitions, you need
+      to figure out how they relate to the newspapers. Once you figure out what's
+      going on, it will help explain why there are seemingly superfluous words in
+      the definitions as given.
+- model: spoilr_hints.cannedhint
+  pk: 860
+  fields:
+    puzzle: 354
+    description: Solvers want to be told what the newspaper images represent
+    order: 30.0
+    keywords: pictures, images
+    content: The newspaper images represent the titles of songs by a band called The
+      Decemberists.
+- model: spoilr_hints.cannedhint
+  pk: 861
+  fields:
+    puzzle: 354
+    description: Solvers want to be told what the sentences at the bottom are
+    order: 31.0
+    keywords: bottom clues, bottom sentences
+    content: The sentences at the bottom are dictionary definitions of lyrics that
+      appear in the Decemberists songs whose titles are depicted in the newspaper
+      images.
+- model: spoilr_hints.cannedhint
+  pk: 862
+  fields:
+    puzzle: 354
+    description: Solvers don't know what to do after identifying the songs and dictionary
+      words
+    order: 40.0
+    keywords: Decembrists, solved clues
+    content: You have song titles and words that are in the lyrics of those songs.
+      Pair the lyrics to their corresponding newspapers and figure out a way to use
+      the dates of the historical events. What could "sesquipedalian lyrics that offset
+      their historical significance" from the flavor text mean?
+- model: spoilr_hints.cannedhint
+  pk: 863
+  fields:
+    puzzle: 354
+    description: Solvers want a stronger hint for extraction with the songs, lyrics,
+      and historical dates
+    order: 45.0
+    keywords: offset, stuck
+    content: Use the dates of the historical events as offsets within the lyrics from
+      the words identified by the dictionary definitions. If you've done this correctly,
+      the superfluous words from the dictionary definitions should make sense.
+- model: spoilr_hints.cannedhint
+  pk: 864
+  fields:
+    puzzle: 354
+    description: Solvers want to be told how to extract
+    order: 100.0
+    keywords: extraction
+    content: Once you've applied the historical dates as offsets to the words from
+      the songs' lyrics and gotten a list of new words that match the superfluous
+      portions of the dictionary definitions from the puzzle, sort your new words
+      by the year of the historical event. Read the first letter of the words to get
+      the answer.

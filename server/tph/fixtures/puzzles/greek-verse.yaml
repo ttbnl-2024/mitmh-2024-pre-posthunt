@@ -1,0 +1,57 @@
+- model: puzzles.puzzle
+  pk: 147
+  fields:
+    emoji: ':scroll:'
+    deep: 620
+- model: spoilr_core.puzzle
+  pk: 147
+  fields:
+    external_id: 147
+    round: 20
+    answer: DACTYLIC
+    name: Greek Verse
+    main_credits: Daniel Kramarsky
+    other_credits: ''
+    order: 147
+    is_meta: false
+    slug: greek-verse
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1297
+  fields:
+    puzzle: 147
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: begin, start
+    content: Start by figuring out who (or what) is being clued by each line of the
+      poem on the left.
+- model: spoilr_hints.cannedhint
+  pk: 900
+  fields:
+    puzzle: 147
+    description: Solvers don't know what to do with the names.
+    order: 10.0
+    keywords: names
+    content: "The terms \u201Chidden inside\u201D in the flavor text are relevant.\
+      \ Don\u2019t be fooled by all the extra space!"
+- model: spoilr_hints.cannedhint
+  pk: 901
+  fields:
+    puzzle: 147
+    description: "Solvers don\u2019t know what to do with \u201Cadditional followers\u201D"
+    order: 99.0
+    keywords: followers,extraction
+    content: "You already found the names hidden in the text. Consider the term \u201C\
+      follower\u201D literally."
+- model: spoilr_hints.cannedhint
+  pk: 1298
+  fields:
+    puzzle: 147
+    description: Solvers are very stuck on additional followers
+    order: 100.0
+    keywords: followers, stuck
+    content: Each line of the left poem has a number following it. Find the matching
+      line in the right poem and go that number of letters past the hidden name.

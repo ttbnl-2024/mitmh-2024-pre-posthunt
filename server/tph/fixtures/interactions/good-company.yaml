@@ -1,0 +1,13 @@
+- model: spoilr_core.interaction
+  pk: 5
+  fields:
+    slug: good-company
+    name: Good Company (SERVE US A PUNNY BURGER -- visit to the HQ)
+    order: 5
+    instructions: "Make your own Bob's Burgers-inspired Burger of the Day and present it
+      and its punny name to HQ. When you have finished creating the burger, use the
+      box to schedule a HQ visit."
+    interaction_type: physical
+    puzzle: 412
+    required_pseudoanswer: 83
+    unlocks_with_puzzle: true

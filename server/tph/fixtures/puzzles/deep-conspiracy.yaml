@@ -1,0 +1,129 @@
+- model: puzzles.puzzle
+  pk: 342
+  fields:
+    emoji: ':pushpin:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 342
+  fields:
+    external_id: 342
+    round: 10
+    answer: DAVE SEVILLE
+    name: Deep Conspiracy
+    main_credits: Michael Andersen
+    other_credits: ''
+    order: 342
+    is_meta: false
+    slug: deep-conspiracy
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 963
+  fields:
+    puzzle: 342
+    description: Stuck on Insta Countdown puzzle - don't know where to start
+    order: 10.1
+    keywords: insta countdown, fence
+    content: Those letters look messy. It might be worth looking into potential cipher
+      types that might be appropriate here.
+- model: spoilr_hints.cannedhint
+  pk: 964
+  fields:
+    puzzle: 342
+    description: Stuck on Insta Puzzle - Don't Know How to Use Railfence Ciphers
+    order: 10.5
+    keywords: railfence,railfence cipher
+    content: Worth remembering that railfence ciphers can have different numbers of
+      rails.
+- model: spoilr_hints.cannedhint
+  pk: 965
+  fields:
+    puzzle: 342
+    description: Stuck on Secret Pseudonyms - didn't identify any of the people
+    order: 30.1
+    keywords: secret pseudonyms
+    content: If you haven't solved any of these yet, try starting with the neon green
+      post-it note. Once you get one or two, you might notice a commonality between
+      them that makes it easier.
+- model: spoilr_hints.cannedhint
+  pk: 966
+  fields:
+    puzzle: 342
+    description: Stuck on Mansion of Secrets
+    order: 50.1
+    keywords: mansion of secrets
+    content: It's interesting that the elevator dial goes up to 13, but there are
+      only 10 labeled spaces on the house.
+- model: spoilr_hints.cannedhint
+  pk: 967
+  fields:
+    puzzle: 342
+    description: Stuck on Manion of Secrets - Extract Problems
+    order: 50.5
+    keywords: mansion of secrets,extract
+    content: It's interesting that some of the rooms have two blurred out words, while
+      others only have one.
+- model: spoilr_hints.cannedhint
+  pk: 968
+  fields:
+    puzzle: 342
+    description: Stuck on From the Vault - don't know where to start
+    order: 70.1
+    keywords: from the vault
+    content: The flavor text for this part of the puzzle might help you figure out
+      where to start, since some of this probably won't make sense, at first.
+- model: spoilr_hints.cannedhint
+  pk: 969
+  fields:
+    puzzle: 342
+    description: Stuck on From the Vault - trouble anagramming
+    order: 70.5
+    keywords: from the vault
+    content: It might be helpful to look up the vault puzzles this is modeled off,
+      and see how those functioned.
+- model: spoilr_hints.cannedhint
+  pk: 972
+  fields:
+    puzzle: 342
+    description: Stuck on Lyrical Interludes - Extraction
+    order: 90.1
+    keywords: lyrical interludes
+    content: It looks like you found the liner notes these quotes came from. What
+      other information do you have on those liner notes.
+- model: spoilr_hints.cannedhint
+  pk: 974
+  fields:
+    puzzle: 342
+    description: Stuck on Final Extraction
+    order: 95.1
+    keywords: final extraction,ordering
+    content: It looks like there are a bunch of stars on the scraps of paper. Maybe
+      there's some way to think of those symbols as numbers.
+- model: spoilr_hints.cannedhint
+  pk: 976
+  fields:
+    puzzle: 342
+    description: Still Stuck on Final Extraction
+    order: 95.5
+    keywords: Final extraction,ordering
+    content: Count the number of beams coming out of the symbol that looks like the
+      sun, and see if that helps narrow things down.
+- model: spoilr_hints.cannedhint
+  pk: 990
+  fields:
+    puzzle: 342
+    description: Still stuck on Final Extraction despite counting the sun beams
+    order: 100.0
+    keywords: final extraction, counted
+    content: Treat the long skinny star as a 1, the star as a 5, and the sun as 10,
+      and consider why they're positioned just so.
+- model: spoilr_core.pseudoanswer
+  pk: 124
+  fields:
+    puzzle: 342
+    answer: SEND US A THEORY
+    response: That's right, send us your unhinged Taylor Swift or Mystery Hunt 2024
+      theory to TTBNL HQ at [email] with the subject line DEEP CONSPIRACY THEORY,
+      and you'll have earned the truth about Taylor's new collaborator!

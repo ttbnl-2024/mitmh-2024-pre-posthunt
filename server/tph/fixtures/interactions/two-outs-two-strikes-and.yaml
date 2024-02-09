@@ -1,0 +1,11 @@
+- model: spoilr_core.interaction
+  pk: 2
+  fields:
+    slug: two-outs-two-strikes-and
+    name: Two Outs, Two Strikes, and... (BRING US TWO BALLS - visit to the HQ)
+    order: 2
+    instructions: "Use this box to request a visit to the HQ for this puzzle. If you cannot come to the HQ, please request an email interaction."
+    interaction_type: physical
+    puzzle: 715
+    required_pseudoanswer: 279
+    unlocks_with_puzzle: true

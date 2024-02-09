@@ -1,0 +1,82 @@
+- model: puzzles.puzzle
+  pk: 282
+  fields:
+    emoji: ':construction:'
+    deep: 1000
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 282
+  fields:
+    external_id: 282
+    round: 9
+    answer: RUSTY NAIL
+    name: temporary name
+    main_credits: Ursula Gartz
+    other_credits: ''
+    order: 282
+    is_meta: false
+    slug: temporary-name
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 750
+  fields:
+    puzzle: 282
+    description: The solvers haven't figured out how to start
+    order: 0.0
+    keywords: start
+    content: How many puzzle names are you given?  How many puzzle answers?
+- model: spoilr_hints.cannedhint
+  pk: 751
+  fields:
+    puzzle: 282
+    description: Solvers haven't figured out the mechanics are what is cluing the
+      right match
+    order: 1.0
+    keywords: spinning wheel
+    content: There are nearly as many mechanisms as puzzle names and answers, right?  How
+      about trying to figure out which go together?
+- model: spoilr_hints.cannedhint
+  pk: 752
+  fields:
+    puzzle: 282
+    description: Why are we getting a timeout?
+    order: 3.0
+    keywords: timeout
+    content: Each wrong answer will punish you with one minute timeout.  Brute force
+      might not be the best way to move forward.  Is there a way to identify which
+      puzzle goes with each answer?
+- model: spoilr_hints.cannedhint
+  pk: 753
+  fields:
+    puzzle: 282
+    description: solvers unlocked the grid and don't know what to do - subtle
+    order: 4.0
+    keywords: grid
+    content: Did you use all of the spinning wheel mechanisms to get this far?
+- model: spoilr_hints.cannedhint
+  pk: 754
+  fields:
+    puzzle: 282
+    description: solvers unlocked the grid and don't know what to do - less subtle
+    order: 4.3
+    keywords: grid
+    content: Did you see the new flavor that appeared with the grid?
+- model: spoilr_hints.cannedhint
+  pk: 755
+  fields:
+    puzzle: 282
+    description: solvers unlocked the grid and don't know what to do - just tell them
+    order: 4.6
+    keywords: grid
+    content: focus on the word "placeholder" from the flavortext.
+- model: spoilr_hints.cannedhint
+  pk: 756
+  fields:
+    puzzle: 282
+    description: stuck on extraction
+    order: 10.0
+    keywords: extraction
+    content: Did you notice the grids are all connected vertically?

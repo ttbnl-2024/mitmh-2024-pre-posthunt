@@ -1,0 +1,70 @@
+- model: puzzles.puzzle
+  pk: 515
+  fields:
+    emoji: ':game_die:'
+    deep: 860
+- model: spoilr_core.puzzle
+  pk: 515
+  fields:
+    external_id: 515
+    round: 20
+    answer: THAUM
+    name: New Rules
+    main_credits: Tyler Hinman
+    other_credits: ''
+    order: 515
+    is_meta: false
+    slug: new-rules
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 567
+  fields:
+    puzzle: 515
+    description: Solvers can't get started
+    order: 0.0
+    keywords: start
+    content: You can read a message before doing anything else. The starts of each
+      statements seem a little contrived...
+- model: spoilr_hints.cannedhint
+  pk: 571
+  fields:
+    puzzle: 515
+    description: Solvers can't identify a few of the games
+    order: 50.0
+    keywords: identify, missing
+    content: The message you got at the beginning isn't the only reason the games
+      are described in the order they are.
+- model: spoilr_hints.cannedhint
+  pk: 568
+  fields:
+    puzzle: 515
+    description: Solvers don't have the right order
+    order: 90.0
+    keywords: ordering
+    content: Every game has a different winner. Notice anything about their names?
+- model: spoilr_hints.cannedhint
+  pk: 569
+  fields:
+    puzzle: 515
+    description: Solvers haven't figured out how to index
+    order: 90.0
+    keywords: indexing
+    content: An aspect of each player's victory seems to be very specifically described.
+- model: spoilr_hints.cannedhint
+  pk: 570
+  fields:
+    puzzle: 515
+    description: Solvers can't solve the final clue
+    order: 100.0
+    keywords: discworld, magic, unit
+    content: Simply Googling the clue phrase should give you the answer. It's five
+      letters long.
+- model: spoilr_core.pseudoanswer
+  pk: 82
+  fields:
+    puzzle: 515
+    answer: DISCWORLD MAGIC UNIT
+    response: Good! This is a clue to your final answer.

@@ -1,0 +1,90 @@
+- model: puzzles.puzzle
+  pk: 389
+  fields:
+    emoji: ':question:'
+    deep: 450
+- model: spoilr_core.puzzle
+  pk: 389
+  fields:
+    external_id: 389
+    round: 12
+    answer: PROGRESS BAR
+    name: I Know Who I Want to Take Me Home
+    main_credits: Charles Steinhardt and John Bromels
+    other_credits: ''
+    order: 389
+    is_meta: false
+    slug: i-know-who-i-want-to-take-me-home
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1566
+  fields:
+    puzzle: 389
+    description: Solvers don't have any idea how to get started.
+    order: 10.0
+    keywords: start, drink
+    content: Each drink order describes a song title.
+- model: spoilr_hints.cannedhint
+  pk: 1567
+  fields:
+    puzzle: 389
+    description: Solvers don't understand the clothing and/or props.
+    order: 15.0
+    keywords: Clothing, costume, character, props
+    content: The clothing worn in each segment and any props included are intended
+      as clues to the decade that the most well-known version of the song was released.
+- model: spoilr_hints.cannedhint
+  pk: 1568
+  fields:
+    puzzle: 389
+    description: Solvers don't understand the different types of clocks.
+    order: 20.0
+    keywords: clock types, different
+    content: The different clocks correspond to different eras, and are meant as a
+      check on the date derived from any props and the clothing worn in each clip.
+- model: spoilr_hints.cannedhint
+  pk: 1569
+  fields:
+    puzzle: 389
+    description: Solvers don't recognize that songs are in alphabetical order.
+    order: 30.0
+    keywords: Initial ordering
+    content: The initial ordering of the clips is alphabetical by song title, which
+      implies that a reordering step is required.
+- model: spoilr_hints.cannedhint
+  pk: 1570
+  fields:
+    puzzle: 389
+    description: Solvers don't recognize how to reorder.
+    order: 40.0
+    keywords: reorder, reordering, order
+    content: The number of bottles displayed on the counter behind the bar changes
+      with each clip. Careful counting of the total number shown results in numbers
+      that can be used to sort the clips into the proper order.
+- model: spoilr_hints.cannedhint
+  pk: 1571
+  fields:
+    puzzle: 389
+    description: Solvers don't know how to find or apply the index
+    order: 50.0
+    keywords: extraction, indexing, index, clock, time
+    content: The time on the clock in each clip can be used to index into the corresponding
+      song title.
+- model: spoilr_hints.cannedhint
+  pk: 1572
+  fields:
+    puzzle: 389
+    description: Solvers don't understand the clue phrase.
+    order: 55.0
+    keywords: clue phrase, final answer, file copy dialog indicator
+    content: FILE COPY DIALOG INDICATOR is a clue for the final answer, which can
+      be enumerated 8 3.
+- model: spoilr_core.pseudoanswer
+  pk: 274
+  fields:
+    puzzle: 389
+    answer: FILECOPYDIALOGINDICATOR
+    response: Which is often displayed/referred to as a... what?

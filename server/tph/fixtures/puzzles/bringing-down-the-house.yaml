@@ -1,0 +1,61 @@
+- model: puzzles.puzzle
+  pk: 378
+  fields:
+    emoji: ':black_joker:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 378
+  fields:
+    external_id: 378
+    round: 20
+    answer: NOTE
+    name: Bringing Down the House
+    main_credits: Bella (Songshan) Guo, Daniel Kramarsky, Nathaniel Barnett, RJ Antonello,
+      and Sophia Caspe
+    other_credits: ''
+    order: 378
+    is_meta: false
+    slug: bringing-down-the-house
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1481
+  fields:
+    puzzle: 378
+    description: Solvers have trouble getting started
+    order: 0.0
+    keywords: breaking in
+    content: The name of the puzzle is also the name of a book about a certain group
+      of MIT students.
+- model: spoilr_hints.cannedhint
+  pk: 1482
+  fields:
+    puzzle: 378
+    description: Find code words
+    order: 10.0
+    keywords: code words
+    content: In the book, Bringing Down the House, there's a code they use. Try to
+      find the code they used online by googling something like "mit blackjack code
+      words."
+- model: spoilr_hints.cannedhint
+  pk: 1483
+  fields:
+    puzzle: 378
+    description: Don't know what to do with the cards
+    order: 20.0
+    keywords: ''
+    content: In blackjack, the actual cards themselves don't matter that much, just
+      their value. Sum the value of the cards, and then try to figure out what might
+      be DIFFERENT between the value of the cards and the number clued by the code
+      word.
+- model: spoilr_hints.cannedhint
+  pk: 1484
+  fields:
+    puzzle: 378
+    description: Extraction, don't know what to index into
+    order: 100.0
+    keywords: Extraction
+    content: Index the difference between the value of each hand and the number clued
+      by the code word into the code word.

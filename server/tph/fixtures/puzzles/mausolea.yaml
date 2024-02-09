@@ -1,0 +1,88 @@
+- model: puzzles.puzzle
+  pk: 341
+  fields:
+    emoji: ':ice_cube:'
+    deep: 1
+    deep_key: hydra-LL
+- model: spoilr_core.puzzle
+  pk: 341
+  fields:
+    external_id: 341
+    round: 13
+    answer: ADVERB
+    name: Mausolea
+    main_credits: Nathaniel Barnett and The Dan Miller
+    other_credits: ''
+    order: 341
+    is_meta: false
+    slug: mausolea
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 994
+  fields:
+    puzzle: 341
+    description: Solvers are stuck solving clues
+    order: 1.0
+    keywords: start
+    content: All clues are 5 letters and alphabetical order.
+- model: spoilr_hints.cannedhint
+  pk: 995
+  fields:
+    puzzle: 341
+    description: Solvers have (most of) the clues and aren't sure what to do
+    order: 5.0
+    keywords: clues, cubes
+    content: Assemble the 50 clue answers into 5 5x5 crosswords, with the bolded clues
+      being the 1 across clues.
+- model: spoilr_hints.cannedhint
+  pk: 996
+  fields:
+    puzzle: 341
+    description: Solvers have made the crosswords but don't know what to do next
+    order: 10.0
+    keywords: clues, cubes, crosswords
+    content: You can use the 25 cubes to construct each of the 5 5x5 crosswords, with
+      one face remaining.
+- model: spoilr_hints.cannedhint
+  pk: 997
+  fields:
+    puzzle: 341
+    description: Solvers can't find or understand the hidden message on the final
+      face of the cube
+    order: 20.0
+    keywords: cubes
+    content: 5 of the 6 faces make the 5 crosswords for the clues. The 6th spells
+      out the next step of the clue.
+- model: spoilr_hints.cannedhint
+  pk: 1001
+  fields:
+    puzzle: 341
+    description: Solvers can't find or understand the hidden message on the final
+      face of the cube (strong hint)
+    order: 20.5
+    keywords: sixth face, last face
+    content: 'The message on the sixth face is a link: https://squaredle.app/mitmh
+      is the site you should go to.'
+- model: spoilr_hints.cannedhint
+  pk: 998
+  fields:
+    puzzle: 341
+    description: Solvers have found all the words in the Squaredle but can't find
+      the final answer
+    order: 30.0
+    keywords: squaredle
+    content: We have given you a NUMBER of different clues to help you find the final
+      answer.
+- model: spoilr_hints.cannedhint
+  pk: 999
+  fields:
+    puzzle: 341
+    description: Solvers have found all the words in the Squaredle but can't find
+      the final answer HAMMER clue
+    order: 31.0
+    keywords: squaredle
+    content: Each of the "clue" words in the Squaredle is drawn in the shape of a
+      number. Use that number to index into the word, and order alphabetically.

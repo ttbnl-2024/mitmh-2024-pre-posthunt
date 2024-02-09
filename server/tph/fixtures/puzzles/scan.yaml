@@ -1,0 +1,91 @@
+- model: puzzles.puzzle
+  pk: 699
+  fields:
+    emoji: ':black_square_button:'
+    deep: 1
+    deep_key: hydra-RLL
+- model: spoilr_core.puzzle
+  pk: 699
+  fields:
+    external_id: 699
+    round: 13
+    answer: THE LAST ONE
+    name: Scan
+    main_credits: Timwi
+    other_credits: ''
+    order: 699
+    is_meta: false
+    slug: scan
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 818
+  fields:
+    puzzle: 699
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: starting,beginning
+    content: What do you get when you perform the indicated multiplication of those
+      large numbers consisting of 0s and 1s?
+- model: spoilr_hints.cannedhint
+  pk: 1105
+  fields:
+    puzzle: 699
+    description: "Solvers are still stuck because they\u2019ve only tried binary"
+    order: 1.1
+    keywords: starting,beginning
+    content: The multiplication indicates that, despite having only 0s and 1s, these
+      numbers are in decimal, not binary.
+- model: spoilr_hints.cannedhint
+  pk: 819
+  fields:
+    puzzle: 699
+    description: Solvers are stuck on what to do
+    order: 2.0
+    keywords: large number,factorize
+    content: The bulk of this puzzle is a programming challenge. You already know
+      from the example that the huge numbers are products of two QR codes written
+      as decimal numbers consisting of 0s and 1s. Find an algorithm that can exploit
+      this constraint to factorize the numbers.
+- model: spoilr_hints.cannedhint
+  pk: 820
+  fields:
+    puzzle: 699
+    description: Solvers want to get a push on the algorithm
+    order: 3.0
+    keywords: algorithm,programming,factorize
+    content: "As is often the case in programming, there\u2019s more than one way\
+      \ of doing it. However, the gist of the intended insight is that the product\
+      \ of the last (least significant) n digits of two factors is equal to the last\
+      \ n digits of the product. For example, since 23\xD771 = 1633, any two numbers\
+      \ that end in 23 and 71 will multiply to a product that ends in 33."
+- model: spoilr_hints.cannedhint
+  pk: 821
+  fields:
+    puzzle: 699
+    description: Solvers have scanned the QR codes and are stuck after
+    order: 4.0
+    keywords: scanned,decoded,read,meaning
+    content: Three QR codes (one from each pair) produce a single letter. Concatenate
+      these in the order given in the puzzle and google for this three-letter thing.
+- model: spoilr_hints.cannedhint
+  pk: 822
+  fields:
+    puzzle: 699
+    description: "Solvers know XOR but can\u2019t seem to find the right step"
+    order: 5.0
+    keywords: xor
+    content: "Three QR codes (one from each pair) produce something other than a single\
+      \ letter. (Two give a chopped-up message and the third doesn\u2019t scan at\
+      \ all.) Use XOR to combine those three QR codes into a new one."
+- model: spoilr_hints.cannedhint
+  pk: 823
+  fields:
+    puzzle: 699
+    description: "Solvers don\u2019t know what to do with the final cluephrase"
+    order: 6.0
+    keywords: extraction,braille at bottom
+    content: "Look at the bottom three pixel rows of each of the three QR codes that\
+      \ gave you \u201CXOR\u201D."

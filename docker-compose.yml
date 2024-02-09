@@ -1,0 +1,85 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15.5
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pg_password
+    volumes:
+      # allow database replication with authentication
+      - ./scripts/pg_replica/pg_hba_init.sh:/docker-entrypoint-initdb.d/pg_hba_init.sh:ro
+    # ensure pg_hba.conf is set
+    command: /docker-entrypoint-initdb.d/pg_hba_init.sh /usr/local/bin/docker-entrypoint.sh postgres
+    shm_size: ${DB_SHM_SIZE:-64mb}
+    ulimits:
+      nofile:
+        soft: 20000
+        hard: 40000
+  # pgbouncer:
+  #   image: bitnami/pgbouncer:1.19.1-debian-11-r6
+  #   restart: unless-stopped
+  #   environment:
+  #     - POSTGRESQL_HOST=db
+  #     - POSTGRESQL_USERNAME=postgres
+  #     - POSTGRESQL_PASSWORD=pg_password
+  #     - POSTGRESQL_DATABASE=postgres
+  #     - PGBOUNCER_MAX_CLIENT_CONN=2000
+  #     - PGBOUNCER_DEFAULT_POOL_SIZE=2000
+  #     - PGBOUNCER_IDLE_TRANSACTION_TIMEOUT=60
+  #     - PGBOUNCER_AUTH_TYPE=scram-sha-256
+  #     - PGBOUNCER_PORT=5432
+  #   ulimits:
+  #     nofile:
+  #       soft: 20000
+  #       hard: 40000
+  #   depends_on:
+  #     - db
+  # pgbouncer:
+  #   image: edoburu/pgbouncer:1.18.0
+  #   restart: unless-stopped
+  #   environment:
+  #     - DB_HOST=db
+  #     - DB_USER=postgres
+  #     - DB_PASSWORD=pg_password
+  #     - DB_NAME=postgres
+  #     - MAX_CLIENT_CONN=2000
+  #     - DEFAULT_POOL_SIZE=2000
+  #     - CLIENT_IDLE_TIMEOUT=3600
+  #     # - AUTH_TYPE=plai
+  #   ulimits:
+  #     nofile:
+  #       soft: 20000
+  #       hard: 40000
+  #   depends_on:
+  #     - db
+  redis:
+    image: redis:7.0.15
+    command: redis-server --maxclients 5000000
+    restart: unless-stopped
+    deploy:
+      replicas: ${REDIS_REPLICAS:-1}
+  tph:
+    # This is a dummy image name to allow `docker compose` commands without
+    # specifying multiple compose files when the containers are already up.
+    # This is overridden in the specialized compose files.
+    image: tph
+    ulimits:
+      nofile:
+        soft: 60000
+        hard: 80000
+    environment:
+      - SECRET_KEY=SECRET_KEY_2_I_PROMISE_THIS_WAS_SET_IN_PROD
+      - POSTGRES_HOST=db
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pg_password
+      - REDIS_HOST=redis
+      - ENABLE_BACKEND=true
+      - SERVE_FIXTURES=false
+    depends_on:
+      - db
+      # - pgbouncer
+      - redis

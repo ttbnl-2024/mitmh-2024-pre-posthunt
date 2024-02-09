@@ -1,0 +1,92 @@
+- model: puzzles.puzzle
+  pk: 199
+  fields:
+    emoji: ':books:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 199
+  fields:
+    external_id: 199
+    round: 10
+    answer: PJ MASKS
+    name: Annual International Fictionary Night
+    main_credits: Jessica Li
+    other_credits: ''
+    order: 199
+    is_meta: false
+    slug: annual-international-fictionary-night
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 987
+  fields:
+    puzzle: 199
+    description: Solvers are stuck getting started.
+    order: 0.0
+    keywords: start, begin, first step
+    content: Figure out who the three sets of initials in the invitation refer to
+      and what yearly thing they are associated with.
+- model: spoilr_hints.cannedhint
+  pk: 988
+  fields:
+    puzzle: 199
+    description: Solvers are stuck getting started (stronger hint).
+    order: 0.1
+    keywords: start, begin, first step
+    content: Look at some publishers of English dictionaries.
+- model: spoilr_hints.cannedhint
+  pk: 1092
+  fields:
+    puzzle: 199
+    description: Solvers have filled out entries with Word of the Year words but don't
+      know what to do with the cards.
+    order: 25.0
+    keywords: Word of the Year, blank card
+    content: You've filled out the cards with the matching Word of the Year entries.
+      Did you notice any patterns to the years and publishers of those words? This
+      will help you figure out what the blank cards represent.
+- model: spoilr_hints.cannedhint
+  pk: 1093
+  fields:
+    puzzle: 199
+    description: Solvers have filled out entries with Word of the Year words but don't
+      know what to do with the cards (stronger hint)
+    order: 25.1
+    keywords: Word of the Year, blank card
+    content: This puzzle uses Word of the Year winners from 3 dictionaries. Each of
+      the years used in this puzzle has 2 winning words represented. Check the winner
+      from the third dictionary for that year.
+- model: spoilr_hints.cannedhint
+  pk: 1091
+  fields:
+    puzzle: 199
+    description: Solvers found all the words but don't know what to do with the numbers
+      on the cards.
+    order: 50.0
+    keywords: filled card, next step
+    content: Note that some cards have numbers on them and they come in 2 varieties,
+      a set in brackets for the cards with definitions and something that looks like
+      a fraction on the blank cards. You should try indexing the numbers in the brackets
+      into the words.
+- model: spoilr_hints.cannedhint
+  pk: 1086
+  fields:
+    puzzle: 199
+    description: Solvers cannot extract
+    order: 100.0
+    keywords: extraction, shortlist
+    content: You found the shortlists and now need a way to order it. You should try
+      counting the number of entries in those shortlists (include the winning word!)
+      and see if you see that number anywhere. Also consider how a dictionary would
+      order a list of words and how you would order an annual event.
+- model: spoilr_hints.cannedhint
+  pk: 1090
+  fields:
+    puzzle: 199
+    description: Solvers ordered the shortlist but still can't extract
+    order: 100.1
+    keywords: alphabetically, shortlist, extract
+    content: Order by year and read the first letters of the word at the numerator
+      position .

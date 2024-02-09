@@ -1,0 +1,22 @@
+- model: puzzles.puzzle
+  pk: 735
+  fields:
+    emoji: ':dash:'
+    deep: 3
+    deep_key: underworld-escape
+- model: spoilr_core.puzzle
+  pk: 735
+  fields:
+    external_id: 735
+    round: 50
+    answer: BORING WAS NEVER SO FUN
+    name: Escaping the Underworld
+    main_credits: Nick Poulos
+    other_credits: ''
+    order: 735
+    is_meta: false
+    slug: escaping-the-underworld
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []

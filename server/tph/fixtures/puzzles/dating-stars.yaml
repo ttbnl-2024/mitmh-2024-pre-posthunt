@@ -1,0 +1,63 @@
+- model: puzzles.puzzle
+  pk: 136
+  fields:
+    emoji: ':cancer:'
+    deep: 1700
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 136
+  fields:
+    external_id: 136
+    round: 8
+    answer: TANSY MUSTARD
+    name: Dating Stars
+    main_credits: Jacob N Scott
+    other_credits: ''
+    order: 136
+    is_meta: false
+    slug: dating-stars
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 201
+  fields:
+    puzzle: 136
+    description: Solvers haven't identified what either the Chads or the virgins are.
+    order: 0.0
+    keywords: no progress, chad, chads
+    content: The Chads (right side of each meme) each represent one member of a complete
+      set.  Each member of this set is (more-or-less) an animal.
+- model: spoilr_hints.cannedhint
+  pk: 202
+  fields:
+    puzzle: 136
+    description: Solvers have identified the Chads as animals but not as eastern zodiac.
+    order: 20.0
+    keywords: chad, chads
+    content: The Chads (right half of each meme) aren't just arbitrary animals, they
+      form a well-known set of 12.  One of them is a mythological animal.
+- model: spoilr_hints.cannedhint
+  pk: 203
+  fields:
+    puzzle: 136
+    description: Solvers have identified the Chads but not the virgins
+    order: 50.0
+    keywords: virgin, virgins, weird al
+    content: The virgins (left half of each meme) each represent members of a set
+      that is similar to but distinct from the set represented by the Chads (right
+      half of each meme).  A substring of the flavortext suggests where the descriptions
+      of the virgins come from.
+- model: spoilr_hints.cannedhint
+  pk: 204
+  fields:
+    puzzle: 136
+    description: Solvers have identified the Chads as eastern zodiac and the virgins
+      as western zodiac, and are stuck on extraction
+    order: 100.0
+    keywords: extraction, dates
+    content: Each of the clues at the bottom could refer to one of several people.  Match
+      each meme with one of the clues, using both sides of the meme to pick which
+      person the clue means, considering the title of the puzzle.  Read the answer
+      in meme order.

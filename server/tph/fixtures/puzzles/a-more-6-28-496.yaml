@@ -1,0 +1,88 @@
+- model: puzzles.puzzle
+  pk: 584
+  fields:
+    emoji: ':flag_us:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 584
+  fields:
+    external_id: 584
+    round: 11
+    answer: VOTE
+    name: "A More 6 \u222A 28 \u222A 496 \u222A \u2026"
+    main_credits: Nick Poulos
+    other_credits: ''
+    order: 584
+    is_meta: false
+    slug: a-more-6-28-496
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1367
+  fields:
+    puzzle: 584
+    description: The solvers can't figure out what to do with the math
+    order: 1.0
+    keywords: begin, start
+    content: The terminology here parallels mathematics, but doesn't actually apply
+      to numbers. If you're unfamiliar with the symbols in the this puzzle, you should
+      look up set notation.
+- model: spoilr_hints.cannedhint
+  pk: 1368
+  fields:
+    puzzle: 584
+    description: They still can't figure out what to do with the math
+    order: 2.0
+    keywords: begin, start
+    content: Say, can you see that the title is the union of perfect numbers?
+- model: spoilr_hints.cannedhint
+  pk: 1369
+  fields:
+    puzzle: 584
+    description: They need the math aha given to them
+    order: 3.0
+    keywords: begin, start
+    content: The mathematical terminology is describing the structure of the United
+      States and its government.
+- model: spoilr_hints.cannedhint
+  pk: 1370
+  fields:
+    puzzle: 584
+    description: Helping them figure out the variables
+    order: 10.0
+    keywords: interpreting, variables, bold
+    content: Lowercase bold letters represent sets of individual people (like presidents),
+      uppercase bold letters represent groups of people (like Congress), and script
+      letters represent geographical areas on the Earth (like States). Note that when
+      you get a subscript on a lowercase bold letter, it denotes an individual member
+      of that set (so a specific president).
+- model: spoilr_hints.cannedhint
+  pk: 1371
+  fields:
+    puzzle: 584
+    description: Helping them figure out subscripts
+    order: 15.0
+    keywords: subscript, subscripts
+    content: Numerical subscripts usually denote the nth something in chronological
+      order.
+- model: spoilr_hints.cannedhint
+  pk: 1373
+  fields:
+    puzzle: 584
+    description: Nudge on the individual numbers
+    order: 80.0
+    keywords: equation, plugging
+    content: Hopefully the modular arithmetic will help you verify your individual
+      answers, but if something's still not quite right, know that you should generally
+      be getting whole numbers from the fractions in the equation.
+- model: spoilr_hints.cannedhint
+  pk: 1372
+  fields:
+    puzzle: 584
+    description: Solvers can't interpret the end
+    order: 95.0
+    keywords: final, last, extraction, extract
+    content: You should, at the end of the math, have an eight digit number. Try parsing
+      it as four two-digit numbers.

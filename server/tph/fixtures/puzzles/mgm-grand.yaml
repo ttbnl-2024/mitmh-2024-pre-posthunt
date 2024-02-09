@@ -1,0 +1,87 @@
+- model: puzzles.puzzle
+  pk: 485
+  fields:
+    emoji: ':love_letter:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 485
+  fields:
+    external_id: 485
+    round: 4
+    answer: MANDIBLE
+    name: MGM Grand
+    main_credits: Chilli Qin and Michael Andersen
+    other_credits: ''
+    order: 485
+    is_meta: false
+    slug: mgm-grand
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 301
+  fields:
+    puzzle: 485
+    description: Solvers are stuck getting started
+    order: 10.0
+    keywords: clueless,lost,start,begin
+    content: It looks like the images on the stamps are very specifically chosen.
+      Have you found anywhere else on the envelope that might be helpful in identifying
+      those images.
+- model: spoilr_hints.cannedhint
+  pk: 302
+  fields:
+    puzzle: 485
+    description: Solvers identified the landmarks and indexed letters, but can't find
+      the right order
+    order: 10.5
+    keywords: landmarks,landmark,ELDRAFSG,LASERFSG
+    content: It looks like you've found some relevant landmarks, but don't know where
+      to look next. Have you considered thinking more globally.
+- model: spoilr_hints.cannedhint
+  pk: 308
+  fields:
+    puzzle: 485
+    description: Solvers identified the landmarks and indexed letters, and either
+      received hint 10.5 or seem frustrated and need a more overt hint
+    order: 10.75
+    keywords: landmarks,landmark,ELDRAFSG,LASERFSG
+    content: Try mapping out the indexed letters onto a world map, placing each letter
+      at the location of its corresponding landmark.
+- model: spoilr_hints.cannedhint
+  pk: 303
+  fields:
+    puzzle: 485
+    description: Solvers found the initial extraction (RED FLAGS) but haven't figured
+      out they need to use semaphore
+    order: 50.0
+    keywords: redflags,red flags
+    content: Congratulations - you've confirmed that there are some RED FLAGS with
+      these letters! Maybe that will help you figure out why these letters were routed
+      through the head office.
+- model: spoilr_hints.cannedhint
+  pk: 304
+  fields:
+    puzzle: 485
+    description: Solvers know it's semaphore but can't find the right ordering
+    order: 99.0
+    keywords: semaphore,DMLIABNE,IDLBMAEN
+    content: 'You''ve figured out how they''re passing messages back and forth, so
+      you''re extremely close: figuring out the final step isn''t a matter of "if",
+      but "when".'
+- model: spoilr_hints.cannedhint
+  pk: 309
+  fields:
+    puzzle: 485
+    description: Solvers know it's semaphore and received hint 99.0 or seem frustrated
+      and need a more overt hint
+    order: 99.5
+    keywords: semaphore,DMLIABNE,IDLBMAEN
+    content: Sort the semaphore letters based on the date listed on the postmark from
+      Khartoum headquarters.
+- model: spoilr_core.pseudoanswer
+  pk: 21
+  fields:
+    puzzle: 485
+    answer: REDFLAGS
+    response: "Great work - you\u2019ve confirmed there were some red flags in these\
+      \ messages! Now, all that\u2019s left is to figure out what these letters are\
+      \ signaling."

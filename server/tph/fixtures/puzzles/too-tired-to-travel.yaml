@@ -1,0 +1,67 @@
+- model: puzzles.puzzle
+  pk: 516
+  fields:
+    emoji: ':wheel:'
+    deep: 750
+- model: spoilr_core.puzzle
+  pk: 516
+  fields:
+    external_id: 516
+    round: 12
+    answer: DEACTIVATES
+    name: Too Tired to Travel
+    main_credits: Alina Khankin
+    other_credits: ''
+    order: 516
+    is_meta: false
+    slug: too-tired-to-travel
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 435
+  fields:
+    puzzle: 516
+    description: The solvers have trouble getting the Michelin tire connection
+    order: 1.0
+    keywords: start, begin
+    content: Look at the tires more closely - they have something in common. Where
+      can you go for a better way forward?
+- model: spoilr_hints.cannedhint
+  pk: 436
+  fields:
+    puzzle: 516
+    description: The solvers got the tires, but are having trouble extracting letters
+      from them
+    order: 10.0
+    keywords: tires
+    content: Did you count up the tires? Where can you use these numbers?
+- model: spoilr_hints.cannedhint
+  pk: 437
+  fields:
+    puzzle: 516
+    description: The solvers did not make the Michelin green star restaurants connection
+    order: 20.0
+    keywords: directions, apply tire cities
+    content: You are looking for green and sustainable locations. Did you check the
+      beginnings of each set of directions?
+- model: spoilr_hints.cannedhint
+  pk: 439
+  fields:
+    puzzle: 516
+    description: Stronger hint to green star restaurants if hint 20.0 was insufficient
+    order: 50.0
+    keywords: locations, directions, apply tire cities
+    content: There is a certain tire brand that you should be familiar with by now
+      that is also associated with a certain famous guide. You are traveling to specific
+      green and sustainable entries in these cities.
+- model: spoilr_hints.cannedhint
+  pk: 438
+  fields:
+    puzzle: 516
+    description: The solvers got the restaurants and are having trouble extracting
+      the answer
+    order: 100.0
+    keywords: extraction
+    content: You are almost there! Don't forget to look at the beginnings.

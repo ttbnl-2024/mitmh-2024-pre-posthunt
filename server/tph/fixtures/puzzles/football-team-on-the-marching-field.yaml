@@ -1,0 +1,65 @@
+- model: puzzles.puzzle
+  pk: 471
+  fields:
+    emoji: ':drum:'
+    deep: 1600
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 471
+  fields:
+    external_id: 471
+    round: 8
+    answer: RUSHING YARDS
+    name: Football Team on the Marching Field
+    main_credits: Stephanie Chen and Todd Becker
+    other_credits: ''
+    order: 471
+    is_meta: false
+    slug: football-team-on-the-marching-field
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 521
+  fields:
+    puzzle: 471
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: started, begin, start
+    content: If you were playing an instrument, what does your list tell you to do?
+- model: spoilr_hints.cannedhint
+  pk: 520
+  fields:
+    puzzle: 471
+    description: Solvers have not thought to listen to the audio file
+    order: 20.0
+    keywords: map where ball is, transcript
+    content: Make sure you are using the audio for the full puzzle experience.
+- model: spoilr_hints.cannedhint
+  pk: 522
+  fields:
+    puzzle: 471
+    description: Solvers aren't sure how to use the metronome in the audio file
+    order: 50.0
+    keywords: beeps, beep, tick, sounds, per set, metronome,
+    content: Metronomes keep you in time, and the strong beep tells me the start of
+      each new measure as a strong beat one for each measure.  Can you hear each set
+      as it plays in the audio?
+- model: spoilr_hints.cannedhint
+  pk: 523
+  fields:
+    puzzle: 471
+    description: Solvers are stuck on mapping ball hits
+    order: 60.0
+    keywords: ball hit instruments, where the ball, hitting, hit
+    content: Are you finding the path of travel for that instrument?  Make sure you
+      have their position correct on the field.
+- model: spoilr_hints.cannedhint
+  pk: 524
+  fields:
+    puzzle: 471
+    description: Solvers are having trouble with the extraction
+    order: 100.0
+    keywords: extract, answer, extraction
+    content: Presentation is everything.  How does it look on the field?

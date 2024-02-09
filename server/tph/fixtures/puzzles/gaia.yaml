@@ -1,0 +1,139 @@
+- model: puzzles.puzzle
+  pk: 359
+  fields:
+    emoji: ':stars:'
+    deep: 3
+    deep_key: olympic-meta
+- model: spoilr_core.puzzle
+  pk: 359
+  fields:
+    external_id: 359
+    round: 19
+    answer: BENEPHACTOR
+    name: Gaia
+    main_credits: Charles Steinhardt, Ethan Ordentlich, and RJ Antonello
+    other_credits: ''
+    order: 359
+    is_meta: true
+    slug: gaia
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 51
+  fields:
+    puzzle: 359
+    description: The solvers have not identified the letter weights puzzle.
+    order: 0.0
+    keywords: getting started
+    content: The answers seem like they use only a few different letters. How many
+      are there, and what could you do with these and the numbers?
+- model: spoilr_hints.cannedhint
+  pk: 54
+  fields:
+    puzzle: 359
+    description: The solvers have not identified Vulpecula.
+    order: 0.1
+    keywords: constellation
+    content: You're right that this is a constellation -- what would the little fox
+      be?
+- model: spoilr_hints.cannedhint
+  pk: 52
+  fields:
+    puzzle: 359
+    description: The solvers have solved the letter weights puzzle, but don't know
+      what to do with the numbers.
+    order: 10.0
+    keywords: catalogue
+    content: Gaia seems to be cataloguing the stars -- maybe you could find this catalogue.
+- model: spoilr_hints.cannedhint
+  pk: 53
+  fields:
+    puzzle: 359
+    description: The solvers have not figured out that stars move over time, or how
+      they're moving.
+    order: 20.0
+    keywords: movement
+    content: Over long periods of time, stars appear to move in Earth's sky. Gaia's
+      catalogue might contain some information on how these move.
+- model: spoilr_hints.cannedhint
+  pk: 55
+  fields:
+    puzzle: 359
+    description: The solvers have not figured out the coordinate system in the interactive
+      component.
+    order: 20.1
+    keywords: numbers, interactive
+    content: The coordinate system numbers are right ascension and declination given
+      in a certain unit.
+- model: spoilr_hints.cannedhint
+  pk: 61
+  fields:
+    puzzle: 359
+    description: The solvers need a more explicit hint about how to move the stars.
+    order: 25.0
+    keywords: stars move out of box
+    content: According to Gaia, the stars shouldn't move like they are. Instead, they
+      should move like these other ones.
+- model: spoilr_hints.cannedhint
+  pk: 56
+  fields:
+    puzzle: 359
+    description: The solvers should be told explicitly what to do.
+    order: 30.0
+    keywords: ''
+    content: "The given stars are the constellation Vulpecula, as it is in the night\
+      \ sky. The motion of stars over time is described with the \"proper motion\"\
+      , which is found in the Gaia archive in units of milliarcseconds / yr. The decoded\
+      \ 19-digit strings gives us a new Gaia object, with its own proper motion. Gaia\
+      \ tells us that the stars don't move with their own proper motion, and instead\
+      \ move with their associated object's proper motion.\r\n\r\nWhen you move the\
+      \ Vulpecula stars to the right location (within ~10 pixels), the interactive\
+      \ component will indicate that you did it correctly. You may need to jiggle\
+      \ the stars slightly to get the checker to respond."
+- model: spoilr_hints.cannedhint
+  pk: 57
+  fields:
+    puzzle: 359
+    description: The solvers have reached the end state, but have not identified Columba.
+    order: 40.0
+    keywords: ''
+    content: We started with a constellation, so we've probably ended with one too.
+- model: spoilr_hints.cannedhint
+  pk: 58
+  fields:
+    puzzle: 359
+    description: The solvers have identified Columba, but have not figured out how
+      to apply Gaia's message for extraction.
+    order: 50.0
+    keywords: ''
+    content: What's Greek about Columba (or rather, these stars in Columba)?
+- model: spoilr_hints.cannedhint
+  pk: 59
+  fields:
+    puzzle: 359
+    description: The solvers have not identified that Gaia's star in Columba is different.
+    order: 50.1
+    keywords: ''
+    content: Gaia (Alpha Columba) is shown as a 5-point star instead of a circle.
+      You might need to do something different from the other stars here.
+- model: spoilr_hints.cannedhint
+  pk: 60
+  fields:
+    puzzle: 359
+    description: The solvers should be explicitly told how to extract.
+    order: 60.1
+    keywords: ''
+    content: The stars in Columba have Greek letter designations (e.g., Beta Columba).
+      Index by the position of the Greek letter in the Greek alphabet into the answer
+      for the Vulpecula star. Gaia / Alpha Columba should be treated differently,
+      by taking its name (Phact). The reading order by ending star is across the top,
+      then the lone star at the bottom -- or, [Delta Col, Kappa Col, Gamma Col, Beta
+      Col, Alpha Col, Epsilon Col, Eta Col].
+- model: spoilr_core.pseudoanswer
+  pk: 1
+  fields:
+    puzzle: 359
+    answer: PHACT
+    response: What about the other stars?

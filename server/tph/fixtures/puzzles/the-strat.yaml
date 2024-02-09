@@ -1,0 +1,107 @@
+- model: puzzles.puzzle
+  pk: 24
+  fields:
+    emoji: ':crab:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 24
+  fields:
+    external_id: 24
+    round: 4
+    answer: MERMAN
+    name: The Strat
+    main_credits: Danny Tomkoski
+    other_credits: ''
+    order: 24
+    is_meta: false
+    slug: the-strat
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 828
+  fields:
+    puzzle: 24
+    description: Solvers don't know how to interpret pictures.
+    order: 15.0
+    keywords: start, animal pictures
+    content: Each picture represents an animal whose name has 4 letters.
+- model: spoilr_hints.cannedhint
+  pk: 837
+  fields:
+    puzzle: 24
+    description: Solvers try to apply genus and species too early
+    order: 18.0
+    keywords: Genus and species
+    content: Scientific names will be important later in the puzzle, but are not meant
+      to be applied directly to the animals pictured.
+- model: spoilr_hints.cannedhint
+  pk: 830
+  fields:
+    puzzle: 24
+    description: Solvers are having trouble answering clues.
+    order: 20.0
+    keywords: clues
+    content: The answers to clue phrases are in alphabetical order by column, and
+      all have 4 letters.
+- model: spoilr_hints.cannedhint
+  pk: 832
+  fields:
+    puzzle: 24
+    description: Solvers don't know how to make word ladders
+    order: 30.0
+    keywords: words
+    content: Changing one letter in the word for each of the given animals will result
+      in one of the words given by the clue phrases.  Then changing one of the letters
+      in that word will result in another, and so on.  Construct word "ladders" for
+      each animal.
+- model: spoilr_hints.cannedhint
+  pk: 834
+  fields:
+    puzzle: 24
+    description: Solvers are confused about how the animals "converge"
+    order: 40.0
+    keywords: ambiguous, converge
+    content: The word "converge" in the flavortext does not imply that they are converging
+      on each other, but on something else.  Each word ladder can be ended with the
+      same word.
+- model: spoilr_hints.cannedhint
+  pk: 835
+  fields:
+    puzzle: 24
+    description: Solvers have found the word "crab" but don't know how to proceed.
+    order: 50.0
+    keywords: crab, been there before, carcinization
+    content: The process of carcinization (evolving into crab-like form) is the theme
+      of the puzzle. Each chain not only ends with the word crab, but contains the
+      name of a type of crab.
+- model: spoilr_hints.cannedhint
+  pk: 836
+  fields:
+    puzzle: 24
+    description: confirmation of word ladders
+    order: 51.0
+    keywords: word ladder
+    content: The length of each animal's word ladder will match the sum of the two
+      numbers given by its picture.
+- model: spoilr_hints.cannedhint
+  pk: 839
+  fields:
+    puzzle: 24
+    description: Solvers don't know what to do with the crabs they've found.
+    order: 60.0
+    keywords: crab names
+    content: The scientific name for each of the crabs found will match the enumeration
+      given next to the photo of the animal at the top of the word ladder where it
+      was found.
+- model: spoilr_hints.cannedhint
+  pk: 840
+  fields:
+    puzzle: 24
+    description: Solvers don't know how to extract.
+    order: 100.0
+    keywords: extraction, final answer
+    content: Each word ladder matches the length of the scientific name of the crab
+      hidden within.  Take the letter indicated by the position of the crab within
+      its ladder.

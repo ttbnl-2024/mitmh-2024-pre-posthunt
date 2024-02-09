@@ -1,0 +1,11 @@
+- model: spoilr_core.interaction
+  pk: 3
+  fields:
+    slug: the-other-scottish-play
+    name: The Other Scottish Play (DON A BAUTA - visit to the HQ)
+    order: 3
+    instructions: "Use this box to arrange a visit to the HQ for this puzzle. If you cannot come to the HQ, please request an email interaction."
+    interaction_type: physical
+    puzzle: 700
+    required_pseudoanswer: 149
+    unlocks_with_puzzle: true

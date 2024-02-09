@@ -1,0 +1,128 @@
+- model: puzzles.puzzle
+  pk: 596
+  fields:
+    emoji: ':__:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 596
+  fields:
+    external_id: 596
+    round: 5
+    answer: DEVNULL
+    name: This Space Intentionally Left... Well, You Know
+    main_credits: Alina Khankin and John Bromels
+    other_credits: ''
+    order: 596
+    is_meta: false
+    slug: this-space-intentionally-left-well-you-know
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 741
+  fields:
+    puzzle: 596
+    description: The solvers don't know how to get started
+    order: 0.0
+    keywords: start, begin
+    content: Wow, where is this puzzle? Try copying the "text" (or making a copy of
+      the doc) and examining it closer.
+- model: spoilr_hints.cannedhint
+  pk: 742
+  fields:
+    puzzle: 596
+    description: The solvers know there are spaces but haven't gottent the different
+      attributes
+    order: 10.0
+    keywords: start, begin, spaces
+    content: Nothing but blank spaces? Note that they are different... in various
+      ways
+- model: spoilr_hints.cannedhint
+  pk: 743
+  fields:
+    puzzle: 596
+    description: The solvers noted the different attributes but haven't gotten the
+      minipuzzles
+    order: 20.0
+    keywords: spaces, different attributes, different characteristics
+    content: 'There are exactly five attributes each space has: bold (or not), italicized
+      (or not), size, color and font. Can you look at each characteristic individually
+      to see what it could be hiding?'
+- model: spoilr_hints.cannedhint
+  pk: 744
+  fields:
+    puzzle: 596
+    description: Hint for italics mechanic
+    order: 30.0
+    keywords: italics
+    content: Knock knock, who is there?
+- model: spoilr_hints.cannedhint
+  pk: 745
+  fields:
+    puzzle: 596
+    description: The solvers completed the five minipuzzles, but don't know how to
+      move on
+    order: 40.0
+    keywords: five puzzles, meta, what to do next
+    content: The five words you got are pretty long and strange. Anything about their
+      lengths looks familiar? Also, look at first and last letters.
+- model: spoilr_hints.cannedhint
+  pk: 746
+  fields:
+    puzzle: 596
+    description: Stronger meta hint if hint 40 was insufficient
+    order: 50.0
+    keywords: five puzzles, meta, what to do next
+    content: Look at the names of the five fonts you've used in this puzzle - how
+      are they similar to the five answers?
+- model: spoilr_hints.cannedhint
+  pk: 747
+  fields:
+    puzzle: 596
+    description: Solvers matched the fonts to the minipuzzle answers, but are having
+      trouble extracting
+    order: 60.0
+    keywords: meta, extraction
+    content: Did you notice that all of the font names have spaces? Once again, look
+      closely at what could be located there.
+- model: spoilr_hints.cannedhint
+  pk: 748
+  fields:
+    puzzle: 596
+    description: Strong extraction hint if hint 60.0 was insufficient
+    order: 70.0
+    keywords: meta, extraction, ordering
+    content: Use the font names as masks to uncover what is hiding in the locations
+      of the spaces... then order alphabetically by font name.
+- model: spoilr_core.pseudoanswer
+  pk: 115
+  fields:
+    puzzle: 596
+    answer: COMRADELINESS
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 119
+  fields:
+    puzzle: 596
+    answer: PSEUDOFEVERISHLY
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 118
+  fields:
+    puzzle: 596
+    answer: TELEINSTRUCTION
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 116
+  fields:
+    puzzle: 596
+    answer: THIOBACILLUS
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 117
+  fields:
+    puzzle: 596
+    answer: TITILLATE
+    response: Keep going!

@@ -1,0 +1,143 @@
+- model: puzzles.puzzle
+  pk: 430
+  fields:
+    emoji: ':art:'
+    deep: 875
+- model: spoilr_core.puzzle
+  pk: 430
+  fields:
+    external_id: 430
+    round: 19
+    answer: BOSTON CELTICS
+    name: Oil Paintings
+    main_credits: Brian Widerman, Charles Steinhardt, John Bromels, Linus Hamilton,
+      and Max Tepermeister
+    other_credits: ''
+    order: 430
+    is_meta: false
+    slug: oil-paintings
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1738
+  fields:
+    puzzle: 430
+    description: Solvers don't know where to start
+    order: 0.0
+    keywords: first step, pictures, begin
+    content: There's something off about the paintings you've been given. Why would
+      someone make these changes?
+- model: spoilr_hints.cannedhint
+  pk: 1739
+  fields:
+    puzzle: 430
+    description: Solvers have assembled the paintings, but are overwhelmed and don't
+      know what to do
+    order: 25.0
+    keywords: ''
+    content: Once you've assembled the paintings, put them in a sensible order - you
+      could either do this by the painting date or by alphabetizing something that's
+      off about the paintings themselves. Once you've done this, check the top lines
+      of the word grids for a message that will give you a clue to the next step.
+- model: spoilr_hints.cannedhint
+  pk: 1740
+  fields:
+    puzzle: 430
+    description: Solvers have the message from the top line, but are still confused
+    order: 30.0
+    keywords: thematic words, fifty two
+    content: Look for words in the grids that fit a theme. The puzzle's title is a
+      clue to what types of words you should be looking for.
+- model: spoilr_hints.cannedhint
+  pk: 1741
+  fields:
+    puzzle: 430
+    description: Solvers need a stronger hint than the previous one
+    order: 35.0
+    keywords: types of words, thematic words
+    content: 'This puzzle has two themes: it''s called Oil Paintings, but oil is used
+      in other ways here.'
+- model: spoilr_hints.cannedhint
+  pk: 1742
+  fields:
+    puzzle: 430
+    description: Solvers want a strong hint about how to get through the first half
+      of this puzzle
+    order: 45.0
+    keywords: stuck, letters, oil words
+    content: The flavor text is hinting that this is a puzzle about bowling, but it's
+      also a puzzle about oil. Find the hidden items in the paintings and try to find
+      a way to combine bowling and oil.
+- model: spoilr_hints.cannedhint
+  pk: 1743
+  fields:
+    puzzle: 430
+    description: Solvers want an extremely strong hint about how to get through the
+      first half
+    order: 50.0
+    keywords: ''
+    content: There are animals hidden in each of the paintings. These animals were
+      all chosen because they're related to a specific concept in bowling.
+- model: spoilr_hints.cannedhint
+  pk: 1744
+  fields:
+    puzzle: 430
+    description: Solvers have identified oil patterns but don't know what to do next
+    order: 60.0
+    keywords: PBA, animal patterns, oil patterns
+    content: Identify the words in each grid that correspond to the PBA oil pattern
+      zone division lines from the 2023 oil patterns. All but one of them will be
+      oil-related. Take the word that's not oil-related from each to determine what
+      to do next.
+- model: spoilr_hints.cannedhint
+  pk: 1745
+  fields:
+    puzzle: 430
+    description: Solvers have the "usable squares have strikes on the reverse" message,
+      but don't know what to do next
+    order: 70.0
+    keywords: ''
+    content: What is a "strike" in bowling? What symbol is used to record a strike
+      when scoring a bowling game?
+- model: spoilr_hints.cannedhint
+  pk: 1746
+  fields:
+    puzzle: 430
+    description: Solvers have found the Xs on the back of the paintings, but don't
+      know what to do with them
+    order: 80.0
+    keywords: ''
+    content: Try mapping out the patterns of strikes across all of the paintings.
+      Do you notice anything about where they appear?
+- model: spoilr_hints.cannedhint
+  pk: 1747
+  fields:
+    puzzle: 430
+    description: Solvers want to know how extraction works
+    order: 100.0
+    keywords: ''
+    content: An X never appears in the same location on more than one painting. Can
+      you figure out a way to bring all the X tiles together somehow?
+- model: spoilr_hints.cannedhint
+  pk: 1748
+  fields:
+    puzzle: 430
+    description: Solvers assembled the final image but can't identify the logo
+    order: 100.5
+    keywords: cut out X's, new picture
+    content: The newly assembled picture is our rendering of a logo. The full name
+      of the (locally based!) entity is the answer to this puzzle.
+- model: spoilr_core.pseudoanswer
+  pk: 316
+  fields:
+    puzzle: 430
+    answer: CELTICS
+    response: You're so close - include the team's city in your answer.
+- model: spoilr_core.pseudoanswer
+  pk: 295
+  fields:
+    puzzle: 430
+    answer: USABLE SQUARES HAVE STRIKES ON THE REVERSE
+    response: Keep going!

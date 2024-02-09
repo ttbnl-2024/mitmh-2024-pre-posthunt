@@ -1,0 +1,77 @@
+- model: puzzles.puzzle
+  pk: 213
+  fields:
+    emoji: ':sailboat:'
+    deep: 7
+    deep_key: 'charon-meta'
+- model: spoilr_core.puzzle
+  pk: 213
+  fields:
+    external_id: 213
+    round: 9
+    answer: ESTATE SAILS
+    name: Charon
+    main_credits: Wesley "Adalbert Zollern" Zhang, Bella (Songshan) Guo, Brian
+      Widerman, and RJ Antonello
+    other_credits: ''
+    order: 213
+    is_meta: true
+    slug: charon
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 88
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: start
+    content: The Phlegethon is a river of the underworld. What other rivers are there
+      in the underworld?
+- model: spoilr_hints.cannedhint
+  pk: 89
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on ordering
+    order: 20.0
+    keywords: Ordering
+    content: Since the puzzle is referencing the other rivers, maybe look again at
+      your answers and see if you can find anything related to them.
+- model: spoilr_hints.cannedhint
+  pk: 90
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on ordering (2)
+    order: 20.1
+    keywords: Ordering
+    content: The names of the other underworld rivers are winding through the feeder
+      answers. Organize the feeder answers in such a way that you can find all four
+      of them.
+- model: spoilr_hints.cannedhint
+  pk: 91
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on extraction
+    order: 80.0
+    keywords: Extraction
+    content: Where on the rivers might we be looking for our answer?
+- model: spoilr_hints.cannedhint
+  pk: 92
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on extraction (2)
+    order: 80.1
+    keywords: Extraction
+    content: What is the bank of a river? Consider that as you look at your organized
+      feeders.
+- model: spoilr_hints.cannedhint
+  pk: 93
+  fields:
+    puzzle: 213
+    description: Solvers are stuck on extraction (3)
+    order: 80.2
+    keywords: Extraction
+    content: Take the letter to the left of your rivers in each line after they have
+      been organized.

@@ -1,0 +1,129 @@
+- model: puzzles.puzzle
+  pk: 132
+  fields:
+    emoji: ':bangbang:'
+    deep: 1400
+- model: spoilr_core.puzzle
+  pk: 132
+  fields:
+    external_id: 132
+    round: 3
+    answer: MAKE A DECISION
+    name: Spoiler Alert
+    main_credits: Daniel Kramarsky, Jayden Yamada, Nick Boyer, and Paul Melamud
+    other_credits: ''
+    order: 132
+    is_meta: false
+    slug: spoiler-alert
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1374
+  fields:
+    puzzle: 132
+    description: Solvers are stuck on getting started.
+    order: 0.0
+    keywords: start
+    content: There is a common theme among a subset of the reactions. The theme is
+      hinted at somewhere in the intro and outro. Try looking up some of the names
+      or food you hear in clips 1 to 13.
+- model: spoilr_hints.cannedhint
+  pk: 1375
+  fields:
+    puzzle: 132
+    description: Chopped - Solvers do not know how to order.
+    order: 11.0
+    keywords: Chopped, ordering
+    content: Each Chopped episode given in the puzzle has something unique. As a reminder,
+      some ingredients and contestants were already clued in the puzzle's presentation.
+      The ordering does not involve either of these.
+- model: spoilr_hints.cannedhint
+  pk: 1381
+  fields:
+    puzzle: 132
+    description: Chopped - Solvers do not know how to extract.
+    order: 22.0
+    keywords: extraction
+    content: Other than episode numbers, what else do TV shows have?
+- model: spoilr_hints.cannedhint
+  pk: 1382
+  fields:
+    puzzle: 132
+    description: Chopped - Solvers do not know what BROTH SPOILERS means.
+    order: 32.0
+    keywords: broth spoilers
+    content: This phrase is a clue to another piece of visual medium.
+- model: spoilr_hints.cannedhint
+  pk: 1377
+  fields:
+    puzzle: 132
+    description: Chopped - Solvers do not know what to do with the stars.
+    order: 33.0
+    keywords: stars
+    content: The intro and outro have a subtle clue as to how to use them.
+- model: spoilr_hints.cannedhint
+  pk: 1601
+  fields:
+    puzzle: 132
+    description: TMC - Solvers do not know how to order.
+    order: 44.0
+    keywords: tmc, too many cooks, ordering
+    content: All of the scenes mentioned have something in common. It hides well early
+      on, but reveals itself later in the video.
+- model: spoilr_hints.cannedhint
+  pk: 1602
+  fields:
+    puzzle: 132
+    description: TMC - Solvers do not know how to extract.
+    order: 55.0
+    keywords: tmc, too many cooks, extraction, thumbs
+    content: If your ordering so far is in proper alignment, then rate how well the
+      actors did. Did they do a stellar job?
+- model: spoilr_hints.cannedhint
+  pk: 1603
+  fields:
+    puzzle: 132
+    description: TMC - Solvers do not know what ONCE ON CNN NEWS means.
+    order: 65.0
+    keywords: tmc, too many cooks, once on cnn news
+    content: Add CNN to something from earlier in the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1604
+  fields:
+    puzzle: 132
+    description: TMC - Solvers do not know what to do with the thumbs.
+    order: 66.0
+    keywords: tmc, too many cooks, thumbs
+    content: You should treat the thumbs in a similar manner as the stars.
+- model: spoilr_hints.cannedhint
+  pk: 1605
+  fields:
+    puzzle: 132
+    description: CNN - Solvers do not know how to order.
+    order: 88.0
+    keywords: cnn, ordering
+    content: Make sure to follow CNN's guidelines.
+- model: spoilr_hints.cannedhint
+  pk: 1606
+  fields:
+    puzzle: 132
+    description: CNN - Solvers do not know how to extract.
+    order: 100.0
+    keywords: cnn, extraction
+    content: If all your ordering is correct, tabulate your votes for each figure
+      on the ballot. This section has no ratings, but the previous two do. You'll
+      need both sets.
+- model: spoilr_core.pseudoanswer
+  pk: 280
+  fields:
+    puzzle: 132
+    answer: BROTH SPOILERS
+    response: Keep going!
+- model: spoilr_core.pseudoanswer
+  pk: 281
+  fields:
+    puzzle: 132
+    answer: ONCE ON CNN NEWS
+    response: Keep going!

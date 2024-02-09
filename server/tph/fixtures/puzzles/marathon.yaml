@@ -1,0 +1,57 @@
+- model: puzzles.puzzle
+  pk: 718
+  fields:
+    emoji: ':person_running:'
+    deep: 2000
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 718
+  fields:
+    external_id: 718
+    round: 8
+    answer: TOE DRAG
+    name: Marathon
+    main_credits: Neal Tibrewala
+    other_credits: ''
+    order: 718
+    is_meta: false
+    slug: marathon
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1191
+  fields:
+    puzzle: 718
+    description: Players don't know where to start
+    order: 0.0
+    keywords: break in
+    content: In L.A., what are the last names of those people?
+- model: spoilr_hints.cannedhint
+  pk: 1193
+  fields:
+    puzzle: 718
+    description: making groups
+    order: 10.0
+    keywords: grouping
+    content: You're categorizing these items into 7 groups of 7.  The items can be
+      examples of the category or synonyms of the category.
+- model: spoilr_hints.cannedhint
+  pk: 1194
+  fields:
+    puzzle: 718
+    description: Solvers haven't connected to movie names
+    order: 20.0
+    keywords: place, groups
+    content: Check the films that these actors have starred in for a relationship
+      to the categories you made.
+- model: spoilr_hints.cannedhint
+  pk: 1192
+  fields:
+    puzzle: 718
+    description: Stuck at extraction
+    order: 100.0
+    keywords: extraction
+    content: Put the items into a 7x7 grid in the same order they appear on the page,
+      then consider the film names.

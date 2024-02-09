@@ -1,0 +1,81 @@
+- model: puzzles.puzzle
+  pk: 3
+  fields:
+    emoji: ':regional_indicator_m:'
+    deep: 700
+- model: spoilr_core.puzzle
+  pk: 3
+  fields:
+    external_id: 3
+    round: 4
+    answer: MOTOWN
+    name: Paris
+    main_credits: Frankie Rady
+    other_credits: ''
+    order: 3
+    is_meta: false
+    slug: paris
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 933
+  fields:
+    puzzle: 3
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: begin,start,first step
+    content: How can you visualize the audio?
+- model: spoilr_hints.cannedhint
+  pk: 984
+  fields:
+    puzzle: 3
+    description: Solvers are stuck getting started (stronger hint)
+    order: 0.1
+    keywords: start, how to change, sound
+    content: Try opening the file with a sound editing program and watch the spectrogram.
+- model: spoilr_hints.cannedhint
+  pk: 935
+  fields:
+    puzzle: 3
+    description: Solvers can't identify the images
+    order: 2.0
+    keywords: image,identify,identification
+    content: Did you identify the music that plays in the audio? Find out where it
+      appeared in visual form for the very first time.
+- model: spoilr_hints.cannedhint
+  pk: 979
+  fields:
+    puzzle: 3
+    description: Solvers can't identify the images (stronger hint)
+    order: 2.1
+    keywords: image,identify,identification
+    content: "\u201CVideo Killed The Radio Star\u201D was the first thing ever to\
+      \ air on MTV."
+- model: spoilr_hints.cannedhint
+  pk: 936
+  fields:
+    puzzle: 3
+    description: Solvers can't identify the images even after recognizing MTV
+    order: 3.0
+    keywords: image,identify,identification
+    content: In its first hour on the air, MTV showed at least 26 different music
+      videos.
+- model: spoilr_hints.cannedhint
+  pk: 938
+  fields:
+    puzzle: 3
+    description: Solvers identified the images but don't know what to do next
+    order: 4.0
+    keywords: image,identify,identification,extraction
+    content: Use the first 26 music videos aired by MTV as a substitution cipher.
+- model: spoilr_hints.cannedhint
+  pk: 939
+  fields:
+    puzzle: 3
+    description: "Solvers have the cluephrase but can\u2019t solve it"
+    order: 5.0
+    keywords: cluephrase,solve,solution
+    content: "Look at the Wikipedia article on Berry Gordy \u2014 specifically, the\
+      \ infobox on the right."

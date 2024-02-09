@@ -1,0 +1,91 @@
+- model: puzzles.puzzle
+  pk: 693
+  fields:
+    emoji: ':rainbow:'
+    deep: 80
+- model: spoilr_core.puzzle
+  pk: 693
+  fields:
+    external_id: 693
+    round: 20
+    answer: AUTHOR
+    name: What's the Pointillism?
+    main_credits: Michael Andersen
+    other_credits: ''
+    order: 693
+    is_meta: false
+    slug: whats-the-pointillism
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 781
+  fields:
+    puzzle: 693
+    description: Solvers haven't realized this is a puzzle about color theory yet
+    order: 10.1
+    keywords: where to start,starting,start
+    content: It sounds like you're trying to figure out what to do with the two colorful
+      paintings. See if you notice anything interesting about the eight colors featured
+      on them.
+- model: spoilr_hints.cannedhint
+  pk: 782
+  fields:
+    puzzle: 693
+    description: Solvers haven't realized it's about color theory, and are frustrated
+    order: 10.3
+    keywords: where to start,starting,start,frustrated
+    content: Why do you think the critics in the middle of each painting are referencing
+      watercolor sets and doodles on a phone, when referencing the paintings? Consider
+      how might that relate to the strange symbols in the bottom right corner of each
+      painting.
+- model: spoilr_hints.cannedhint
+  pk: 783
+  fields:
+    puzzle: 693
+    description: Solvers haven't realized it's about color theory, and are about to
+      give up
+    order: 10.7
+    keywords: where to start,starting,start,annoying,hate
+    content: Try looking into "color theory", it might help you figure out the next
+      step.
+- model: spoilr_hints.cannedhint
+  pk: 784
+  fields:
+    puzzle: 693
+    description: Solvers recognize it's about color theory but don't know how to apply
+      that information
+    order: 30.1
+    keywords: color theory,additive,subtractive,RGB,CMYK
+    content: It sounds like you've recognized some interesting patterns with the selected
+      colors. Think about what a critic would see if they were focused on themselves.
+- model: spoilr_hints.cannedhint
+  pk: 785
+  fields:
+    puzzle: 693
+    description: Solvers recognize it's about color theory but don't know how to apply
+      that information, and are frustrated
+    order: 30.5
+    keywords: color theory,additive, subtractive,RGB,CMYK,frustrated
+    content: For the first painting, think about what colors show up in the venn diagram
+      circle for "cyan".
+- model: spoilr_hints.cannedhint
+  pk: 786
+  fields:
+    puzzle: 693
+    description: Solvers figured out the letters but don't know how to order them
+    order: 70.0
+    keywords: extraction,final letters
+    content: It looks like you've managed to find a series of letters, but don't know
+      how to order them. Remember that each letter maps back to a specific color.
+- model: spoilr_hints.cannedhint
+  pk: 787
+  fields:
+    puzzle: 693
+    description: Solvers figured out the final letters but don't know the ordering,
+      and are frustrated
+    order: 70.5
+    keywords: extraction,final letters,frustrated
+    content: 'Try focusing on the critics'' colors: their order is often turned into
+      an acronym, when talking about color theory.'

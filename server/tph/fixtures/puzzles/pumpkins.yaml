@@ -1,0 +1,64 @@
+- model: puzzles.puzzle
+  pk: 651
+  fields:
+    emoji: ':jack_o_lantern:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 651
+  fields:
+    external_id: 651
+    round: 20
+    answer: ATUM
+    name: Pumpkins
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 651
+    is_meta: false
+    slug: pumpkins
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 689
+  fields:
+    puzzle: 651
+    description: Solvers can't get started
+    order: 0.0
+    keywords: how to start, begin
+    content: Identify the name given to the lowest left pumpkin. This will help you
+      identify the rest.
+- model: spoilr_hints.cannedhint
+  pk: 690
+  fields:
+    puzzle: 651
+    description: solvers don't know how to use numbers at the top
+    order: 50.0
+    keywords: numbers, extract answer
+    content: Consider what numbers you've been given at the top and how they might
+      be used.
+- model: spoilr_hints.cannedhint
+  pk: 691
+  fields:
+    puzzle: 651
+    description: solvers cannot figure out what letters to use
+    order: 80.0
+    keywords: letters to use, need letters for answer
+    content: Consider how these names would be listed in a phone book.
+- model: spoilr_hints.cannedhint
+  pk: 989
+  fields:
+    puzzle: 651
+    description: solvers cannot figure out what letters to use (stronger hint)
+    order: 80.1
+    keywords: letters to use, what letter, extract
+    content: Use the first letter after JACK or JACKIE.
+- model: spoilr_hints.cannedhint
+  pk: 692
+  fields:
+    puzzle: 651
+    description: solvers cannot answer the phrase correctly
+    order: 100.0
+    keywords: Corgan, smashing pumpkins, rock opera,
+    content: Google the phrase. We are looking for one word. Note the number of blanks
+      at the bottom of the puzzle.

@@ -1,0 +1,112 @@
+- model: puzzles.puzzle
+  pk: 382
+  fields:
+    emoji: ':goal:'
+    deep: 2100
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 382
+  fields:
+    external_id: 382
+    round: 8
+    answer: WARRANTIES
+    name: What a Mesh!
+    main_credits: Charles Steinhardt
+    other_credits: ''
+    order: 382
+    is_meta: false
+    slug: what-a-mesh
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1016
+  fields:
+    puzzle: 382
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: These clues don't make sense in their current form; they feel like they
+      are halves of two different clues welded together.
+- model: spoilr_hints.cannedhint
+  pk: 1017
+  fields:
+    puzzle: 382
+    description: The solver doesn't know what to do or how to get started (2)
+    order: 10.1
+    keywords: getting started, start
+    content: These "clues" don't match internally because they are actually composed
+      of halves of two different clues which have been put back together to form new
+      "clues" which don't make much sense.  Fortunately, the halves of each split
+      clue have been swapped with each other, which will make it easier to put them
+      back together correctly.
+- model: spoilr_hints.cannedhint
+  pk: 1018
+  fields:
+    puzzle: 382
+    description: Solvers are having difficulty solving the clues
+    order: 30.0
+    keywords: clues
+    content: The clues in this puzzle must be paired up, and they must swap halves
+      between the pairs.  If you are having difficulty solving these clues, this may
+      be why.  Once the ends of the paired clues have been swapped back to the proper
+      starting halves, there should be no other obstacles to the solving the clues,
+      and they should solve normally by the usual methods.
+- model: spoilr_hints.cannedhint
+  pk: 1019
+  fields:
+    puzzle: 382
+    description: Solvers don't understand what to do with the answers to the clues
+    order: 50.0
+    keywords: answers
+    content: Answers to the clues fall into two related categories.  One category
+      can be viewed as down-to-earth (but isn't really); the other isn't down-to-earth
+      at all.  One answer from each pair of clues belongs in each category.
+- model: spoilr_hints.cannedhint
+  pk: 1020
+  fields:
+    puzzle: 382
+    description: Solvers don't understand what to do with the answers to the clues
+      (2)
+    order: 50.1
+    keywords: answers
+    content: The clue answers fall broadly into two categories.  Answers in one of
+      these categories consists mostly of plain English words, while answers in the
+      other category consist mostly of proper nouns.  Searching for and identifying
+      what these categories are should be more straightforward with this knowledge.
+- model: spoilr_hints.cannedhint
+  pk: 1021
+  fields:
+    puzzle: 382
+    description: Solvers don't understand what to do with the answers to the clues
+      (3)
+    order: 50.2
+    keywords: answers
+    content: There are two types of clue answers; one of them is "names (with 'moon')
+      for specific types of full moon", while the other is "names of satellites within
+      our solar system". One answer from each pair of clues belongs to each category.
+- model: spoilr_hints.cannedhint
+  pk: 1022
+  fields:
+    puzzle: 382
+    description: Solvers have answered the clues and know what the categories are,
+      but don't know how to extract.
+    order: 70.0
+    keywords: extraction
+    content: One of the categories is the start of an ordered - and number-able set;
+      the other isn't.  You will want to use the orderable category to order the paired
+      answers before working out how to actually extract the answer.
+- model: spoilr_hints.cannedhint
+  pk: 1023
+  fields:
+    puzzle: 382
+    description: Solvers have answered the clues and know what the categories are,
+      but don't know how to extract (1)
+    order: 90.0
+    keywords: extraction
+    content: Order the paired answers to the clues by the moons - the first full moon
+      of the lunar year first, the second full moon of the lunar year second, and
+      so on.  Then take the first letter of the answer paired with the name of the
+      first full moon, the second letter of the answer paired with the name of the
+      second full moon, and so on.

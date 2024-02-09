@@ -1,0 +1,15 @@
+- model: puzzles.round
+  pk: 16
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 80.642
+    'y': 31.65
+    'w': 8.867
+- model: spoilr_core.round
+  pk: 16
+  fields:
+    act: 2
+    slug: newport
+    name: Newport, RI
+    order: 106

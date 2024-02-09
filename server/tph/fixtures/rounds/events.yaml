@@ -1,0 +1,10 @@
+- model: puzzles.round
+  pk: 23
+  fields: {}
+- model: spoilr_core.round
+  pk: 23
+  fields:
+    act: 0
+    slug: events
+    name: Events
+    order: 99

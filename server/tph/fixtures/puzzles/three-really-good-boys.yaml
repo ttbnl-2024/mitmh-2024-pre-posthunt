@@ -1,0 +1,48 @@
+- model: puzzles.puzzle
+  pk: 328
+  fields:
+    emoji: ':dog:'
+    deep: 4
+    deep_key: 'cerberus-meta'
+- model: spoilr_core.puzzle
+  pk: 328
+  fields:
+    external_id: 328
+    round: 10
+    answer: GO BAR HOPPING
+    name: Three Really Good Boys
+    main_credits: Bella (Songshan) Guo, Paul Melamud, and RJ Antonello
+    other_credits: ''
+    order: 328
+    is_meta: true
+    slug: three-really-good-boys
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 573
+  fields:
+    puzzle: 328
+    description: Getting started
+    order: 0.0
+    keywords: ''
+    content: Have you tried googling some of the answers? Are they references to anything?
+- model: spoilr_hints.cannedhint
+  pk: 574
+  fields:
+    puzzle: 328
+    description: Recognizing sets of 3, footprints
+    order: 10.0
+    keywords: ''
+    content: Hmm, the flavortext says someone is missing. Who might be missing from
+      these groups? What might the 26 points tell you?
+- model: spoilr_hints.cannedhint
+  pk: 575
+  fields:
+    puzzle: 328
+    description: Extraction
+    order: 20.0
+    keywords: ''
+    content: The judges' scores could index into something. Cerberus is missing, and
+      so is a member of each of the trios. Could the missing members tell us something?

@@ -1,0 +1,12 @@
+- model: spoilr_core.interaction
+  pk: 4
+  fields:
+    slug: we-are-the-champions
+    name: We Are the Champions (laser cut rings pick-up)
+    order: 4
+    instructions: "Use this box to request a pickup appointment for this physical
+      puzzle."
+    interaction_type: physical
+    puzzle: 456
+    required_pseudoanswer: null
+    unlocks_with_puzzle: true

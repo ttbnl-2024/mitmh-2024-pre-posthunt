@@ -1,0 +1,68 @@
+- model: puzzles.puzzle
+  pk: 113
+  fields:
+    emoji: ':caltech:'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 113
+  fields:
+    external_id: 113
+    round: 20
+    answer: MERIT
+    name: The Best IT
+    main_credits: Jia Yue Wu and Kayton Truong & Slooth
+    other_credits: ''
+    order: 113
+    is_meta: false
+    slug: the-best-it
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1218
+  fields:
+    puzzle: 113
+    description: Solvers aren't sure how to start
+    order: 0.0
+    keywords: start
+    content: There are enumerated spaces and what look like prompts or clues. Perhaps
+      it's identification of some sort?
+- model: spoilr_hints.cannedhint
+  pk: 1219
+  fields:
+    puzzle: 113
+    description: Solvers aren't sure what they're identifying
+    order: 0.1
+    keywords: start
+    content: This question is trivia about the best institute of technology!
+- model: spoilr_hints.cannedhint
+  pk: 1220
+  fields:
+    puzzle: 113
+    description: Unsure what to do about the numbers in the brackets
+    order: 30.0
+    keywords: extraction, enumeration
+    content: What does indexing just the first number in the brackets into all the
+      answers give you? What about just the second?
+- model: spoilr_hints.cannedhint
+  pk: 1235
+  fields:
+    puzzle: 113
+    description: Arrived at intermediary "OTHER SCHOOL," not sure what to do next
+    order: 40.0
+    keywords: OTHER SCHOOL, intermediate answer
+    content: It seems like MIT wasn't the best institute of technology, and that the
+      OTHER SCHOOL is. Which other school could it be? Does the flavor help at all?
+      There's no enumeration for a different set of answers, but what if you force
+      it anyways?
+- model: spoilr_hints.cannedhint
+  pk: 1236
+  fields:
+    puzzle: 113
+    description: Done Caltech answers, unsure how to extract/use the numbers in the
+      brackets
+    order: 60.0
+    keywords: extraction, enumeration
+    content: What does indexing just the first number in the brackets into all the
+      answers give you? What about just the second?

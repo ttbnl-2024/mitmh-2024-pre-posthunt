@@ -1,0 +1,120 @@
+- model: puzzles.puzzle
+  pk: 720
+  fields:
+    emoji: ':link:'
+    deep: 800
+- model: spoilr_core.puzzle
+  pk: 720
+  fields:
+    external_id: 720
+    round: 6
+    answer: RYSA WALKER
+    name: Erudite Game
+    main_credits: Ethan Ordentlich, Jayden Yamada, and Neal Tibrewala
+    other_credits: ''
+    order: 720
+    is_meta: false
+    slug: erudite-game
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1593
+  fields:
+    puzzle: 720
+    description: Solvers don't know how to get started.
+    order: 0.1
+    keywords: flavor, start
+    content: '"Collectively create an encyclopedia" and "links" are meant to point
+      one to Wikipedia.'
+- model: spoilr_hints.cannedhint
+  pk: 1595
+  fields:
+    puzzle: 720
+    description: Solvers know this is Wikipedia, but are not sure what to do
+    order: 0.2
+    keywords: Wikipedia, pages, articles
+    content: You want to find links between the Wikipedia pages listed.  There are
+      9 starting pages and 27 middle pages.  These counts provide a clue on what to
+      do.
+- model: spoilr_hints.cannedhint
+  pk: 1596
+  fields:
+    puzzle: 720
+    description: Solvers are finding links between pages, but are struggling to make
+      full 5 length chains
+    order: 1.0
+    keywords: chains, different lengths, gaps, can't link
+    content: The starting words all are 5 letters long.  This is important.
+- model: spoilr_hints.cannedhint
+  pk: 1597
+  fields:
+    puzzle: 720
+    description: solvers don't yet see the importance of the 5 letters of the starting
+      titles
+    order: 2.0
+    keywords: 5 letters, starting, chains
+    content: "Xalapa has a link to Yucat\xE1n in Wikipedia.  Where else do you see\
+      \ XY in the puzzle?"
+- model: spoilr_hints.cannedhint
+  pk: 1599
+  fields:
+    puzzle: 720
+    description: solvers are having trouble with the missing links
+    order: 40.0
+    keywords: missing links
+    content: "The words at the bottom are vague clues to each of the missing links.\
+      \   Consider the title letter you're looking for and find something that matches.\r\
+      \nAlternatively, there are web tools to find the shortest path between pages."
+- model: spoilr_hints.cannedhint
+  pk: 1598
+  fields:
+    puzzle: 720
+    description: Solvers have full chains, but don't know how to extract
+    order: 50.0
+    keywords: extraction
+    content: The position of each missing link within the chain is important.
+- model: spoilr_hints.cannedhint
+  pk: 1600
+  fields:
+    puzzle: 720
+    description: solvers haven't orderesd things correctly
+    order: 80.0
+    keywords: ordering, extraction
+    content: The last set of words are the only ones not in alphabetical order.  Use
+      these words to order your separate chains.
+- model: spoilr_hints.cannedhint
+  pk: 1344
+  fields:
+    puzzle: 720
+    description: Solvers have the second have of the clue phrase, but are missing
+      the first
+    order: 95.0
+    keywords: clue, missing something, timebound
+    content: You have the missing links, but you need to consider the starting books
+      as well.
+- model: spoilr_core.pseudoanswer
+  pk: 268
+  fields:
+    puzzle: 720
+    answer: CREATOR OF TIMEBOUND
+    response: Submit their full name.
+- model: spoilr_core.pseudoanswer
+  pk: 269
+  fields:
+    puzzle: 720
+    answer: RYSA
+    response: Submit their full name.
+- model: spoilr_core.pseudoanswer
+  pk: 273
+  fields:
+    puzzle: 720
+    answer: Timebound
+    response: Yes, but you're missing something
+- model: spoilr_core.pseudoanswer
+  pk: 270
+  fields:
+    puzzle: 720
+    answer: WALKER
+    response: Submit their full name.

@@ -1,0 +1,99 @@
+- model: puzzles.puzzle
+  pk: 16
+  fields:
+    emoji: ':link:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 16
+  fields:
+    external_id: 16
+    round: 6
+    answer: SEX DRIVE
+    name: Evildoers Wanted
+    main_credits: Barney Rafter, Daniel Kramarsky, Jeremiahs Johnson, and Tom Yue
+    other_credits: ''
+    order: 16
+    is_meta: false
+    slug: evildoers-wanted
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 588
+  fields:
+    puzzle: 16
+    description: Solvers don't know how to get started
+    order: 0.0
+    keywords: start, identify
+    content: Each image represents a member of a (fairly large) set. Start by identifying
+      all the images that you can.
+- model: spoilr_hints.cannedhint
+  pk: 589
+  fields:
+    puzzle: 16
+    description: solvers identified images, don't know what they represent
+    order: 1.0
+    keywords: represent
+    content: Try searching the images together to find the set that they all belong
+      to. Some words in the flavourtext also identify the set that these images belong
+      to. (If this hint is not illustrative, identify "Criminal Minds" as the data set.)
+- model: spoilr_hints.cannedhint
+  pk: 590
+  fields:
+    puzzle: 16
+    description: Solvers have identified "Criminal Minds" aliases, don't know what the
+      thoughts mean
+    order: 2.0
+    keywords: quotes
+    content: The thoughts are loose paraphrases of certain famous sayings. Each alias
+      on the show is associated with one of these sayings in an episode of the show.
+- model: spoilr_hints.cannedhint
+  pk: 594
+  fields:
+    puzzle: 16
+    description: Solvers have identified "Criminal Minds" aliases, don't know what the
+      thoughts mean - more explicit
+    order: 2.1
+    keywords: quotes
+    content: You can find an episode of the show, featuring the criminal with the
+      alias, and the episode will have a "book-end saying" that is paraphrased by
+      the given quote.
+- model: spoilr_hints.cannedhint
+  pk: 591
+  fields:
+    puzzle: 16
+    description: solvers have found the aliases, and matched the quotes to the aliases,
+      but don't know how to sort
+    order: 3.0
+    keywords: match, sort
+    content: Both the aliases and paraphrases are sorted in alphabetical order. You'll
+      need to find another order to sort these two datasets by.
+- model: spoilr_hints.cannedhint
+  pk: 593
+  fields:
+    puzzle: 16
+    description: solvers have found the aliases, and matched the quotes to the aliases,
+      but don't know how to sort - even more explicit
+    order: 3.2
+    keywords: match, sort
+    content: sort by episode order.
+- model: spoilr_hints.cannedhint
+  pk: 595
+  fields:
+    puzzle: 16
+    description: solvers have found the aliases and quotes, sorted, and don't know
+      how to extract
+    order: 4.0
+    keywords: extract
+    content: The quote and its paraphrasing shares something in common.
+- model: spoilr_hints.cannedhint
+  pk: 596
+  fields:
+    puzzle: 16
+    description: solvers have found the aliases and quotes, sorted, and don't know
+      how to extract - more explicit
+    order: 4.1
+    keywords: extract
+    content: There's exactly one word in common between the quote and its paraphrase.
+      Index the number of stars into this word.

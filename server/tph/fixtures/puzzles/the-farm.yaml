@@ -1,0 +1,97 @@
+- model: puzzles.puzzle
+  pk: 597
+  fields:
+    emoji: ':farmer:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 597
+  fields:
+    external_id: 597
+    round: 3
+    answer: ANCHOVY PLANT
+    name: The Farm
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 597
+    is_meta: false
+    slug: the-farm
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 952
+  fields:
+    puzzle: 597
+    description: "Solvers don\u2019t know what to do with the big formula"
+    order: 1.0
+    keywords: formula,equation,function
+    content: Functions like this can be plotted by an online graphing calculator such
+      as Desmos.
+- model: spoilr_hints.cannedhint
+  pk: 954
+  fields:
+    puzzle: 597
+    description: Solvers have identified the fruits and which graphic corresponds
+      to them
+    order: 2.0
+    keywords: fruits,identified,next step
+    content: Each fruit grows at a specific temperature, and the function tells you
+      the temperature at any given point.
+- model: spoilr_hints.cannedhint
+  pk: 958
+  fields:
+    puzzle: 597
+    description: "Solvers have got \u201CTWO-ADIC TROPICAL GEOM\u201D but don\u2019\
+      t know what to do"
+    order: 3.0
+    keywords: twoadic,twoadictropicalgeom
+    content: Replace the coefficients with their 2-adic valuations, and then convert
+      the polynomial into a tropical polynomial.
+- model: spoilr_hints.cannedhint
+  pk: 971
+  fields:
+    puzzle: 597
+    description: "Solvers have got \u201CTWO-ADIC TROPICAL GEOM\u201D but don\u2019\
+      t know what to do and want a stronger hint"
+    order: 3.1
+    keywords: twoadic,twoadictropicalgeom
+    content: "Multiplication is replaced by addition, addition is replaced by minimization,\
+      \ and the 2-adic valuation is the highest power of 2 in the numerator of a fraction\
+      \ minus the highest power of 2 in the denominator. For example, 48 = 2^4\xD7\
+      3, so the 2-adic valuation of 48 is v(48)=4. As an additional example, v(3/10)=-1.\
+      \ \r\n\r\nDo note that subtraction is just adding a negative number, and the\
+      \ valuation of a negative number is the same as the positive part, i.e., v(-x)=v(x)."
+- model: spoilr_hints.cannedhint
+  pk: 961
+  fields:
+    puzzle: 597
+    description: "Solvers have formulated the tropical polynomial but don\u2019t know\
+      \ how to plot the tropical variety"
+    order: 4.0
+    keywords: variety,how to,plot
+    content: "Find all points within the farmer\u2019s plot of land where the minimal\
+      \ value of all the terms is attained by two or more terms."
+- model: spoilr_hints.cannedhint
+  pk: 1107
+  fields:
+    puzzle: 597
+    description: Solvers have plotted the tropical variety, but it is upside down
+    order: 4.9
+    keywords: tropical variety,extraction
+    content: 'Please check your code which generated the tropical variety :upside_down:'
+- model: spoilr_hints.cannedhint
+  pk: 962
+  fields:
+    puzzle: 597
+    description: Solvers have correctly plotted the tropical variety but are stuck
+    order: 5.0
+    keywords: variety,lines,plot,extract
+    content: Recall where each fruit was planted. Make sure to look at the (slightly)
+      bigger picture.
+- model: spoilr_core.pseudoanswer
+  pk: 62
+  fields:
+    puzzle: 597
+    answer: TWO ADIC TROPICAL GEOM
+    response: Keep going!

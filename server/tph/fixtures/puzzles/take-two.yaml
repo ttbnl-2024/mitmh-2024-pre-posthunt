@@ -1,0 +1,56 @@
+- model: puzzles.puzzle
+  pk: 566
+  fields:
+    emoji: ':two:'
+    deep: 580
+- model: spoilr_core.puzzle
+  pk: 566
+  fields:
+    external_id: 566
+    round: 20
+    answer: DENSITY
+    name: Take Two
+    main_credits: Daniel Kramarsky
+    other_credits: ''
+    order: 566
+    is_meta: false
+    slug: take-two
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1275
+  fields:
+    puzzle: 566
+    description: Solvers cannot get started.
+    order: 10.0
+    keywords: Beginning, flavor, text,
+    content: '"The flavor text looks like it''s a puzzle.  Can you solve it?"'
+- model: spoilr_hints.cannedhint
+  pk: 1276
+  fields:
+    puzzle: 566
+    description: Solvers cannot solve the flavor text.
+    order: 15.0
+    keywords: flavor text, beginning.
+    content: '"If the flavor text isn''t working for you, just jump in anywhere. Pick
+      some clues you think you know and try slugging them in."'
+- model: spoilr_hints.cannedhint
+  pk: 1296
+  fields:
+    puzzle: 566
+    description: Solvers still cannot solve the flavor text
+    order: 20.0
+    keywords: flavor text, stuck
+    content: '"These aren''t regular cryptic clues where the answer to each clue is
+      a real word. Try finding answers to the first and last part of the clue individually
+      then look at what might be there twice."'
+- model: spoilr_hints.cannedhint
+  pk: 1277
+  fields:
+    puzzle: 566
+    description: Solvers do not know who Archimedes was or what he did.
+    order: 90.0
+    keywords: last, Archimedes, Eureka
+    content: '"Y''know, you can google stuff."'

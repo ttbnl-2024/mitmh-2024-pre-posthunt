@@ -1,0 +1,67 @@
+- model: puzzles.puzzle
+  pk: 443
+  fields:
+    emoji: ':abc:'
+    deep: 2200
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 443
+  fields:
+    external_id: 443
+    round: 20
+    answer: AIR
+    name: Rebus
+    main_credits: lightbulbMEOW and Timwi
+    other_credits: ''
+    order: 443
+    is_meta: false
+    slug: rebus
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 788
+  fields:
+    puzzle: 443
+    description: "Solvers are stuck because \u201Cnone of the words fit\u201D"
+    order: 1.0
+    keywords: concept
+    content: "Some squares in these mini-crosswords take more than one letter. In\
+      \ crossword jargon, this is known as a \u201CRebus square\u201D."
+- model: spoilr_hints.cannedhint
+  pk: 790
+  fields:
+    puzzle: 443
+    description: "Solvers don\u2019t know what to do with the weird strings like \u201C\
+      POTOOOOOOOO\u201D"
+    order: 2.0
+    keywords: strange,nonsense,gibberish,garbled
+    content: "Describe what you see; for example: THESTOOGESSTOOGESSTOOGES \u2192\
+      \ THE THREE STOOGES."
+- model: spoilr_hints.cannedhint
+  pk: 791
+  fields:
+    puzzle: 443
+    description: Solvers are stuck even after solving the rebus phrases
+    order: 3.0
+    keywords: extraction
+    content: Enter the phrases you decoded from the rebuses into the blanks provided
+      and extract the letters that have numbers on them, in the order of those numbers.
+- model: spoilr_hints.cannedhint
+  pk: 792
+  fields:
+    puzzle: 443
+    description: Solvers are stuck on the final cluephrase
+    order: 4.0
+    keywords: hairyinsides,cluephrase
+    content: "What\u2019s the \u201Cinside\u201D of the word \u201Chairy\u201D?"
+- model: spoilr_hints.cannedhint
+  pk: 1006
+  fields:
+    puzzle: 443
+    description: Solvers are stuck on the final cluephrase (stronger hint)
+    order: 4.1
+    keywords: hairyinsides,cluephrase
+    content: "What\u2019s the \u201Cinside\u201D of the word \u201Chairy\u201D? Consider\
+      \ all but the first and last letter."

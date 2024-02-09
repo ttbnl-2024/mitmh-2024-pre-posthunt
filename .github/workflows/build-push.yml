@@ -1,0 +1,49 @@
+name: build-push
+
+on:
+  push:
+    paths:
+      - "server/**"
+      - "client/**"
+      - "reg-client/**"
+      - "deploy/**"
+      - ".github/workflows/build-push.yml"
+  workflow_dispatch:
+
+jobs:
+  # build the image for this commit
+  build-push:
+    uses: ./.github/workflows/docker-buildx.yml
+    with:
+      push: 1
+      cache: 1
+      ENABLE_HUNT_SITE: 1
+      # build the combined hunt and reg site if the ref is main
+      ENABLE_REGISTRATION_SITE: ${{ github.ref == 'refs/heads/main' && '1' || '' }}
+    secrets: inherit
+
+  # deploy to the branch server which runs multiple frontends on a single
+  # machine each on its own subdomain
+  deploy-branch:
+   needs: build-push
+   uses: ./.github/workflows/deploy.yml
+   with:
+      TEST_BRANCH_FRONTEND: 1
+      DEPLOY_USER: branch
+      DEPLOY_HOST: branch.mitmh2024.secretfakewebsite.com
+      DEPLOY_DIR: branch/
+      DEPLOY_TYPE: branch
+      # deploy combined hunt and reg site if the ref is main
+      BUILD_SITE: ${{ github.ref == 'refs/heads/main' && 'hunt-reg' || '' }}
+      SERVER_ENVIRONMENT: test_branch
+      HUNT_HOST: .branch.mitmh2024.secretfakewebsite.com
+      REGISTRATION_HOST: .branch.mitmh2024.secretfakewebsite.com:8072
+   secrets: inherit
+
+  # run-unittests:
+  #   needs: build-push
+  #   uses: ./.github/workflows/unittests.yml
+  #   # with:
+  #   #   # use the combined hunt and reg site if the ref is main
+  #   #   BUILD_SITE: ${{ github.ref == 'refs/heads/main' && 'hunt-reg' || '' }}
+  #   secrets: inherit

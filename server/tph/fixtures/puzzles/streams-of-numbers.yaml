@@ -1,0 +1,60 @@
+- model: puzzles.puzzle
+  pk: 573
+  fields:
+    emoji: ':1234:'
+    deep: 2200
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 573
+  fields:
+    external_id: 573
+    round: 20
+    answer: METRIC
+    name: Streams of Numbers
+    main_credits: Bella (Songshan) Guo, Daniel Kramarsky, Jeremy Conner, and Nathaniel
+      Barnett
+    other_credits: ''
+    order: 573
+    is_meta: false
+    slug: streams-of-numbers
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1546
+  fields:
+    puzzle: 573
+    description: Solvers are not sure how to get started.
+    order: 0.0
+    keywords: start begin months presidents
+    content: What was the puzzle called again?
+- model: spoilr_hints.cannedhint
+  pk: 1551
+  fields:
+    puzzle: 573
+    description: Solvers have converted the list into numbers and don't know what
+      to do with them
+    order: 20.0
+    keywords: numbers, number, series, stand, code, cipher
+    content: "You could try deciphering them using a basic decoding method, but these\
+      \ numbers are way out of range for that. How can you make the numbers easier\
+      \ to handle?\r\n\r\nWhat if you removed all the spaces?\r\n\r\n2 3 4 5 6 7 8\
+      \ 9 10 or 12  34  56 78 91 0  or  (234) 567-8910 or ..."
+- model: spoilr_hints.cannedhint
+  pk: 1555
+  fields:
+    puzzle: 573
+    description: After decoding, solvers do not know what to do with the new words.
+    order: 80.0
+    keywords: months, periodic, table, comic, elements, what, next
+    content: "The numbers have become words, eh?\r\n\r\nThe words might become numbers..."
+- model: spoilr_hints.cannedhint
+  pk: 1558
+  fields:
+    puzzle: 573
+    description: Solvers have the final set of numbers but don't know what to do.
+    order: 90.0
+    keywords: final, index, extraction
+    content: Another set of numbers too large to A126Z as is? Do what you did the
+      first time!

@@ -1,0 +1,95 @@
+- model: puzzles.puzzle
+  pk: 700
+  fields:
+    emoji: ':performing_arts:'
+    deep_key: 'everglades-first-layer'
+    deep: 300
+- model: spoilr_core.puzzle
+  pk: 700
+  fields:
+    external_id: 700
+    round: 13
+    answer: BASOTHO
+    name: The Other Scottish Play
+    main_credits: Blake Weil and Michael Andersen
+    other_credits: ''
+    order: 700
+    is_meta: false
+    slug: the-other-scottish-play
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1262
+  fields:
+    puzzle: 700
+    description: Solvers haven't identified the play Sleep No More
+    order: 10.1
+    keywords: stuck,don't know where to start
+    content: It might be helpful to try and identify the actual play in question -
+      you might find some guidance within the sentences between scenes.
+- model: spoilr_hints.cannedhint
+  pk: 1266
+  fields:
+    puzzle: 700
+    description: Solvers know it's Sleep No More but are having trouble making the
+      character identifications
+    order: 30.1
+    keywords: someone,character identification
+    content: These scenes sound fairly iconic...maybe it's worth looking up further
+      details about them.
+- model: spoilr_hints.cannedhint
+  pk: 1263
+  fields:
+    puzzle: 700
+    description: Solvers are having trouble finding the objects hidden in the scenes
+    order: 50.0
+    keywords: objects,items,trinkets
+    content: The symbols over the door help you find what you're looking for, but
+      things might get harder to find with every loop.
+- model: spoilr_hints.cannedhint
+  pk: 1264
+  fields:
+    puzzle: 700
+    description: Solvers can't find the objects in the second loop
+    order: 50.3
+    keywords: second loop
+    content: Just like the first loop, the answers are still spelled out for you...you
+      just might have to look at it more broadly.
+- model: spoilr_hints.cannedhint
+  pk: 1265
+  fields:
+    puzzle: 700
+    description: Solvers can't find the objects in the third loop
+    order: 50.7
+    keywords: third loop
+    content: Just like the first and second loops, the answers are still spelled out
+      for you...they've just become dispersed even more broadly.
+- model: spoilr_hints.cannedhint
+  pk: 1267
+  fields:
+    puzzle: 700
+    description: Solvers are stuck on the extract
+    order: 70.1
+    keywords: extraction,indexing
+    content: You can probably find the answer you're looking for in the loops.
+- model: spoilr_hints.cannedhint
+  pk: 1268
+  fields:
+    puzzle: 700
+    description: Solvers almost have the answer, but are one letter off and previously
+      submitted DON A BAUEA
+    order: 70.5
+    keywords: BONABAUEA, don a bauea
+    content: It sounds like you're getting closer...just as a reminder, I don't know
+      anyone whose name begins with "THE".
+- model: spoilr_core.pseudoanswer
+  pk: 149
+  fields:
+    puzzle: 700
+    answer: DON A BAUTA
+    response: "Congratulations, you solved the puzzle! This is an instruction puzzle\
+      \ that asks one of your members to don a Bauta (or other mask) and visit HQ\
+      \ to receive the final answer - a Sleep No More playing card, and a separate\
+      \ card with the answer printed on it.\r\n\r\n[Refresh the page to see the interaction form.]"

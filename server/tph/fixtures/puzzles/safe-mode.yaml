@@ -1,0 +1,38 @@
+- model: puzzles.puzzle
+  pk: 518
+  fields:
+    emoji: ':musical_score:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 518
+  fields:
+    external_id: 518
+    round: 20
+    answer: MERCIA
+    name: Safe Mode
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 518
+    is_meta: false
+    slug: safe-mode
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 299
+  fields:
+    puzzle: 518
+    description: Starting
+    order: 25.0
+    keywords: Starting
+    content: Look at the title of the puzzle and you should realize these MP3s are
+      all scales which can be translated as modes.
+- model: spoilr_hints.cannedhint
+  pk: 300
+  fields:
+    puzzle: 518
+    description: Extraction
+    order: 95.0
+    keywords: extraction
+    content: Use the number of the missing note to index into the mode type.

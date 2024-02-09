@@ -1,0 +1,55 @@
+- model: puzzles.puzzle
+  pk: 640
+  fields:
+    emoji: ':envelope:'
+    deep: 940
+- model: spoilr_core.puzzle
+  pk: 640
+  fields:
+    external_id: 640
+    round: 20
+    answer: SCALE
+    name: Do You Measure Up?
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 640
+    is_meta: false
+    slug: do-you-measure-up
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1396
+  fields:
+    puzzle: 640
+    description: how to get started
+    order: 1.0
+    keywords: how to get started
+    content: You should look for some approximate measures to help assign points.
+- model: spoilr_hints.cannedhint
+  pk: 1397
+  fields:
+    puzzle: 640
+    description: solvers don't know how to score
+    order: 50.0
+    keywords: score, scoring, how to rank points
+    content: The TM gave you his plan for assigning points.  If there are DQ's or
+      negatives, the other contestants keep their score for their place.
+- model: spoilr_hints.cannedhint
+  pk: 1398
+  fields:
+    puzzle: 640
+    description: solvers don't know how to antonym
+    order: 80.0
+    keywords: antonym rounds, change score for antonym
+    content: The antonym is only applied to the task goal, not the results.
+- model: spoilr_hints.cannedhint
+  pk: 1399
+  fields:
+    puzzle: 640
+    description: extraction
+    order: 100.0
+    keywords: how to extract, extract answer
+    content: If you add up the scores for each round, after changing the antonym rounds,
+      they should spell an answer.

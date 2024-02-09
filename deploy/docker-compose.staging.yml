@@ -1,0 +1,18 @@
+# This docker compose override file is used to build and start an ad hoc staging environment
+version: '3.8'
+
+name: staging-tph
+services:
+  tph:
+    build: .
+    environment:
+      - SERVER_ENVIRONMENT=staging
+      - SERVER_HOSTNAME=staging.mitmh2024.secretfakewebsite.com
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - srv:/srv
+
+volumes:
+  srv:

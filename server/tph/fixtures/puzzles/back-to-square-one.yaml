@@ -1,0 +1,83 @@
+- model: puzzles.puzzle
+  pk: 457
+  fields:
+    emoji: ':newspaper:'
+    deep: 420
+- model: spoilr_core.puzzle
+  pk: 457
+  fields:
+    external_id: 457
+    round: 20
+    answer: OREGON
+    name: Back to Square One
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 457
+    is_meta: false
+    slug: back-to-square-one
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 325
+  fields:
+    puzzle: 457
+    description: Solvers have not identified the puzzle theme.
+    order: 0.0
+    keywords: black, white, all over
+    content: The answer to the spoken riddle "What is black and white and red all
+      over?" is a newspaper.  All of these clues are associated with a specific newspaper.
+- model: spoilr_hints.cannedhint
+  pk: 328
+  fields:
+    puzzle: 457
+    description: Solvers know it's newspaper related, but haven't found which one.
+    order: 0.5
+    keywords: newspaper
+    content: Google is your friend.
+- model: spoilr_hints.cannedhint
+  pk: 326
+  fields:
+    puzzle: 457
+    description: Solvers don't understand the presentation of the clues
+    order: 1.0
+    keywords: numbers, across, down, right, below, under
+    content: Note that each clue has a number associated with it, positioned either
+      Across from it, or Down below. Where might you find such patterns in a newspaper?
+- model: spoilr_hints.cannedhint
+  pk: 327
+  fields:
+    puzzle: 457
+    description: Solvers still haven't found the New York times, or can't find free
+      source to look up the clues,
+    order: 3.0
+    keywords: look up, xword.info
+    content: If you're looking for a helpful resource, Rex Parker does it daily.
+- model: spoilr_hints.cannedhint
+  pk: 329
+  fields:
+    puzzle: 457
+    description: Solvers don't understand the adjustments required for some clues.
+    order: 4.0
+    keywords: plus, minus, add, subtract
+    content: The quoted clues point to specific Sunday editions. If an adjustment
+      is required, you're looking for information from that number of days before
+      or after the date of the quoted clue.
+- model: spoilr_hints.cannedhint
+  pk: 330
+  fields:
+    puzzle: 457
+    description: Solvers don't know what to do with their results
+    order: 7.0
+    keywords: answers
+    content: Each group of answers provides a date and clue from another puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 331
+  fields:
+    puzzle: 457
+    description: Solvers don't know what to do with results from each group
+    order: 10.0
+    keywords: answers, final step
+    content: Put together your answers from each group to form the date and clue to
+      one final puzzle.

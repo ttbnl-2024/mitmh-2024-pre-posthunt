@@ -1,0 +1,93 @@
+- model: puzzles.puzzle
+  pk: 350
+  fields:
+    emoji: ':gemini:'
+    deep: 5
+    deep_key: 'minneapolis-st-paul-meta'
+- model: spoilr_core.puzzle
+  pk: 350
+  fields:
+    external_id: 350
+    round: 14
+    answer: DON'T POLLUX IT UP
+    name: Gemini
+    main_credits: Charles Steinhardt, Nathaniel Barnett, Sophia Caspe, and Stephanie
+      Chen
+    other_credits: ''
+    order: 350
+    is_meta: true
+    slug: gemini
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1083
+  fields:
+    puzzle: 350
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: getting started, start
+    content: This meta has seven puzzles.  Each of the seven rows has two sets of
+      star ratings.  You will need to match each puzzle answer to a specific row with
+      two star ratings to proceed.
+- model: spoilr_hints.cannedhint
+  pk: 1084
+  fields:
+    puzzle: 350
+    description: The solver doesn't know what to do or how to get started (2)
+    order: 10.1
+    keywords: getting started, start
+    content: Each row contains two star ratings with between four and six stars in
+      total between them.  Each answer is between four and six letters long.  Each
+      row with a given number of stars award will be matched with an answer the same
+      number of letters.
+- model: spoilr_hints.cannedhint
+  pk: 1085
+  fields:
+    puzzle: 350
+    description: The solver doesn't know what to do or how to get started (3)
+    order: 10.2
+    keywords: getting started, start
+    content: Each awarded star corresponds to a letter in the answer associated with
+      a given pair of star ratings.  This isn't quite enough to match answers to pairs
+      of ratings uniquely, but it may help you understand how the star ratings will
+      help you (and thus how you can match the answers to the pairs of ratings).
+- model: spoilr_hints.cannedhint
+  pk: 1087
+  fields:
+    puzzle: 350
+    description: The solver know that the letters in the answers match the awarded
+      stars, but is stuck on what to do next.
+    order: 50.0
+    keywords: stuck, aha
+    content: Each awarded star in a pair of ratings corresponds to a letter in an
+      associated answer, giving you an answer divided into left and right sides, and
+      a gap between them.  What might go in the gap?
+- model: spoilr_hints.cannedhint
+  pk: 1088
+  fields:
+    puzzle: 350
+    description: The solvers know that two letters can go in the gaps between the
+      left and right sides of words, but don't know what to do next.
+    order: 80.0
+    keywords: extraction
+    content: For each correctly matched answer/pair of ratings combination, it is
+      possible to put one letter of the answer on each awarded star, and one of two
+      distinct letters in the gap between the ratings, to form two new words.  You
+      will need both of those distinct letters to solve this metapuzzle.
+- model: spoilr_hints.cannedhint
+  pk: 1089
+  fields:
+    puzzle: 350
+    description: The solvers know that two letters can go in the gaps between the
+      left and right sides of words, but don't know what to do next. (2)
+    order: 80.1
+    keywords: extraction
+    content: For each correctly matched answer/pair of ratings combination, it is
+      possible to put one letter of the answer on each awarded star, and one of two
+      distinct letters in the gap between the ratings, to form two new words. If you
+      write the answer letters on the awarded stars, it is possible to write both
+      the letters which can be inserted in each answer word in the gaps between their
+      answer. You can then read the final answer by reading down one column of letters,
+      then the other.

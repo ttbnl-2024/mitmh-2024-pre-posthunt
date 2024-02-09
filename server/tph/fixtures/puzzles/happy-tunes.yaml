@@ -1,0 +1,70 @@
+- model: puzzles.puzzle
+  pk: 704
+  fields:
+    emoji: ':microphone:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 704
+  fields:
+    external_id: 704
+    round: 6
+    answer: NONES OF THE WILD FIG
+    name: Happy Tunes
+    main_credits: Sophia McManus
+    other_credits: ''
+    order: 704
+    is_meta: false
+    slug: happy-tunes
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1617
+  fields:
+    puzzle: 704
+    description: Solvers need help figuring out where to begin
+    order: 1.0
+    keywords: stick figures, start
+    content: Start by figuring out who these stick figures are. Looking up some of
+      the accomplishments listed might help, as well as figuring out where all the
+      songs in the playlist appeared.
+- model: spoilr_hints.cannedhint
+  pk: 1618
+  fields:
+    puzzle: 704
+    description: Solvers need a strong clue to the theme of the puzzle
+    order: 1.5
+    keywords: stick figures, song, in common
+    content: The playlist are all songs that have been featured on the TV show Glee.
+- model: spoilr_hints.cannedhint
+  pk: 1619
+  fields:
+    puzzle: 704
+    description: Solvers are having trouble matching the stick figures to one actor
+    order: 2.0
+    keywords: stick figures, multiple people, identification
+    content: Even though some of the descriptions can apply to multiple people, you
+      should be able to match one actor per stick figure with some logical deductions.
+      Note that some potential actors for these description can be ignored because
+      they don't feature in any of the songs in the playlist.
+- model: spoilr_hints.cannedhint
+  pk: 1620
+  fields:
+    puzzle: 704
+    description: Solvers don't know what to do with the playlist
+    order: 3.0
+    keywords: playlist
+    content: The playlist contains the original versions of the songs. Look up the
+      Glee versions and the singer(s) on each track.
+- model: spoilr_hints.cannedhint
+  pk: 1621
+  fields:
+    puzzle: 704
+    description: Solvers need help with extraction
+    order: 4.0
+    keywords: extraction, ordering
+    content: Count how many times each singer was featured in our playlist and use
+      that as an index into their character's name. Note that for one of the stick
+      figures, you'll need to count how many songs they danced on. The stick figures
+      do not need re-ordering.

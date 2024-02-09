@@ -1,0 +1,16 @@
+- model: spoilr_core.interaction
+  pk: 735
+  fields:
+    slug: escaping-the-underworld
+    name: Escaping the Underworld
+    order: 735
+    instructions: >-
+      Use this box to schedule your escape from the Underworld.
+      If campus is closed, use this box to request an interaction with HQ.
+      (We strongly suggest you come back and complete this runaround once
+      campus reopens.) If you do not have two people on-campus to do the
+      runaround, you can also use this box to make alternative arrangements.
+    interaction_type: physical
+    puzzle: 735
+    required_pseudoanswer: null
+    unlocks_with_puzzle: true

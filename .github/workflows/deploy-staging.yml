@@ -1,0 +1,27 @@
+name: deploy-staging
+
+on:
+  workflow_dispatch:
+
+concurrency: deploy-staging
+
+jobs:
+  deploy-staging:
+    uses: ./.github/workflows/deploy.yml
+    with:
+      DEPLOY_USER: staging
+      DEPLOY_HOST: staging.mitmh2024.secretfakewebsite.com
+      SERVER_ENVIRONMENT: staging
+      BUILD_SITE: hunt-reg  # TODO: fix reg and re-enable
+      HUNT_HOST: staging.mitmh2024.secretfakewebsite.com
+      REGISTRATION_HOST: staging2.mitmh2024.secretfakewebsite.com
+      COPY_GCS_CREDS: 1
+      LOAD_FIXTURES: 1
+      EXTRA_ENV: |-
+        # serve HTTP on 172.17.0.1:25080
+        SERVER_HTTP_BIND_PREFIX=172.17.0.1:25
+        GOOGLE_ANALYTICS_ID=FIXME
+        CDN_HUNT_HOST=cdn.staging.mitmh2024.secretfakewebsite.com
+        CDN_REGISTRATION_HOST=cdn.staging2.mitmh2024.secretfakewebsite.com
+        WWW_REDIRECT=www.staging.mitmh2024.secretfakewebsite.com, www.staging2.mitmh2024.secretfakewebsite.com
+    secrets: inherit

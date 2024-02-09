@@ -1,0 +1,10 @@
+- model: puzzles.round
+  pk: 2
+  fields: {}
+- model: spoilr_core.round
+  pk: 2
+  fields:
+    act: 0
+    slug: backup
+    name: Backup
+    order: 9999

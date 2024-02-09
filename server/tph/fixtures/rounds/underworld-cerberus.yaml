@@ -1,0 +1,17 @@
+- model: puzzles.round
+  pk: 10
+  fields:
+    # Underworld map
+    "x": 44.9
+    "y": 68.933
+    "w": 17.975
+    # For round page
+    text_overlay: false
+    autoresize: false
+- model: spoilr_core.round
+  pk: 10
+  fields:
+    act: 1
+    slug: the-throne-room
+    name: The Throne Room
+    order: 1

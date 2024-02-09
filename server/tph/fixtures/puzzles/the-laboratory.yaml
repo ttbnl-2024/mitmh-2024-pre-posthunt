@@ -1,0 +1,87 @@
+- model: puzzles.puzzle
+  pk: 394
+  fields:
+    emoji: ':flag_fr:'
+    deep: 500
+    deep_key: 'underworld'
+- model: spoilr_core.puzzle
+  pk: 394
+  fields:
+    external_id: 394
+    round: 9
+    answer: TELEGRAPH
+    name: The Laboratory
+    main_credits: Alina Khankin and Charles Steinhardt
+    other_credits: ''
+    order: 394
+    is_meta: false
+    slug: the-laboratory
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 129
+  fields:
+    puzzle: 394
+    description: The solvers have solved some clues, but have not yet figured out
+      they are (French) scientists
+    order: 30.0
+    keywords: ''
+    content: These answers have something in common - what (or who) are they?
+- model: spoilr_hints.cannedhint
+  pk: 126
+  fields:
+    puzzle: 394
+    description: The solvers have solved some (or all) of the clues, understand they
+      are all scientists, but have not figured out the connection to the the Eiffel
+      Tower
+    order: 50.0
+    keywords: ''
+    content: Have you looked closely at an iconic French "tour" that faces Paris in
+      one of its four directions?
+- model: spoilr_hints.cannedhint
+  pk: 130
+  fields:
+    puzzle: 394
+    description: Heavy hint to Eiffel Tower if hint 50 was insufficient
+    order: 55.0
+    keywords: ''
+    content: You've noticed these are all scientists, where do their names show up?
+- model: spoilr_hints.cannedhint
+  pk: 127
+  fields:
+    puzzle: 394
+    description: The solvers have the Eiffel Tower connection and have mapped out
+      the clued scientists, but did not get Morse code yet
+    order: 80.0
+    keywords: tower, eiffel, scientist names
+    content: You're almost there! Have you considered the contributions of another
+      scientist and inventor, though he definitely wasn't French?
+- model: spoilr_hints.cannedhint
+  pk: 131
+  fields:
+    puzzle: 394
+    description: Heavy hint to Morse if hint 80 was insufficient
+    order: 85.0
+    keywords: ''
+    content: You're almost there! Now dot your i's and dash to the finish!
+- model: spoilr_hints.cannedhint
+  pk: 128
+  fields:
+    puzzle: 394
+    description: The solvers got the Morse code, but cannot put together the clue
+      phrase
+    order: 90.0
+    keywords: ''
+    content: Now that you've gotten this far, can you arrange the sides counterclockwise
+      to finally face Paris?
+- model: spoilr_core.pseudoanswer
+  pk: 11
+  fields:
+    puzzle: 394
+    answer: MORSE
+    response: What else did Sam Morse invent?
+- model: spoilr_core.pseudoanswer
+  pk: 10
+  fields:
+    puzzle: 394
+    answer: MORSE CODE
+    response: What else did Sam Morse invent?

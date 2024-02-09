@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 1
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 7.775
+    'y': 41.75
+    'w': 15.567
+    'z': 8
+- model: spoilr_core.round
+  pk: 1
+  fields:
+    act: 2
+    slug: road-trip-redux
+    name: Road Trip Redux
+    order: 1000

@@ -1,0 +1,68 @@
+- model: puzzles.puzzle
+  pk: 63
+  fields:
+    emoji: ':speech_balloon:'
+    deep: 780
+- model: spoilr_core.puzzle
+  pk: 63
+  fields:
+    external_id: 63
+    round: 20
+    answer: AMNIOTES
+    name: Ancient Mystery
+    main_credits: Jim Hays
+    other_credits: ''
+    order: 63
+    is_meta: false
+    slug: ancient-mystery
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 388
+  fields:
+    puzzle: 63
+    description: Solvers are stuck getting started
+    order: 0.0
+    keywords: start, getting started, images
+    content: The speech bubble showing three sleeping surfaces may be a helpful break-in
+      point to the puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 387
+  fields:
+    puzzle: 63
+    description: Solvers are stuck getting started, and don't know what the title
+      means
+    order: 1.0
+    keywords: start, getting started, title, ancient mystery
+    content: "Lyric Genius may be helpful for understanding the puzzle\u2019s title."
+- model: spoilr_hints.cannedhint
+  pk: 390
+  fields:
+    puzzle: 63
+    description: Solvers have identified some of the animal sounds, but haven't found
+      the Cross-Linguistic Onomatopoeia Wikipedia page which has all the values
+    order: 10.0
+    keywords: animal sounds, source of truth
+    content: Hopefully you can find some encyclopedic source to help you!
+- model: spoilr_hints.cannedhint
+  pk: 389
+  fields:
+    puzzle: 63
+    description: Solvers have started to identify animal sounds, but don't know what
+      to put in the blanks (they haven't realized they need the animals in their original
+      languages)
+    order: 20.0
+    keywords: Blanks
+    content: What would these animals call themselves?
+- model: spoilr_hints.cannedhint
+  pk: 386
+  fields:
+    puzzle: 63
+    description: Solvers are stuck on extraction (perhaps they reordered the list
+      at some point?)
+    order: 100.0
+    keywords: extraction
+    content: Have you looked at the highlighted letters taken in the original order
+      of the speech bubbles?

@@ -1,0 +1,88 @@
+- model: puzzles.puzzle
+  pk: 345
+  fields:
+    emoji: ':sunflower:'
+    deep: 925
+- model: spoilr_core.puzzle
+  pk: 345
+  fields:
+    external_id: 345
+    round: 7
+    answer: RIVER BASIN
+    name: Flower Power
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 345
+    is_meta: false
+    slug: flower-power
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 41
+  fields:
+    puzzle: 345
+    description: The solvers have not recognized the type of crossword puzzle this
+      is.
+    order: 10.0
+    keywords: getting started, start
+    content: A "Crushed Petals" puzzle is a Petal Puzzle crossword combined with a
+      Crushword puzzle (a crossword puzzle where every grid cell can contain 1, 2,
+      or 3 letters.  If you need an example of this puzzle type, see https://puzzles.mit.edu/2016/puzzle/crushed_petals/
+      from 2016, and its solution.
+- model: spoilr_hints.cannedhint
+  pk: 42
+  fields:
+    puzzle: 345
+    description: The solvers have not recognized that there are two separate crushword
+      puzzles with their clues mingled together
+    order: 10.1
+    keywords: getting started, start
+    content: The reason every clockwise clue and counterclockwise clue has two clues,
+      and that there are two diagrams provided with the puzzle, is because this puzzle
+      contains two Crushed Petals with their clues combined.  You will need to work
+      out which clues are part of each puzzle as part of the solution process.
+- model: spoilr_hints.cannedhint
+  pk: 43
+  fields:
+    puzzle: 345
+    description: The solvers are having difficulty getting the crossword solving started
+    order: 20.0
+    keywords: getting started, start, stuck
+    content: This is a pretty hard crossword variant, and you probably want multiple
+      people and/or your best crossworders looking at it.  If you're having trouble
+      getting a foothold into the grid, the answers to the two 1-Clockwise clues are
+      W/A/V/E/S and ON/S/I/T/E
+- model: spoilr_hints.cannedhint
+  pk: 44
+  fields:
+    puzzle: 345
+    description: The solvers have finished solving the grids and are not certain about
+      what to do next.
+    order: 70.0
+    keywords: extraction
+    content: Have you found any sort of pattern in either of the grids which seems
+      notable?  There is an important pattern to find in one of the grids which is
+      subtly confirmed by both the flavortext and the title.
+- model: spoilr_hints.cannedhint
+  pk: 45
+  fields:
+    puzzle: 345
+    description: The solvers have finished solving the grids and have found the DAMs
+      but are not certain about what to do next.
+    order: 70.1
+    keywords: extraction
+    content: The DAM squares are used for extraction.  Where would they be extracting
+      from?
+- model: spoilr_hints.cannedhint
+  pk: 46
+  fields:
+    puzzle: 345
+    description: The solvers have finished solving the grids and have found the DAMs,
+      and have tried to extract from the other grid but are not certain about what
+      to do next.
+    order: 80.0
+    keywords: extraction
+    content: Two of the clockwise answers, when read together, form an instruction
+      to follow which will enable you to extract correctly.

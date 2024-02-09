@@ -1,0 +1,49 @@
+- model: puzzles.puzzle
+  pk: 482
+  fields:
+    emoji: ':cowboy:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 482
+  fields:
+    external_id: 482
+    round: 10
+    answer: THE CABALLEROS
+    name: Boosted
+    main_credits: Jim Hays, Scott Harvey-Arnold, and Seth Bisen-Hersh
+    other_credits: ''
+    order: 482
+    is_meta: false
+    slug: boosted
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 432
+  fields:
+    puzzle: 482
+    description: Starting
+    order: 10.0
+    keywords: starting
+    content: Notice the flavor text in relation to the title.  What has changed?
+- model: spoilr_hints.cannedhint
+  pk: 433
+  fields:
+    puzzle: 482
+    description: Puzzle mechanics
+    order: 50.0
+    keywords: mechanic
+    content: You will be finding words for clues on the left column that have a letter
+      removed from words for the clues on the right column.
+- model: spoilr_hints.cannedhint
+  pk: 434
+  fields:
+    puzzle: 482
+    description: Extraction
+    order: 85.0
+    keywords: extraction
+    content: Notice that you have 4 more words that can have letters removed from
+      them.  Each group actually has had the same letter removed from it, so you can
+      remove that letter one more time, to make a clue phrase that fits the enumeration
+      at the bottom.

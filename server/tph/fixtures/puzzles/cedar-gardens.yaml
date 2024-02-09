@@ -1,0 +1,53 @@
+- model: puzzles.puzzle
+  pk: 484
+  fields:
+    emoji: ':question:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 484
+  fields:
+    external_id: 484
+    round: 16
+    answer: QUADRIPOLAR
+    name: Cedar Gardens
+    main_credits: Elaine Lowinger and Jacob N Scott
+    other_credits: ''
+    order: 484
+    is_meta: false
+    slug: cedar-gardens
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 733
+  fields:
+    puzzle: 484
+    description: Solvers haven't identified any of the tree carvings
+    order: 0.0
+    keywords: carvings, tree, start, stuck
+    content: Each tree carving clues one of a set of things that has "ups and downs"
+      and are in parks with lots of visitors (who must usually be tall enough).  They
+      are in alphabetical order.
+- model: spoilr_hints.cannedhint
+  pk: 734
+  fields:
+    puzzle: 484
+    description: Solvers aren't sure each carving is a rollercoaster (but they've
+      at least mentioned they tried this, or think they're more generic amusement
+      park rides) or don't know how this relates to the park picture
+    order: 50.0
+    keywords: carving, rollercoaster, park, trees
+    content: Each carving is a rollercoaster, and where it is located in the US is
+      important.  The picture of all the trees has one type of tree per rollercoaster.
+- model: spoilr_hints.cannedhint
+  pk: 735
+  fields:
+    puzzle: 484
+    description: Solvers have the rollercoasters and know they're connected to the
+      state trees in the bottom park picture
+    order: 100.0
+    keywords: extraction, state
+    content: Index into each rollercoaster name by the number of corresponding trees.  The
+      ordering is clued in the flavortext, which refers to the rollercoasters (not
+      the trees).

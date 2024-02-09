@@ -1,0 +1,82 @@
+- model: puzzles.puzzle
+  pk: 405
+  fields:
+    emoji: ':island:'
+    deep: 1525
+- model: spoilr_core.puzzle
+  pk: 405
+  fields:
+    external_id: 405
+    round: 7
+    answer: UPSILON AQUARII
+    name: Island Hopping
+    main_credits: Craig Kasper
+    other_credits: ''
+    order: 405
+    is_meta: false
+    slug: island-hopping
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1449
+  fields:
+    puzzle: 405
+    description: The solvers do not know what a nurikabe is or are having trouble
+      solving it
+    order: 10.0
+    keywords: getting started, start, nurikabe
+    content: The puzzle type with the numbers in the grid is called "Nurikabe".  Rules
+      are available if you follow the puzz.link link for interactive solving, or you
+      can google for them.  The puzzle solve for this nurikabe puzzle gets noticeably
+      more difficult past the halfway point. If you get stuck at this point, be advised
+      that online solvers exist for this type of puzzle; the constructor used https://semiexp.net/games/cspuz-solver2/index.html
+      to verify uniqueness.
+- model: spoilr_hints.cannedhint
+  pk: 1450
+  fields:
+    puzzle: 405
+    description: The solvers have solved the nurikabe, but aren't sure what to do
+      with the listed words
+    order: 50.0
+    keywords: stuck, criss-cross
+    content: The flavortext mentions criss-crossing; the reasonable inference from
+      this - that the Nurikabe grid is a diagramless criss-cross with the given wordlist,
+      is correct.
+- model: spoilr_hints.cannedhint
+  pk: 1451
+  fields:
+    puzzle: 405
+    description: The solvers have solved the Nurikabe, and know that they want to
+      place the words in the Nurikabe grid in a criss-cross, but don't know how.
+    order: 50.1
+    keywords: stuck, criss-cross
+    content: The numbers following each criss-cross word/phrase correspond to the
+      size of islands crossed by the correctly placed words. They are given in ascending
+      order; it is up to solvers to identify the actual order the islands are crossed.  Some
+      of the numbers are larger than the largest island size;  this is because some
+      words cross multiple adjacent island grid cells, and when this happens, the
+      size of the island is added to the total for each of the adjacent grid cells.  (In
+      other words, a word which crossed 6 adjacent grid cells in a size 7 island would
+      have 42 in its number list, not 7).
+- model: spoilr_hints.cannedhint
+  pk: 1452
+  fields:
+    puzzle: 405
+    description: The solvers have completed the Nurikabe and the overlaid Criss-Cross,
+      but do not know how to extract
+    order: 90.0
+    keywords: stuck, extraction
+    content: Take another look at the grid cells which are Nurikabe clues.
+- model: spoilr_hints.cannedhint
+  pk: 1453
+  fields:
+    puzzle: 405
+    description: The solvers have completed the Nurikabe and the overlaid Criss-Cross,
+      but do not know how to extract (2)
+    order: 90.1
+    keywords: stuck, extraction
+    content: A small number of Nurikabe clue cells have Criss-Cross letters on them.  Read
+      them in ascending order of island size. There should only be one letter for
+      each size number.

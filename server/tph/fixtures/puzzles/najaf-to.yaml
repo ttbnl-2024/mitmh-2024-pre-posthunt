@@ -1,0 +1,76 @@
+- model: puzzles.puzzle
+  pk: 399
+  fields:
+    emoji: ':airplane_departure:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 399
+  fields:
+    external_id: 399
+    round: 16
+    answer: TAKE A ROAD TRIP
+    name: "Najaf to\u2026"
+    main_credits: Nick Poulos
+    other_credits: ''
+    order: 399
+    is_meta: false
+    slug: najaf-to
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1303
+  fields:
+    puzzle: 399
+    description: Solvers don't know how to start
+    order: 0.0
+    keywords: start
+    content: This is a geographical trivia puzzle! We've given you an itinerary, and
+      some airlines you've taken. The airlines are specific about not just the things
+      we mentioned, but also the places they fly to.
+- model: spoilr_hints.cannedhint
+  pk: 1304
+  fields:
+    puzzle: 399
+    description: Solvers are stuck at some point in the initial itinerary
+    order: 10.0
+    keywords: check work, which city
+    content: '[[Check work.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1305
+  fields:
+    puzzle: 399
+    description: Solvers have identified the destinations, but are stuck on the next
+      step.
+    order: 15.0
+    keywords: all cities, next
+    content: Have you tried reading the first letters of each itinerary item?
+- model: spoilr_hints.cannedhint
+  pk: 1306
+  fields:
+    puzzle: 399
+    description: Solvers are stuck on SORT DESTINATIONS ALPHABETICALLY READ NTH CLUE
+      WORD
+    order: 16.0
+    keywords: ''
+    content: Sort the clues alphabetically by destination city. For cities with an
+      abbreviation, make sure to sort using their abbreviation. Then, diagonalize
+      on clue words (first word from the first clue in sorted order; second word from
+      the second clue in sorted order, etc.).
+- model: spoilr_hints.cannedhint
+  pk: 1307
+  fields:
+    puzzle: 399
+    description: Solvers are stuck on reading or applying the luggage message.
+    order: 50.0
+    keywords: ''
+    content: '[[Check work.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1308
+  fields:
+    puzzle: 399
+    description: Solvers are stuck on extraction
+    order: 90.0
+    keywords: ''
+    content: Read the first letters of the new cities.

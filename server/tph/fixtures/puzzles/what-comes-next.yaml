@@ -1,0 +1,70 @@
+- model: puzzles.puzzle
+  pk: 519
+  fields:
+    emoji: ':next_track:'
+    deep: 320
+- model: spoilr_core.puzzle
+  pk: 519
+  fields:
+    external_id: 519
+    round: 20
+    answer: YESMAN
+    name: What Comes Next?
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 519
+    is_meta: false
+    slug: what-comes-next
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 380
+  fields:
+    puzzle: 519
+    description: Stuck on getting started
+    order: 0.0
+    keywords: how to start, stuck on how to begin
+    content: The title and the arrows tell you what is happening with this puzzle.
+- model: spoilr_hints.cannedhint
+  pk: 381
+  fields:
+    puzzle: 519
+    description: Solvers are having trouble forming bigrams
+    order: 10.0
+    keywords: Arrows, next
+    content: Follow the leader to make a pair, or several pairs.
+- model: spoilr_hints.cannedhint
+  pk: 382
+  fields:
+    puzzle: 519
+    description: Solvers have bigrams and aren't sure what to do with them
+    order: 50.0
+    keywords: bigrams, forming pairs of letters
+    content: Your bigrams still follow the next leader to collect more friends.
+- model: spoilr_hints.cannedhint
+  pk: 383
+  fields:
+    puzzle: 519
+    description: Solvers haven't made any words yet
+    order: 80.0
+    keywords: words, forming letters into words
+    content: Those two numbers seem to follow an R.  Can you make a word out of these
+      letter paths to get to the R and the numbers?
+- model: spoilr_hints.cannedhint
+  pk: 384
+  fields:
+    puzzle: 519
+    description: some words found, still no solution
+    order: 90.0
+    keywords: can't match to number list at the bottom
+    content: N leads to a U and U leads to an M... Search for some of your results.
+- model: spoilr_hints.cannedhint
+  pk: 385
+  fields:
+    puzzle: 519
+    description: movie list found, not the solution
+    order: 100.0
+    keywords: Jim Carrey, movie list, Number 23
+    content: The title leads to the answer.

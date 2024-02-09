@@ -1,0 +1,122 @@
+- model: puzzles.puzzle
+  pk: 424
+  fields:
+    emoji: ':teddy_bear:'
+    deep: 1200
+- model: spoilr_core.puzzle
+  pk: 424
+  fields:
+    external_id: 424
+    round: 11
+    answer: TEDDY
+    name: Toy Chest
+    main_credits: Charles Steinhardt, Ethan Ordentlich, and Thomas Snyder
+    other_credits: ''
+    order: 424
+    is_meta: false
+    slug: toy-chest
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 525
+  fields:
+    puzzle: 424
+    description: Solvers are stuck on getting started
+    order: 0.0
+    keywords: ''
+    content: The puzzle is titled "Toy Chest" -- what would you expect to find in
+      a toy chest?
+- model: spoilr_hints.cannedhint
+  pk: 526
+  fields:
+    puzzle: 424
+    description: Solvers need an explicit hint to get started
+    order: 0.1
+    keywords: ''
+    content: In a toy chest, we'd find toys -- can you connect some of the images
+      to sets of toys?
+- model: spoilr_hints.cannedhint
+  pk: 527
+  fields:
+    puzzle: 424
+    description: Solvers need an even more explicit hint to get started
+    order: 0.2
+    keywords: ''
+    content: We are looking for sets of (older) toys in this puzzle. One hidden set
+      of toys is the original Beanie Babies.
+- model: spoilr_hints.cannedhint
+  pk: 528
+  fields:
+    puzzle: 424
+    description: Solvers need help with identifying additional sets
+    order: 25.0
+    keywords: ''
+    content: "[Check work, give a clue towards their missing sets.]\r\n\r\nAll the\
+      \ toy sets you're looking for have 9 pairs. Not all images will be used in a\
+      \ set."
+- model: spoilr_hints.cannedhint
+  pk: 529
+  fields:
+    puzzle: 424
+    description: Solvers have sets IDd but do not know the next step
+    order: 50.0
+    keywords: ''
+    content: As you've noticed, some of the images are not part of a set. Can you
+      find out what to do next from them?
+- model: spoilr_hints.cannedhint
+  pk: 530
+  fields:
+    puzzle: 424
+    description: Solvers have sets IDd but do not know the next step (2)
+    order: 50.1
+    keywords: ''
+    content: The only unused image in the first row is the second blue car (shot from
+      the back). The unused images in the second row are the man shouting, the hospital,
+      the Links, and the red octagon. Could you interpret these as a message?
+- model: spoilr_hints.cannedhint
+  pk: 531
+  fields:
+    puzzle: 424
+    description: Solvers have sets IDd but do not know the next step (3)
+    order: 50.2
+    keywords: ''
+    content: The five unused images in the first two rows yield the message (Qoros)
+      FIVE, (Linkin Park's) NUMB, (hospital) ER, LINKS, STOP.
+- model: spoilr_hints.cannedhint
+  pk: 532
+  fields:
+    puzzle: 424
+    description: Solvers have solved the numberlinks, but are struggling with finishing
+    order: 90.0
+    keywords: ''
+    content: Do your numberlink solutions have anything in common that seems strange?
+- model: spoilr_hints.cannedhint
+  pk: 533
+  fields:
+    puzzle: 424
+    description: Solvers have solved the numberlinks, but are struggling with finishing
+      (2)
+    order: 90.1
+    keywords: ''
+    content: Each numberlink can be solved uniquely, leaving a single square blank.
+- model: spoilr_hints.cannedhint
+  pk: 534
+  fields:
+    puzzle: 424
+    description: Solvers have solved the numberlinks, but are struggling with finishing
+      (3)
+    order: 90.2
+    keywords: ''
+    content: For the blank squares in the numberlinks, look at the images in the grid.
+- model: spoilr_hints.cannedhint
+  pk: 535
+  fields:
+    puzzle: 424
+    description: Solvers have solved the numberlinks, but are struggling with finishing
+      (4)
+    order: 100.0
+    keywords: ''
+    content: The images identified by the numberlinks are Roo, Seve Ballesteros, the
+      Volkswagen LT, the Orb of Contemplation, and the ear.

@@ -1,0 +1,12 @@
+- model: spoilr_core.interaction
+  pk: 1
+  fields:
+    slug: encore
+    name: Encore (Knitting material pick-up)
+    order: 1
+    instructions: "Use this box to request a pickup appointment for this physical
+      puzzle."
+    interaction_type: physical
+    puzzle: 497
+    required_pseudoanswer: null
+    unlocks_with_puzzle: true

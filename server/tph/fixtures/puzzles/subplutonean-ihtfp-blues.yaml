@@ -1,0 +1,132 @@
+- model: puzzles.puzzle
+  pk: 156
+  fields:
+    emoji: ':placard:'
+    deep: 600
+- model: spoilr_core.puzzle
+  pk: 156
+  fields:
+    external_id: 156
+    round: 21
+    answer: EDOUARD ROCHE
+    name: "Sub\u00ADplutonean IHTFP Blues"
+    main_credits: Craig Kasper, Jeremiahs Johnson, and Nathaniel McManus
+    other_credits: ''
+    order: 156
+    is_meta: false
+    slug: subplutonean-ihtfp-blues
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1237
+  fields:
+    puzzle: 156
+    description: The solver doesn't know what to do or how to get started
+    order: 10.0
+    keywords: Getting started, start
+    content: The words on the posterboards are important, the three-grid-cell-columns
+      on the posterboards are important, the locations where the photos were taken
+      are important, and unless you're Of A Certain Age, the puzzle's title will be
+      important as well.  A little web-search should help you figure out why.
+- model: spoilr_hints.cannedhint
+  pk: 1238
+  fields:
+    puzzle: 156
+    description: The solver hasn't found Subterranean Homesick Blues
+    order: 10.1
+    keywords: title, stuck
+    content: If you're having trouble working out the significance of the title, remember
+      that despite the extra flavor of working "Pluto" and "IHTFP" into the title
+      of this puzzle, you're probably looking for something earthbound and not MIT-specific.
+- model: spoilr_hints.cannedhint
+  pk: 1239
+  fields:
+    puzzle: 156
+    description: The solver hasn't found Subterranean Homesick Blues (2)
+    order: 10.2
+    keywords: title, stuck
+    content: Both the title and the provided photos are a reference to a specific
+      Bob Dylan song (and as the flavortext suggests, music video).
+- model: spoilr_hints.cannedhint
+  pk: 1240
+  fields:
+    puzzle: 156
+    description: The solver has found Subterranean Homesick Blues and isn't sure what
+      to do next
+    order: 30.0
+    keywords: Subterranean Homesick Blues, words, placard, posterboard
+    content: Some of the placards on the photos - particularly the ones with WHEEEEEEE
+      and PIPING HOT, PI- CNIC HAM, should be very reminiscent of some of the placards
+      in the music video for Subterranean Homesick Blues.  By observing what these
+      having in common, you should be able to find matches for the other 16 placards.
+- model: spoilr_hints.cannedhint
+  pk: 1241
+  fields:
+    puzzle: 156
+    description: The solvers are ready to go to campus and look for photo locations,
+      but they want to solve the puzzle without doing so if they can
+    order: 50.0
+    keywords: photo, location, identification, looks very hard, I don't wanna, remote
+    content: Most if not all teams will be unable to complete the location identification
+      without leaving their HQ, though we are aware of at least one YouTube video
+      which will help with one or more of the locations.  There is one particular
+      photo whose location is very identifiable; it's a good place to start.  We also
+      recommend that you look at all of the photos closely; there is something that
+      most of them have in common which will help you find the other locations which
+      are less identifiable or distinct from each other.
+- model: spoilr_hints.cannedhint
+  pk: 1242
+  fields:
+    puzzle: 156
+    description: The solvers are ready to go to campus and look for photo locations,
+      but they want to solve the puzzle without doing so if they can (2)
+    order: 50.1
+    keywords: photo, location, identification, looks very hard, I don't wanna, remote
+    content: Most of the photos have a little squarish white sign in them, and all
+      of those little white signs in the photos have something deliberately covered
+      over in the photo.  Finding even one of those signs will help you find the locations
+      for the other 17.  This means finding the location of the photo with a building
+      number in it (which is probably the easiest photo to find the location for)
+      will be very helpful for finding the other photo locations.
+- model: spoilr_hints.cannedhint
+  pk: 1243
+  fields:
+    puzzle: 156
+    description: The solver has identified the placards and photo locations, but does
+      not know how to extract
+    order: 70.0
+    keywords: Extraction
+    content: If you're having trouble extracting an answer for this puzzle, we'd like
+      to draw your attention to the words on the music video's placards corresponding
+      to PED PTH and to WORDS BLAZOND.
+- model: spoilr_hints.cannedhint
+  pk: 1244
+  fields:
+    puzzle: 156
+    description: The solver has identified that Braille and Pigpen are important,
+      but does not know what to do next
+    order: 80.0
+    keywords: extraction, Braille, pigpen
+    content: Grid pieces with one row and three columns are the perfect size to be
+      arranged in a long row for reading off Braille and for reading off Pigpen.  The
+      dots in the grid cells are of different colors and in the case of the red dots,
+      of different sizes.  (If you are visually impaired, the alt text will help you
+      differentiate here.)  This means that one color of dots is more likely to be
+      Braille and the other is more likely to be Pigpen.
+- model: spoilr_hints.cannedhint
+  pk: 1245
+  fields:
+    puzzle: 156
+    description: The solver knows how to extract Braille and Pigpen, but does not
+      know how to order the columns
+    order: 90.0
+    keywords: extraction, Braille, pigpen
+    content: The ordering for the Pig Pen - the extraction corresponding to the PED
+      PTH placard - is a pedestrian-paths-related ordering.  Put the columns in the
+      order of the letters on the MIT Get Fit signs in or near the photos the columns
+      are in.  The ordering for the Braille - the extraction corresponding to the
+      WORDS BLAZOND placard - is a "blazoned words" ordering.  Put the columns in
+      the order that the matching placards for the sign in each photo appear in the
+      Dylan music video.

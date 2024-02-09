@@ -1,0 +1,72 @@
+- model: puzzles.puzzle
+  pk: 687
+  fields:
+    emoji: ':moneybag:'
+    deep: 760
+- model: spoilr_core.puzzle
+  pk: 687
+  fields:
+    external_id: 687
+    round: 20
+    answer: TIRES
+    name: Deposit at the Word Bank
+    main_credits: Todd Becker
+    other_credits: ''
+    order: 687
+    is_meta: false
+    slug: deposit-at-the-word-bank
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 991
+  fields:
+    puzzle: 687
+    description: Solvers have some clues figured out but do not know the initial step
+    order: 20.0
+    keywords: clues solved, what to do
+    content: Compare the items on the three receipt and you may find a pattern.
+- model: spoilr_hints.cannedhint
+  pk: 1003
+  fields:
+    puzzle: 687
+    description: Solvers have some clues figured out but do not know the initial step
+      (strong hint)
+    order: 20.1
+    keywords: clues solved, pattern
+    content: Pay attention to the letters used in the words. You should be able to
+      make sets of 3 using one word from each receipt.
+- model: spoilr_hints.cannedhint
+  pk: 992
+  fields:
+    puzzle: 687
+    description: Solvers have the three receipts but not the fourth
+    order: 60.0
+    keywords: blank receipt, fourth receipt,
+    content: Keep the pattern going with more ink on the fourth receipt.
+- model: spoilr_hints.cannedhint
+  pk: 993
+  fields:
+    puzzle: 687
+    description: Solvers stuck on ordering and extracting final receipt
+    order: 90.0
+    keywords: all four, how to extract, need help ordering
+    content: Some receipts seem to be in an order, another in a different order.
+- model: spoilr_hints.cannedhint
+  pk: 1005
+  fields:
+    puzzle: 687
+    description: Solvers stuck on ordering and extracting final receipt (strong hint)
+    order: 90.1
+    keywords: all four, order
+    content: Use the order from the first receipt.
+- model: spoilr_hints.cannedhint
+  pk: 1004
+  fields:
+    puzzle: 687
+    description: Solvers stuck on final set of words
+    order: 100.0
+    keywords: levels, attempts, ceremonies
+    content: If that set of three words is not the puzzle answer, what else could
+      they be? Look at what you've done up to this point if you're still unsure.

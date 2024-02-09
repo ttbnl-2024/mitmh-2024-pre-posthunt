@@ -1,0 +1,46 @@
+- model: puzzles.puzzle
+  pk: 495
+  fields:
+    emoji: ':kissing_heart:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 495
+  fields:
+    external_id: 495
+    round: 20
+    answer: PYKNIC
+    name: "It\u2019s Easy, Cutie!"
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 495
+    is_meta: false
+    slug: its-easy-cutie
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 429
+  fields:
+    puzzle: 495
+    description: Starting
+    order: 10.0
+    keywords: Starting
+    content: Look at the title, and see if that helps to clue to the next step.
+- model: spoilr_hints.cannedhint
+  pk: 430
+  fields:
+    puzzle: 495
+    description: Aha
+    order: 75.0
+    keywords: aha
+    content: You can phonetically add a letter to each of these clue answers.
+- model: spoilr_hints.cannedhint
+  pk: 431
+  fields:
+    puzzle: 495
+    description: Finishing
+    order: 100.0
+    keywords: Finishing
+    content: Read off the letters you are adding.  The answer word itself isn't that
+      common, but it is a valid word.

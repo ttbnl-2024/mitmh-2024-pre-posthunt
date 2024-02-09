@@ -1,0 +1,59 @@
+- model: puzzles.puzzle
+  pk: 214
+  fields:
+    emoji: ':pirate_flag:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 214
+  fields:
+    external_id: 214
+    round: 4
+    answer: LORILET
+    name: Harrah's
+    main_credits: The Dan Miller
+    other_credits: Kennedy Miller (images)
+    order: 214
+    is_meta: false
+    slug: harrahs
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 47
+  fields:
+    puzzle: 214
+    description: Solvers have identified some of the people but are stuck
+    order: 0.0
+    keywords: begin,start,actors
+    content: Each of these people have played a role with something in common
+- model: spoilr_hints.cannedhint
+  pk: 48
+  fields:
+    puzzle: 214
+    description: Solvers have identified that each actor played a pirate role
+    order: 10.0
+    keywords: role,pirate
+    content: Maybe there's something that talks about a group of pirates that have
+      done (or not done?) some of the things the people in these images are doing?
+- model: spoilr_hints.cannedhint
+  pk: 49
+  fields:
+    puzzle: 214
+    description: Solvers can't figure out the ordering
+    order: 20.0
+    keywords: ordering,extraction,movies
+    content: What might be a logical ordering for 26 pirate roles?
+- model: spoilr_hints.cannedhint
+  pk: 50
+  fields:
+    puzzle: 214
+    description: Solvers stuck on extraction
+    order: 30.0
+    keywords: extraction
+    content: It's probably difficult to extract based on the role each actor played,
+      since there are many Captain Hooks or Blackbeards. What else might make sense
+      to index into?
+- model: spoilr_core.pseudoanswer
+  pk: 8
+  fields:
+    puzzle: 214
+    answer: COXENSFIGPARROT
+    response: Almost there!

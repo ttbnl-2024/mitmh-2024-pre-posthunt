@@ -1,0 +1,59 @@
+- model: puzzles.puzzle
+  pk: 178
+  fields:
+    emoji: ':basketball:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 178
+  fields:
+    external_id: 178
+    round: 6
+    answer: ABYSSAL IDIOT
+    name: League of Their Own
+    main_credits: Tyler Hinman
+    other_credits: ''
+    order: 178
+    is_meta: false
+    slug: league-of-their-own
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 440
+  fields:
+    puzzle: 178
+    description: Solvers don't know where to start.
+    order: 0.0
+    keywords: start, pictures
+    content: Try Googling some of the more unambiguously recognizable elements of
+      the pictures together. The seventh-from-last picture might be a good one to
+      start with.
+- model: spoilr_hints.cannedhint
+  pk: 441
+  fields:
+    puzzle: 178
+    description: Solvers don't know what to make of the team names.
+    order: 60.0
+    keywords: teams, questions, murmurs, volcanoes, cats
+    content: Have you identified the theme of the puzzle? You should be able to match
+      the involved quartet's names to the team names. If you don't know the puzzle's
+      theme, go back to the pictures to figure that out first.
+- model: spoilr_hints.cannedhint
+  pk: 442
+  fields:
+    puzzle: 178
+    description: Solvers don't know how to assign players to the four teams.
+    order: 70.0
+    keywords: players, teams, assign
+    content: Assuming you've identified the pictures and figured out why the teams
+      are named what they are, you'll have to dive into the source material to figure
+      out the players' assignments.
+- model: spoilr_hints.cannedhint
+  pk: 443
+  fields:
+    puzzle: 178
+    description: Solvers don't know what to do with the scores.
+    order: 90.0
+    keywords: scores, index
+    content: Each game yields one letter. Take heed of "always perfectly matched."

@@ -1,0 +1,184 @@
+- model: puzzles.puzzle
+  pk: 723
+  fields:
+    emoji: ':church:'
+    deep: 17
+- model: spoilr_core.puzzle
+  pk: 723
+  fields:
+    external_id: 723
+    round: 22
+    answer: BENEDICT XVI
+    name: Another One Bites the Dust
+    main_credits: Alina Khankin and John Bromels
+    other_credits: ''
+    order: 723
+    is_meta: false
+    slug: another-one-bites-the-dust
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1681
+  fields:
+    puzzle: 723
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: The theme of this puzzle is "MASS EXTINCTION," which is a clue to 1)
+      the ordering mechanic and 2) the types of animals referenced. Your first step
+      should be to find the names of these animals. All are specific types of the
+      animal listed, so - for example - the SPRINGBOK mentioned in the first bullet
+      point is a specific type of SPRINGBOK. Use the clues given in each anecdote
+      to determine the specific name.
+- model: spoilr_hints.cannedhint
+  pk: 1682
+  fields:
+    puzzle: 723
+    description: Solvers can't figure out the names of the animals.
+    order: 1.2
+    keywords: Animals, check work
+    content: "In keeping with the \"Mass Extinction\" theme, these animals are all\
+      \ extinct. They are:\r\nBond's Springbok\r\nGiant Cape Zebra\r\nGloomy Tube-nosed\
+      \ Bat\r\nHarelip Sucker\r\nHula Bream\r\nImposter Hutia\r\nIrish Elk\r\nNelson's\
+      \ Rice Rat\r\nNorthern Pig-Footed Bandicoot\r\nPallid Beach Mouse\r\nPassenger\
+      \ Pigeon\r\nSaddle-Backed Mauritius Giant Tortoise\r\nSpectacled Cormorant\r\
+      \nTacoma Pocket Gopher\r\nTexas Wolf\r\nWoolly Rhinoceros"
+- model: spoilr_hints.cannedhint
+  pk: 1683
+  fields:
+    puzzle: 723
+    description: Solvers don't know what to do with the animal names
+    order: 1.4
+    keywords: index, order, animal, animal names
+    content: "You'll index into the animal names based on the number of animals listed.\
+      \ So, there are two Bond's Springboks, so you'll take the second letter, O.\r\
+      \nYou'll place these letters in order based on the order these events occur\
+      \ in the Catholic Mass (which is standardized worldwide: the U.S. Conference\
+      \ of Catholic Bishops' website has a good summary)."
+- model: spoilr_hints.cannedhint
+  pk: 1684
+  fields:
+    puzzle: 723
+    description: Solvers are stuck on ordering
+    order: 1.6
+    keywords: order, ordering, mass order, check work
+    content: "The order of these events in the Catholic Mass is:\r\nOpening\r\nKyrie\
+      \ Eleison\r\nFirst Reading (Old Testament)\r\nResponsorial Psalm\r\nSecond Reading\
+      \ (New Testament)\r\nGospel Reading\r\nHomily\r\nNicine Creed\r\nOffering\r\n\
+      Holy Holy Holy\r\nMemorial Acclamation\r\nThe Lord's Prayer\r\nSign of Peace\r\
+      \nBreaking of the Bread\r\nCommunion\r\nAnnouncements\r\nMatch the events listed\
+      \ in each bullet point to one of these Mass sections, and place the animals\
+      \ in that order. Input the resulting phrase into the answer box."
+- model: spoilr_hints.cannedhint
+  pk: 1685
+  fields:
+    puzzle: 723
+    description: Solvers can't decipher the first cluephrase "Ex-Tinct Ion"
+    order: 2.0
+    keywords: EXHYPHENTINCTION
+    content: "The clue phrase, \"Ex-Tinct Ion\" (Or, \"EX [HYPHEN] TINCT ION\") must\
+      \ reference something in the puzzle that you haven't used yet. \r\nA \"tinct\"\
+      \ is a color - usually a lighter shade of a deeper color. Ions are charged molecules\
+      \ that come in different types. \r\nSo an \"Ex-Tinct Ion\" would be an ion that\
+      \ has had a color removed from it. \r\nTry seeing if you can find any anagrams\
+      \ of color-ion combinations in the hitherto-unused information in each anecdote.\
+      \ (Note: online anagram solvers don't often feature ion names in their word\
+      \ lists)."
+- model: spoilr_hints.cannedhint
+  pk: 1686
+  fields:
+    puzzle: 723
+    description: Solvers still can't figure out the anagrams
+    order: 2.2
+    keywords: anagrams
+    content: "In the first bullet point, for instance, the phrase \"GNASH GENTLE SOULS\"\
+      \ can be deconstructed into the ion STANNOUS and its associated colour. EGGSHELL.\
+      \ As a reference to help you, notice the dollar amounts at the bottom of the\
+      \ page, and remember that the theme of the puzzle is MASS extinctions, not just\
+      \ \"Ex-Tinct Ions.\"\r\nThese numbers are the molar masses of the ions used\
+      \ in the anagrams above. Use them to make sure you've pulled the correct ions."
+- model: spoilr_hints.cannedhint
+  pk: 1687
+  fields:
+    puzzle: 723
+    description: Solvers are stuck on extraction
+    order: 3.0
+    keywords: extract, extraction
+    content: "The flavor text says that you should note the \"charges\" of the molar\
+      \ masses. Ionic charges come in positive or negative. \r\nFor ions with positive\
+      \ charges, index from the front of the color in the anagram. For ions with negative\
+      \ charges, index from the end of the color in the anagram. \r\nSo, for example,\
+      \ the anagram \"A LOCAL MINIMUM\" contains LILAC and AMMONIUM. The ammonium\
+      \ ion has a +1 charge, so we index one letter from the front of LILAC, and pull\
+      \ the L.\r\nThe next anagram, \"CABARET ROMANCE\" contains CREAM and CARBONATE.\
+      \ The carbonate ion has a -2 charge, so we index two letters from the end of\
+      \ CREAM, and pull the A."
+- model: spoilr_core.pseudoanswer
+  pk: 300
+  fields:
+    puzzle: 723
+    answer: BENEDICT
+    response: Yes, but which one, specifically?
+- model: spoilr_core.pseudoanswer
+  pk: 304
+  fields:
+    puzzle: 723
+    answer: BENEDICT16
+    response: Use Roman numerals, please, as is customary.
+- model: spoilr_core.pseudoanswer
+  pk: 312
+  fields:
+    puzzle: 723
+    answer: BENEDICT SIXTEEN
+    response: Use Roman numerals, please, as is customary.
+- model: spoilr_core.pseudoanswer
+  pk: 306
+  fields:
+    puzzle: 723
+    answer: BENEDICTTHE16TH
+    response: Use Roman numerals, please, as is customary.
+- model: spoilr_core.pseudoanswer
+  pk: 305
+  fields:
+    puzzle: 723
+    answer: BENEDICTTHESIXTEENTH
+    response: Use Roman numerals, please, as is customary.
+- model: spoilr_core.pseudoanswer
+  pk: 297
+  fields:
+    puzzle: 723
+    answer: EXHYPHENTINCTION
+    response: Keep going! "Ex-Tinct Ion"
+- model: spoilr_core.pseudoanswer
+  pk: 311
+  fields:
+    puzzle: 723
+    answer: JOSEPH ALOISIUS RATZINGER
+    response: Please submit his papal name.
+- model: spoilr_core.pseudoanswer
+  pk: 314
+  fields:
+    puzzle: 723
+    answer: JOSEPH RATZINGER
+    response: Please submit his papal name.
+- model: spoilr_core.pseudoanswer
+  pk: 301
+  fields:
+    puzzle: 723
+    answer: POPEBENEDICT
+    response: We don't need the "Pope" part, but we do need you to append his number
+      (in Roman numerals, please, as is customary).
+- model: spoilr_core.pseudoanswer
+  pk: 302
+  fields:
+    puzzle: 723
+    answer: POPEBENEDICTXVI
+    response: Just "BENEDICT XVI" is all we need!
+- model: spoilr_core.pseudoanswer
+  pk: 313
+  fields:
+    puzzle: 723
+    answer: RATZINGER
+    response: Please submit his papal name.

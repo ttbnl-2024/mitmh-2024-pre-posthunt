@@ -1,0 +1,54 @@
+- model: puzzles.puzzle
+  pk: 410
+  fields:
+    emoji: ':musical_keyboard'
+    deep: 1
+    deep_key: hydra-LLL
+- model: spoilr_core.puzzle
+  pk: 410
+  fields:
+    external_id: 410
+    round: 13
+    answer: ALONE
+    name: Do I Hear a Waltz?
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 410
+    is_meta: false
+    slug: do-i-hear-a-waltz
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 132
+  fields:
+    puzzle: 410
+    description: Solvers can't start
+    order: 0.0
+    keywords: start
+    content: These songs are by the same musical theater composer, and the clues are
+      cryptic crossword clues.
+- model: spoilr_hints.cannedhint
+  pk: 133
+  fields:
+    puzzle: 410
+    description: next step
+    order: 25.0
+    keywords: matching
+    content: The songs each have one of the crossword clue answers in their lyrics.  Match
+      them.
+- model: spoilr_hints.cannedhint
+  pk: 135
+  fields:
+    puzzle: 410
+    description: order
+    order: 50.0
+    keywords: order
+    content: Use the flavor text for a hint to the order, after you have matched the
+      clues with the audio files.
+- model: spoilr_hints.cannedhint
+  pk: 134
+  fields:
+    puzzle: 410
+    description: extraction
+    order: 75.0
+    keywords: extraction
+    content: The songs are cut off in weird places.  Use this information to index.

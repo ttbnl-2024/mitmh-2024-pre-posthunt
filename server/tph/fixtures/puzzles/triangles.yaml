@@ -1,0 +1,115 @@
+- model: puzzles.puzzle
+  pk: 395
+  fields:
+    emoji: ':small_red_triangle:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 395
+  fields:
+    external_id: 395
+    round: 14
+    answer: DISCS
+    name: Triangles
+    main_credits: Andrey Gorlin, Charles Steinhardt, Daniel Kramarsky, and Erik Brodsky
+    other_credits: ''
+    order: 395
+    is_meta: false
+    slug: triangles
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1432
+  fields:
+    puzzle: 395
+    description: Solvers don't understand what to do with the rule generator
+    order: 10.1
+    keywords: rule, generator, random, D&D
+    content: You can count how many different rules you have generated.  If you think
+      you may not have generated enough, keep going! You will know when you have enough.
+      Have you noticed anything about the distribution of the rules? There are five
+      rulebooks listed. For each of the rules generated, check which guidebook(s)
+      they are valid for.
+- model: spoilr_hints.cannedhint
+  pk: 1436
+  fields:
+    puzzle: 395
+    description: Solvers have managed to identify most rules, but may have some errors
+      and don't know what they'll be doing with them
+    order: 10.5
+    keywords: rules generator, d20, D&D, idea, guidebooks, check answer
+    content: 'The number of rules satisfying the rulesets is, in order: 11, 4, 8,
+      9, 8.  If you are not sure about a particular rule, then note that having something
+      matching incorrectly may hurt your ability to see what is happening more than
+      just leaving it blank.'
+- model: spoilr_hints.cannedhint
+  pk: 1459
+  fields:
+    puzzle: 395
+    description: Solvers have correctly matched the rules to the guidebook editions
+      but have not sorted in order of frequency.
+    order: 10.75
+    keywords: matched rules, guidebooks
+    content: How often does each rule appear when using our generator? You can create
+      an ordered list once you figure that out.
+- model: spoilr_hints.cannedhint
+  pk: 1438
+  fields:
+    puzzle: 395
+    description: Solvers are stuck on getting started with the triangle trivia
+    order: 20.1
+    keywords: triangle, trivia, enumeration, constraint
+    content: You have 60 clues, with the 60 answer enumerations provided. Solve the
+      clues and search for commonalities among your answers. This will help you put
+      the triangles together as well.
+- model: spoilr_hints.cannedhint
+  pk: 1439
+  fields:
+    puzzle: 395
+    description: Solvers have solved the clues and found the groupings, but are struggling
+      to figure out the numerical associations
+    order: 20.5
+    keywords: triangle, trivia, constraint, alternate, group
+    content: "Within each group of five, at least one can have an alternate interpretation\
+      \ that yields numbers from 1 to 20:\r\nkeyboard keys (ASCII code),\r\nalphabet\
+      \ (Roman numeral),\r\nJulius Caesar/Shakespeare (day of month),\r\ncollege majors\
+      \ (MIT course number),\r\nbirds (12 days of Christmas),\r\nMonopoly spaces (US\
+      \ amendment),\r\nNATO alphabet (month number),\r\n'90s comedy title characters\
+      \ (playing cards),\r\nnutrients (atomic number),\r\nDutch soccer (words that\
+      \ resemble numbers),\r\nRed Sox players (jersey number),\r\ncelestial objects\
+      \ (Tarot major arcana number)."
+- model: spoilr_hints.cannedhint
+  pk: 1440
+  fields:
+    puzzle: 395
+    description: Solvers have most of the triangle clues solved and may have most
+      of the groupings, too
+    order: 20.9
+    keywords: triangle, trivia, group, extraction
+    content: You may observe that opposite faces of the d20 always add up to 21.  It
+      may be helpful to construct a physical d20, or you can lay it out in a planar
+      way, so that it is convenient to see how the other part of the puzzle interacts
+      with this part (shading -- keep it continuous rather than broken up).
+- model: spoilr_hints.cannedhint
+  pk: 1437
+  fields:
+    puzzle: 395
+    description: Solvers are have made the d20 and matched the rules to the guidebook,
+      but haven't put both parts together
+    order: 30.1
+    keywords: rule, d20, D&D, extraction
+    content: You now have a d20 constructed. Look at the selection of numbers for
+      each guidebook to highlight your next step.
+- model: spoilr_hints.cannedhint
+  pk: 1441
+  fields:
+    puzzle: 395
+    description: Solvers have both parts figured out separately, but can't extract
+    order: 100.0
+    keywords: extraction, triangle, rule, complete
+    content: You get one letter per ruleset (the order is chronological by ruleset).  Each
+      ruleset can be considered separately for extraction.  If you seem to have poorly
+      shaped letters, you may want to recheck your rule assignments.  An incorrect
+      assignment may be more misleading/confusing than leaving a rule blank.

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+
+if [ "$1" = "--localhost" ]; then
+  docker_compose() {
+    command docker compose -f docker-compose.yml -f deploy/docker-compose.staging.localhost.yml "$@"
+  }
+else
+  docker_compose() {
+    command docker compose -f docker-compose.yml -f deploy/docker-compose.staging.yml "$@"
+  }
+fi
+
+docker_compose build
+mkdir -p client/node_modules
+docker_compose up -d
+docker_compose exec -T tph /app/server/manage.py migrate --no-input
+# docker_compose exec -T tph /app/server/manage.py loaddata /app/server/fixtures/puzzles.yaml
+# docker_compose exec -T tph /app/server/manage.py loaddata /app/server/fixtures/story.yaml
+# docker_compose exec tph /app/server/manage.py ensure_user_created admin --password admin --admin
+# TODO: handle creating a superuser
+docker_compose exec -T tph /app/server/manage.py check

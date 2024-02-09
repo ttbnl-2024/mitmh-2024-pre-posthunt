@@ -1,0 +1,12 @@
+- model: spoilr_core.interaction
+  pk: 6
+  fields:
+    slug: oil-paintings
+    name: Oil Paintings (Cut-up pictures pick-up)
+    order: 6
+    instructions: "Use this box to request a pickup appointment for this physical
+      puzzle."
+    interaction_type: physical
+    puzzle: 430
+    required_pseudoanswer: null
+    unlocks_with_puzzle: true

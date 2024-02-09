@@ -1,0 +1,16 @@
+- model: puzzles.round
+  pk: 50
+  fields:
+    text_overlay: true
+    autoresize: false
+    'x': 51.288
+    'y': 0.683
+    'w': 17
+    'z': 8
+- model: spoilr_core.round
+  pk: 50
+  fields:
+    act: 1
+    slug: escaping-the-underworld
+    name: Escaping the Underworld
+    order: 200

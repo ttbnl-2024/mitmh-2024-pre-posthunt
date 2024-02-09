@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+set -e
+REAL_SOURCE="$(perl -e "use Cwd 'abs_path'; print abs_path('${BASH_SOURCE}')")"
+cd "$(dirname "$(dirname "${REAL_SOURCE}")")"
+
+args=()
+if [ "$1" = "--reg" ]; then
+  args+=("-f" "deploy/docker-compose.registration.yml")
+  shift
+fi
+
+if [ "$1" = "--posthunt" ]; then
+  args+=("-f" "deploy/docker-compose.registration.yml" "-f" "deploy/docker-compose.posthunt.yml" "-f" "deploy/docker-compose.force-dev.yml")
+  shift
+fi
+
+if [ "$1" = "--full" ]; then
+  args+=("-f" "deploy/docker-compose.dev.full.yml")
+  shift
+fi
+
+if [[ -f .env ]] ; then
+  args+=("-f" "deploy/docker-compose.env.yml")
+fi
+
+docker_compose() {
+  DOCKER_BUILDKIT=1 command docker compose -f docker-compose.yml -f deploy/docker-compose.dev.yml "${args[@]}" "$@"
+}
+
+# Install pre-commit hooks
+mkdir -p .git/hooks
+for hook in pre-commit pre-merge-commit pre-push
+do
+  [[ -e ".git/hooks/$hook" ]] || ln -s ../../scripts/pre-commit ".git/hooks/$hook"
+done
+
+# Build dev container and start
+docker_compose build
+# Moot, container uses --modules-folder /node_modules
+# mkdir -p client/node_modules
+# mkdir -p reg-client/node_modules
+docker_compose up -d
+docker_compose exec tph /app/server/manage.py migrate
+#docker_compose exec tph /app/server/manage.py loaddata /app/server/fixtures/puzzles.yaml
+#docker_compose exec tph /app/server/manage.py loaddata /app/server/fixtures/story.yaml
+docker_compose exec tph /app/server/manage.py ensure_user_created admin --password admin --admin
+docker_compose exec tph /app/server/manage.py ensure_user_created dev --password dev --internal
+docker_compose exec tph /app/server/manage.py check

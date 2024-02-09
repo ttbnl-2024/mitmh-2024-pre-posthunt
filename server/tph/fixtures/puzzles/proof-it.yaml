@@ -1,0 +1,52 @@
+- model: puzzles.puzzle
+  pk: 455
+  fields:
+    emoji: ':1234:'
+    deep: 140
+- model: spoilr_core.puzzle
+  pk: 455
+  fields:
+    external_id: 455
+    round: 20
+    answer: CALCULUS
+    name: Proof It!
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 455
+    is_meta: false
+    slug: proof-it
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 236
+  fields:
+    puzzle: 455
+    description: Solve the Puzzle
+    order: 10.0
+    keywords: starting
+    content: This is a real crossword puzzle.  First, solve it completely.
+- model: spoilr_hints.cannedhint
+  pk: 237
+  fields:
+    puzzle: 455
+    description: Notice the clues
+    order: 50.0
+    keywords: Clues
+    content: There are clues in the puzzle that should tie you into the fact that
+      you are looking for math.
+- model: spoilr_hints.cannedhint
+  pk: 238
+  fields:
+    puzzle: 455
+    description: Search
+    order: 75.0
+    keywords: extraction
+    content: Search the puzzle for words that have to do with math.
+- model: spoilr_hints.cannedhint
+  pk: 239
+  fields:
+    puzzle: 455
+    description: Final answer
+    order: 95.0
+    keywords: answer
+    content: You have a set of high school math classes that you found doing a word
+      search, but a very common one is missing. That is your answer.

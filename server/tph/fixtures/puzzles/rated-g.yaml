@@ -1,0 +1,55 @@
+- model: puzzles.puzzle
+  pk: 694
+  fields:
+    emoji: ':projector:'
+    deep: 560
+- model: spoilr_core.puzzle
+  pk: 694
+  fields:
+    external_id: 694
+    round: 20
+    answer: MIRA
+    name: Rated G
+    main_credits: Jennifer Kidder
+    other_credits: ''
+    order: 694
+    is_meta: false
+    slug: rated-g
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 824
+  fields:
+    puzzle: 694
+    description: Solvers have not identified the puzzle theme.
+    order: 10.0
+    keywords: start, theme
+    content: The Motion Picture Association of America (MPAA) assigns a numbered certificate
+      of approval to every film released in the US.
+- model: spoilr_hints.cannedhint
+  pk: 825
+  fields:
+    puzzle: 694
+    description: Solvers don't know how to apply the index
+    order: 20.0
+    keywords: indexing, numbers, movie
+    content: Index into the movie title by taking the word in the position indicated.
+- model: spoilr_hints.cannedhint
+  pk: 826
+  fields:
+    puzzle: 694
+    description: solvers don't recognize that part of the answer is another MPAA number
+    order: 25.0
+    keywords: stuck, phrase
+    content: The extracted words include another MPAA number to be found.
+- model: spoilr_hints.cannedhint
+  pk: 827
+  fields:
+    puzzle: 694
+    description: solvers don't understand the clue phrase
+    order: 30.0
+    keywords: extraction, final answer
+    content: The final answer is the answer to the clue phrase.  What is the "First
+      name of Oscar winner for Mighty Aphrodite"?

@@ -1,0 +1,101 @@
+- model: puzzles.puzzle
+  pk: 274
+  fields:
+    emoji: ':straight_ruler:'
+    deep: 1
+    deep_key: hydra-LRL
+- model: spoilr_core.puzzle
+  pk: 274
+  fields:
+    external_id: 274
+    round: 13
+    answer: OVER
+    name: Realize It
+    main_credits: Jeck Lim
+    other_credits: ''
+    order: 274
+    is_meta: false
+    slug: realize-it
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1154
+  fields:
+    puzzle: 274
+    description: Solvers don't know how to start
+    order: 0.0
+    keywords: start
+    content: This is a logic puzzle, but the rules are jumbled up. Can you rearrange
+      the words in each rule to make a meaningful sentence?
+- model: spoilr_hints.cannedhint
+  pk: 1155
+  fields:
+    puzzle: 274
+    description: Solvers have deciphered the rules, but haven't figured out the kind
+      of permutation
+    order: 20.0
+    keywords: rules,logic puzzle
+    content: The second rule mentions a "kind of permutation". Are there any examples
+      of the kind of permutation it may be talking about?
+- model: spoilr_hints.cannedhint
+  pk: 1156
+  fields:
+    puzzle: 274
+    description: Solvers are unable to complete the logic puzzle, despite knowing
+      all the rules
+    order: 40.0
+    keywords: logic puzzle
+    content: '[[point out any mistakes in their deductions and show them the next
+      step to make progress in the logic puzzle]]'
+- model: spoilr_hints.cannedhint
+  pk: 1157
+  fields:
+    puzzle: 274
+    description: Solvers found ALLOWABLE SEQUENCE, but stuck on what to do next
+    order: 50.0
+    keywords: allowable sequence
+    content: This page (https://www.ams.org/publicoutreach/feature-column/fcarc-oriented5)
+      gives a good introduction on what an allowable sequence is. Where do allowable
+      sequences naturally arise from?
+- model: spoilr_hints.cannedhint
+  pk: 1158
+  fields:
+    puzzle: 274
+    description: Solvers need a stronger clue on what to do with the allowable sequence
+    order: 60.0
+    keywords: allowable sequence
+    content: An allowable sequence naturally arises from a configuration of points
+      on a plane. Each point is labelled with a number, and the positions of 4 of
+      them are already given to you in the puzzle. Try to reconstruct the point configuration
+      from the allowable sequence. Some properties of the point configuration can
+      be read off from the allowable sequence. For example, as you go from one row
+      to the next, you flip one or more blocks. Each block correspond to collinear
+      points in that order, and all the blocks in a permutation correspond to parallel
+      lines.
+- model: spoilr_hints.cannedhint
+  pk: 1159
+  fields:
+    puzzle: 274
+    description: Solvers have reconstructed the point configuration, but stuck on
+      extraction
+    order: 90.0
+    keywords: extraction
+    content: Each cage coincidentally contains points on a line. Try drawing these
+      line segments.
+- model: spoilr_hints.cannedhint
+  pk: 1160
+  fields:
+    puzzle: 274
+    description: Solvers have drawn the line segments, but not separated them into
+      the different modulus
+    order: 95.0
+    keywords: extraction,segments
+    content: Look at the line segments for each of the 4 different moduli.
+- model: spoilr_core.pseudoanswer
+  pk: 42
+  fields:
+    puzzle: 274
+    answer: ALLOWABLE SEQUENCE
+    response: keep going

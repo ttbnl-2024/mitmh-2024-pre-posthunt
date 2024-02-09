@@ -1,0 +1,73 @@
+- model: puzzles.puzzle
+  pk: 494
+  fields:
+    emoji: ':green_square:'
+    deep: 840
+- model: spoilr_core.puzzle
+  pk: 494
+  fields:
+    external_id: 494
+    round: 20
+    answer: AEROGEN
+    name: Green Logic
+    main_credits: Joseph DeVincentis
+    other_credits: ''
+    order: 494
+    is_meta: false
+    slug: green-logic
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1127
+  fields:
+    puzzle: 494
+    description: Stuck getting started, or think there isn't enough information
+    order: 0.0
+    keywords: start, information, standards
+    content: Clue 10 and the end of the flavor text suggest something about the naming
+      of the standards. That suggestion is correct.
+- model: spoilr_hints.cannedhint
+  pk: 1148
+  fields:
+    puzzle: 494
+    description: Stuck getting started, or think there isn't enough information (stronger
+      hint)
+    order: 0.1
+    keywords: start, not enough information, standard names
+    content: For instance, GREEN and GASES have the same ratings for Aether and Kryptonite.
+- model: spoilr_hints.cannedhint
+  pk: 1128
+  fields:
+    puzzle: 494
+    description: Solvers need help working out the logic
+    order: 25.0
+    keywords: logic, hard
+    content: Two clues alone allow you to map all the standards to companies. Once
+      you're figured out the trick that governs the ratings in the standards, work
+      on mapping total emissions scores to companies.
+- model: spoilr_hints.cannedhint
+  pk: 1129
+  fields:
+    puzzle: 494
+    description: Solvers have figured out the logic and are stuck on extraction
+    order: 75.0
+    keywords: extraction
+    content: Look at the amounts of gas each company emitted and keep in mind the
+      flavor text.
+- model: spoilr_hints.cannedhint
+  pk: 1130
+  fields:
+    puzzle: 494
+    description: Solvers cannot solve the anagram in the final clue
+    order: 100.0
+    keywords: final, anagram
+    content: Some online dictionaries and anagram tools do not have the answer, but
+      onelook can solve the anagram and give you the needed definition.
+- model: spoilr_core.pseudoanswer
+  pk: 150
+  fields:
+    puzzle: 494
+    answer: ANY NOBLE GAS ANAGRAM ONE RAGE
+    response: If you're having trouble with the anagram, take just one look at it.

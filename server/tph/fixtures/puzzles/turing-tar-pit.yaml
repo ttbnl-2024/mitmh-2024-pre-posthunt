@@ -1,0 +1,72 @@
+- model: puzzles.puzzle
+  pk: 702
+  fields:
+    emoji: ':desktop:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 702
+  fields:
+    external_id: 702
+    round: 5
+    answer: FACEOFF
+    name: Turing Tar-pit
+    main_credits: Jayden Yamada
+    other_credits: ''
+    order: 702
+    is_meta: false
+    slug: turing-tar-pit
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1431
+  fields:
+    puzzle: 702
+    description: What's going on??
+    order: 0.0
+    keywords: start, begin
+    content: "Do you know what a Turing Tar-pit is?\r\n\r\nThis puzzle has some suspicious\
+      \ initialisms, as well as some suspicious repeated phrases -- try looking them\
+      \ up."
+- model: spoilr_hints.cannedhint
+  pk: 1433
+  fields:
+    puzzle: 702
+    description: Solvers know what the puzzle is about, and want help IDing one or
+      more programming languages.
+    order: 10.0
+    keywords: id, identify
+    content: "In general, it helps to include \"esolang\" in your search terms, as\
+      \ well as suspicious phrases that sound like they could be program opcodes.\r\
+      \n\r\n<<Here are hints for the specific languages:>>\r\nChocolate & Hot English\
+      \ Fudge: This works as a real hot chocolate recipe... but that's not important\
+      \ right now. Notice anything about the name \"Chocolate & Hot English Fudge\"\
+      ?\r\nProjections: There's something sus about the choice of words \"Profit,\"\
+      \ \"Income,\" \"Expenses,\" \"Taxes.\"\r\nA Message From Special Product Leaders:\
+      \ The name of this programming language is just about exactly what you'd expect\
+      \ given the contents of the program.\r\nNext Advertising Campaign: Rock Song:\
+      \ The language was named to confuse hiring managers \"looking for a  _ _ _ _\
+      \ _ _ _ _  programmer.\" It might help to know that many things such as life\
+      \ and death are merely variable names."
+- model: spoilr_hints.cannedhint
+  pk: 1434
+  fields:
+    puzzle: 702
+    description: How do I extract??
+    order: 99.0
+    keywords: extraction
+    content: 'If you already knew what a Turing tar-pit was, you might have skimmed
+      over the flavortext. But pay attention to it now: "What a strange name, who
+      wrote this title?"'
+- model: spoilr_hints.cannedhint
+  pk: 1435
+  fields:
+    puzzle: 702
+    description: "I know about Alan Perlin\u2019s Epigrams on Programming, but how\
+      \ do I extract??"
+    order: 100.0
+    keywords: extraction
+    content: Each program should output numbers in the format "A:B,C,D". In total,
+      you need to find four epigrams and use three letters from each.

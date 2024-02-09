@@ -1,0 +1,92 @@
+- model: puzzles.puzzle
+  pk: 21
+  fields:
+    emoji: ':ice_cube:'
+    deep: 1100
+- model: spoilr_core.puzzle
+  pk: 21
+  fields:
+    external_id: 21
+    round: 11
+    answer: HARVEST
+    name: Puzzle with a Twist
+    main_credits: Jeck Lim and Sophia Caspe
+    other_credits: ''
+    order: 21
+    is_meta: false
+    slug: puzzle-with-a-twist
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1027
+  fields:
+    puzzle: 21
+    description: Solvers don't know what the puzzle is about.
+    order: 0.0
+    keywords: ''
+    content: This puzzle is about Rubik's cubes where face direction matters. Try
+      assembling the cubes (using the standard coloring) and solving them. You might
+      find https://rubiks-cube-solver.com/ helpful as a solving tool.
+- model: spoilr_hints.cannedhint
+  pk: 1028
+  fields:
+    puzzle: 21
+    description: Solvers are confused why some of the cubes aren't solvable
+    order: 10.0
+    keywords: ''
+    content: You're correct that some of the cubes are not solvable -- this is a Puzzle
+      with a Twist, after all. There are various kinds of twists in play here, which
+      connect to the given number for each cube. You might find https://rubiks-cube-solver.com/
+      helpful as a solving tool.
+- model: spoilr_hints.cannedhint
+  pk: 1029
+  fields:
+    puzzle: 21
+    description: Solvers are trying to work out the errors on the example cubes, and
+      are getting confused
+    order: 15.0
+    keywords: ''
+    content: Example cube 1 is solveable and therefore has "value" 0. Example cubes
+      2-5 each have a particular kind of error that give them values 1, 2, 4, and
+      12. Can you derive why the last example cube has value 23?
+- model: spoilr_hints.cannedhint
+  pk: 1031
+  fields:
+    puzzle: 21
+    description: Solvers want explicit guidance on the errors
+    order: 20.0
+    keywords: ''
+    content: There are 4 distinct errors we can introduce into a Rubik's cube with
+      numbers on the faces. The first is a rotated center; the second is a flipped
+      edge; the third is a rotated corner (with 2 wrong states); and the fourth is
+      swapped edges.
+- model: spoilr_hints.cannedhint
+  pk: 1030
+  fields:
+    puzzle: 21
+    description: Solvers are confused about the last example cube
+    order: 50.0
+    keywords: ''
+    content: The last example cube has every kind of error, with one modification
+      -- the corner has been rotated once counter-clockwise, equivalent to twice clockwise;
+      so we should add 4 twice.
+- model: spoilr_hints.cannedhint
+  pk: 1033
+  fields:
+    puzzle: 21
+    description: Solvers need their work checked
+    order: 75.0
+    keywords: ''
+    content: '[[Check their work. The solution has detailed explanations on cube assembly
+      and errors.]]'
+- model: spoilr_hints.cannedhint
+  pk: 1032
+  fields:
+    puzzle: 21
+    description: Solvers are stuck on extraction
+    order: 100.0
+    keywords: ''
+    content: The possible range of numbers is 0-23. Ignoring error-free cubes, 1-23
+      is suspiciously close to 1-26 (and who really needs X, Y, Z anyway?).

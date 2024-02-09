@@ -1,0 +1,103 @@
+- model: puzzles.puzzle
+  pk: 67
+  fields:
+    emoji: ':two:'
+    deep: 500
+- model: spoilr_core.puzzle
+  pk: 67
+  fields:
+    external_id: 67
+    round: 16
+    answer: THE GAZA STRIP
+    name: T (Counts) for Two
+    main_credits: Alina Khankin, Charles Steinhardt, Craig Kasper, and Lynn Feng
+    other_credits: ''
+    order: 67
+    is_meta: false
+    slug: t-counts-for-two
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1195
+  fields:
+    puzzle: 67
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: begin,start,first step
+    content: Does the fourth image remind you of a famous sentence?
+- model: spoilr_hints.cannedhint
+  pk: 1196
+  fields:
+    puzzle: 67
+    description: Solvers are stuck on getting started (stronger hint)
+    order: 1.1
+    keywords: begin,start,first step
+    content: The fourth image shows a quick brown fox jumping over a lazy dog.
+- model: spoilr_hints.cannedhint
+  pk: 1197
+  fields:
+    puzzle: 67
+    description: Solvers have found the foreign pangrams but nothing else
+    order: 2.0
+    keywords: pangrams,numbers,enumerations
+    content: How might you score the sentences?
+- model: spoilr_hints.cannedhint
+  pk: 1198
+  fields:
+    puzzle: 67
+    description: Solvers have found the foreign pangrams but nothing else (stronger
+      hint)
+    order: 2.1
+    keywords: pangrams,numbers,enumerations
+    content: "The fourth image says \u201C1 1 2 1 1 1 4\u201D. G and H aren\u2019\
+      t exactly the most common letters in English, are they?"
+- model: spoilr_hints.cannedhint
+  pk: 1199
+  fields:
+    puzzle: 67
+    description: "Solvers have found the extra number in the Scrabble scores but don\u2019\
+      t know what to do with it"
+    order: 3.0
+    keywords: extra,additional,number,digit
+    content: Each picture has something in it that is not actually mentioned in the
+      pangram.
+- model: spoilr_hints.cannedhint
+  pk: 1200
+  fields:
+    puzzle: 67
+    description: "Solvers have scored the extra items in the pictures but don\u2019\
+      t know what to do with those scores"
+    order: 4.0
+    keywords: extra,additional,picture,item,object,score
+    content: Consider that you have an extraneous item in the pictures and also an
+      extraneous number in the strings of Scrabble scores.
+- model: spoilr_hints.cannedhint
+  pk: 1201
+  fields:
+    puzzle: 67
+    description: "Solvers have scored the extra items in the pictures but don\u2019\
+      t know what to do with those scores (stronger hint)"
+    order: 4.1
+    keywords: extra,additional,picture,item,object,score
+    content: Find the Scrabble score for the extraneous item depicted, in the language
+      of the relevant pangram.
+- model: spoilr_hints.cannedhint
+  pk: 1202
+  fields:
+    puzzle: 67
+    description: Solvers have all the scores and are stuck on extraction
+    order: 5.0
+    keywords: extraction
+    content: If the extraneous items were added to their pangrams, there would be
+      an additional score for that word. However, those scores are off.
+- model: spoilr_hints.cannedhint
+  pk: 1203
+  fields:
+    puzzle: 67
+    description: Solvers have all the scores and are stuck on extraction (giveaway)
+    order: 5.1
+    keywords: extraction
+    content: Calculate the difference between the extraneous score and the score for
+      the extraneous item.

@@ -1,0 +1,73 @@
+- model: puzzles.puzzle
+  pk: 506
+  fields:
+    emoji: ':city_dusk:'
+    deep: 100
+- model: spoilr_core.puzzle
+  pk: 506
+  fields:
+    external_id: 506
+    round: 20
+    answer: SICILY
+    name: Meet Me in St. Louis
+    main_credits: Seth Bisen-Hersh
+    other_credits: ''
+    order: 506
+    is_meta: false
+    slug: meet-me-in-st-louis
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 422
+  fields:
+    puzzle: 506
+    description: starting
+    order: 10.0
+    keywords: starting
+    content: First identify the songs, and see if you can determine a pattern there.
+- model: spoilr_hints.cannedhint
+  pk: 423
+  fields:
+    puzzle: 506
+    description: next step
+    order: 30.0
+    keywords: next step
+    content: Read the flavor text, and notice that it says "scene" instead of "seen".  What
+      could that mean?
+- model: spoilr_hints.cannedhint
+  pk: 424
+  fields:
+    puzzle: 506
+    description: Connection
+    order: 60.0
+    keywords: connection
+    content: Each of the songs mentions a city that is in a movie title.
+- model: spoilr_hints.cannedhint
+  pk: 425
+  fields:
+    puzzle: 506
+    description: Extraction
+    order: 80.0
+    keywords: extraction
+    content: Use the drop-down numbers to spell out a clue phrase after you have identified
+      all the movies with the cities mentioned in the songs.
+- model: spoilr_core.pseudoanswer
+  pk: 30
+  fields:
+    puzzle: 506
+    answer: Corleone
+    response: Less specific
+- model: spoilr_core.pseudoanswer
+  pk: 28
+  fields:
+    puzzle: 506
+    answer: ITALY
+    response: More specific
+- model: spoilr_core.pseudoanswer
+  pk: 29
+  fields:
+    puzzle: 506
+    answer: Palermo
+    response: Less specific

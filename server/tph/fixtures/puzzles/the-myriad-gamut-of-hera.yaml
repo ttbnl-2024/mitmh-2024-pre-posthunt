@@ -1,0 +1,165 @@
+- model: puzzles.puzzle
+  pk: 215
+  fields:
+    emoji: ':peacock:'
+    deep: 1000
+- model: spoilr_core.puzzle
+  pk: 215
+  fields:
+    external_id: 215
+    round: 20
+    answer: POLYGRAMY
+    name: The Myriad Gamut of Hera
+    main_credits: Wesley "Adalbert Zollern" Zhang
+    other_credits: ''
+    order: 215
+    is_meta: true
+    slug: the-myriad-gamut-of-hera
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 536
+  fields:
+    puzzle: 215
+    description: Solvers need a starting point.
+    order: 0.0
+    keywords: start
+    content: Look at the five clues in the middle; each one has a capitalized word
+      and additionally describes a figure from Greek mythology.
+- model: spoilr_hints.cannedhint
+  pk: 537
+  fields:
+    puzzle: 215
+    description: Solvers need a starting point, but the previous hint didn't quite
+      help.
+    order: 0.1
+    keywords: start
+    content: The five clues in the middle each describe a figure from Greek myth;
+      how do their names relate to the other capitalized word in the sentence?
+- model: spoilr_hints.cannedhint
+  pk: 538
+  fields:
+    puzzle: 215
+    description: Solvers want a pointer on the transformation for the second clue.
+    order: 5.0
+    keywords: europa, italia
+    content: In relation to Europe, what is Italy?
+- model: spoilr_hints.cannedhint
+  pk: 539
+  fields:
+    puzzle: 215
+    description: Solvers want a pointer on the transformation for the third clue.
+    order: 5.1
+    keywords: metis, artisan
+    content: "The words \"Greek\" and \"Latin\" are important here\u2014consider the\
+      \ roots from which we get the words METIS and ARTISAN."
+- model: spoilr_hints.cannedhint
+  pk: 540
+  fields:
+    puzzle: 215
+    description: Solvers want a pointer on the transformation for the fourth clue.
+    order: 5.2
+    keywords: semele, smile
+    content: Pay attention to the consonants.
+- model: spoilr_hints.cannedhint
+  pk: 541
+  fields:
+    puzzle: 215
+    description: Solvers want a pointer on the transformation for the fifth clue.
+    order: 5.3
+    keywords: nemesis, archenemy
+    content: The two words here have the same meaning.
+- model: spoilr_hints.cannedhint
+  pk: 542
+  fields:
+    puzzle: 215
+    description: Solvers want a pointer on the transformation for the sixth clue.
+    order: 5.4
+    keywords: callisto, sailcloth
+    content: All the letters in CALLISTO appear in SAILCLOTH, but what's changed between
+      the two?
+- model: spoilr_hints.cannedhint
+  pk: 543
+  fields:
+    puzzle: 215
+    description: Solvers have the transformations (or know they exist), but are unsure
+      what the skeleton at the bottom is.
+    order: 10.0
+    keywords: blanks, arrows
+    content: There are fifty blanks at the bottom of the puzzle, and this round has
+      fifty feeder answers. Each blank corresponds to a puzzle answer.
+- model: spoilr_hints.cannedhint
+  pk: 544
+  fields:
+    puzzle: 215
+    description: Solvers know to fill in blanks with feeder answers, but are unsure
+      what the arrows mean.
+    order: 10.1
+    keywords: blanks, arrows
+    content: There are five distinct letters on the arrows. How can you map each type
+      to a transformation?
+- model: spoilr_hints.cannedhint
+  pk: 545
+  fields:
+    puzzle: 215
+    description: Solvers have filled in the grid and need extraction help.
+    order: 80.0
+    keywords: extraction
+    content: In years past, Juno would pose riddles that eventually lead to a mapping
+      between numbers 1-9 and letters of the English alphabet. Here she presents a
+      riddle as Hera; how would this riddle resolve?
+- model: spoilr_hints.cannedhint
+  pk: 546
+  fields:
+    puzzle: 215
+    description: Solvers want a more direct hint on extraction.
+    order: 80.1
+    keywords: extraction
+    content: "Each of the ten chains will resolve to a link between a number and a\
+      \ letter\u2014you will want to focus on the beginning and end of each chain."
+- model: spoilr_hints.cannedhint
+  pk: 547
+  fields:
+    puzzle: 215
+    description: Solvers do not have the numbers side of the grid.
+    order: 80.2
+    keywords: numbers
+    content: Each of the words that starts a chain can be associated with a word with
+      a Greek numerical prefix. <provide an example>
+- model: spoilr_hints.cannedhint
+  pk: 548
+  fields:
+    puzzle: 215
+    description: Solvers do not have the letters side of the links.
+    order: 80.3
+    keywords: letters
+    content: Each of the words that end a chain directly associates with a letter
+      from the Greek alphabet.
+- model: spoilr_hints.cannedhint
+  pk: 550
+  fields:
+    puzzle: 215
+    description: Solvers have all ten number-letter mappings, but haven't sorted.
+    order: 90.0
+    keywords: ordering
+    content: The number prefixes span 1 through 10.
+- model: spoilr_hints.cannedhint
+  pk: 549
+  fields:
+    puzzle: 215
+    description: "Solvers have the Greek pun \u03C0\u03BF\u03BB\u03C5\u03B3\u03C1\u03B1\
+      \u03BC\u03B9\u03B1, but do not know what to do with the partial it gives."
+    order: 95.0
+    keywords: "polygramia, \u03C0\u03BF\u03BB\u03C5\u03B3\u03C1\u03B1\u03BC\u03B9\u03B1"
+    content: "If we borrowed the hypothetical Greek word \u03A0\u039F\u039B\u03A5\u0393\
+      \u03A1\u0391\u039C\u0399\u0391 into English, how would the word change? In particular,\
+      \ focus on the suffix -\u0399\u0391."
+- model: spoilr_core.pseudoanswer
+  pk: 9
+  fields:
+    puzzle: 215
+    answer: POLYGRAMIA
+    response: "This is a pun in Greek\u2014what would change in this word if we tried\
+      \ to borrow it as an English word?"

@@ -1,0 +1,124 @@
+- model: puzzles.puzzle
+  pk: 108
+  fields:
+    emoji: ':metro:'
+    deep: 900
+- model: spoilr_core.puzzle
+  pk: 108
+  fields:
+    external_id: 108
+    round: 11
+    answer: MATURATION
+    name: Time for a Drink!
+    main_credits: John Bromels
+    other_credits: ''
+    order: 108
+    is_meta: false
+    slug: time-for-a-drink
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1664
+  fields:
+    puzzle: 108
+    description: Solvers are stuck on getting started
+    order: 1.0
+    keywords: start, begin
+    content: Your task is to use this secret subway system to get from Janus' hotel
+      (Station A) at 3:00 PM to the Battery (Station S) and back by 6:00 PM. You can
+      switch trains instantaneously if needed, or you may have to wait on a platform
+      for the next train. It's essentially a maze. Only one set of trains will get
+      you there and back again in time, and you may have to utilize express trains
+      that go past your intended destination, and then backtrack using a local train
+      or a different line entirely.
+- model: spoilr_hints.cannedhint
+  pk: 1665
+  fields:
+    puzzle: 108
+    description: Solvers need additional help figuring out the subway route.
+    order: 1.2
+    keywords: Subway
+    content: You won't take the first train from Station A (the southbound Gray local).
+      Instead, wait for the 3:05 PM southbound Gray express to Station H, and then
+      backtrack to Station C using the northbound Gray local . You should be able
+      to get to Station S by 4:25 PM, and then depart Station S using the 4:30 PM
+      northbound Purple local. You will use all seven lines on the way down and on
+      the way back, though not all stations will be used.
+- model: spoilr_hints.cannedhint
+  pk: 1666
+  fields:
+    puzzle: 108
+    description: Solvers still need more help with the subway route
+    order: 1.4
+    keywords: Subway
+    content: "The order of stations at which you change trains is: \r\nOn the way\
+      \ down: A-H-C-F-D-L-J-P-M-S.\r\nOn the way back: S-Q-N-O-I-K-G-C-H-A."
+- model: spoilr_hints.cannedhint
+  pk: 1667
+  fields:
+    puzzle: 108
+    description: Solvers can't figure out how to identify the hotels, or can't understand
+      the meaning of the flavortext/keys
+    order: 2.0
+    keywords: hotels, hotel names, keys
+    content: "[NOTE: This hint is for the a-ha of the dataset to use; if the solvers\
+      \ have made the Les Clefs d'Or connection, skip this hint]\r\nYou may have noticed\
+      \ the following:\r\n- The emblem of a pair of crossed keys at the bottom of\
+      \ the \"members' bulletin board\"\r\n- The reference to Janus' wearing a lapel\
+      \ pin featuring two gold keys, given to him by his boss, the concierge, who\
+      \ was \"just inducted\" into a group of some sort\r\n- References to other concierges\
+      \ at various hotels\r\n- References to concierges who can fulfill \"impossible\"\
+      \ requests\r\nAll of these point to the organization Les Clefs d'Or, the society\
+      \ of \xFCberconcierges. You can find a list of all the hotels in New York with\
+      \ a Les Clefs d'Or concierge by visiting https://www.lcdusa.org/travelers/find-a-hotel/"
+- model: spoilr_hints.cannedhint
+  pk: 1668
+  fields:
+    puzzle: 108
+    description: Solvers don't know which hotel(s) are connected to which stations
+    order: 2.1
+    keywords: which hotel, too many hotels
+    content: 'As specified in the flavor text, each station only serves hotels "within
+      1 block (uptown or crosstown)" of the station. By mapping the New York Les Clefs
+      d''Or hotels, you''ll have a good idea of which hotels are served by which stations,
+      except in the crowded Midtown North area. There, pay attention to the listed
+      avenues for each location: 6th Ave., for example, is too far west to serve The
+      Pierre, but serves five hotels, which must mean it is located at 6th Avenue
+      and Central Park South, serving The Essex, Ritz-Carlton Central Park, Park Lane,
+      The Plaza, and 1 Hotel (whose address may be listed incorrectly on the Les Clefs
+      d''Or website despite our alerting the organization to the error). The other
+      hotels should be easy to place based on this information.'
+- model: spoilr_hints.cannedhint
+  pk: 1669
+  fields:
+    puzzle: 108
+    description: Solvers don't know how to use the Post-Its
+    order: 3.0
+    keywords: Post-It, Post-its, message board
+    content: "[NOTE: Solvers need to have made the Les Clefs d'Or a-ha and mapped\
+      \ the correct hotels before they can complete this step]\r\nThe boldfaced lines\
+      \ on the message board notes refer to letters to pull when you have reached\
+      \ the correct stations. \r\nBecause there is no loitering on the platforms,\
+      \ you will only use notes from stations at which you change trains; notes regarding\
+      \ stations you pass without changing trains go unused.\r\nSome notes mention\
+      \ specific conditions, such as only being available before or after a certain\
+      \ time. These notes are only used if the conditions are met. \r\nFor example,\
+      \ one note's bolded text says, \"For the second time only when you visit the\
+      \ Midtown: Madison Avenue Station [take letter] eight from our \"intimate salon\"\
+      . The \"intimate salon\" referenced is called Rarities (at the Lotte New York\
+      \ Palace), so on our second visit to this station, we would pull the S. However,\
+      \ we only visit Station K once, so this instruction goes unused."
+- model: spoilr_hints.cannedhint
+  pk: 1670
+  fields:
+    puzzle: 108
+    description: Solvers are still stuck on solving the Post-Its
+    order: 3.1
+    keywords: Post-Its, message board
+    content: "Unused notes include those at Station J (because we arrive before 5:00,\
+      \ but would only take a letter after 5:00), Station K, and Stations B and R\
+      \ (which are never visited).\r\nWe take two letters (one at each stop) on our\
+      \ visits to Station C and Station H. \r\nWe take one letter each from Stations\
+      \ F, I, L, O, N, and S."

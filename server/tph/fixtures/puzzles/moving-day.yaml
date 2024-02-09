@@ -1,0 +1,72 @@
+- model: puzzles.puzzle
+  pk: 122
+  fields:
+    emoji: ':package:'
+    deep: 4
+    deep_key: 'underworld-escape'
+- model: spoilr_core.puzzle
+  pk: 122
+  fields:
+    external_id: 122
+    round: 5
+    answer: ANDOR
+    name: Moving Day
+    main_credits: The Dan Miller
+    other_credits: ''
+    order: 122
+    is_meta: false
+    slug: moving-day
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 146
+  fields:
+    puzzle: 122
+    description: Solvers have no idea where to start
+    order: 0.0
+    keywords: beginning, stuck
+    content: Have you found any of the houses anywhere else in the puzzle?
+- model: spoilr_hints.cannedhint
+  pk: 147
+  fields:
+    puzzle: 122
+    description: Solvers have found the houses in the Google Maps embeds, but aren't
+      sure what to do next
+    order: 10.0
+    keywords: color,house
+    content: Each of the cities and states in the first section had their own moving
+      day.
+- model: spoilr_hints.cannedhint
+  pk: 169
+  fields:
+    puzzle: 122
+    description: Solvers don't know what to do with the cities / states in the first
+      section
+    order: 15.0
+    keywords: sports, moving
+    content: Each city or state in the first section clues a sports team that once
+      moved to a new city.
+- model: spoilr_hints.cannedhint
+  pk: 148
+  fields:
+    puzzle: 122
+    description: Solvers have found the moving teams but are unsure how to extract
+    order: 20.0
+    keywords: extraction
+    content: Have you considered how the houses in the final section have made a difference?
+      What other information from the puzzle have you not used yet?
+- model: spoilr_hints.cannedhint
+  pk: 149
+  fields:
+    puzzle: 122
+    description: Solvers don't know how to order
+    order: 30.0
+    keywords: ordering
+    content: What would be a logical ordering for the cities and states?
+- model: spoilr_hints.cannedhint
+  pk: 184
+  fields:
+    puzzle: 122
+    description: Solvers don't know how to order - hammer hint
+    order: 35.0
+    keywords: ordering
+    content: Order the rows by the dates the sports franchises moved.

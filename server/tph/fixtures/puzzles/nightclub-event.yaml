@@ -1,0 +1,29 @@
+- model: puzzles.puzzle
+  pk: 578
+  fields:
+    emoji: ':mirror_ball:'
+    deep: 0
+- model: spoilr_core.puzzle
+  pk: 578
+  fields:
+    external_id: 578
+    round: 23
+    answer: PORT AUTHORITY
+    name: Nightclub Event
+    main_credits: Alina Khankin, Blake Weil, Haley Moore, John Bromels, and Michael
+      Andersen
+    other_credits: ''
+    order: 578
+    is_meta: false
+    slug: nightclub-event
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_core.pseudoanswer
+  pk: 319
+  fields:
+    puzzle: 578
+    answer: UV ON BACK
+    response: Almost there! If you believe you need assistance on this instruction,
+      please contact TTBNL HQ and we will send someone.

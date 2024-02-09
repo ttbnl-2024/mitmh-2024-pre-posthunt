@@ -1,0 +1,86 @@
+- model: puzzles.puzzle
+  pk: 376
+  fields:
+    emoji: ':magic_wand:'
+    deep: 1
+    deep_key: "hydra-RRR"
+- model: spoilr_core.puzzle
+  pk: 376
+  fields:
+    external_id: 376
+    round: 13
+    answer: DIVINE
+    name: The Champion
+    main_credits: Bella (Songshan) Guo, Haley Moore, Jayden Yamada, Mary Kathryn Amiotte,
+      and RJ Antonello
+    other_credits: ''
+    order: 376
+    is_meta: false
+    slug: the-champion
+    case_sensitive: false
+    whitespace_sensitive: false
+    special_sensitive: false
+    metas: []
+- model: spoilr_hints.cannedhint
+  pk: 1755
+  fields:
+    puzzle: 376
+    description: Solvers don't know where to start
+    order: 0.0
+    keywords: Start, begin, Iliad aha
+    content: The flavor text clues Homeric epics. What Homeric epic includes a Champion
+      (who is perhaps the best of the Greeks), a pal, and a war?
+- model: spoilr_hints.cannedhint
+  pk: 1759
+  fields:
+    puzzle: 376
+    description: Solvers can't get mtg
+    order: 1.0
+    keywords: Retold, cards, game, Iliad
+    content: Where might power, toughness, color, combat tricks, and removal come
+      from? Is there a popular card game that player might gather for?
+- model: spoilr_hints.cannedhint
+  pk: 1760
+  fields:
+    puzzle: 376
+    description: Solvers have not found the Theriad
+    order: 5.0
+    keywords: Retold Iliad, Mtg
+    content: 'In Magic: the Gathering, there are some cards whose flavortext give
+      an Iliad-inspired saga that features a Champion.'
+- model: spoilr_hints.cannedhint
+  pk: 1756
+  fields:
+    puzzle: 376
+    description: Solvers are stuck figuring out the initial ordering
+    order: 15.0
+    keywords: iliad, order
+    content: Each line references the Iliad, but they are out of order. Match each
+      line to a section of the Iliad and reorder according to the poem.
+- model: spoilr_hints.cannedhint
+  pk: 1761
+  fields:
+    puzzle: 376
+    description: Can't order after knowing they're supposed to
+    order: 16.0
+    keywords: order Iliad
+    content: Sparknotes and Wikipedia both have very helpful summaries of the Iliad.
+      You do not need a specific translation.
+- model: spoilr_hints.cannedhint
+  pk: 1757
+  fields:
+    puzzle: 376
+    description: Solvers can't figure out who wins each bracket
+    order: 50.0
+    keywords: Bracket
+    content: There are hidden M:tG card names in each line. Use the header to figure
+      out the total mana costs to check your work.
+- model: spoilr_hints.cannedhint
+  pk: 1758
+  fields:
+    puzzle: 376
+    description: Stuck on final extract
+    order: 100.0
+    keywords: extract
+    content: Use the order you found for the bracket and index into the flavortext
+      of each card in the Theriad.
