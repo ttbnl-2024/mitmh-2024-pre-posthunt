@@ -235,7 +235,7 @@ const PuzzleSolution: FC<PuzzleDataProps> = ({ puzzleData }) => (
     </p>
     <p>
       <b>Acknowledgements:</b> This puzzle draws inspiration from Dimension 20's{' '}
-      <i>Game Changer</i>, which played a similar game for groups of thre called{' '}
+      <i>Game Changer</i>, which played a similar game for groups of three called{' '}
       <i>
         <a href="https://www.youtube.com/watch?v=vT-zZsjwZKk">Sam Says</a>
       </i>
